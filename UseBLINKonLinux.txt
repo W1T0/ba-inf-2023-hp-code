@@ -1,0 +1,97 @@
+-----------------------
+INSTALLATION
+
+If on Windows
+
+Install Ubuntu on a Virtual Machine:
+
+Install Virtual Box https://www.virtualbox.org/wiki/Downloads
+Download Ubuntu 22.10 ISO https://ubuntu.com/download/desktop
+
+Start Virtual Box
+Click on New (Neu)
+Choose your Name und locate your ISO
+Check the Box on "Skip Unattended Installation"
+
+Choose 8000 MB RAM
+Choose 4 CPUs
+Choose 60 GB disk space
+
+Start the VM by clicking on Start
+Click Install Ubuntu
+Follow the steps and choose the default options (just click continue)
+
+
+Install miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
+Version: Linux 	Miniconda3 Linux 64-bit
+Navigate to the folder where the file is located
+run: 
+> bash Miniconda3-latest-Linux-x86_64.sh
+Follow the steps
+
+Install git
+run: 
+> sudo apt-get install git
+
+Navigate to a folder where you want to install blink
+Clone the repo:
+> git clone https://github.com/facebookresearch/BLINK.git
+
+Navigate into the BLINK folder
+> cd BLINK
+
+Install pip
+sudo apt install python3-pip
+
+upgrade pip / wheel / setuptools
+> pip install --upgrade pip
+> pip install --upgrade setuptools wheel
+
+install python3-dev if not already installed
+> sudo apt-get install python3-dev
+
+install gcc if not already installed
+> sudo apt-get install gcc
+
+-----------------------
+USE BLINK
+
+See "Use BLINK" on BLINK github page
+
+you might have to close and open the terminal before using conda
+In the BLINK folder:
+> conda create -n blink37 -y python=3.7 && conda activate blink37
+> pip install -r requirements.txt
+
+if there are errors, check that you have all relevant python packages installed
+(run: sudo apt-get install python3 python3-pip ipython3 build-essential python-dev python3-dev)
+
+Download BLINK models (min 4x GB required)
+> chmod +x download_blink_models.sh
+> ./download_blink_models.sh
+
+(this might take some time)
+
+
+Alternative:
+
+Here's what I found I had to do in order to install:
+
+    Run pip install -e git+https://github.com/facebookresearch/BLINK.git#egg=BLINK
+    cd to src/blink and create a file called pyproject.toml
+    add contents:
+
+[project]
+name = "BLINK"
+version="0.1.0"
+
+[tool.setuptools]
+py-modules = []
+
+    Re-run Step 1
+
+
+
+
+
+
