@@ -13,9 +13,9 @@ Click on New (Neu)
 Choose your Name und locate your ISO
 Check the Box on "Skip Unattended Installation"
 
-Choose 8000 MB RAM
-Choose 4 CPUs
-Choose 60 GB disk space
+Choose 20000 MB RAM
+Choose 5 CPUs
+Choose 80 GB disk space
 
 Start the VM by clicking on Start
 Click Install Ubuntu
@@ -33,19 +33,12 @@ Install git
 run: 
 > sudo apt-get install git
 
-Navigate to a folder where you want to install blink
-Clone the repo:
-> git clone https://github.com/facebookresearch/BLINK.git
-
-Navigate into the BLINK folder
-> cd BLINK
-
 Install pip
-sudo apt install python3-pip
+run:
+> sudo apt install python3-pip
 
 upgrade pip / wheel / setuptools
-> pip install --upgrade pip
-> pip install --upgrade setuptools wheel
+> pip install --upgrade pip setuptools wheel
 
 install python3-dev if not already installed
 > sudo apt-get install python3-dev
@@ -53,10 +46,17 @@ install python3-dev if not already installed
 install gcc if not already installed
 > sudo apt-get install gcc
 
+Navigate to a folder where you want to install blink
+Clone the repo:
+> git clone https://github.com/facebookresearch/BLINK.git
+
 -----------------------
 USE BLINK
 
 See "Use BLINK" on BLINK github page
+
+Navigate into the BLINK folder
+> cd BLINK
 
 you might have to close and open the terminal before using conda
 In the BLINK folder:
@@ -66,7 +66,7 @@ In the BLINK folder:
 if there are errors, check that you have all relevant python packages installed
 (run: sudo apt-get install python3 python3-pip ipython3 build-essential python-dev python3-dev)
 
-Download BLINK models (min 4x GB required)
+Download BLINK models (min 70? GB required)
 > chmod +x download_blink_models.sh
 > ./download_blink_models.sh
 
@@ -89,6 +89,12 @@ version="0.1.0"
 py-modules = []
 
     Re-run Step 1
+
+Kopiere den Beispielcode in eine .py Datei im BLINK Ordner
+
+
+falls error
+pip install tqdm torch numpy termcolor flair pytorch_transformers faiss-cpu
 
 
 
