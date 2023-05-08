@@ -15,7 +15,7 @@ Check the Box on "Skip Unattended Installation"
 
 Choose 20000 MB RAM
 Choose 5 CPUs
-Choose 80 GB disk space
+Choose 100 GB disk space
 
 Start the VM by clicking on Start
 Click Install Ubuntu
@@ -24,27 +24,30 @@ Follow the steps and choose the default options (just click continue)
 
 Install miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
 Version: Linux 	Miniconda3 Linux 64-bit
-Navigate to the folder where the file is located
+In a Terminal, navigate to the folder where the file is located
 run: 
 > bash Miniconda3-latest-Linux-x86_64.sh
 Follow the steps
 
-Install git
+Install git, pip, gcc, python3-dev
 run: 
-> sudo apt-get install git
+> sudo apt-get install git python3-pip gcc python3-dev
 
-Install pip
-run:
-> sudo apt install python3-pip
+Single:
+
+	Install pip
+	run:
+	> sudo apt install python3-pip
+
+	install python3-dev if not already installed
+	> sudo apt-get install python3-dev
+
+	install gcc if not already installed
+	> sudo apt-get install gcc
 
 upgrade pip / wheel / setuptools
 > pip install --upgrade pip setuptools wheel
 
-install python3-dev if not already installed
-> sudo apt-get install python3-dev
-
-install gcc if not already installed
-> sudo apt-get install gcc
 
 Navigate to a folder where you want to install blink
 Clone the repo:
@@ -66,35 +69,47 @@ In the BLINK folder:
 if there are errors, check that you have all relevant python packages installed
 (run: sudo apt-get install python3 python3-pip ipython3 build-essential python-dev python3-dev)
 
-Download BLINK models (min 70? GB required)
+if there is an error with pytorch, in requirements.txt, change "torch==1.6.0" to "torch>=1.6.0" 
+or install everything manually: pip install tqdm torch numpy termcolor flair pytorch_transformers faiss-cpu
+
+Download BLINK models (min 100 GB required)
 > chmod +x download_blink_models.sh
 > ./download_blink_models.sh
 
 (this might take some time)
 
 
-Alternative:
+To run the example code: 
 
-Here's what I found I had to do in order to install:
-
-    Run pip install -e git+https://github.com/facebookresearch/BLINK.git#egg=BLINK
-    cd to src/blink and create a file called pyproject.toml
-    add contents:
-
+Run 
+> pip install -e git+https://github.com/facebookresearch/BLINK.git#egg=BLINK 	
+This may cause errors
+Navigate to src/blink and create a file called pyproject.toml
+add contents:
+"
 [project]
 name = "BLINK"
 version="0.1.0"
 
 [tool.setuptools]
 py-modules = []
+"
 
-    Re-run Step 1
+Run again
+> pip install -e git+https://github.com/facebookresearch/BLINK.git#egg=BLINK 
 
-Kopiere den Beispielcode in eine .py Datei im BLINK Ordner
+Copy the example code in a .py file in the BLINK folder
+
+Run the example code
+
+For a reason i do not know yet, you need to install the foloowing modules again (even when navigating to correct conda environment)
+maybe run > pip install -r requirements.txt again
+
+If there are module errors, install them via pip:
+Example: pip install tqdm torch numpy termcolor flair pytorch_transformers faiss-cpu
 
 
-falls error
-pip install tqdm torch numpy termcolor flair pytorch_transformers faiss-cpu
+
 
 
 
