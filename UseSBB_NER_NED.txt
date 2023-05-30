@@ -1,0 +1,99 @@
+use sbb ned
+
+on linux ubunto version 20.4
+
+or windows:
+https://releases.ubuntu.com/focal/
+download here "ubuntu-20.04.6-desktop-amd64.iso"
+
+use via Virtualbox
+
+Then install python3.6 by following the steps in this link
+https://medium.com/analytics-vidhya/how-to-install-and-switch-between-different-python-versions-in-ubuntu-16-04-dc1726796b9b
+
+install virtualenv (if error, do pip uninstall virtualenv, then sudo pip install virtualenv
+install git 
+install nginx
+
+
+clone sbb_ned, sbb_ner and sbb_utils
+> git clone ...
+
+Setup virtual environment: (changed from 3.6 to 3.10)
+> virtualenv --python=python3.6 venv 
+
+or just have your python version on 3.6
+make sure to: 
+> sudo apt-get install python3.6-dev
+
+if that does not work check your version
+> python3 --version
+check the path
+> which python3.6
+then add to PATH
+> export PATH=$PATH:usr/bin/python3.6 (for example)
+
+Activate virtual environment:
+> source venv/bin/activate
+
+Upgrade pip:
+> pip install -U pip
+
+Install packages together with their dependencies in development mode:
+
+> pip install -e sbb_utils
+> pip install -e sbb_ner
+> pip install -e sbb_ned
+
+if error with tensorflow-gpu, install tensorflow
+> pip install tensorflow
+
+if modulenotfounderror then
+
+export PYTHONPATH="${PYTHONPATH}:/your/project/
+
+
+- - - - - - - 
+
+
+
+
+
+
+clone sbb_ner
+> git clone ...
+
+follow the steps on sbb_ner github
+
+Setup virtual environment: (changed from 3.6 to 3.10)
+> virtualenv --python=python3.6 venv 
+
+or just have your python version on 3.6
+make sure to: 
+> sudo apt-get install python3.6-dev
+
+Activate virtual environment: (not necessary if no virtualenv)
+> source venv/bin/activate
+
+Upgrade pip:
+> pip install -U pip
+
+Install package together with its dependencies in development mode in sbb_ner folder
+> pip install -e ./
+
+Download required models: https://qurator-data.de/sbb_ner/models.tar.gz
+save it in sbb_ner 
+
+Extract model archive:
+> tar -xzf models.tar.gz
+
+Update flask
+> pip install -U Flask
+
+Run webapp directly:
+> env FLASK_APP=qurator/sbb_ner/webapp/app.py env FLASK_ENV=development env USE_CUDA=True flask run --host=0.0.0.0
+
+
+
+
+

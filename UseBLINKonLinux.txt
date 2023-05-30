@@ -21,9 +21,15 @@ Start the VM by clicking on Start
 Click Install Ubuntu
 Follow the steps and choose the default options (just click continue)
 
+-------------------------------------
+On LINUX
 
 Install miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
 Version: Linux 	Miniconda3 Linux 64-bit
+
+Alternatively, via this command: 
+> wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
 In a Terminal, navigate to the folder where the file is located
 run: 
 > bash Miniconda3-latest-Linux-x86_64.sh
@@ -84,8 +90,8 @@ To run the example code:
 Run 
 > pip install -e git+https://github.com/facebookresearch/BLINK.git#egg=BLINK 	
 This may cause errors
-Navigate to src/blink and create a file called pyproject.toml
-add contents:
+Navigate to src/blink and create a file called pyproject.toml (touch pyproject.toml)
+add contents: (via vi if necessary)
 "
 [project]
 name = "BLINK"
@@ -95,12 +101,14 @@ version="0.1.0"
 py-modules = []
 "
 
-Run again
+Run again in the BLINK folder 
 > pip install -e git+https://github.com/facebookresearch/BLINK.git#egg=BLINK 
 
 Copy the example code in a .py file in the BLINK folder
+or manually type it in via vi
 
 Run the example code
+> python test.py
 
 For a reason i do not know yet, you need to install the foloowing modules again (even when navigating to correct conda environment)
 maybe run > pip install -r requirements.txt again
@@ -108,11 +116,19 @@ maybe run > pip install -r requirements.txt again
 If there are module errors, install them via pip:
 Example: pip install tqdm torch numpy termcolor flair pytorch_transformers faiss-cpu
 
+you might have to install the newest pytorch version in order to use the GPU via CUDA?
+> pip3 install torch torchvision torchaudio
 
 
+INTERACTIVE mode
+
+run 
+> PYTHONPATH=. python blink/main_dense.py -i 
 
 
-
-
+if error `AttributeError: 'KeyedVectors' object has no attribute 'key_to_index'
+then add
+" gensim==3.8.3 "
+to requirements.txt
 
 
