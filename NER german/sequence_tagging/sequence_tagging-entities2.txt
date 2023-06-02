@@ -1,0 +1,270 @@
+READ FILE: ./NER german/sequence_tagging/sequence_tagging-output2.txt
+
+Mai	mai	KNOWN	B-PER
+Hedwig	hedwig	KNOWN	B-PER
+Josef	josef	KNOWN	B-PER
+Amerik	amerik	KNOWN	B-LOC
+Toch¬	toch¬	UNKNOWN	B-PER
+
+------------------- 
+ 
+Strauß	strauß	KNOWN	B-PER
+G.	g.	KNOWN	B-PER
+D.	d.	KNOWN	B-PER
+
+------------------- 
+ 
+Tekla	tekla	UNKNOWN	B-PER
+Josef	josef	KNOWN	B-PER
+Berta	berta	KNOWN	B-PER
+
+------------------- 
+ 
+Josef	josef	KNOWN	B-PER
+Johann	johann	KNOWN	B-PER
+Heidenreich,	heidenreich,	UNKNOWN	I-PER
+
+------------------- 
+ 
+Paul	paul	KNOWN	B-PER
+u.	u.	KNOWN	I-PER
+Martha	martha	KNOWN	I-PER
+Kinder	kinder	KNOWN	B-PER
+Vielen	vielen	KNOWN	I-PER
+Dank	dank	KNOWN	I-PER
+Marien	marien	KNOWN	B-PER
+Martha	martha	KNOWN	B-PER
+
+------------------- 
+ 
+
+------------------- 
+ 
+Mark	mark	KNOWN	B-OTH
+Mark	mark	KNOWN	B-OTH
+Mark	mark	KNOWN	B-OTH
+Mark	mark	KNOWN	B-OTH
+Amerika	amerika	KNOWN	B-LOC
+Pfund	pfund	KNOWN	B-OTH
+Mark	mark	KNOWN	I-OTH
+
+------------------- 
+ 
+Paul	paul	KNOWN	B-PER
+
+------------------- 
+ 
+Neustädter	neustädter	KNOWN	B-ORG
+Zeitung	zeitung	KNOWN	I-ORG
+Neustadt	neustadt	KNOWN	B-LOC
+Ehrhar¬	ehrhar¬	UNKNOWN	B-PER
+Leipzig	leipzig	KNOWN	B-LOC
+Italien	italien	KNOWN	B-LOC
+Rom	rom	KNOWN	B-LOC
+München	münchen	KNOWN	B-LOC
+Bayern	bayern	KNOWN	B-LOC
+
+------------------- 
+ 
+Frank	frank	KNOWN	B-PER
+Schiller	schiller	KNOWN	B-PER
+Tekla	tekla	UNKNOWN	B-PER
+Bekla	bekla	UNKNOWN	B-PER
+u.	u.	KNOWN	I-PER
+Mis	mis	KNOWN	B-PER
+Ger	ger	KNOWN	I-PER
+
+------------------- 
+ 
+Neustadt	neustadt	KNOWN	B-LOC
+Liebes	liebes	KNOWN	B-OTH
+Fräulein	fräulein	KNOWN	I-OTH
+Sie	sie	KNOWN	I-OTH
+Amerika	amerika	KNOWN	B-LOC
+
+------------------- 
+ 
+
+------------------- 
+ 
+Paul	paul	KNOWN	B-PER
+Nun	nun	KNOWN	I-PER
+Paul	paul	KNOWN	B-PER
+Marta	marta	KNOWN	B-PER
+Martel	martel	KNOWN	B-PER
+Thekla	thekla	UNKNOWN	B-PER
+Mark	mark	KNOWN	B-PER
+Martel,	martel,	UNKNOWN	B-PER
+Anna	anna	KNOWN	B-PER
+Hampel	hampel	KNOWN	B-PER
+Pras	pras	UNKNOWN	I-PER
+Deutschland	deutschland	KNOWN	B-LOC
+Thekla	thekla	UNKNOWN	B-PER
+Marta	marta	KNOWN	B-PER
+Paul	paul	KNOWN	B-PER
+Marta	marta	KNOWN	B-PER
+Gürtler	gürtler	UNKNOWN	B-PER
+Baum	baum	KNOWN	B-PER
+
+------------------- 
+ 
+Kurt	kurt	KNOWN	B-PER
+Willer	willer	KNOWN	B-PER
+Re¬	re¬	UNKNOWN	I-PER
+Neisse	neisse	KNOWN	B-LOC
+
+------------------- 
+ 
+Rosina	rosina	KNOWN	B-PER
+Josef	josef	KNOWN	I-PER
+Frankreich	frankreich	KNOWN	B-LOC
+Thekla	thekla	UNKNOWN	B-PER
+Du	du	KNOWN	I-PER
+Ma¬	ma¬	UNKNOWN	B-PER
+Richard	richard	KNOWN	B-PER
+
+------------------- 
+ 
+Johann	johann	KNOWN	B-PER
+
+------------------- 
+ 
+Marie	marie	KNOWN	B-PER
+Ungarn	ungarn	KNOWN	B-LOC
+
+------------------- 
+ 
+Anali	anali	UNKNOWN	B-PER
+ter	ter	KNOWN	I-PER
+
+------------------- 
+ 
+Hedwig	hedwig	KNOWN	B-PER
+Paul	paul	KNOWN	B-PER
+Anna	anna	KNOWN	B-PER
+Josef	josef	KNOWN	B-PER
+
+------------------- 
+ 
+Deutschland	deutschland	KNOWN	B-LOC
+Thea	thea	KNOWN	B-PER
+
+------------------- 
+ 
+August	august	KNOWN	B-PER
+Berthold	berthold	KNOWN	B-PER
+Mark	mark	KNOWN	B-OTH
+Mark	mark	KNOWN	B-OTH
+Jesu	jesu	KNOWN	B-PER
+Christus	christus	KNOWN	I-PER
+Agnes	agnes	KNOWN	B-PER
+Berthold	berthold	KNOWN	B-PER
+Agnes	agnes	KNOWN	B-PER
+
+------------------- 
+ 
+
+------------------- 
+ 
+Josef	josef	KNOWN	B-PER
+Josef	josef	KNOWN	B-PER
+Josef	josef	KNOWN	B-PER
+Berlin	berlin	KNOWN	B-LOC
+
+------------------- 
+ 
+Berlin	berlin	KNOWN	B-LOC
+Meine	meine	KNOWN	B-OTH
+liebe	liebe	KNOWN	I-OTH
+Kleine	kleine	KNOWN	I-OTH
+Braut¬	braut¬	UNKNOWN	I-OTH
+Voller	voller	KNOWN	I-OTH
+Sehnsucht	sehnsucht	KNOWN	I-OTH
+und	und	KNOWN	I-OTH
+Besorgniß	besorgniß	UNKNOWN	I-OTH
+Amerika	amerika	KNOWN	B-LOC
+
+------------------- 
+ 
+Hedwig	hedwig	KNOWN	B-PER
+Schlesien	schlesien	KNOWN	B-LOC
+Robert	robert	KNOWN	B-PER
+Berlin,	berlin,	UNKNOWN	I-PER
+Thea	thea	KNOWN	B-PER
+Garbi¬	garbi¬	UNKNOWN	I-PER
+
+------------------- 
+ 
+Thekla	thekla	UNKNOWN	B-PER
+Amerika	amerika	KNOWN	B-LOC
+Darau	darau	KNOWN	B-PER
+Christine	christine	KNOWN	B-PER
+Deutschland	deutschland	KNOWN	B-LOC
+Polen	polen	KNOWN	B-LOC
+S.	s.	KNOWN	B-ORG
+Lone	lone	KNOWN	I-ORG
+Deutschland	deutschland	KNOWN	B-LOC
+Gust	gust	KNOWN	B-PER
+Ehekla	ehekla	UNKNOWN	B-PER
+Franz.	franz.	UNKNOWN	B-PER
+Gerhard	gerhard	KNOWN	B-PER
+Josel	josel	UNKNOWN	I-PER
+Pauls	pauls	KNOWN	B-PER
+u.	u.	KNOWN	B-PER
+Witten	witten	KNOWN	I-PER
+Sonnen.	sonnen.	UNKNOWN	B-OTH
+Im	im	KNOWN	I-OTH
+Gebet	gebet	KNOWN	I-OTH
+denke	denke	KNOWN	I-OTH
+ist	ist	KNOWN	I-OTH
+oft	oft	KNOWN	I-OTH
+an	an	KNOWN	I-OTH
+Buch.	buch.	UNKNOWN	I-OTH
+Möge	möge	KNOWN	I-OTH
+Buch	buch	KNOWN	I-OTH
+Franz	franz	KNOWN	B-PER
+
+------------------- 
+ 
+dan	dan	KNOWN	B-PER
+Nürnberg	nürnberg	KNOWN	B-LOC
+Josef	josef	KNOWN	B-PER
+Deutschland	deutschland	KNOWN	B-LOC
+München	münchen	KNOWN	B-LOC
+
+------------------- 
+ 
+Franz	franz	KNOWN	B-PER
+Robert	robert	KNOWN	B-PER
+Paul	paul	KNOWN	B-PER
+Fortunata	fortunata	UNKNOWN	B-PER
+G.	g.	KNOWN	B-PER
+P.	p.	KNOWN	I-PER
+3.	3.	KNOWN	I-PER
+T.	t.	KNOWN	I-PER
+Meine	meine	KNOWN	I-PER
+Dollar	dollar	KNOWN	B-OTH
+Deutschland	deutschland	KNOWN	B-LOC
+
+------------------- 
+ 
+George	george	KNOWN	B-PER
+Kasington	kasington	UNKNOWN	I-PER
+Walde	walde	KNOWN	B-LOC
+Raven	raven	KNOWN	B-PER
+Alt	alt	KNOWN	B-PER
+Jung	jung	KNOWN	B-PER
+München	münchen	KNOWN	B-LOC
+L.	l.	KNOWN	B-PER
+R.	r.	KNOWN	I-PER
+III	iii	KNOWN	I-PER
+Reppler	reppler	UNKNOWN	B-PER
+Konstanz	konstanz	KNOWN	B-LOC
+
+------------------- 
+ 
+Dollar	dollar	KNOWN	B-OTH
+Amit	amit	KNOWN	B-PER
+Ford	ford	KNOWN	B-PER
+München	münchen	KNOWN	B-LOC
+Mark	mark	KNOWN	B-PER

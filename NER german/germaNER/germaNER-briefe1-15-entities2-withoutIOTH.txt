@@ -1,0 +1,194 @@
+READ FILE: ./NER german/germaNER/germaNER-output2.txt
+
+Heimwehr  B-OTH
+Hedwig  B-PER
+Hedwig  B-PER
+Neustad¬  B-LOC
+Neustad¬  B-LOC
+Josef  B-PER
+Josef  B-PER
+verzehrt,  B-OTH
+verzehrt,  B-OTH
+Hedwig  B-PER
+Hedwig  B-PER
+Neustad¬  B-LOC
+Neustad¬  B-LOC
+Josef  B-PER
+Josef  B-PER
+verzehrt,  B-OTH
+verzehrt,  B-OTH
+
+------------------- 
+ 
+Supla,  B-OTH
+Strauß  B-PER
+
+------------------- 
+ 
+Josef  B-PER
+Berta  B-PER
+Nieman  B-LOC
+
+------------------- 
+ 
+Gadeschneiders  B-PER
+Hause  I-PER
+Josef  B-PER
+Rocke  B-PER
+Gedie  B-OTH
+
+------------------- 
+ 
+Schwager  B-ORG
+Paul  I-ORG
+u.  I-ORG
+Martha  I-ORG
+Marien  B-LOC
+stern  B-ORG
+Geld,  B-OTH
+Martha  B-PER
+Franz  B-PER
+
+------------------- 
+ 
+Hausen  B-LOC
+küste,  I-LOC
+
+------------------- 
+ 
+Bartelt  B-PER
+Mark  B-OTH
+Paulchen  B-ORG
+Pfund.  I-ORG
+Deutschlän¬  B-LOC
+Mark  B-OTH
+Paulchen  B-OTH
+Amerika  B-LOC
+Pfund  B-OTH
+
+------------------- 
+ 
+Hetter  B-LOC
+Paul  I-LOC
+weiß,  B-OTH
+Füße,  B-OTH
+
+------------------- 
+ 
+Sozialdem  B-ORG
+Sozialdem  B-ORG
+Parten  I-ORG
+Parten  I-ORG
+nennt.  I-ORG
+nennt.  I-ORG
+In  I-ORG
+In  I-ORG
+der  I-ORG
+der  I-ORG
+Neustädter  I-ORG
+Neustädter  I-ORG
+Zeitung  I-ORG
+Zeitung  I-ORG
+Neustadt  B-LOC
+Neustadt  B-LOC
+Prozesses,  B-LOC
+Prozesses,  B-LOC
+München,  B-LOC
+München,  B-LOC
+Leipzig  B-LOC
+Leipzig  B-LOC
+Sozialdem  B-ORG
+Sozialdem  B-ORG
+Parten  I-ORG
+Parten  I-ORG
+nennt.  I-ORG
+nennt.  I-ORG
+In  I-ORG
+In  I-ORG
+der  I-ORG
+der  I-ORG
+Neustädter  I-ORG
+Neustädter  I-ORG
+Zeitung  I-ORG
+Zeitung  I-ORG
+Neustadt  B-LOC
+Neustadt  B-LOC
+Prozesses,  B-LOC
+Prozesses,  B-LOC
+München,  B-LOC
+München,  B-LOC
+Leipzig  B-LOC
+Leipzig  B-LOC
+Italien  B-LOC
+Rom  B-LOC
+Baÿern,  B-LOC
+München  B-LOC
+Bayern  B-LOC
+
+------------------- 
+ 
+Uhr,  B-LOC
+Frank  B-PER
+Schiller  B-PER
+Brauer  B-OTH
+Neger  B-OTH
+Teppich,  B-OTH
+
+------------------- 
+ 
+Frl.  B-LOC
+Thekla  I-LOC
+Marsante  B-ORG
+Rudolph.  I-ORG
+Neustadt  I-ORG
+18.  I-ORG
+d.  I-ORG
+23.3.1912.  I-ORG
+Liebes  I-ORG
+Fräulein  I-ORG
+Amerika  B-LOC
+
+------------------- 
+ 
+Neustadt.  B-LOC
+Schles,  I-LOC
+dazugekom¬  B-OTH
+beians,  B-OTH
+den.  B-OTH
+
+------------------- 
+ 
+Paul  B-PER
+Titt  B-PER
+Paul  B-PER
+Marta  B-PER
+Martel  B-PER
+Mark  B-OTH
+Schmied  B-OTH
+Görlich  B-PER
+Deutschland  B-LOC
+Marta  B-PER
+Paul  B-PER
+Marta  B-PER
+Gürtler  B-PER
+
+------------------- 
+ 
+Kurt  B-PER
+Willer  B-PER
+Re¬  I-PER
+abgelei¬  B-OTH
+wor¬  B-OTH
+Raht  B-OTH
+Allen  B-OTH
+
+------------------- 
+ 
+Gagern,  B-OTH
+Rosina  B-PER
+Josef  I-PER
+Frankreich  B-LOC
+Heldent  B-OTH
+
+------------------- 
+ 

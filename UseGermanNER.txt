@@ -9,21 +9,19 @@ run the code ...
 WORKED
 
 
-
 -----------------------------------
 
-USE fhswf/bert_de_ner 
-https://huggingface.co/fhswf/bert_de_ner
+USE GermaNER
+https://github.com/tudarmstadt-lt/GermaNER
 
-install transformers 
-https://huggingface.co/docs/transformers/installation
+Download the binary from this link: https://github.com/tudarmstadt-lt/GermaNER/releases/download/germaNER0.9.1/GermaNER-09-09-2015.jar
 
-install pytorch
-> pip install torch
+tokenize your text, for more information see the link
 
-run code
+run
+> java -Xmx4g -jar GermaNER-09-09-2015.jar -t YourTokenizedTestFile -o OutputFileName
 
-DID NOT WORK AS OF NOW
+
 
 -----------------------------------
 
@@ -49,3 +47,18 @@ have a test file with one word per line named test.conll
 
 Start entity tagging
 > python3 test.py model_transfer_learning_conll2003_germeval_emb_wiki/config test.conll 
+
+-----------------------------------
+
+USE fhswf/bert_de_ner 
+https://huggingface.co/fhswf/bert_de_ner
+
+install transformers 
+https://huggingface.co/docs/transformers/installation
+
+install pytorch
+> pip install torch
+
+run code
+
+DID NOT WORK AS OF NOW
