@@ -1,0 +1,51 @@
+USE flair/ner-german-large
+https://huggingface.co/flair/ner-german-large
+
+install flair:
+> pip install flair
+
+run the code ...
+
+WORKED
+
+
+
+-----------------------------------
+
+USE fhswf/bert_de_ner 
+https://huggingface.co/fhswf/bert_de_ner
+
+install transformers 
+https://huggingface.co/docs/transformers/installation
+
+install pytorch
+> pip install torch
+
+run code
+
+DID NOT WORK AS OF NOW
+
+-----------------------------------
+
+USE sequence_tagging
+https://github.com/riedlma/sequence_tagging
+
+clone the repo
+> git clone https://github.com/riedlma/sequence_tagging
+
+in the folder of the repo, run
+> pip3 install -r requirements.txt
+
+install fastText 
+> git clone https://github.com/facebookresearch/fastText.git
+> cd fastText
+> pip3 install .
+
+install the german model
+> cd sequence_tagging
+> python3 download_model_embeddings.py GermEval
+
+have a test file with one word per line named test.conll
+
+Start entity tagging
+> python3 test.py model_transfer_learning_conll2003_germeval_emb_wiki/config test.conll 

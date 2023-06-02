@@ -1,0 +1,307 @@
+--------------------------------- 
+FILENAME: L9xx12xx-TL2068_1b_pdf.txt
+Sentence[108]: "und der Portograrien gerade trafen zum Geburtstage ein, worüber ich mich sehr freute Liebe Teil wie ist es mit der Heimwehr die hast du doch jetzt vergessen hätte mir fleisig zum lieben Gott der wird dich in deinen   Briefe erken wier hatten den zweite  Der Besuch an Steffamstage wahr¬ tochter Mai und Hedwig aus Neustad¬ mit den Kindern und Josef mit seine Famlichen, da hatten wir die Große wurf verzehrt, da sagte ich was werden meine lieben in Amerik machen und die beiden Töchter in Klestern Liebe Toch¬ ich schließenen Schreiben mit vielen herzlichen Grüßen und diesen verbleibe ich dem Lieber Vater" → ["Mai"/PER, "Hedwig"/PER, "Neustad"/LOC, "Josef"/PER, "Amerik"/LOC]
+Span[52:53]: "Mai" → PER (1.0)
+Span[54:55]: "Hedwig" → PER (1.0)
+Span[56:57]: "Neustad" → LOC (1.0)
+Span[62:63]: "Josef" → PER (1.0)
+Span[83:84]: "Amerik" → LOC (1.0)
+--------------------------------- 
+FILENAME: L9110213-TL0015_1a_pdf.txt
+Sentence[255]: "Es war in Uhr, wo die Bauer¬ unser Haus verließen u. wir zu Bett gehen wollten. Auf einmal war unterm Bett ein fürchterliches Geläut. Frank machte Licht u. sich da hing eine große an die Sprung fodern besichtigte Glocke genannt die Glate von Schiller Diesen Spaß hätten natürlich die Brauer gemacht. Liebe Jekla ich kann Dir sagen es ist nicht ge¬ mütlich hier. Sonntag nachmittag sind wir müsten zu Gompagnie geladen. Liebe Tekla von 1 bis 8 Febr. war mein Onkel aus Seba¬ ka zu Besuch u. wir haben alle Tage Spaziergänge gehalten. den einen Tag waren wir auch in dem zweit größten Schlacht¬ hause der Welt wo sehr viel Neger schaffen.   Hans, bili Ao. 13. Febr. 1911. Liebe Bekla u. Schwägerin den Brief von Dir haben wir erhalten wofür wir herzlich danken. Endlich kam ich dazu dich auch mit ein paar Zeilen zu beglücken. Hiebe Tekla uns geht es recht gut sind gesund und unter und hoffen daß auch dich der Brief bei bester Gesundheit antrifft. Liebe Teklar, nachdem wir jetzt recht nett häuslich eingerichtet sind gefällt es mir recht gut. Haben 3 recht schöne Zimmer im videren einen Teppich, Vertik einen schönen Kleide. dre¬ schranken niedlichen Tisch ge¬ Todessessel u. noch einige Stühle. das Zimmer macht sich ausgezeichnet. Mis Ger freut sich immer wenn sie in das Zimmer tritt. Liebe Tobler, wie" → ["Frank"/PER, "Glate von Schiller"/MISC, "Jekla"/PER, "Tekla"/PER, "Seba"/LOC, "ka"/LOC, "Hans"/PER, "Bekla"/PER, "Tekla"/PER, "Teklar"/PER, "Mis Ger"/PER, "Tobler"/PER]
+Span[28:29]: "Frank" → PER (1.0)
+Span[45:48]: "Glate von Schiller" → MISC (0.9885)
+Span[57:58]: "Jekla" → PER (1.0)
+Span[80:81]: "Tekla" → PER (1.0)
+Span[91:92]: "Seba" → LOC (0.9999)
+Span[93:94]: "ka" → LOC (0.9924)
+Span[125:126]: "Hans" → PER (0.9998)
+Span[136:137]: "Bekla" → PER (0.9999)
+Span[166:167]: "Tekla" → PER (1.0)
+Span[189:190]: "Teklar" → PER (1.0)
+Span[239:241]: "Mis Ger" → PER (0.9143)
+Span[252:253]: "Tobler" → PER (0.9999)
+--------------------------------- 
+FILENAME: L9120323-TL0033_1a_pdf.txt
+Sentence[238]: "soll. Zur st. Kommunion gehen hier auch schon eine ganze Anzahl täglich, aber fast nur Frauen. Die Männer u. vor allen die jungen sind an der Kommungen recht solten. Es ist schön, daß es drüben in der neuen Welt damit besser bestellt ist. da werden sie wohl auch bald eine Bekanntschaft machen mit einem solch stimmen jungen Manne u. es wird bezeiten aus dem Frl. Thekla eine  lassen Sie nur bald wieder etwas von sich hören, denn wir entressieren und sehr für ihr Schicksal u. für die dortigen Verhältniße. Nun wünsche ich Ihren noch, zugleich im Namen meiner Angehörigen, ein recht frohet, sagen reiches Osterhaft u. verbleibe mit herzlicher Größen von uns allen Ihre Marsante Rudolph.   Neustadt 18. d. 23.3.1912. Liebes Fräulein Sie hätten gern mal einen Brief von unserer Manne gehabt, da jedoch einer ältern Dame das Schreiben nicht mehr so leicht fällt, will ich es übernehmenn, Ihren dieser Wunsch zu erfüller. Ich denke, Sie werden damit noch zufriden sein. Wir haben mit großen Bedauern von Ihrem Unfall gehört. Wie geht es thuen dann jetzt? Hoffentlich haben Sie sich schon wieder erholt u. haben keine schlimmen Folgen davon. Die Lebensverhältnisse sind ja freilich in Amerika glanzende u. man könnte benach selbst Lust bekommen, dorthin auszuwenden, wenn es nur nicht zur" → ["Thekla"/PER, "Rudolph"/PER, "Neustadt"/LOC, "Amerika"/LOC]
+Span[73:74]: "Thekla" → PER (0.9998)
+Span[129:130]: "Rudolph" → PER (1.0)
+Span[131:132]: "Neustadt" → LOC (0.9998)
+Span[220:221]: "Amerika" → LOC (1.0)
+--------------------------------- 
+FILENAME: L9120903-TL0046_1a_pdf.txt
+Sentence[245]: "Neustadt. Schles, den 3. September 1912. er bleibt dann über Sonntag Liebe Thekla hier und führt Montag füh¬ wieder fein. Andenken Obwohl ich mich schon oft daran erinnert habe, daß ich mit dem Sie wohl nun hat sich Alles gut¬ und schon abgewickelt, aber aufschreiben nach tief in ihrer da kommt auch schon weder Schuld stehe, bin ich bisher doch etwas anderes dazwischen¬ immer nicht dazugekom¬ denn Rodtmuß zum 1. Octo¬ men, Ihnen wieder einmal ber d. J. Soldat werden deßen einige Zeilen zu schreiben. falls lasse ich ihm hierin er¬ Heute habe ich mir nun aber stain, damit wir ihr fast vorgenommen auch Wenigstens beians, Erken¬ meiner alten Schuld zu entle¬ Das ist wieder ein Strich durch digen und so will ich Ihnen die Rechnung, denn ich hatte gen über unser getrages Er¬ geglaubt, daß er nicht fänglich gehen und über Neustadt Un¬ sein würde, aber er hat sich im Gelegenheiten es schreiben letzten Jahre gut entwickelt, dieses Jahr bin ich nicht uns und ist endlich stark gewor¬ und gegangen weil ich es den. Über die Stadt angelegen. heiten wird ihnen meine Frau ja jetzt so gut habe wie im ausführlichen Bescheid geben denn de, denn ich kann nach Her¬ sie ist auch tüchtig bei der Schreibe¬ geslicht spazieren gesenken.  ganz" → ["Neustadt"/LOC, "Schles"/LOC, "Thekla"/PER, "Neustadt"/LOC]
+Span[0:1]: "Neustadt" → LOC (0.9997)
+Span[2:3]: "Schles" → LOC (0.9999)
+Span[15:16]: "Thekla" → PER (0.9931)
+Span[165:166]: "Neustadt" → LOC (0.9999)
+--------------------------------- 
+FILENAME: L9130421-TL0063_1b_pdf.txt
+Sentence[324]: "Paul Nun einlegen. Auch die jüngste hin kommt. Titt schicke mir doch einen Fingering mit ich würde mich Schwester den Rede ist ein Hirschönes sehr freuen. Aber es ist schon sehr München, sie ist erst 17 Jahre und hätte möglich, daß ich auch mit komme¬ auch große Lust mit über zukommen Hoffen war Bruder Paul den Aber Marta hat nicht fast sie mit¬ zunehmen, weil sie noch so gung Brief von mir u. Martel den wir schon über 8 Tage wegeschie¬ ist. Liebe Thekla wie wäre es wenn haben erhalten haben. Ich und Mark ach auch mit Simme wurde ich auf lassen uns jetzt Portographie nach einen Bräutigam kegen Da bekauft du in alle ein Bild¬ Ich will jetzt 15 Mai kündigen. Die Schmied Martel, odel u. Witt¬ Ich werde ja sehen was Rike auch Anna die der Hampel Pras armer u. Fiel Görlich erzählen hat lassen auch 100 grüßen werden. Will fiel Görlich sich auch  eine haben, oder bleibt wer¬  u. haben sich sehr über einen in Deutschland habe Thekla laß den Brief gefreut. Marta will der gleich Brief von Paul lesen es sage ihm Antwort schreiben, Mit dem also nur die Marta war ganz weg schluß. Auch will ich dir wiederum auf die schönen Photographie. Ich aber Neuigkeiten berichten, der habe ihr noch gestern alle von Herr Gürtler kam der 2. der zu Hause gezeicht, wo er auch groß Dir oft grüßte mitgeschickt hat. Portogaphiert ist es gefiel ihn ist auch schon vor ungefähr¬ immer eine besser wie die andern 4 Wochen beerdigt wurden, Er soll nur das Reisegeld mit schicken Er war Lungenkrank, auch die alte sie kommt schon mit, das weiß ich Ich hätte auch eine bitte wenn Pfarreter vom Pfarrer Baum der Brief noch zur rechten Zeit" → ["Paul"/PER, "Titt"/PER, "München"/LOC, "Paul"/PER, "Marta"/PER, "Martel"/PER, "Thekla"/PER, "Mark"/PER, "Simme"/PER, "Martel"/PER, "Witt"/PER, "Rike"/PER, "Anna"/PER, "Görlich"/PER, "Görlich"/PER, "Deutschland"/LOC, "Thekla"/PER, "Marta"/PER, "Paul"/PER, "Marta"/PER, "Gürtler"/PER, "Baum"/PER]
+Span[0:1]: "Paul" → PER (1.0)
+Span[10:11]: "Titt" → PER (1.0)
+Span[34:35]: "München" → LOC (1.0)
+Span[60:61]: "Paul" → PER (1.0)
+Span[63:64]: "Marta" → PER (1.0)
+Span[82:83]: "Martel" → PER (1.0)
+Span[94:95]: "Thekla" → PER (1.0)
+Span[105:106]: "Mark" → PER (1.0)
+Span[109:110]: "Simme" → PER (1.0)
+Span[138:139]: "Martel" → PER (1.0)
+Span[143:144]: "Witt" → PER (1.0)
+Span[150:151]: "Rike" → PER (1.0)
+Span[152:153]: "Anna" → PER (1.0)
+Span[161:162]: "Görlich" → PER (0.9999)
+Span[172:173]: "Görlich" → PER (1.0)
+Span[189:190]: "Deutschland" → LOC (1.0)
+Span[191:192]: "Thekla" → PER (1.0)
+Span[197:198]: "Marta" → PER (1.0)
+Span[203:204]: "Paul" → PER (1.0)
+Span[216:217]: "Marta" → PER (1.0)
+Span[245:246]: "Gürtler" → PER (1.0)
+Span[317:318]: "Baum" → PER (0.9999)
+--------------------------------- 
+FILENAME: L9140528-TL0092_1b_pdf.txt
+Sentence[322]: "sein ehe man sich bindet. Wenn men sich auch damit abfinden. Wie Ihnen bereits bekannt ist, hat es im Rate des Höchsten beschlossen unser Sohn Kurt im vorigen Jah¬ ist dann wird auch Ihnen Ihr Teil se bei dem hiesigen Willer Re¬ zufallen, ohne alles zutun, deshalb giment als Einjähriger gedient ist es immer am besten, wenn und in diesem Jahre hat erschen man in des Geschick nicht eingreif¬ eine geruhige Übung abgelei¬ Stein haben wir an wenigen Ta¬ stet hiemit dem gestrigen Tage gen des schöne Pfingstfest und die beredet war. Zu unserer Freude Natur herrlich geschmückt für hat er auch diese Zeit mit Erfolg dieses Kasse. Alles lust und get. beendet, denn er ist beits zum in unzähligen Exemplaren sind Wir wachtmeister ernannt wor¬ die Herlichsten Blinen entfal¬ den. An geht er wieder nach tel und Singen und zwischen Neisse aus Kaufgerichter¬ der Vogel erkant zur Ehre Gottes¬ dort seinen Kraft zuuer¬ Nicht auses der Monatha¬ Wir aber sind nur noch dazu da, von den Richtern als der schönste immer Geld zu geben und ihm gewesen worden. Denn es ist seine weitere Ausbildung zu hierzu alle Berechtigung vor¬ ermöglichen. Und dann muß handen. Und im Erben des Men¬ scher ist die Tugendzeit der Ma¬ man nur immer noch froh sein wenn des Geld nicht umsonst der nur einmalen Leben vor¬ handen ist, denn nach ihm stellt ausgegeben ist, und wenn noch sich der Raht des Lebensen, mit etwas verwird. aus Bluten Schatz sollen ihm Nun will ab auch zur Brant¬ wartung des an auch gerichteten Früchte entwickeln. Aber auch Briefes kommen und Ihnen mit Allen ist es vergönnt einen Lebensman zur erleben, und denn zunächst mitteilen, daß es grobe auf Lügen." → ["Kurt"/PER]
+Span[28:29]: "Kurt" → PER (1.0)
+--------------------------------- 
+FILENAME: L9150629-TL0111_1a_pdf.txt
+Sentence[116]: "Gagern, d. 4. Juni 1910. Liebe Schwester u. alle mein Liebe¬ einen Brief haben wir erhalten, und daraus ersehen, daß Du und alle noch gesundheit. Wir sind alle auch Gott lob noch gesund und unten und wünschten blos der blutige Krieg hätte bald ein Ende. Vor einigen   Monaten im März ist auch Rosina Josef vom Onkel August in Frankreich nach 2 tägigen Schweren verwundung den Heldent für König und Vaterland ge¬ storben, er war auch schon verheiratet. Liebe Thekla Du selbst Annen und Ma¬ etwas vorbereiten, daß sie nicht gleich so erschenken über Bruder Richard er ist schon sein 23 Mar vor mit" → ["Gagern"/LOC, "Gott"/PER, "Rosina Josef"/PER, "August"/PER, "Frankreich"/LOC, "Thekla"/PER, "Annen"/PER, "Ma"/PER, "Richard"/PER]
+Span[0:1]: "Gagern" → LOC (0.9999)
+Span[36:37]: "Gott" → PER (0.9772)
+Span[60:62]: "Rosina Josef" → PER (0.9999)
+Span[64:65]: "August" → PER (1.0)
+Span[66:67]: "Frankreich" → LOC (1.0)
+Span[89:90]: "Thekla" → PER (1.0)
+Span[92:93]: "Annen" → PER (1.0)
+Span[94:95]: "Ma" → PER (0.9894)
+Span[107:108]: "Richard" → PER (1.0)
+--------------------------------- 
+FILENAME: L9151117-TL0116_1b_pdf.txt
+Sentence[132]: "und einheit dem Mai zuhal¬ ich halt nicht schon den mußen des wegen einen scheinen Groschen, gegen bekant für an Hanshagen und eine liebe Gott mich gemachte gen in fa¬  angetragen war hatten dem  einkommen  fur der den die Sache In der haben mich nicht werden einen ganz der  sich massen er   nach ter  hof    in deland nicht   leiben nach habe der    allen  denen    viel mit der Schalt, die Bekandt zu beleh¬ wie diese Id sie was nicht zu¬  sen Onkel Johann zu in Dankbesucht selbe    brachte fur ihnen Ar¬  Krug, bald ein seeligen  bekennen welches zugeteilt ge¬ der ger Kopf mit einem an¬  ten Verge¬ gegenteilen, und erhalten Von Schwersten Burschen Jahr seiner Fleisch  Rutenbeken¬ besaget ist zu" → ["Hanshagen"/LOC, "Johann"/PER, "Ar"/PER, "Krug"/PER]
+Span[22:23]: "Hanshagen" → LOC (0.646)
+Span[87:88]: "Johann" → PER (1.0)
+Span[95:96]: "Ar" → PER (0.9858)
+Span[97:98]: "Krug" → PER (0.9979)
+--------------------------------- 
+FILENAME: L9170131-TL0136_2a_pdf.txt
+Sentence[174]: " sen und hatt da gehört, ob¬ nicht einsam zu weder das Weihnach dort  die Löhne sind hier sehr hoch¬ will liebe ihn du schließ¬ mir manche Gehör mich in dem Gebeten wie¬ schaffen nur für Doller ich auch deiner nicht vergessen die Woche und arbeiten sich wir haben manchmal gute tet. So ist nur Mar¬ Zeit zusammen verlebt, hie¬ sie ist 5 Jahre im Lande fügte ich in mein Stel¬ han Jahr auf Stall allein mir manches mal die hat die ersten 5 Jahre fer¬ kommt die Marie heran¬ dellos geschaft aber die¬ dem sie müse immer an¬ ja auch so dann die Ungarn dem Rabe sein Liebe er¬ Es sein viele reiche Leute hier¬ ich habe ein Gas fra¬ und in hilfsberg hie¬ in mein Zimmer¬ man ja so viel denk¬ kann ich mir aber die Be¬ schichte auch bier bekom¬ braten abend. Ich wünsch¬ man hier Schreibe mir" → ["Mar"/PER, "Marie"/PER, "Rabe"/PER, "hilfsberg"/LOC]
+Span[60:61]: "Mar" → PER (0.9846)
+Span[98:99]: "Marie" → PER (1.0)
+Span[119:120]: "Rabe" → PER (0.8967)
+Span[139:140]: "hilfsberg" → LOC (0.9998)
+--------------------------------- 
+FILENAME: L9190421-TL0157_1a_pdf.txt
+Sentence[205]: "Pritzburgk den 2. April 1. fertig, letzten Abend, wenn ich heimkam, war das Zin¬ Meine liebe gute Tekla¬ mälchen noch am geschie¬ vielen herzlichen Dank für dem denn es war besuch dort und schönes Geschenk und dem Engel¬ wird es dann 10-11 auch vielen Dank für das schöne Uhr Mich wunderts, ob wir wa¬ Kissen, es ist sicher sehr wählte bald von zu Hause werden sei und gute Freunde zu haben ren und wie alles auskom¬ wo einem einer in liebe Tekla wie hast die den Ist August zufrieden mit seiner Ostern verbracht ist dabei seltenen Zähmen, es ist fuhre denen Geschwistern gewesen schade das die Jungens solche Hier war nicht viel Festtags Zeit haben eine gute Stelle stimmung ich hatte meine zu finden, nachdem alle soviel seien Sonntag und vor¬ Zeit müßten einbüßen. Sage in dort bei Anali ter und August nochmals und illis, illi geht in vielen herzlichen dank und zum nach derer Colora¬ verbleibe in Liebe deine Frau¬ Wir werden uns richten Rauber¬ de und geht am 29ten zählen können bei unsere diesen Monat nach ihren Wiedersehe es ist vielleicht bevor nebst" → ["Pritzburgk"/LOC, "Tekla"/PER, "Engel"/PER, "Kissen"/PER, "Tekla"/PER, "Anali"/PER, "August"/PER]
+Span[0:1]: "Pritzburgk" → LOC (1.0)
+Span[22:23]: "Tekla" → PER (0.9999)
+Span[44:45]: "Engel" → PER (0.5822)
+Span[64:65]: "Kissen" → PER (0.979)
+Span[93:94]: "Tekla" → PER (0.9998)
+Span[154:155]: "Anali" → PER (0.9999)
+Span[157:158]: "August" → PER (1.0)
+--------------------------------- 
+FILENAME: L9191208-TL0169_2a_pdf.txt
+Sentence[309]: "Auf ein lebe ich, will ich noch ein Art schreiben über Hedwig und Paul und ihr Verhältniß zur Großmutter¬ Ihr habt, so hat man uns erzählt Eure freude und zustimm¬ mung gegeben dazu, daß die Mutter das Haus der ch geben will, ob aber die Muster, daß so haben will davon hat auch noch niemand geschrieben. Die Mutter muß nämlich zu allem ja und Anna sagen, weil die dort wohnen, und die Mutter sich die Arbeit nicht allein machen kann. Die lege ihr fortwährend in den Tan¬ ihnen doch das Haus zu geben und zwar bald Natürlich¬ am liebsten wäre es ihren Agnes und Barthold räumten den Platz, Josef und an sehe dem Speil einen zu¬ Aber ein bitten wir Euch, wenn ihr wieder mal schreibt so gibt so beiläufig zu verstehen, daß doch die Mutter noch warten machte, mit dem übergeben, bis eins von brach, da ist und ihr da mündlich aussprechen konnt. Ihr werdet höre und sehr und Gegen machen gedrig hat auch wahrscheinlich einen Brief heimlich geschrieben, denn die War¬ sagte, sie hat gesehn, daß durch einen Zettel von die¬ schnell versteckte. Uns thut es in der Seele leid, wann, von immer sehr wie sich die Wetter gegen nicht und keinen nicht helfen, denn wir dürfen nicht hin gehe, es thut den 7. vorgeschwiglich leid, um die Tasse Kaffe, die uns die Butter gab, wenn wir sie kamen und hätte es soweit gebracht, daß wir das Haus nicht mehr bitten. Mutter gers und Forthold sind aber sehr gut zu uns. Botschuld kommt jedem Sonntag zu uns. Strebels bester fortete und alle wissen des Geistes Kind auf sind." → ["Hedwig"/PER, "Paul"/PER, "Anna"/PER, "Agnes"/PER, "Barthold"/PER, "Josef"/PER, "gers"/PER, "Forthold"/PER, "Strebels"/PER]
+Span[12:13]: "Hedwig" → PER (1.0)
+Span[14:15]: "Paul" → PER (1.0)
+Span[72:73]: "Anna" → PER (1.0)
+Span[115:116]: "Agnes" → PER (1.0)
+Span[117:118]: "Barthold" → PER (1.0)
+Span[122:123]: "Josef" → PER (1.0)
+Span[280:281]: "gers" → PER (0.8562)
+Span[282:283]: "Forthold" → PER (1.0)
+Span[297:298]: "Strebels" → PER (0.999)
+--------------------------------- 
+FILENAME: L9200320-TL0187_1b_pdf.txt
+Sentence[240]: "erhalten hast. Nach den Filagen läßt es dann wieder nach mit der Arbeit und dann wirst du wieder regelmäßig Nachricht erhalten von mir. Liebe Thee, Dein letzten Brief vom 4. Febr hatt mich ganz besonders gehaut und wurde gen alle Folge einen solchen haben. Du hast sehr viel und sehr lieb geschrieben. Ich hoffe den Schupfen ist weder ganz vorüber und du erfreut ich der besten Gesundheit Halsentzündung ist nicht leicht zu nehmen und ich bitte Dich¬ che immer gut auf den Gesundheit. Das ist er der größte Reichtum auf Erden. Nun liebe cher bin ich sehr mich ob dem Gesuch Erfolg hat. Ich wünsche von ganzem Herzen. Wir haben beide mir noch keine   Beziehungen mit Amerika, da wir am Anfang diesen Monats ein nur Besetzung durch unser Feinde im Wasser statt gefunden holt. Düsseldorf, Dasburg Aurort und andere wichtige Industriestädt¬ sind besetzt worden. Unter solchen Regressalien können wir mehr hoch kommen sondern Deutschland wird noch ärmer. Heute ist in Überschlesung der Abstimmung und von der hängt viel ab von Ausschlos¬ Wenn wir sollten die wichtigen Kohlengebiet auch noch verlie¬ Dann wurden wir dem Friedensvertrag erst recht nicht erfüllen können. Liebe Thea du hast mir eine große fände gemacht zum Geburtstag mit dem Paket, so viel schöne und gute Sachen wann die der Tabak ist sehr gut wurde hat schon" → ["Thee"/PER, "Amerika"/LOC, "Düsseldorf"/LOC, "Dasburg Aurort"/LOC, "Deutschland"/LOC, "Thea"/PER]
+Span[26:27]: "Thee" → PER (1.0)
+Span[126:127]: "Amerika" → LOC (1.0)
+Span[146:147]: "Düsseldorf" → LOC (1.0)
+Span[148:150]: "Dasburg Aurort" → LOC (1.0)
+Span[168:169]: "Deutschland" → LOC (1.0)
+Span[210:211]: "Thea" → PER (0.9999)
+--------------------------------- 
+FILENAME: L9200422-TL0001_1a_pdf.txt
+Sentence[220]: "auch die Stricksale von August wa¬ nicht drum, welche für Berthold bestimmt war der Kaffee war noch da ich wundere mich dessen gegen Kaffee gelassen haben, aber von den vielen tausende Paketen werden sie genug gehabt haben Da haben sie blos de Wertholsten Sachen gestohlen haben eine Blute mit blauen Stragen ein Petit Kleides und etwas Futter zweinem Leibchen sie hätten es um gepackt in einen Naton sie hatten das Papages den alten Sator die hat niemand hinein gethan damit der Naton woll war es ist recht schade um die Schuhe bei uns Kosten ein paar Schuhe für mich 500 Mark früher zahlten 10 Mark   gelobt sei Jesu Christus 22. 440 Langenblik vielgeliebte Tochter¬ dene beiden Bröse und den Schek mit dem Gelde welches zur Schwester Agnes bestimmt war haben mir erhalten und   sagen die ein recht herzlichen Dank dafür aus den Brief hatte ich in Ostern wegeschickt wo das Geld sind Berthold besten¬ war dahin bald der Brief für Agnes mit dem Gelde da¬ zeihe mir das ich nicht bald Antwort geschrieben habe, das Wetter war im April so schön an Tag schöner wie der andere große Hitze wan dem ersten Sommertagen die Bäume sind benach verblicht von so einer Zeit waß man nicht heut be¬ kamen und den ersten Regen" → ["Berthold"/PER, "Mark"/MISC, "Mark"/MISC, "Jesu Christus"/PER, "Agnes"/PER, "Berthold"/PER, "Agnes"/PER]
+Span[12:13]: "Berthold" → PER (1.0)
+Span[103:104]: "Mark" → MISC (1.0)
+Span[107:108]: "Mark" → MISC (1.0)
+Span[110:112]: "Jesu Christus" → PER (0.999)
+Span[130:131]: "Agnes" → PER (1.0)
+Span[156:157]: "Berthold" → PER (0.9984)
+Span[165:166]: "Agnes" → PER (1.0)
+--------------------------------- 
+FILENAME: L9200626-TL0201_2a_pdf.txt
+Sentence[295]: "zuhalten. Und nun muß das arme Deutschen soll die Fol¬ gen tragen, die aus dieser verkehrten Politik hervorge¬ Gangen sind. Wenn man bedenkt, wie wir vor dem un¬ glücklichen Kriege gut und billig gelebt haben, und wie jetzt alles so furchtbar feuer und schlecht ist, da kann man nur mit Haß und Verachtung derer gedenken, die das er¬ Die Wolte solches Elend gestürzt haben. Ob und wann es gelingen wird, aus dieser Nottage noch einmal heraus¬ zukommen, das ist zur Zeit nach nicht abzusehen, aber wir Alten werden es nicht mehr erleben, noch einmal die glück¬ liche Zeit und die gesegneten Verhältnisse wie vor kein Krie¬   ge zu sehen. Und bei solchen Erwägungen wird ei¬ nem bange im Herzen, denn wir haben noch nicht den Höhepunkt dieser Not erreicht und wir weiß, was uns nach Alles in der Zukunft bevorsteht. Eine Ver¬ artige Wirtschaft wie sie jetzt ist, kann, auf die Dauer nicht von Bekand sein, denn obgleich die Ge¬ hälter und Löhne der arbeitenden Klassen und ein vielfaches gestiegen sind, so ist doch die Unzufrieden¬ heit jetzt viel größer als früher, weil nur für viel¬ Geld etwas zu haben ist. Aber was sollen wir ma¬ chen, die von ihrer kleinen Pension leben müssen und noch nicht einem Pfennig Tengungszulage da der einen sonstigen Zuschuß erhalten haben? Da freut man sich geweiß sehr wenn man einer  wartet etwas erhält, um sich das Leben verbessern zu stönnen. So werden Sie liebe Bekla, es auch er¬ klärlich finden, daß wir uns über den Bezugschen   auf"
+--------------------------------- 
+FILENAME: L9200910-TL0220_1b_pdf.txt
+Sentence[313]: "mal diensten es viel gewesen sein. Wir schade, daß ich dir nicht schenken kann von hier aus¬ Aber wenn ich mal dem wurde kann sein gehört die Alles mein Liebling. Dann bist du die Königen meines Herzens. Nur Du allein sollst dar¬ wohnen. Das beiliegende Bild von Deiner Freundin, den Briefe hatt einem guten Eindruck auf mich gemacht Ich wurde Josef die Sache mitteilen wenn er Lust, hatt mit über¬ zu machen. Ein schen hatt Josef nicht und soviel ich weiß, auch noch ein gehabt. Es wäre sehr schon wenn er mit über käme und wir würden dann alle um große Familie sein. Wo ist deine Freundin her. Ich werde Josef Die Sache mit teilig und ihm das Bild nach Langenbrück   schicken, wo er noch immer ist. Dein Freundin ist wohl ziemlich groß. Wie ist er mit Deiner empfung gegangen: Alles gut verlaufen und jetzt schon wieder den Magen verdorben? Da es kommt manch mal etwas Unerwartetes über den Menschen. In Schlaf ging es mir auch so, hatte den Klöse etwas zu viel zu gesetzt und da man diesem Berlin nicht kennt, hatte ich auch mehr gegessen als zu war. Aber es war nur ein kleine Störung von 2 Tagen und Alles war wieder gut¬ Meine liebe feste Braut. Soeben erhalte ich von unserer lieben Mutter aus Langenbrück einen Korb mit Obst, worüber ich mich sehr aus. Aber das Schönste, Dein liebes Bild lag bei keine Freude ist unbeschreiblich. Wie lange habe ich mich schon nach so einem Bilde von die gelehnt und jetzt endlich noch so langer Zeit ist mein Wunsch in Erfüllung gegangen. Ich danke Dir von Hagen. Wie schon den getroffen bist, Deine Anglein Gurken so treuherzig" → ["Josef"/PER, "Josef"/PER, "Josef"/PER, "Langenbrück"/LOC, "Berlin"/LOC, "Langenbrück"/LOC, "Hagen"/LOC]
+Span[68:69]: "Josef" → PER (1.0)
+Span[86:87]: "Josef" → PER (1.0)
+Span[125:126]: "Josef" → PER (1.0)
+Span[135:136]: "Langenbrück" → LOC (1.0)
+Span[201:202]: "Berlin" → LOC (1.0)
+Span[243:244]: "Langenbrück" → LOC (1.0)
+Span[300:301]: "Hagen" → LOC (0.9973)
+--------------------------------- 
+FILENAME: L9201110-TL0230_1a_pdf.txt
+Sentence[233]: "Berlin den 10. Nov. 1880. Meine liebe Kleine Braut¬ Voller Sehnsucht und Besorgniß schreibe ich heute, da ich nun schon mehrere Wochen ohne jede Nachricht von Dir bin, ist in vieleicht krank oder hast Du sonst ein Anliegen was dich kränkt, oder hatt dir mein letzter et nicht gehalten Schwerden besser schreiben. Nur laß bald was hören, denn diese Ungewißheit macht mich fast krank. Dich liebes Herz zu vermen würde ich nicht über leben. Du schriebst nur im letzten Briefe doch so schön und liebe¬ voll und ich habe mich sehr geant¬ über eine Zeilen. Ausschen schickte mir vorige Woche ein Körbchen   mit Obst, Brot und Butter, was mich sehr gefreut hatt. Mutter ist so gut zu mir, wie wenn ich Uhr Sohn wäre. Auch hatt sie mir einen schönen Brief geschrieben. Wie geht es die liebe Theor. Der neue Präsident in Amerika wird wohl den Frieden mit deutschland schließen was glaub ich um nächsten Frühjahr sein wird. Ich kann den Tag gar nicht erwarten wenn liebes Herz bis ich dich in meinen Armen habe. Dann soll alles was Das Leben uns erschwert vergessen sein und einer neuen Glücklichen Zeit wollen wir entgegen gehen Der Liebe goldene Zeit wird dann auch für Uns kommen. Freus¬ durch nicht auch schon wenn" → ["Berlin"/LOC, "Theor"/PER, "Amerika"/LOC]
+Span[0:1]: "Berlin" → LOC (1.0)
+Span[155:156]: "Theor" → PER (1.0)
+Span[161:162]: "Amerika" → LOC (1.0)
+--------------------------------- 
+FILENAME: L9210103-TL0249_1a_pdf.txt
+Sentence[281]: "der Liebe Gott, daß wir das reichen. Schwester Hedwig schickte mir ein Weihnachts¬ hatt mit Sachen Äpfel und Pfefferuch was mich sehr gefreut hast. Du erinnerst Dich noch an den Mohnabe, die nur im Schlesien so gut gebacken wird. Jede hatt was los im Bocken¬ Sne kleiner Liebling, wie ist die sonstiges Befinden? Bist du schon wird dieser geworden? Wie fehrer bist Du jetzt. Ich freue mich daß du so gesund bis und eine Liebe fünftige Frau sein wirst kein Schatz, was ich Dir nach schreiben wollte, die Kelleren sind fertig werd¬ sehen daß ich sie abschicken kann. Muß mir noch eine Ausfuhrbewilligung besorgen. Kann einen Liebling und gieb mir noch schnell einen Kuß Dann schließe ich den Brief und bleibe mit herzlichen Grusen im Feuer Liebe den Robert   Berlin, den §. 1807 kein gelübte Braut¬ Seit dem 30. November, liebe Thea Garbi¬ ich keine Nachacht mehr von Dr. Bin wirklich schon ganz krank, Schreibe die um regelmäßig alle 8 Tage einen Brief und warte mit Schmerzen auf eine Nachricht, aber es will keine kommen Warum schreibst du mir mahl 2 bis Die vieleicht krank, oder bis die sich verhindert. Bitte schreibe mir doch und wenn es nur wenige Zeilen sind Nur daß ich weiß, ob du mich nicht ganz vergessen hast. Deine Bilder habe ich gut erhalten und mich sehr darüber gefeu¬ Wie schon des getroffen. Wilchen meint auch Du bist sehr schon und sicht aus als wenn du erst 19 Jahr wohl¬ nur den Bruch leider unterbrechen, um" → ["Hedwig"/PER, "Schlesien"/LOC, "Robert   Berlin"/PER, "Thea Garbi"/PER, "Wilchen"/PER]
+Span[10:11]: "Hedwig" → PER (1.0)
+Span[39:40]: "Schlesien" → LOC (0.9999)
+Span[144:146]: "Robert   Berlin" → PER (1.0)
+Span[161:163]: "Thea Garbi" → PER (1.0)
+Span[256:257]: "Wilchen" → PER (1.0)
+--------------------------------- 
+FILENAME: L9210529-TL0272_1b_pdf.txt
+Sentence[695]: "Grossstadt schon alles haben, aber die Preise sind um hundertfache als zu Friedenszeiten gestiegen. Hast Du l. Schwester Thekla den Brief den ich Dir Ostern schrieb, erhalten? Da hatte ich ein Bildchen für Sand Lahner beigelegt, welches meine kleinen Zöglinge geflichtet haben. Das Bildchen, welches ich heute schicke, kannst Du¬ lieber Schwesterchen, eine der warten Damen ge¬ ben, denen es eine Freude macht. Wie gros war die Freude meiner l. Kleinen über die Hand¬ Hätten Sie, sehr verehrte Frau Reinhardt, und ein¬ mal die glückstrahlenden Kinder augen schen kön¬ me. Die kleine bina, welche schon das 1. Jahr¬ zur Schule geht u. schon etwas schreiben kann,   bat mich gleich der l. Tante in Amerika schreiben zu dürfen. Am 28. dieses Monates veran¬ stalteten wir ein Eltern fest, bei welchem unge¬ Löglinge, von den Kleinsten angefangen bis zu von 4 jährigen durch Gedichte u. kleine Strapertu¬ ke zur Fürscheuerung des Festo beitrügen. Darau schloß sich ein Kessenbrot für die Kinder bei welchem auch die Hand, unter dieselben verteilt wurden. Jetzt müssen wir schon bald etwas Vor¬ sorge für das kl. Weihnachtsfest treffen, damit das l. Christine allen, wenn auch nur eine kleine Freude bereiten kann. Eine Kinderhand ist ja so rasch gefüllt u. ein Kindesher so¬ schnell beglüdet. Wenn man sich an seine ei¬ gene glückliche Kindheit erinnert, so muß man aufrichtiges Mitleid mit den jetzigen Kriegs¬ kinden haben denen doch unverschuldet ein so trauriges Los beschieden ist. Wie trauriges in meiner lb. Heimat aussicht, könnt Ihr meine lb. Geschwister, aus beiliegender Leitung ersehen. Wie ich Buch in letzten Briefe meldete. hatte ja die Behrzahl der Oberschlesischen Be¬ völkerung für Deutschland gestimmt. Wenn   noch menschliche Berichtigkeit haltung hätte so¬ wäre damit das Los Ober-Schlesiens entschieden gewesen. Aber durch die Franzosen verhetzt suchen die Polen jetzt sich mit Gewalt des hiedliebenden Landes sich bemächtigen. Die der gestrige Leitungs¬ bericht meldete, will man jetzt eine Dreite¬ lung vornehmen u. die 1. Lone unter polnisch Herrschaft, die 2. unter deutsche u. die S. Lone welche zwischen diesen beiden Lonen liegt den allierten Streitkräften zuteilen, damit in dann für Ordnung im Lande sorgen mochten. Die Bedingungen sind so und hört, die man an¬ Deutschland stellt, daß sie um so sicherer eine gerechte Strafe herausfordern. Ich habe schon oft dem lb. Herrgott gedanket, daß Ihr, meine lb. Geschwister, in Amerika, so wohl geborgen seidl. Vergeht nicht, dafür die göttliche Vorsetzung zu preisen. Wie schwer war bei zum Abschied den lb. Butterchen die Trennung. Doch jetzt ist schen wir es ein mit welch weiser Vater¬ gute Gust damals die Hand des Herrn geführt hat¬ Wies geht es meine lb. Brüder deren l. Kindern Ehekla schrieb mir letzthin, daß sie erkrankt seien. Wie viele Familienglieder zahlt, den Dein Haushalt, lb. Bruder Franz. Ich weiß immer nicht, wenn   Ehekla von Gerhard Josel 3 Frage spricht, ob es Deine, oder Pauls Bübchen sind. Ich möchte doch so gene mal alle meine strammen Neffen u. Witten in Amerika, Sonnen. Im Gebet denke ist oft an Buch. Möge Buch alle derselb. Gott sey. nen u. beschützen u. Buch ein reicher Vergelter sein für alle Wohltaten, die Ihr mir so gutig an¬ sen habt. Empfange auch für das schöne Rauchfleisch, das Du lb. Bruder Franz nur schicktest meinen herzlichsten Dank. Als die Pakete im April hier¬ ankamen, war es noch recht frisch u. kühl. Da¬ kam mir die schwarze Kolleke von Dir ab. Schwe¬ ster Thekla gerade willkommen. Habe sie dann noch einige Wochen getragen u. jetzt für die Hinterge¬" → ["Thekla"/PER, "Reinhardt"/PER, "Amerika"/LOC, "Christine"/PER, "Deutschland"/LOC, "Ober-Schlesiens"/LOC, "Deutschland"/LOC, "Herrgott"/PER, "Amerika"/LOC, "Butterchen"/PER, "Ehekla"/PER, "Franz"/PER, "Ehekla"/PER, "Gerhard Josel"/PER, "Pauls"/PER, "Amerika"/LOC, "Buch"/PER, "Gott"/PER, "Franz"/PER]
+Span[21:22]: "Thekla" → PER (0.9999)
+Span[96:97]: "Reinhardt" → PER (1.0)
+Span[139:140]: "Amerika" → LOC (1.0)
+Span[224:225]: "Christine" → PER (1.0)
+Span[324:325]: "Deutschland" → LOC (1.0)
+Span[339:340]: "Ober-Schlesiens" → LOC (1.0)
+Span[428:429]: "Deutschland" → LOC (1.0)
+Span[448:449]: "Herrgott" → PER (0.9845)
+Span[460:461]: "Amerika" → LOC (1.0)
+Span[486:487]: "Butterchen" → PER (0.6713)
+Span[523:524]: "Ehekla" → PER (0.9623)
+Span[545:546]: "Franz" → PER (1.0)
+Span[553:554]: "Ehekla" → PER (0.9937)
+Span[555:557]: "Gerhard Josel" → PER (1.0)
+Span[566:567]: "Pauls" → PER (1.0)
+Span[584:585]: "Amerika" → LOC (1.0)
+Span[594:595]: "Buch" → PER (0.9997)
+Span[601:602]: "Gott" → PER (0.5699)
+Span[640:641]: "Franz" → PER (1.0)
+--------------------------------- 
+FILENAME: L921xx17-TL0283_2b_pdf.txt
+Sentence[91]: "Hetter Paul ist noch nicht hier¬ Ich wird aber bald ankommen Liebling ich bin so freudig daß ich garnicht weiß, was zu schreiben die Liebling wie Du es hälft mit den   suchen mitbringen ich überlasse es die ganz alleine Sache der lieben Mutter sie soll nicht mit schicken, als die Betten vieleich¬ etwas Waldmeister Ten das ist alles sonst nichts Tausend herzliche Gruß und Füße, sendet Dir in Liebe keine treue Scho¬ Ple Grüße von meinen Verwandten Gute Nacht die¬ auf frohes Biedersehn." → ["Hetter"/PER, "Paul"/PER]
+Span[0:1]: "Hetter" → PER (0.6634)
+Span[1:2]: "Paul" → PER (0.8375)
+--------------------------------- 
+FILENAME: L9220904-TL0307_1b_pdf.txt
+Sentence[264]: "Anläßlich des Katholikentages war dort nämlich erhalten. Wie ist dan den Ausgefal¬ Gesellen abend. Ist das ein lustiges Volk. Ich freue schaft untergekommen. Und wie habt Ihr die mich daß ich hier wieder gefahren bin, das Überfahrt überstanden? Mann du Zeit hast ich auch mal was anders kennen lerne. Nach schreib doch bitte mit einen Reisebericht. Nürnberg fahre ich zum Buchen. Das die Auch die danke ich herzlich für die Übersendung und Thekla einander gern habt u. gegenseitig das Schacht. Josef hat noch keine Nachricht gefällt freut mich. Da wird auch Alles gut¬ von such. Er wird morgen am Augenliede Während Du auf der Überfahrt warst wurde operiert. Eine Kanalbrüten verstopfung. Rathman ermordet. Du wirst es gelesen haben. Sollte schon vor einem halben Jahre gemacht Seit dem ist es mit Deutschland und begab werden aber immer gelassen. Nur äußerlich gegangen. Du kannst dir einen Überblick Er hat mich in München ein geführt u. über die Teurung machen, wenn ich die Schreibe¬ viele Sehenswürdigkeiten gezeigt. Ich kann daß die billigste Margarin 1806 das Ehe¬ es nun verstehen, daß es ihm hier unten kostet. Ein Paar Damenschuhe 2000 Mk. Und so so gut gefällt. Von Heiraten will Er noch nichts wissen. Das war ein lustiger Abend im Hof¬ ist es mit aller Sache. Du bist grade noch zur Brauhaus. Ich habe blos gesehen u. gestaunt. rechten Zeit ausgericht aus dem Schlussel¬" → ["Nürnberg"/LOC, "Josef"/PER, "Rathman"/PER, "Deutschland"/LOC, "München"/LOC, "Margarin"/PER, "Mk"/MISC]
+Span[65:66]: "Nürnberg" → LOC (0.9998)
+Span[91:92]: "Josef" → PER (1.0)
+Span[127:128]: "Rathman" → PER (1.0)
+Span[148:149]: "Deutschland" → LOC (1.0)
+Span[169:170]: "München" → LOC (1.0)
+Span[193:194]: "Margarin" → PER (0.9996)
+Span[213:214]: "Mk" → MISC (1.0)
+--------------------------------- 
+FILENAME: L9221214-TL0322_1a_pdf.txt
+Sentence[258]: "mal im Himmel wiedersehen. Wie gut daß unser guter Vater die schweren Zeiten nicht mehr erlebt hat. Mutter wäre sicher auch gestorben, wenn ich nicht meine ganzen Kräfte eingesetzt hätte. Nun will ich schließen indem ich Euch allen noch einmal herzlich Gott vergalts sage und herzliche Grüße an Bruder Franz und Familie an klar und Robert und Bruder August und an die kleine zukünftige Schwäger sowie an dich lieber Bruder Paul und Schwägerin Marte und Kinder¬ chen. Indem ich Euch alle dem lieben Gristkindlein empfehle, verbleibe Ich für dankbare Schwester Schwägerin und Tante Fortunata Bitte schreibt mir auch wieder mal. Herzliche Grüße von einer lieben Mit schwester Philothe¬   Strelitz, d. 14. 12. 1929 G. P. 3. T. Meine lieben Geschwister Alle¬ Heute muß ich mich beeilen, da das Porte am 15. 12. sehr steigen soll auch zu schreiben. Vor allem bedanke ich mich herzlich für die 5. Dollar die ihr mir schicket, die Freude war sehr groß ich konnte das sehr gut gebrauchen, es ist ge¬ jetzt eine mit setzliche Innerung ich habe mir gleich etwas warme Unter¬ wasche für den Winter gekauft ebenso warme Filzschuhe, und für das übri¬ ge Holz und Kohle stattet ja der Lander Kohle 1500 M. Ich bekam damals für einen Kollar 500 Mk. jetzt kosten ein paar Lederschuhe 10000 Mk, was soll das nur werden Deutschland ist dem Untergang nahe. Wie freue ich mich, daß ihr" → ["Franz"/PER, "Robert"/PER, "August"/PER, "Paul"/PER, "Marte"/PER, "Gristkindlein"/PER, "Fortunata"/PER, "Philothe"/PER, "Strelitz"/PER, "Dollar"/MISC, "Mk"/MISC, "Mk"/MISC, "Deutschland"/LOC]
+Span[53:54]: "Franz" → PER (1.0)
+Span[59:60]: "Robert" → PER (1.0)
+Span[62:63]: "August" → PER (1.0)
+Span[74:75]: "Paul" → PER (1.0)
+Span[77:78]: "Marte" → PER (1.0)
+Span[89:90]: "Gristkindlein" → PER (0.9998)
+Span[100:101]: "Fortunata" → PER (1.0)
+Span[115:116]: "Philothe" → PER (0.9999)
+Span[117:118]: "Strelitz" → PER (0.9605)
+Span[162:163]: "Dollar" → MISC (1.0)
+Span[230:231]: "Mk" → MISC (1.0)
+Span[238:239]: "Mk" → MISC (1.0)
+Span[245:246]: "Deutschland" → LOC (1.0)
+--------------------------------- 
+FILENAME: L92309xx-TL1016_2b_pdf.txt
+Sentence[221]: "Kommnissen haben erheblich gewonnen, während die Sozialdemokraten viel Stim¬ en verloren, trotzdem jetzt M. S. und 2. S. Es vereinigt ist und sich Vereinigte Sozialdem Parten nennt. In der Neustädter Zeitung die ich mit ab¬ sende, kannst Du die Ergebnisse des Wahl im Kreise Neustadt lesen. In einigen Zeitungen steht der Verlauf des Rathaus Prozesses, in anderen die Berichte des Scheidemann-Prozesses der erst vor einigen Tagen stattgefunden hat. Der bekannte Kapitän Ehrhar¬ ist nun in der Nähe von München, verhaftet worden, und wird in Leipzig im Gefängnis besonders be¬ wachte um eine weite Wehrung zu verhindern. So giebt immer   wieder was Neues In Italien haben die Faszisten des Ruder ergriffen, wovon zu wohl schon gelesen hafte. So ruhig und ohne Gewischen¬ fälle der Regierungswechsel in den Zeitungen geschildert wurde war er¬ in Wirklichkeit nicht. Vor einigen Tagen kam ich ins Gesprach mit einem Italiener und erfuhr dabei daß es in Rom allein achtzig Johe gegeben hat. Durch den augen¬ blicklichen Erfolg der Faszisten ermätigt, bekamen auch die Nationalsozialisten in Baÿern, besonders München wieder Mut und starken Zuwachs und mit Recht wurde wieder ein Umsturz in Bayern befürchtet. Doch ist die Petschgefahr jetzt vorbei." → ["M. S."/ORG, "2"/ORG, "S."/ORG, "Vereinigte Sozialdem Parten"/ORG, "Neustädter Zeitung"/ORG, "Neustadt"/LOC, "Ehrhar"/PER, "München"/LOC, "Leipzig"/LOC, "Italien"/LOC, "Rom"/LOC, "München"/LOC, "Bayern"/LOC]
+Span[16:20]: "M. S." → ORG (0.8777)
+Span[21:22]: "2" → ORG (0.7457)
+Span[23:24]: "S." → ORG (0.4069)
+Span[29:32]: "Vereinigte Sozialdem Parten" → ORG (1.0)
+Span[36:38]: "Neustädter Zeitung" → ORG (0.9914)
+Span[53:54]: "Neustadt" → LOC (1.0)
+Span[83:84]: "Ehrhar" → PER (1.0)
+Span[91:92]: "München" → LOC (1.0)
+Span[99:100]: "Leipzig" → LOC (1.0)
+Span[120:121]: "Italien" → LOC (1.0)
+Span[172:173]: "Rom" → LOC (1.0)
+Span[197:198]: "München" → LOC (1.0)
+Span[211:212]: "Bayern" → LOC (0.9932)
+--------------------------------- 
+FILENAME: L9260206-TL1039_3b_pdf.txt
+Sentence[355]: "aufbewahrt. Diese Reliquie wird bei der Prozession Festhäfte ein großes gestossen. Ich wohnte im mitgeführt. Daher auch der Name Blutsprozession, Gesellenhaus. Daß ich da nicht zu kurz kam Eine schöne große Kirche mit berühmter Orgel ist klar. Ich kam mir vor wie auf dem überragt das Städtchen. Die größte Pfeife der Dampfer George Kasington Vorstehst ei¬ Orgel ist 10 m lang, 1, 20 m Umfang, hat 1200 liter Nachmittags wanderte ich weiter nach Walde Inhalt und wegt sechs Zentner. Die Fühe der wo ich einen guten Freund des Vorkriegszeit Kirche betrag bis zur Kuppel 66 meter aufsuchte. Nächsten Tag nach Raven Oburg zurück¬ Als ich nun in dem schönen Mädchen ankam, hier fand ich das schärfte Gesellenhaus, das ich je¬ wurde das 200 jährige Beschen der Kirche gefeiert. gesehen hatte. Nach Überrichtung wanderte ich Abends war große Lichterprozession an der sich weiter Richtung Friedrichshaffen. Unterwegs hätte Alt und Jung beteiligte. Ich machte natürlich ich bei einem Schreiner bei denen ich fleißig mit. Bekam eine Pachhassel in die Hand gedrückt vorsprach, wie man das eben auf Wanderschaft und schloß mich an. Schon viel habe ich, beson¬ macht, Arbeit bekommen und mußte mich ders in München im Umzügen und Kundgebun¬ nun ganz diplomatisch aus der Situation ziehen gen gesehen; doch das war was ganz besonderes. Ich solle wieder kommen und um 50 früher zug Sie werde ich diesen schönen Anblick dieser eigen¬ ich von dannen. Eindrichtshofe am schonen artigen Prozession die sich durch das festlich Bodensee. Bei den Zeppelinhalten könnte ich wohl beleuchtete Städchen nach dem sogenanten Salvaren¬ ergessen die Unwisse vom L. R. III sehen. In die Falle brig und zurück zur Kirche bewegte, andern selbst konnte ich nicht kommen. Andere Tags Tags Sonntag hielt Bischof Reppler von Rothen¬ Wanderung am Ufer des Reis entlang bis burg beim Festottesdienst die Predigt. Mittags Mersburg. Von da mit Dampfer nach Konstanz war im Ehefellenhaus für die zahlreichen" → ["George Kasington"/PER, "Walde"/LOC, "Raven Oburg"/LOC, "Friedrichshaffen"/LOC, "München"/LOC, "Bodensee"/LOC, "L. R. III"/PER, "Reppler"/PER, "Rothen"/LOC, "Reis"/LOC, "Mersburg"/LOC, "Konstanz"/LOC]
+Span[59:61]: "George Kasington" → PER (1.0)
+Span[84:85]: "Walde" → LOC (0.9989)
+Span[113:115]: "Raven Oburg" → LOC (0.9676)
+Span[162:163]: "Friedrichshaffen" → LOC (1.0)
+Span[220:221]: "München" → LOC (1.0)
+Span[275:276]: "Bodensee" → LOC (1.0)
+Span[294:298]: "L. R. III" → PER (0.9998)
+Span[323:324]: "Reppler" → PER (1.0)
+Span[325:326]: "Rothen" → LOC (0.9994)
+Span[331:332]: "Reis" → LOC (0.655)
+Span[341:342]: "Mersburg" → LOC (1.0)
+Span[348:349]: "Konstanz" → LOC (1.0)
+--------------------------------- 
+FILENAME: L9300925-TL0222_1a_pdf.txt
+Sentence[231]: "nie da. Man kann da sicher München, den 23. Sept 1890 annehmen, daß der größte Teil der Füller Wöhler aus Verdruß und Ärger an den jetzigen Verhältnissen Lieber Bruder. gewählt hat und nicht aus Überzeugung Übrigens ist die ganze Arbeitslosigkeit deinen Brief mit beiliegendem eine Weltstrie. Englung hat 2 Millionen Dollar habe ich erhalten und sage 2 und von Amit schreiben unsere der besten Dank, daß du mich Zeitungen von 6-8 Millionen. gleich paar Jahre warten ließet, Ford ist zur Zeit in München mit einem Brief ist nur nicht und besucht Ende der Woche die Ober¬ reicht erklärlich. So sehr ich meraner Passionsspiele. mich auch heute wenn nur Am 14 Sept ist unsere Riegersdorfer deine Frau schrieb, so sehr hätte Tante die Appel und Relatante ich mich auch gefreut von der  gestorben. Hat ein Alter von 75 Jahren mal ab und zu es brauchte erreicht. ja nicht oft zu sein einen Anbei finde ich Dir den neuen Plan¬ Brief zu erhalten. Doch gleich der Preußisch-Süddeutschen Klassenloster¬ paar Jahre nicht mehr schreiben Einsteller kostet 5 Mark. Ich spiel¬ ist doch etwas lange. Meinst du nicht auch schon lange. Gewonnen hab ich noch nichts doch die paar Mark blieben mir sonst Da auch nicht übrig. Und einmal kann doch was kommen" → ["München"/LOC, "Englung"/PER, "Dollar"/MISC, "Amit"/PER, "Ford"/PER, "München"/LOC, "Mark"/MISC, "Mark"/MISC]
+Span[7:8]: "München" → LOC (1.0)
+Span[51:52]: "Englung" → PER (0.6797)
+Span[55:56]: "Dollar" → MISC (1.0)
+Span[64:65]: "Amit" → PER (0.9997)
+Span[85:86]: "Ford" → PER (1.0)
+Span[90:91]: "München" → LOC (1.0)
+Span[191:192]: "Mark" → MISC (1.0)
+Span[216:217]: "Mark" → MISC (1.0)
+--------------------------------- 
+FILENAME: L9xx0527-TL2027_1a_pdf.txt
+Sentence[146]: "Supla, d. 24. May. Und nun lite ele schil¬ Meine liebe lie Gekla¬ ich Ihnen zum gruß aus unseren garten ein Gleichen hocherfreut es Ihren eben Brief der erste Frülungsbote und sache wir Ihnen unsern besten dank an die Rosen werden blichen und tenen auszugleich das es Ihnen den seinde ich Ihnen aber gut geht. Sie haben es es erdient den im Geiste der Erinnerung ein Sie waren ein gutes Mädchen Strauß und nun leben Sie und mir haben manches Wort miteinander geplaudert und ich wohl Ihnen alles Gutenschen ben nur sicher ins Schlachthaus¬ verbleiben mit besten¬ gekommen und mich gefül¬ zu an ich Ihnen gesehen und ein ein Mann läßt die Eltern Ihnen noch einen So mit Ihnen sprochen sorte Schneider. guter etiam wischen G. und D. Sie lassen auf gingen helichungen des pr" → ["Supla"/LOC, "Schneider"/PER, "G."/PER, "D"/PER]
+Span[0:1]: "Supla" → LOC (0.9991)
+Span[130:131]: "Schneider" → PER (0.9999)
+Span[135:136]: "G." → PER (0.9999)
+Span[137:138]: "D" → PER (0.9999)
+--------------------------------- 
+FILENAME: L9xx12xx-TL2068_1b_pdf.txt
+Sentence[108]: "und der Portograrien gerade trafen zum Geburtstage ein, worüber ich mich sehr freute Liebe Teil wie ist es mit der Heimwehr die hast du doch jetzt vergessen hätte mir fleisig zum lieben Gott der wird dich in deinen   Briefe erken wier hatten den zweite  Der Besuch an Steffamstage wahr¬ tochter Mai und Hedwig aus Neustad¬ mit den Kindern und Josef mit seine Famlichen, da hatten wir die Große wurf verzehrt, da sagte ich was werden meine lieben in Amerik machen und die beiden Töchter in Klestern Liebe Toch¬ ich schließenen Schreiben mit vielen herzlichen Grüßen und diesen verbleibe ich dem Lieber Vater" → ["Mai"/PER, "Hedwig"/PER, "Neustad"/LOC, "Josef"/PER, "Amerik"/LOC]
+Span[52:53]: "Mai" → PER (1.0)
+Span[54:55]: "Hedwig" → PER (1.0)
+Span[56:57]: "Neustad" → LOC (1.0)
+Span[62:63]: "Josef" → PER (1.0)
+Span[83:84]: "Amerik" → LOC (1.0)
+--------------------------------- 
+FILENAME: L9xxxxxx-TL0234_1b_pdf.txt
+Sentence[82]: "erst versandt werden Liebe Tekla war bedanken uns Herrlich für die abeschen die ihr aus¬ geschickt habt ihr werden Wesen ihr muchte verdienen Gottlohne es auch viel tausendmal Josef und Berta sen eben unartig zu¬ kamen mit Nieman an aus bei Geisleis werden sie ihn bald wieder heraus schmeister es ist halt traurig, wenn man   den Mund nicht halten kann und großes Maul hat, für heute genug Tausend herzliche Grüße müße auch er¬ Auch diebende Mutter 930" → ["Tekla"/PER, "Josef"/PER, "Berta"/PER, "Nieman"/PER, "Geisleis"/PER]
+Span[4:5]: "Tekla" → PER (1.0)
+Span[29:30]: "Josef" → PER (1.0)
+Span[31:32]: "Berta" → PER (1.0)
+Span[39:40]: "Nieman" → PER (0.9995)
+Span[43:44]: "Geisleis" → PER (0.9408)
+--------------------------------- 
+FILENAME: L9xxxxxx-TL2026_1b_pdf.txt
+Sentence[104]: "der haften werden ist folge Den 1. nahe ge¬ nah¬ a man¬ an se  sie liegt  gehet zu wen¬ legt sondern die eine Karte mit von Gadeschneiders Hause vor wir wohnen u. wir alle darauf sind, mit unseren Sommergästen Josef beim Rocke eine Tochter von Sommergessen sich mit Erwin, welcher eine Schritte ist. Dann hinten die Gedie Pastorn vom Johann Heidenreich, wohern auch für das mit den weisen die itz gegen¬ auch den Produkt bei aus¬ ganz im Hintergrunde sieht man beschrieb es zuhause u. ein Stuck an¬ Beich lesen konntest," → ["Gadeschneiders"/PER, "Josef"/PER, "Erwin"/PER, "Johann Heidenreich"/PER]
+Span[31:32]: "Gadeschneiders" → PER (0.9996)
+Span[45:46]: "Josef" → PER (1.0)
+Span[54:55]: "Erwin" → PER (1.0)
+Span[67:69]: "Johann Heidenreich" → PER (1.0)
+--------------------------------- 
+FILENAME: L9xxxxxx-TL2055_1a_pdf.txt
+Sentence[191]: "Lieber Schwager Paul u. Martha u Kinder Vielen Dank für erhaltenen Dotter den uns die Mutter gab. Wie geht es sich lieben allen, hoffentlich ist alles gesund Wie als sind nun schon zur Kinder? Ich weiß ja nicht mal wie viel ihr habt. Uns erzählt ja niemand etwas, die Kosten müssen doch schon in die Schule gehn. Bei uns ist Marien u. bis Bett schon aus. Das beth geht stern nach Straffe auf die Handels¬ schule. Sie kommt dann in ein Geschäft, als Boristen muß aber erst Jahren das kostet, viel Geld, aber man muß es eben¬   ris in Ergen ist 18 Jahre u. Fruchen so wachsen alle herrn, und wir werden all¬ dem August geht es hoffentlich gut, wir warten schon immer ob er bald her kommt u für Hochzeit macht. Deine Schwester liebe Martha hat wohl jetzt ein schweres Franz zu tragen, mit dem Kosten hingen Alle Tage warten sie schon auf seinen Tod aber bei der guten Schlege erhält er sich noch so lange Hoffnung ist keine mehr" → ["Paul"/PER, "Martha"/PER, "Marien"/PER, "Martha"/PER]
+Span[2:3]: "Paul" → PER (1.0)
+Span[5:6]: "Martha" → PER (1.0)
+Span[67:68]: "Marien" → PER (1.0)
+Span[154:155]: "Martha" → PER (1.0)
+--------------------------------- 
+FILENAME: L9xxxxxx-TL2082_1a_pdf.txt
+Sentence[86]: "Mein Herr. Verzeiches, ich kann es nicht lassen das dichten es ist ja so sein. aber in können nach hin verstehen, ob fassen. Sie sollten ein Richter auch sei¬ In Ihnen einen Kolleger zusehen das wurde mir den sein, Die Hausen küste, die wesen ins menschliche Dasein hinein. Man schwebt in höheren Regionen die Erde, sie sucht zurück, wie Sterne in Millionen hingehen an des Himmels Zonen um das alles ist nur ein Augenblick."
+--------------------------------- 
+FILENAME: L9xxxxxx-TL2112_1b_pdf.txt
+Sentence[300]: "er könnte mal was billiges zu Und für Bartelt 1100 Mark fürs kauf bekommen für kleine Paulchen Pfund. Die Schachtel Streichhörzer die früher Pfand war kösten jetzt Mit dem schaffen ist es eben in Deutschlän¬ zu schlecht. Für ein Anzegel für 50 Pfenige Und so ist jede Kleinigkeit alles bald 30 mal so terer wie Paulichen muß man über 150 Mark früher. Wenn auch noch so viel zahlen und da ist noch nicht dann verdient wir es ist eben alles Weil meisten blos Papierstoff ist. nicht zum Erkaufen. Also liebe der ist doch nicht haltbar für Kinder Thekla sei so gut und sage es die so liederlich sind. Für paar Schufe für Paulchen muß man der August Wenn er will Polchen was schiken, so sein Ihr 105 Mark zahlen da ist noch Absatz etwas behilflich dabei zu versteht, und Brandhöhle von Papp. Vor den Schaffen ist einem der meiste Kummer es am bespart wie es für einen Die Feuerung wird immer größer¬ jährigen Jungen gezieht. Vieler¬ und die Lebensmittel immer knappe¬ hatt du mal Gelegenheit, wenn Jetzt bekommen wir nur noch auf den Du mal eine Abgelegte Rostu¬ Kopf pr Woche 2 und Mehl Jacke, oder einen alten Martel und oder Prot. Ich habe mir aber unter¬ für mich hast, Hast Du den Samt¬ der Land einen Kentner Roggen¬ mantel nach den Du mir 1814 durch viele Mühe gekauft, da wollte schicken. Vieleich wurde habe ich müssen 50 Mark bezahlen ich nur Umarbeiten lassen damit wir nicht Hungern brauchen die Margarine Butter die von Solche Sachen könnte ich nothwen¬ drüben aus Amerika kommt müssen gebrauch hier in schland wir für Pfund Mark zahlen eben nicht" → ["Mark"/MISC, "Deutschlän"/LOC, "Mark"/MISC, "Thekla"/PER, "Mark"/MISC, "Mark"/MISC, "Amerika"/LOC, "schland"/LOC, "Mark"/MISC]
+Span[10:11]: "Mark" → MISC (1.0)
+Span[35:36]: "Deutschlän" → LOC (1.0)
+Span[63:64]: "Mark" → MISC (1.0)
+Span[103:104]: "Thekla" → PER (0.7458)
+Span[135:136]: "Mark" → MISC (1.0)
+Span[262:263]: "Mark" → MISC (1.0)
+Span[286:287]: "Amerika" → LOC (1.0)
+Span[292:293]: "schland" → LOC (0.9703)
+Span[296:297]: "Mark" → MISC (1.0)
