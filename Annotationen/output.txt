@@ -1,0 +1,468 @@
+
+prefix ex: <http://example.org/>
+# --- ENTITIES OF L9110213-TL0015_1a_pdf.conll ---
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Bauer .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex:Haus .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Frank .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Schiller .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Jekla .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Tekla .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:1 .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:bis .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:8 .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:Febr .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Onkel .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex:Seba .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex: .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex:ka .
+ex:L9110213-TL0015_1a_pdfconll ex:B-LOC ex:Schlacht .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex: .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex:hause .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Neger .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Hans .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:Febr .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex: .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:1911 .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Bekla .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Schwägerin .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Tekla .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Teklar .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Mis .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Ger .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Tobler .
+
+# --- ENTITIES OF L9120323-TL0033_1a_pdf.conll ---
+ex:L9120323-TL0033_1a_pdfconll ex:I-OTH ex:Kommunion .
+ex:L9120323-TL0033_1a_pdfconll ex:I-PER ex:Frauen .
+ex:L9120323-TL0033_1a_pdfconll ex:B-PER ex:Männer .
+ex:L9120323-TL0033_1a_pdfconll ex:B-PER ex:Thekla .
+ex:L9120323-TL0033_1a_pdfconll ex:I-OTH ex:Verhältniße .
+ex:L9120323-TL0033_1a_pdfconll ex:B-OTH ex:Osterhaft .
+ex:L9120323-TL0033_1a_pdfconll ex:I-PER ex:Marsante .
+ex:L9120323-TL0033_1a_pdfconll ex:I-PER ex:Rudolph .
+ex:L9120323-TL0033_1a_pdfconll ex:I-LOC ex:Neustadt .
+ex:L9120323-TL0033_1a_pdfconll ex:I-OTH ex:2331912 .
+ex:L9120323-TL0033_1a_pdfconll ex:B-OTH ex:Unfall .
+ex:L9120323-TL0033_1a_pdfconll ex:I-LOC ex:Amerika .
+
+# --- ENTITIES OF L9120903-TL0046_1a_pdf.conll ---
+ex:L9120903-TL0046_1a_pdfconll ex:I-LOC ex:Neustadt .
+ex:L9120903-TL0046_1a_pdfconll ex:I-OTH ex:September .
+ex:L9120903-TL0046_1a_pdfconll ex:I-OTH ex:1912 .
+ex:L9120903-TL0046_1a_pdfconll ex:I-PER ex:Thekla .
+ex:L9120903-TL0046_1a_pdfconll ex:B-PER ex:Soldat .
+ex:L9120903-TL0046_1a_pdfconll ex:I-OTH ex:Rechnung .
+ex:L9120903-TL0046_1a_pdfconll ex:I-LOC ex:Neustadt .
+ex:L9120903-TL0046_1a_pdfconll ex:I-PER ex:Frau .
+
+# --- ENTITIES OF L9130421-TL0063_1b_pdf.conll ---
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Paul .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Schwester .
+ex:L9130421-TL0063_1b_pdfconll ex:I-LOC ex:München .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Paul .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Marta .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Martel .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Thekla .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Mark .
+ex:L9130421-TL0063_1b_pdfconll ex:I-OTH ex:Portographie .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Bräutigam .
+ex:L9130421-TL0063_1b_pdfconll ex:I-OTH ex:15 .
+ex:L9130421-TL0063_1b_pdfconll ex:I-OTH ex:Mai .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Schmied .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Martel .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Rike .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Anna .
+ex:L9130421-TL0063_1b_pdfconll ex:I-LOC ex:Deutschland .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Thekla .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Marta .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Paul .
+ex:L9130421-TL0063_1b_pdfconll ex:B-PER ex:Marta .
+ex:L9130421-TL0063_1b_pdfconll ex:I-OTH ex:Photographie .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Herr .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Gürtler .
+ex:L9130421-TL0063_1b_pdfconll ex:I-OTH ex:Reisegeld .
+ex:L9130421-TL0063_1b_pdfconll ex:B-OTH ex:Lungenkrank .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Pfarrer .
+ex:L9130421-TL0063_1b_pdfconll ex:I-PER ex:Baum .
+
+# --- ENTITIES OF L9140528-TL0092_1b_pdf.conll ---
+ex:L9140528-TL0092_1b_pdfconll ex:I-PER ex:Kurt .
+ex:L9140528-TL0092_1b_pdfconll ex:I-OTH ex:Pfingstfest .
+ex:L9140528-TL0092_1b_pdfconll ex:I-PER ex:wachtmeister .
+ex:L9140528-TL0092_1b_pdfconll ex:I-OTH ex:Ausbildung .
+
+# --- ENTITIES OF L9150629-TL0111_1a_pdf.conll ---
+ex:L9150629-TL0111_1a_pdfconll ex:I-OTH ex:Juni .
+ex:L9150629-TL0111_1a_pdfconll ex:I-OTH ex:1910 .
+ex:L9150629-TL0111_1a_pdfconll ex:I-PER ex:Schwester .
+ex:L9150629-TL0111_1a_pdfconll ex:I-OTH ex:Krieg .
+ex:L9150629-TL0111_1a_pdfconll ex:I-PER ex:Rosina .
+ex:L9150629-TL0111_1a_pdfconll ex:I-PER ex:Josef .
+ex:L9150629-TL0111_1a_pdfconll ex:B-PER ex:Onkel .
+ex:L9150629-TL0111_1a_pdfconll ex:I-PER ex:August .
+ex:L9150629-TL0111_1a_pdfconll ex:I-LOC ex:Frankreich .
+ex:L9150629-TL0111_1a_pdfconll ex:I-PER ex:König .
+ex:L9150629-TL0111_1a_pdfconll ex:I-LOC ex:Vaterland .
+ex:L9150629-TL0111_1a_pdfconll ex:I-PER ex:Thekla .
+ex:L9150629-TL0111_1a_pdfconll ex:B-PER ex:Bruder .
+ex:L9150629-TL0111_1a_pdfconll ex:I-PER ex:Richard .
+
+# --- ENTITIES OF L9151117-TL0116_1b_pdf.conll ---
+ex:L9151117-TL0116_1b_pdfconll ex:I-PER ex:Onkel .
+ex:L9151117-TL0116_1b_pdfconll ex:I-PER ex:Johann .
+
+# --- ENTITIES OF L9170131-TL0136_2a_pdf.conll ---
+ex:L9170131-TL0136_2a_pdfconll ex:I-OTH ex:Weihnach .
+ex:L9170131-TL0136_2a_pdfconll ex:B-OTH ex:Gebeten .
+ex:L9170131-TL0136_2a_pdfconll ex:I-PER ex:Marie .
+
+# --- ENTITIES OF L9190421-TL0157_1a_pdf.conll ---
+ex:L9190421-TL0157_1a_pdfconll ex:I-LOC ex:Pritzburgk .
+ex:L9190421-TL0157_1a_pdfconll ex:I-PER ex:Tekla .
+ex:L9190421-TL0157_1a_pdfconll ex:B-PER ex:Engel .
+ex:L9190421-TL0157_1a_pdfconll ex:I-OTH ex:Ostern .
+ex:L9190421-TL0157_1a_pdfconll ex:B-OTH ex:Festtags .
+ex:L9190421-TL0157_1a_pdfconll ex:I-OTH ex:Zeit .
+
+# --- ENTITIES OF L9191208-TL0169_2a_pdf.conll ---
+ex:L9191208-TL0169_2a_pdfconll ex:I-PER ex:Hedwig .
+ex:L9191208-TL0169_2a_pdfconll ex:B-PER ex:Paul .
+ex:L9191208-TL0169_2a_pdfconll ex:B-PER ex:Großmutter .
+ex:L9191208-TL0169_2a_pdfconll ex:B-PER ex:Mutter .
+ex:L9191208-TL0169_2a_pdfconll ex:B-PER ex:Anna .
+ex:L9191208-TL0169_2a_pdfconll ex:B-PER ex:Agnes .
+ex:L9191208-TL0169_2a_pdfconll ex:I-PER ex:Josef .
+ex:L9191208-TL0169_2a_pdfconll ex:I-OTH ex:Kaffe .
+ex:L9191208-TL0169_2a_pdfconll ex:B-OTH ex:Butter .
+ex:L9191208-TL0169_2a_pdfconll ex:I-PER ex:Mutter .
+ex:L9191208-TL0169_2a_pdfconll ex:I-PER ex:gers .
+ex:L9191208-TL0169_2a_pdfconll ex:B-PER ex:Forthold .
+ex:L9191208-TL0169_2a_pdfconll ex:B-PER ex:Botschuld .
+
+# --- ENTITIES OF L9200320-TL0187_1b_pdf.conll ---
+ex:L9200320-TL0187_1b_pdfconll ex:I-OTH ex:Schupfen .
+ex:L9200320-TL0187_1b_pdfconll ex:B-OTH ex:Halsentzündung .
+ex:L9200320-TL0187_1b_pdfconll ex:I-LOC ex:Amerika .
+ex:L9200320-TL0187_1b_pdfconll ex:I-OTH ex:Besetzung .
+ex:L9200320-TL0187_1b_pdfconll ex:B-OTH ex:Wasser .
+ex:L9200320-TL0187_1b_pdfconll ex:I-LOC ex:Düsseldorf .
+ex:L9200320-TL0187_1b_pdfconll ex:B-LOC ex:Dasburg .
+ex:L9200320-TL0187_1b_pdfconll ex:B-LOC ex:Aurort .
+ex:L9200320-TL0187_1b_pdfconll ex:I-OTH ex:Regressalien .
+ex:L9200320-TL0187_1b_pdfconll ex:I-LOC ex:Deutschland .
+ex:L9200320-TL0187_1b_pdfconll ex:B-LOC ex:Kohlengebiet .
+ex:L9200320-TL0187_1b_pdfconll ex:I-OTH ex:Friedensvertrag .
+ex:L9200320-TL0187_1b_pdfconll ex:B-OTH ex:Geburtstag .
+ex:L9200320-TL0187_1b_pdfconll ex:B-OTH ex:Tabak .
+
+# --- ENTITIES OF L9200422-TL0001_1a_pdf.conll ---
+ex:L9200422-TL0001_1a_pdfconll ex:I-PER ex:Berthold .
+ex:L9200422-TL0001_1a_pdfconll ex:I-OTH ex:Kaffee .
+ex:L9200422-TL0001_1a_pdfconll ex:B-OTH ex:Futter .
+ex:L9200422-TL0001_1a_pdfconll ex:B-OTH ex:Schuhe .
+ex:L9200422-TL0001_1a_pdfconll ex:I-PER ex:Jesu .
+ex:L9200422-TL0001_1a_pdfconll ex:I-PER ex:Christus .
+ex:L9200422-TL0001_1a_pdfconll ex:I-OTH ex:Gelde .
+ex:L9200422-TL0001_1a_pdfconll ex:I-PER ex:Agnes .
+ex:L9200422-TL0001_1a_pdfconll ex:I-OTH ex:Ostern .
+ex:L9200422-TL0001_1a_pdfconll ex:I-PER ex:Berthold .
+
+# --- ENTITIES OF L9200626-TL0201_2a_pdf.conll ---
+ex:L9200626-TL0201_2a_pdfconll ex:I-PER ex:Deutschen .
+ex:L9200626-TL0201_2a_pdfconll ex:I-OTH ex:Politik .
+ex:L9200626-TL0201_2a_pdfconll ex:B-OTH ex:Kriege .
+ex:L9200626-TL0201_2a_pdfconll ex:B-OTH ex:Haß .
+ex:L9200626-TL0201_2a_pdfconll ex:B-OTH ex:Verachtung .
+ex:L9200626-TL0201_2a_pdfconll ex:B-OTH ex:Elend .
+ex:L9200626-TL0201_2a_pdfconll ex:B-OTH ex:Wirtschaft .
+ex:L9200626-TL0201_2a_pdfconll ex:I-PER ex:arbeitenden .
+ex:L9200626-TL0201_2a_pdfconll ex:I-PER ex:Klassen .
+ex:L9200626-TL0201_2a_pdfconll ex:I-OTH ex:Geld .
+ex:L9200626-TL0201_2a_pdfconll ex:B-OTH ex:Pension .
+ex:L9200626-TL0201_2a_pdfconll ex:B-OTH ex:Tengungszulage .
+ex:L9200626-TL0201_2a_pdfconll ex:I-PER ex:Bekla .
+
+# --- ENTITIES OF L9200910-TL0220_1b_pdf.conll ---
+ex:L9200910-TL0220_1b_pdfconll ex:I-PER ex:Königen .
+ex:L9200910-TL0220_1b_pdfconll ex:I-PER ex:meines .
+ex:L9200910-TL0220_1b_pdfconll ex:I-PER ex:Herzens .
+ex:L9200910-TL0220_1b_pdfconll ex:B-PER ex:Freundin .
+ex:L9200910-TL0220_1b_pdfconll ex:B-PER ex:Josef .
+ex:L9200910-TL0220_1b_pdfconll ex:I-OTH ex:Familie .
+ex:L9200910-TL0220_1b_pdfconll ex:I-LOC ex:Langenbrück .
+ex:L9200910-TL0220_1b_pdfconll ex:I-OTH ex:Klöse .
+ex:L9200910-TL0220_1b_pdfconll ex:I-LOC ex:Berlin .
+ex:L9200910-TL0220_1b_pdfconll ex:I-PER ex:Mutter .
+ex:L9200910-TL0220_1b_pdfconll ex:I-OTH ex:Korb .
+ex:L9200910-TL0220_1b_pdfconll ex:I-OTH ex:mit .
+ex:L9200910-TL0220_1b_pdfconll ex:I-OTH ex:Obst .
+ex:L9200910-TL0220_1b_pdfconll ex:I-PER ex:Anglein .
+ex:L9200910-TL0220_1b_pdfconll ex:I-PER ex:Gurken .
+
+# --- ENTITIES OF L9201110-TL0230_1a_pdf.conll ---
+ex:L9201110-TL0230_1a_pdfconll ex:I-LOC ex:Berlin .
+ex:L9201110-TL0230_1a_pdfconll ex:I-OTH ex:Nov .
+ex:L9201110-TL0230_1a_pdfconll ex:I-OTH ex: .
+ex:L9201110-TL0230_1a_pdfconll ex:I-OTH ex:1880 .
+ex:L9201110-TL0230_1a_pdfconll ex:I-OTH ex: .
+ex:L9201110-TL0230_1a_pdfconll ex:I-PER ex:Braut .
+ex:L9201110-TL0230_1a_pdfconll ex:I-OTH ex:Sehnsucht .
+ex:L9201110-TL0230_1a_pdfconll ex:B-OTH ex:Besorgniß .
+ex:L9201110-TL0230_1a_pdfconll ex:B-OTH ex:Ungewißheit .
+ex:L9201110-TL0230_1a_pdfconll ex:I-PER ex:Ausschen .
+ex:L9201110-TL0230_1a_pdfconll ex:I-OTH ex:Obst .
+ex:L9201110-TL0230_1a_pdfconll ex:B-OTH ex:Brot .
+ex:L9201110-TL0230_1a_pdfconll ex:B-OTH ex:Butter .
+ex:L9201110-TL0230_1a_pdfconll ex:I-PER ex:Mutter .
+ex:L9201110-TL0230_1a_pdfconll ex:B-PER ex:Sohn .
+ex:L9201110-TL0230_1a_pdfconll ex:B-PER ex:Theor .
+ex:L9201110-TL0230_1a_pdfconll ex:B-PER ex:Präsident .
+ex:L9201110-TL0230_1a_pdfconll ex:I-LOC ex:Amerika .
+ex:L9201110-TL0230_1a_pdfconll ex:I-OTH ex:Frieden .
+ex:L9201110-TL0230_1a_pdfconll ex:I-PER ex:deutschland .
+
+# --- ENTITIES OF L9210103-TL0249_1a_pdf.conll ---
+ex:L9210103-TL0249_1a_pdfconll ex:I-PER ex:Gott .
+ex:L9210103-TL0249_1a_pdfconll ex:B-PER ex:Hedwig .
+ex:L9210103-TL0249_1a_pdfconll ex:I-OTH ex:Weihnachts .
+ex:L9210103-TL0249_1a_pdfconll ex:B-OTH ex:Äpfel .
+ex:L9210103-TL0249_1a_pdfconll ex:B-OTH ex:Pfefferuch .
+ex:L9210103-TL0249_1a_pdfconll ex:B-OTH ex:Mohnabe .
+ex:L9210103-TL0249_1a_pdfconll ex:I-LOC ex:Schlesien .
+ex:L9210103-TL0249_1a_pdfconll ex:I-PER ex:Liebling .
+ex:L9210103-TL0249_1a_pdfconll ex:B-PER ex:Frau .
+ex:L9210103-TL0249_1a_pdfconll ex:I-OTH ex:Ausfuhrbewilligung .
+ex:L9210103-TL0249_1a_pdfconll ex:I-PER ex:Robert .
+ex:L9210103-TL0249_1a_pdfconll ex:I-LOC ex:Berlin .
+ex:L9210103-TL0249_1a_pdfconll ex:I-PER ex:Thea .
+
+# --- ENTITIES OF L9210529-TL0272_1b_pdf.conll ---
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:Friedenszeiten .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Schwester .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Thekla .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:Ostern .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:Bildchen .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Sand .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Lahner .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Schwesterchen .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Damen .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Frau .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Reinhardt .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Kinder .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:bina .
+ex:L9210529-TL0272_1b_pdfconll ex:I-LOC ex:Schule .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Tante .
+ex:L9210529-TL0272_1b_pdfconll ex:I-LOC ex:Amerika .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:Eltern .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:fest .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:Gedichte .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:Kessenbrot .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:Weihnachtsfest .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:Christine .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:Kindheit .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Kriegs .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex: .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:kinden .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Geschwister .
+ex:L9210529-TL0272_1b_pdfconll ex:I-LOC ex:Oberschlesischen .
+ex:L9210529-TL0272_1b_pdfconll ex:B-LOC ex:Deutschland .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Franzosen .
+ex:L9210529-TL0272_1b_pdfconll ex:I-LOC ex:Polen .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:Leitungs .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex: .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:bericht .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:Dreite .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex: .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:lung .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:allierten .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:Streitkräften .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Herrgott .
+ex:L9210529-TL0272_1b_pdfconll ex:I-LOC ex:Amerika .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:göttliche .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:Vorsetzung .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Vater .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Brüder .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Franz .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Ehekla .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:von .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Gerhard .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Josel .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Pauls .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Bübchen .
+ex:L9210529-TL0272_1b_pdfconll ex:B-PER ex:Neffen .
+ex:L9210529-TL0272_1b_pdfconll ex:I-OTH ex:Rauchfleisch .
+ex:L9210529-TL0272_1b_pdfconll ex:B-OTH ex:Pakete .
+ex:L9210529-TL0272_1b_pdfconll ex:I-PER ex:Thekla .
+
+# --- ENTITIES OF L921xx17-TL0283_2b_pdf.conll ---
+ex:L921xx17-TL0283_2b_pdfconll ex:I-PER ex:Paul .
+ex:L921xx17-TL0283_2b_pdfconll ex:B-PER ex:Liebling .
+ex:L921xx17-TL0283_2b_pdfconll ex:B-PER ex:Mutter .
+ex:L921xx17-TL0283_2b_pdfconll ex:I-OTH ex:Waldmeister .
+
+# --- ENTITIES OF L9220904-TL0307_1b_pdf.conll ---
+ex:L9220904-TL0307_1b_pdfconll ex:I-OTH ex:Katholikentages .
+ex:L9220904-TL0307_1b_pdfconll ex:I-PER ex:Gesellen .
+ex:L9220904-TL0307_1b_pdfconll ex:I-OTH ex:Überfahrt .
+ex:L9220904-TL0307_1b_pdfconll ex:B-OTH ex:Reisebericht .
+ex:L9220904-TL0307_1b_pdfconll ex:I-LOC ex:Nürnberg .
+ex:L9220904-TL0307_1b_pdfconll ex:I-PER ex:Thekla .
+ex:L9220904-TL0307_1b_pdfconll ex:B-PER ex:Josef .
+ex:L9220904-TL0307_1b_pdfconll ex:B-PER ex:Rathman .
+ex:L9220904-TL0307_1b_pdfconll ex:I-LOC ex:Deutschland .
+ex:L9220904-TL0307_1b_pdfconll ex:B-LOC ex:München .
+ex:L9220904-TL0307_1b_pdfconll ex:I-OTH ex:Margarin .
+ex:L9220904-TL0307_1b_pdfconll ex:B-OTH ex:Damenschuhe .
+ex:L9220904-TL0307_1b_pdfconll ex:I-LOC ex:Brauhaus .
+
+# --- ENTITIES OF L9221214-TL0322_1a_pdf.conll ---
+ex:L9221214-TL0322_1a_pdfconll ex:I-PER ex:Vater .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Mutter .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Gott .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Franz .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Robert .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Bruder .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:August .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Schwäger .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Paul .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Marte .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Kinder .
+ex:L9221214-TL0322_1a_pdfconll ex:I-PER ex: .
+ex:L9221214-TL0322_1a_pdfconll ex:I-PER ex:chen .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Tante .
+ex:L9221214-TL0322_1a_pdfconll ex:I-PER ex:Fortunata .
+ex:L9221214-TL0322_1a_pdfconll ex:B-PER ex:Philothe .
+ex:L9221214-TL0322_1a_pdfconll ex:I-OTH ex:14 .
+ex:L9221214-TL0322_1a_pdfconll ex:I-OTH ex: .
+ex:L9221214-TL0322_1a_pdfconll ex:I-OTH ex:12 .
+ex:L9221214-TL0322_1a_pdfconll ex:I-OTH ex: .
+ex:L9221214-TL0322_1a_pdfconll ex:I-OTH ex:1929 .
+ex:L9221214-TL0322_1a_pdfconll ex:B-OTH ex:Porte .
+ex:L9221214-TL0322_1a_pdfconll ex:B-OTH ex:warme .
+ex:L9221214-TL0322_1a_pdfconll ex:I-OTH ex:Unter .
+ex:L9221214-TL0322_1a_pdfconll ex:I-OTH ex: .
+ex:L9221214-TL0322_1a_pdfconll ex:I-OTH ex:wasche .
+ex:L9221214-TL0322_1a_pdfconll ex:B-OTH ex:Filzschuhe .
+ex:L9221214-TL0322_1a_pdfconll ex:I-LOC ex:Deutschland .
+
+# --- ENTITIES OF L92309xx-TL1016_2b_pdf.conll ---
+ex:L92309xx-TL1016_2b_pdfconll ex:I-PER ex:Sozialdemokraten .
+ex:L92309xx-TL1016_2b_pdfconll ex:I-ORG ex:Neustädter .
+ex:L92309xx-TL1016_2b_pdfconll ex:I-ORG ex:Zeitung .
+ex:L92309xx-TL1016_2b_pdfconll ex:I-LOC ex:Neustadt .
+ex:L92309xx-TL1016_2b_pdfconll ex:I-PER ex:Scheidemann-Prozesses .
+ex:L92309xx-TL1016_2b_pdfconll ex:B-PER ex:Kapitän .
+ex:L92309xx-TL1016_2b_pdfconll ex:I-PER ex:Ehrhar .
+ex:L92309xx-TL1016_2b_pdfconll ex:I-LOC ex:München .
+ex:L92309xx-TL1016_2b_pdfconll ex:B-LOC ex:Leipzig .
+ex:L92309xx-TL1016_2b_pdfconll ex:B-LOC ex:Italien .
+ex:L92309xx-TL1016_2b_pdfconll ex:I-PER ex:Faszisten .
+ex:L92309xx-TL1016_2b_pdfconll ex:B-PER ex:Italiener .
+ex:L92309xx-TL1016_2b_pdfconll ex:I-LOC ex:Rom .
+ex:L92309xx-TL1016_2b_pdfconll ex:B-LOC ex:Baÿern .
+ex:L92309xx-TL1016_2b_pdfconll ex:B-LOC ex:München .
+
+# --- ENTITIES OF L9260206-TL1039_3b_pdf.conll ---
+ex:L9260206-TL1039_3b_pdfconll ex:I-PER ex:George .
+ex:L9260206-TL1039_3b_pdfconll ex:I-PER ex:Kasington .
+ex:L9260206-TL1039_3b_pdfconll ex:I-LOC ex:Raven .
+ex:L9260206-TL1039_3b_pdfconll ex:I-LOC ex:Oburg .
+ex:L9260206-TL1039_3b_pdfconll ex:I-PER ex:Mädchen .
+ex:L9260206-TL1039_3b_pdfconll ex:B-PER ex:Schreiner .
+ex:L9260206-TL1039_3b_pdfconll ex:I-LOC ex:München .
+ex:L9260206-TL1039_3b_pdfconll ex:B-LOC ex:Bodensee .
+ex:L9260206-TL1039_3b_pdfconll ex:I-PER ex:Bischof .
+ex:L9260206-TL1039_3b_pdfconll ex:I-PER ex:Reppler .
+ex:L9260206-TL1039_3b_pdfconll ex:I-LOC ex:Konstanz .
+
+# --- ENTITIES OF L9300925-TL0222_1a_pdf.conll ---
+ex:L9300925-TL0222_1a_pdfconll ex:I-LOC ex:München .
+ex:L9300925-TL0222_1a_pdfconll ex:I-OTH ex:Sept .
+ex:L9300925-TL0222_1a_pdfconll ex:I-OTH ex:1890 .
+ex:L9300925-TL0222_1a_pdfconll ex:I-PER ex:Bruder .
+ex:L9300925-TL0222_1a_pdfconll ex:I-OTH ex:Arbeitslosigkeit .
+ex:L9300925-TL0222_1a_pdfconll ex:B-OTH ex:Dollar .
+ex:L9300925-TL0222_1a_pdfconll ex:I-PER ex:Ford .
+ex:L9300925-TL0222_1a_pdfconll ex:I-LOC ex:München .
+ex:L9300925-TL0222_1a_pdfconll ex:I-OTH ex:Passionsspiele .
+ex:L9300925-TL0222_1a_pdfconll ex:I-PER ex:Frau .
+ex:L9300925-TL0222_1a_pdfconll ex:B-PER ex:Tante .
+
+# --- ENTITIES OF L9xx0527-TL2027_1a_pdf.conll ---
+ex:L9xx0527-TL2027_1a_pdfconll ex:I-LOC ex:Supla .
+ex:L9xx0527-TL2027_1a_pdfconll ex:I-PER ex:Gekla .
+ex:L9xx0527-TL2027_1a_pdfconll ex:B-PER ex:Mädchen .
+ex:L9xx0527-TL2027_1a_pdfconll ex:I-LOC ex:Schlachthaus .
+ex:L9xx0527-TL2027_1a_pdfconll ex:I-PER ex:Mann .
+ex:L9xx0527-TL2027_1a_pdfconll ex:B-PER ex:Eltern .
+ex:L9xx0527-TL2027_1a_pdfconll ex:B-PER ex:G .
+ex:L9xx0527-TL2027_1a_pdfconll ex:I-PER ex: .
+ex:L9xx0527-TL2027_1a_pdfconll ex:B-PER ex:D .
+ex:L9xx0527-TL2027_1a_pdfconll ex:I-PER ex: .
+
+# --- ENTITIES OF L9xx12xx-TL2068_1b_pdf.conll ---
+ex:L9xx12xx-TL2068_1b_pdfconll ex:I-PER ex:Mai .
+ex:L9xx12xx-TL2068_1b_pdfconll ex:B-PER ex:Hedwig .
+ex:L9xx12xx-TL2068_1b_pdfconll ex:I-LOC ex:Neustad .
+ex:L9xx12xx-TL2068_1b_pdfconll ex:I-PER ex:Josef .
+ex:L9xx12xx-TL2068_1b_pdfconll ex:I-LOC ex:Amerik .
+ex:L9xx12xx-TL2068_1b_pdfconll ex:I-PER ex:Töchter .
+ex:L9xx12xx-TL2068_1b_pdfconll ex:B-PER ex:Vater .
+
+# --- ENTITIES OF L9xxxxxx-TL0234_1b_pdf.conll ---
+ex:L9xxxxxx-TL0234_1b_pdfconll ex:I-PER ex:Tekla .
+ex:L9xxxxxx-TL0234_1b_pdfconll ex:B-PER ex:Josef .
+ex:L9xxxxxx-TL0234_1b_pdfconll ex:B-PER ex:Berta .
+ex:L9xxxxxx-TL0234_1b_pdfconll ex:B-PER ex:Nieman .
+ex:L9xxxxxx-TL0234_1b_pdfconll ex:I-ORG ex:Geisleis .
+ex:L9xxxxxx-TL0234_1b_pdfconll ex:I-PER ex:Mutter .
+
+# --- ENTITIES OF L9xxxxxx-TL2026_1b_pdf.conll ---
+ex:L9xxxxxx-TL2026_1b_pdfconll ex:I-LOC ex:Gadeschneiders .
+ex:L9xxxxxx-TL2026_1b_pdfconll ex:I-LOC ex:Hause .
+ex:L9xxxxxx-TL2026_1b_pdfconll ex:I-PER ex:Josef .
+ex:L9xxxxxx-TL2026_1b_pdfconll ex:B-PER ex:Tochter .
+ex:L9xxxxxx-TL2026_1b_pdfconll ex:I-LOC ex:Sommergessen .
+ex:L9xxxxxx-TL2026_1b_pdfconll ex:I-PER ex:Erwin .
+ex:L9xxxxxx-TL2026_1b_pdfconll ex:B-PER ex:Johann .
+ex:L9xxxxxx-TL2026_1b_pdfconll ex:I-PER ex:Heidenreich .
+
+# --- ENTITIES OF L9xxxxxx-TL2055_1a_pdf.conll ---
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-PER ex:Paul .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:B-PER ex:Martha .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:B-PER ex:Kinder .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-OTH ex:Dotter .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-PER ex:Mutter .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-LOC ex:Schule .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-PER ex:Marien .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:B-PER ex:beth .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-LOC ex:Handels .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-LOC ex: .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-LOC ex:schule .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-OTH ex:Geld .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:B-OTH ex:Hochzeit .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-PER ex:Schwester .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:B-PER ex:Franz .
+ex:L9xxxxxx-TL2055_1a_pdfconll ex:I-OTH ex:Tod .
+
+# --- ENTITIES OF L9xxxxxx-TL2082_1a_pdf.conll ---
+ex:L9xxxxxx-TL2082_1a_pdfconll ex:I-PER ex:Herr .
+ex:L9xxxxxx-TL2082_1a_pdfconll ex:B-PER ex:Richter .
+ex:L9xxxxxx-TL2082_1a_pdfconll ex:B-PER ex:Kolleger .
+
+# --- ENTITIES OF L9xxxxxx-TL2112_1b_pdf.conll ---
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:I-OTH ex:Mark .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:I-PER ex:Paulchen .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:I-OTH ex:Pfund .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:I-LOC ex:Deutschlän .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:I-PER ex:Kinder .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:B-PER ex:Thekla .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:B-PER ex:Polchen .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:B-PER ex:Jungen .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:I-OTH ex:Lebensmittel .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:B-OTH ex:Mehl .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:B-OTH ex:Roggen .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:B-OTH ex:Margarine .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:B-OTH ex:Butter .
+ex:L9xxxxxx-TL2112_1b_pdfconll ex:B-OTH ex:Amerika .
+
