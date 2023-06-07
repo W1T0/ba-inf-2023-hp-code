@@ -1,11 +1,11 @@
 # the path to the file to read (usually a NER output file)
-# path = "./NER german/germaNER/germaNER-output2.txt"
-path = "./NER german/sequence_tagging/sequence_tagging-output2.txt"
+path = "./NER german/germaNER/germaNER-briefe16-30-output3.txt"
+# path = "./NER german/sequence_tagging/sequence_tagging-output2.txt"
 
 # the output path
-# outputPath = "./NER german/outputTest.txt"
-# outputPath = "./NER german/germaNER/germaNER-entities2-withoutIOTH.txt"
-outputPath = "./NER german/sequence_tagging/sequence_tagging-entities3.txt"
+outputPath = "./NER german/outputTest.txt"
+# outputPath = "./NER german/germaNER/germaNER-entities3-withoutIOTH.txt"
+# outputPath = "./NER german/sequence_tagging/sequence_tagging-entities3.txt"
 
 # opens the file and reads all lines
 file = open(path, "r", encoding="utf-8")
@@ -32,8 +32,6 @@ for line in lines:
     # character that I use to differentiate between letters/documents
     elif line.startswith("#"):
         entities.append("\n------------------- \n \n")
-        # print(line.replace("#", "\n ------------------- \n"))
-        # entities.append(line.replace("#", "\n ------------------- \n"))
 
 # open file to write entities to txt file
 writeToFile = open(outputPath, "a", encoding="utf-8")

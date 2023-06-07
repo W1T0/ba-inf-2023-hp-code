@@ -1,0 +1,33 @@
+@prefix ex: <http://example.org/> .
+# --- ENTITIES OF L9110213-TL0015_1a_pdf.conll ---
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Bauer .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex:Haus .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Frank .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Schiller .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Jekla .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Tekla .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:1 .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:bis .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:8 .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:Febr .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Onkel .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex:Seba .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex: .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex:ka .
+ex:L9110213-TL0015_1a_pdfconll ex:B-LOC ex:Schlacht .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex: .
+ex:L9110213-TL0015_1a_pdfconll ex:I-LOC ex:hause .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Neger .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Hans .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:Febr .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex: .
+ex:L9110213-TL0015_1a_pdfconll ex:I-OTH ex:1911 .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Bekla .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Schwägerin .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Tekla .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Teklar .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Mis .
+ex:L9110213-TL0015_1a_pdfconll ex:I-PER ex:Ger .
+ex:L9110213-TL0015_1a_pdfconll ex:B-PER ex:Tobler .
+
+

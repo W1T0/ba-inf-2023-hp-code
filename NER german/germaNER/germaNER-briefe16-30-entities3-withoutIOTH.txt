@@ -1,0 +1,121 @@
+READ FILE: ./NER german/germaNER/germaNER-briefe16-30-output3.txt
+
+Schalt, B-OTH
+Ar¬ B-LOC
+Krug, I-LOC
+Rutenbeken¬ B-LOC
+-------------------
+hoch¬ B-OTH
+Doller B-OTH
+Mar¬ B-ORG
+Zeit I-ORG
+verlebt, B-OTH
+Ungarn B-OTH
+-------------------
+vor¬ B-OTH
+-------------------
+Hedwig B-PER
+Paul B-PER
+Anna B-PER
+Agnes B-PER
+Barthold B-PER
+Josef B-PER
+die¬ B-OTH
+gehe, B-OTH
+gebracht, B-OTH
+-------------------
+Düsseldorf, B-ORG
+Dasburg I-ORG
+Aurort I-ORG
+Deutschland B-LOC
+Thea B-PER
+-------------------
+Berthold B-PER
+Sator B-PER
+Mark B-OTH
+Mark B-OTH
+Agnes B-PER
+Berthold B-PER
+Agnes B-OTH
+-------------------
+hervorge¬ B-OTH
+heraus¬ B-OTH
+Bekand B-LOC
+-------------------
+Alles B-OTH
+Josef B-PER
+Josef B-PER
+Josef B-PER
+Die B-OTH
+Langenbrück B-LOC
+Schönste, B-LOC
+Dein I-LOC
+bist, B-OTH
+-------------------
+Braut¬ B-OTH
+Obst, B-OTH
+hatt. B-OTH
+Amerika B-LOC
+-------------------
+Gott, B-OTH
+Schlesien B-LOC
+Schatz, B-OTH
+Grusen B-LOC
+Robert B-ORG
+Berlin, I-ORG
+November, B-OTH
+-------------------
+Friedenszeiten B-OTH
+ein¬ B-OTH
+Amerika B-LOC
+Gedichte B-OTH
+kl. B-OTH
+Kindesher B-OTH
+Wie B-OTH
+Deutschland B-LOC
+Ober-Schlesiens B-LOC
+hört, B-OTH
+lb. B-OTH
+Vater¬ B-OTH
+Familienglieder B-OTH
+kühl. B-OTH
+-------------------
+Ausgefal¬ B-OTH
+überstanden? B-OTH
+Nürnberg B-LOC
+Josef B-PER
+Deutschland B-LOC
+München B-LOC
+Margarin B-LOC
+-------------------
+Franz B-PER
+Robert B-OTH
+Fortunata B-OTH
+G. B-OTH
+Dollar B-OTH
+Kollar B-OTH
+Mk, B-OTH
+-------------------
+Blutsprozession, B-OTH
+George B-OTH
+Raven B-LOC
+Oburg I-LOC
+zurück¬ B-OTH
+Friedrichshaffen. B-OTH
+München B-LOC
+L. B-PER
+R. I-PER
+III I-PER
+Reppler B-PER
+von I-PER
+Rothen¬ I-PER
+Konstanz B-LOC
+-------------------
+Wöhler B-PER
+Dollar B-OTH
+Amit B-OTH
+Ford B-ORG
+München B-LOC
+Am B-OTH
+Preußisch-Süddeutschen B-OTH
+Mark B-OTH
