@@ -1,10 +1,22 @@
 # the path to the file to read (usually a NER output file)
-path = "./NER-german/germaNER/germaNER-output.txt"
-#  path = "./NER-german/sequence_tagging/sequence_tagging-output2.txt"
+pathList = [
+    "./NER-german/germaNER/germaNER-output.txt",
+    "./NER-german/sequence_tagging/sequence_tagging-output2.txt",
+]
 
 # the output path
-# outputPath = "./HIPE-scorer/output-tsv-sequence_tagging/"
-outputPath = "./HIPE-scorer/output-tsv-germaNER/"
+outputPathList = [
+    "./HIPE-scorer/output-tsv-germaNER/",
+    "./HIPE-scorer/output-tsv-sequence_tagging/",
+]
+
+additionalFilenameList = ["-germaNER", "-sequence_tagging"]
+
+# decide between germaNER [0] and sequence_tagging [1]
+whichOne = 1
+path = pathList[whichOne]
+outputPath = outputPathList[whichOne]
+additionalFilename = additionalFilenameList[whichOne]
 
 outputFilenames = [
     "L9xx12xx-TL2068_1b_pdf",
@@ -91,7 +103,9 @@ for line in lines:
             predicate = lineSplit[-1]
 
         # open file to write to tsv file
-        writeToFile = open(outputPath + filename + ".tsv", "a", encoding="utf-8")
+        writeToFile = open(
+            outputPath + filename + additionalFilename + ".tsv", "a", encoding="utf-8"
+        )
 
         if lastCounter != counter:
             # write first line

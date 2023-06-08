@@ -9,9 +9,6 @@ print("[INFO] tagger loaded")
 # path of the directory
 directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/nergermantest/"
 
-# path of the output file
-writeFilename = "./NER-german/entities1.txt"
-
 # the directory where the transcripts are stored
 directory = os.fsencode(directoryPath)
 
@@ -57,7 +54,10 @@ for file in os.listdir(directory):
 
         # open file to write into
         writeToFile = open(
-            "./HIPE-scorer/output-flair-ner-german/" + filename + ".tsv",
+            "./HIPE-scorer/output-tsv-flair-ner-german/"
+            + filename.replace(".txt", "")
+            + "-flairNERGerman"
+            + ".tsv",
             "a",
             encoding="utf-8",
         )
@@ -74,7 +74,6 @@ for file in os.listdir(directory):
         # write every word
         for line in lines:
             lineSplit = line.split()
-            # todo every word in a line?
             print("[INFO] lineSplit: " + str(lineSplit))
             if lineSplit:
                 for word in lineSplit:

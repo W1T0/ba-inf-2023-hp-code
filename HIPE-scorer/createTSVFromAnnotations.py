@@ -1,7 +1,7 @@
 import os
 
 directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/test/"  # Stichprobe - Annotationen - Export
-outputPath = "./HIPE-scorer/outputTest1"
+outputPath = "./HIPE-scorer/output-tsv-annotations/"
 
 # the directory where the files are stored
 directory = os.fsencode(directoryPath)
@@ -23,7 +23,11 @@ for file in os.listdir(directory):
         lines = readFromFile.readlines()
 
         # open file to write to tsv file
-        writeToFile = open(outputPath + filename + ".tsv", "a", encoding="utf-8")
+        writeToFile = open(
+            outputPath + filename.replace(".conll", "") + "-annotations" ".tsv",
+            "a",
+            encoding="utf-8",
+        )
 
         # write first line
         writeToFile.write(
