@@ -77,21 +77,27 @@ for file in os.listdir(directory):
             # todo every word in a line?
             print("[INFO] lineSplit: " + str(lineSplit))
             if lineSplit:
-                firstWord = lineSplit[0]
+                for word in lineSplit:
+                    predicate = "O"
 
-                predicate = "O"
+                    print(
+                        "[INFO] firstWord: "
+                        + word
+                        + " || entity: "
+                        + entities[index][0]
+                    )
 
-                print(
-                    "[INFO] firstWord: " + firstWord + "entity: " + entities[index][0]
-                )
-                if firstWord == entities[index][0]:
-                    predicate = entities[0][1]
-                    print(predicate)
-                    index += 1
+                    if word.replace("¬", "") == entities[index][0]:
+                        predicate = "I-" + entities[index][1]
+                        # print(predicate)
+                        # print("len(entities): " + str(len(entities)))
+                        # print("Index: " + str(index))
+                        if index != len(entities) - 1:
+                            index += 1
 
-                writeToFile.write(
-                    firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
-                )
+                    writeToFile.write(
+                        word + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
+                    )
 
         writeToFile.close()
 
