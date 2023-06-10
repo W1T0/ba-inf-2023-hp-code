@@ -24,7 +24,10 @@ for file in os.listdir(directory):
 
         # open file to write to tsv file
         writeToFile = open(
-            outputPath + filename.replace(".conll", "") + "-annotations" ".tsv",
+            outputPath
+            + filename.replace(".conll", "").replace("_", "-")
+            + "-annotations"
+            ".tsv",
             "a",
             encoding="utf-8",
         )
@@ -56,9 +59,10 @@ for file in os.listdir(directory):
                 ):
                     predicate = lineSplit[-1]
 
-                writeToFile.write(
-                    firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
-                )
+                if firstWord != "," and firstWord != "." and firstWord != "¬":
+                    writeToFile.write(
+                        firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
+                    )
 
         writeToFile.close()
 

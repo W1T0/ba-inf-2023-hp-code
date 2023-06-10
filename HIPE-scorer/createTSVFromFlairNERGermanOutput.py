@@ -55,8 +55,9 @@ for file in os.listdir(directory):
         # open file to write into
         writeToFile = open(
             "./HIPE-scorer/output-tsv-flair-ner-german/"
-            + filename.replace(".txt", "")
+            + filename.replace(".txt", "").replace("_", "-")
             + "-flairNERGerman"
+            + "_bundle1_hipe2020_de_1"
             + ".tsv",
             "a",
             encoding="utf-8",
@@ -95,7 +96,11 @@ for file in os.listdir(directory):
                             index += 1
 
                     writeToFile.write(
-                        word + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
+                        word.replace(",", "").replace(".", "").replace("¬", "")
+                        + "	"
+                        + predicate
+                        + "	O	O	O	O	O	_	_	_"
+                        + "\n"
                     )
 
         writeToFile.close()

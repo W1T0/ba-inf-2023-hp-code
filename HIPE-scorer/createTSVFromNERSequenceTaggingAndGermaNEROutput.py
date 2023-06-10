@@ -10,10 +10,10 @@ outputPathList = [
     "./HIPE-scorer/output-tsv-sequence_tagging/",
 ]
 
-additionalFilenameList = ["-germaNER", "-sequence_tagging"]
+additionalFilenameList = ["-germaNER", "-sequenceTagging"]
 
 # decide between germaNER [0] and sequence_tagging [1]
-whichOne = 1
+whichOne = 0
 path = pathList[whichOne]
 outputPath = outputPathList[whichOne]
 additionalFilename = additionalFilenameList[whichOne]
@@ -60,21 +60,6 @@ lines = file.readlines()
 counter = 0
 lastCounter = 0
 
-# # remove double lines
-# firstLine = lines[0]
-# previousLine = lines[0]
-# print(len(lines))
-# for line in lines:
-#     # print("line: " + line)
-#     if not line == firstLine:
-#         if line == previousLine:
-#             lines.remove(previousLine)
-#             print(line)
-#             print(previousLine)
-#         previousLine = line
-#         # print("new previous line: " + previousLine)
-# print(len(lines))
-
 filename = ""
 
 # write every word
@@ -87,7 +72,7 @@ for line in lines:
     lineSplit = line.split()
 
     if lineSplit:
-        firstWord = lineSplit[0]
+        firstWord = lineSplit[0].replace(",", "").replace(".", "").replace("¬", "")
 
         predicate = "O"
         if (
@@ -104,7 +89,13 @@ for line in lines:
 
         # open file to write to tsv file
         writeToFile = open(
-            outputPath + filename + additionalFilename + ".tsv", "a", encoding="utf-8"
+            outputPath
+            + filename.replace("_", "-")
+            + additionalFilename
+            + "_bundle1_hipe2020_de_1"
+            + ".tsv",
+            "a",
+            encoding="utf-8",
         )
 
         if lastCounter != counter:
