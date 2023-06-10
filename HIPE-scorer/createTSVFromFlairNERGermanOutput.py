@@ -7,7 +7,7 @@ tagger = SequenceTagger.load("flair/ner-german-large")
 print("[INFO] tagger loaded")
 
 # path of the directory
-directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/nergermantest/"  # Stichprobe - Annotationen
+directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe - Annotationen/"  # Stichprobe - Annotationen
 
 # the directory where the transcripts are stored
 directory = os.fsencode(directoryPath)
@@ -30,6 +30,7 @@ for file in os.listdir(directory):
         entities = []
 
         # iterate over entities and print
+        # TODO fix split
         for entity in sentence.get_spans("ner"):
             print("-----------------------")
             print(str(entity))
@@ -80,20 +81,21 @@ for file in os.listdir(directory):
                 for word in lineSplit:
                     predicate = "O"
 
-                    print(
-                        "[INFO] firstWord: "
-                        + word
-                        + " || entity: "
-                        + entities[index][0]
-                    )
+                    if len(entities) > 0:
+                        print(
+                            "[INFO] firstWord: "
+                            + word
+                            + " || entity: "
+                            + entities[index][0]
+                        )
 
-                    if word.replace("¬", "") == entities[index][0]:
-                        predicate = "I-" + entities[index][1]
-                        # print(predicate)
-                        # print("len(entities): " + str(len(entities)))
-                        # print("Index: " + str(index))
-                        if index != len(entities) - 1:
-                            index += 1
+                        if word.replace("¬", "") == entities[index][0]:
+                            predicate = "I-" + entities[index][1]
+                            # print(predicate)
+                            # print("len(entities): " + str(len(entities)))
+                            # print("Index: " + str(index))
+                            if index != len(entities) - 1:
+                                index += 1
 
                     writeToFile.write(
                         word.replace(",", "").replace(".", "").replace("¬", "")
