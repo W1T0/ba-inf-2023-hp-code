@@ -8,7 +8,7 @@ tagger = SequenceTagger.load("flair/ner-german-large")
 print("[INFO] tagger loaded")
 
 # path of the directory
-directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/nergermantest/"  # Stichprobe - Annotationen
+directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe - Annotationen/"  # Stichprobe - Annotationen
 
 # the directory where the transcripts are stored
 directory = os.fsencode(directoryPath)

@@ -53,7 +53,7 @@ wunderts	O	O	O	O	O	O	_	_	_
 ob	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 wa	O	O	O	O	O	O	_	_	_
-Kissen	O	O	O	O	O	O	_	_	_
+Kissen	I-PER	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
 sicher	O	O	O	O	O	O	_	_	_
@@ -80,7 +80,7 @@ einem	O	O	O	O	O	O	_	_	_
 einer	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 liebe	O	O	O	O	O	O	_	_	_
-Tekla	O	O	O	O	O	O	_	_	_
+Tekla	I-PER	O	O	O	O	O	_	_	_
 wie	O	O	O	O	O	O	_	_	_
 hast	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
@@ -137,10 +137,10 @@ Sage	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 dort	O	O	O	O	O	O	_	_	_
 bei	O	O	O	O	O	O	_	_	_
-Anali	O	O	O	O	O	O	_	_	_
+Anali	I-PER	O	O	O	O	O	_	_	_
 ter	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-August	O	O	O	O	O	O	_	_	_
+August	I-PER	O	O	O	O	O	_	_	_
 nochmals	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 illis	O	O	O	O	O	O	_	_	_

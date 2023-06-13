@@ -114,8 +114,8 @@ uns	O	O	O	O	O	O	_	_	_
 allen	O	O	O	O	O	O	_	_	_
 Ihre	O	O	O	O	O	O	_	_	_
 Marsante	O	O	O	O	O	O	_	_	_
-Rudolph	O	O	O	O	O	O	_	_	_
-Neustadt	O	O	O	O	O	O	_	_	_
+Rudolph	I-PER	O	O	O	O	O	_	_	_
+Neustadt	I-LOC	O	O	O	O	O	_	_	_
 18	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 2331912	O	O	O	O	O	O	_	_	_
@@ -194,7 +194,7 @@ sind	O	O	O	O	O	O	_	_	_
 ja	O	O	O	O	O	O	_	_	_
 freilich	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Amerika	O	O	O	O	O	O	_	_	_
+Amerika	I-LOC	O	O	O	O	O	_	_	_
 glanzende	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
 man	O	O	O	O	O	O	_	_	_

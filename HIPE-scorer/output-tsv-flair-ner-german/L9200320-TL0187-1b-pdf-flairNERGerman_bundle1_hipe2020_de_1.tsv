@@ -23,7 +23,7 @@ erhalten	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 mir	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Thee	O	O	O	O	O	O	_	_	_
+Thee	I-PER	O	O	O	O	O	_	_	_
 Dein	O	O	O	O	O	O	_	_	_
 letzten	O	O	O	O	O	O	_	_	_
 Brief	O	O	O	O	O	O	_	_	_
@@ -115,7 +115,7 @@ noch	O	O	O	O	O	O	_	_	_
 keine	O	O	O	O	O	O	_	_	_
 Beziehungen	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Amerika	O	O	O	O	O	O	_	_	_
+Amerika	I-LOC	O	O	O	O	O	_	_	_
 da	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 am	O	O	O	O	O	O	_	_	_
@@ -133,9 +133,9 @@ Wasser	O	O	O	O	O	O	_	_	_
 statt	O	O	O	O	O	O	_	_	_
 gefunden	O	O	O	O	O	O	_	_	_
 holt	O	O	O	O	O	O	_	_	_
-Düsseldorf	O	O	O	O	O	O	_	_	_
-Dasburg	O	O	O	O	O	O	_	_	_
-Aurort	O	O	O	O	O	O	_	_	_
+Düsseldorf	I-LOC	O	O	O	O	O	_	_	_
+Dasburg	I-LOC	O	O	O	O	O	_	_	_
+Aurort	I-LOC	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 andere	O	O	O	O	O	O	_	_	_
 wichtige	O	O	O	O	O	O	_	_	_
@@ -152,7 +152,7 @@ mehr	O	O	O	O	O	O	_	_	_
 hoch	O	O	O	O	O	O	_	_	_
 kommen	O	O	O	O	O	O	_	_	_
 sondern	O	O	O	O	O	O	_	_	_
-Deutschland	O	O	O	O	O	O	_	_	_
+Deutschland	I-LOC	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 ärmer	O	O	O	O	O	O	_	_	_
@@ -190,7 +190,7 @@ nicht	O	O	O	O	O	O	_	_	_
 erfüllen	O	O	O	O	O	O	_	_	_
 können	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Thea	O	O	O	O	O	O	_	_	_
+Thea	I-PER	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 hast	O	O	O	O	O	O	_	_	_
 mir	O	O	O	O	O	O	_	_	_

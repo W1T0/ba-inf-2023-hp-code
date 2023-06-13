@@ -106,8 +106,8 @@ zahlten	O	O	O	O	O	O	_	_	_
 Mark	I-MISC	O	O	O	O	O	_	_	_
 gelobt	O	O	O	O	O	O	_	_	_
 sei	O	O	O	O	O	O	_	_	_
-Jesu	I-→	O	O	O	O	O	_	_	_
-Christus	O	O	O	O	O	O	_	_	_
+Jesu	I-PER	O	O	O	O	O	_	_	_
+Christus	I-PER	O	O	O	O	O	_	_	_
 22	O	O	O	O	O	O	_	_	_
 440	O	O	O	O	O	O	_	_	_
 Langenblik	O	O	O	O	O	O	_	_	_

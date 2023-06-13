@@ -1,6 +1,6 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
-Neustadt	O	O	O	O	O	O	_	_	_
-Schles	O	O	O	O	O	O	_	_	_
+Neustadt	I-LOC	O	O	O	O	O	_	_	_
+Schles	I-LOC	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 3	O	O	O	O	O	O	_	_	_
 September	O	O	O	O	O	O	_	_	_
@@ -11,7 +11,7 @@ dann	O	O	O	O	O	O	_	_	_
 über	O	O	O	O	O	O	_	_	_
 Sonntag	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Thekla	O	O	O	O	O	O	_	_	_
+Thekla	I-PER	O	O	O	O	O	_	_	_
 hier	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 führt	O	O	O	O	O	O	_	_	_
