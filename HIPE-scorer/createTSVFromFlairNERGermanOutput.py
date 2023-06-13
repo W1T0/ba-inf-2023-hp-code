@@ -1,19 +1,23 @@
 from flair.data import Sentence
 from flair.models import SequenceTagger
 import os
+import re
 
 # load tagger
 tagger = SequenceTagger.load("flair/ner-german-large")
 print("[INFO] tagger loaded")
 
 # path of the directory
-directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe - Annotationen/"  # Stichprobe - Annotationen
+directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/nergermantest/"  # Stichprobe - Annotationen
 
 # the directory where the transcripts are stored
 directory = os.fsencode(directoryPath)
 
 # keeps track of how many files haven been processed
 fileCount = 1
+
+# to check if there has been an error
+error = 0
 
 # for every file in the directory which ends with .txt
 for file in os.listdir(directory):
@@ -32,13 +36,29 @@ for file in os.listdir(directory):
         # iterate over entities and print
         # TODO fix split
         for entity in sentence.get_spans("ner"):
+            # print("-----------------------")
+            # print(str(entity))
+            # entitySplit = str(entity).split()
+            # print("-----------------------")
+            # print("Entity: " + entitySplit[1].replace('"', ""))
+            # print("Predicate: " + entitySplit[3])
+            # entities.append([entitySplit[1].replace('"', ""), entitySplit[3]])
             print("-----------------------")
             print(str(entity))
-            entitySplit = str(entity).split()
-            print("-----------------------")
-            print("Entity: " + entitySplit[1].replace('"', ""))
-            print("Predicate: " + entitySplit[3])
-            entities.append([entitySplit[1].replace('"', ""), entitySplit[3]])
+            entityString = re.search('"(.*)"', str(entity)).group(1)
+            predicate = re.search("→(.*) ", str(entity)).group(1).replace(" ", "")
+            if " " in entityString:
+                entityStringSplit = entityString.split()
+                for entitySplit in entityStringSplit:
+                    entities.append([entitySplit, predicate])
+                    print("-----------------------")
+                    print("Entity: " + entitySplit)
+                    print("Predicate: " + predicate)
+            else:
+                print("-----------------------")
+                print("Entity: " + entityString)
+                print("Predicate: " + predicate)
+                entities.append([entityString, predicate])
 
         print("[INFO] entities list full, length: " + str(len(entities)))
 
@@ -72,6 +92,7 @@ for file in os.listdir(directory):
         )
 
         index = 0
+        count = 0
 
         # write every word
         for line in lines:
@@ -89,13 +110,27 @@ for file in os.listdir(directory):
                             + entities[index][0]
                         )
 
-                        if word.replace("¬", "") == entities[index][0]:
+                        if word.replace("¬", "").replace(",", "").replace(
+                            ".", ""
+                        ) == entities[index][0].replace("¬", "").replace(
+                            ",", ""
+                        ).replace(
+                            ".", ""
+                        ):
                             predicate = "I-" + entities[index][1]
                             # print(predicate)
                             # print("len(entities): " + str(len(entities)))
                             # print("Index: " + str(index))
                             if index != len(entities) - 1:
                                 index += 1
+                            count += 1
+                            print(
+                                "[INFO] "
+                                + str(count)
+                                + " / "
+                                + str(len(entities))
+                                + " DONE "
+                            )
 
                     writeToFile.write(
                         word.replace(",", "").replace(".", "").replace("¬", "")
@@ -104,6 +139,11 @@ for file in os.listdir(directory):
                         + "	O	O	O	O	O	_	_	_"
                         + "\n"
                     )
+
+        if count == len(entities):
+            print("[INFO] ALL ENTITIES MAPPED")
+        else:
+            error = 1
 
         writeToFile.close()
 
@@ -114,3 +154,6 @@ for file in os.listdir(directory):
         continue
     else:
         continue
+
+if error == 1:
+    print("[ERROR] Not all Entities have been mapped")

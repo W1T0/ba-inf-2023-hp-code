@@ -40,9 +40,9 @@ besichtigte	O	O	O	O	O	O	_	_	_
 Glocke	O	O	O	O	O	O	_	_	_
 genannt	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Glate	I-Schiller"	O	O	O	O	O	_	_	_
-von	O	O	O	O	O	O	_	_	_
-Schiller	O	O	O	O	O	O	_	_	_
+Glate	I-MISC	O	O	O	O	O	_	_	_
+von	I-MISC	O	O	O	O	O	_	_	_
+Schiller	I-MISC	O	O	O	O	O	_	_	_
 Diesen	O	O	O	O	O	O	_	_	_
 Spaß	O	O	O	O	O	O	_	_	_
 hätten	O	O	O	O	O	O	_	_	_
@@ -111,14 +111,14 @@ sehr	O	O	O	O	O	O	_	_	_
 viel	O	O	O	O	O	O	_	_	_
 Neger	O	O	O	O	O	O	_	_	_
 schaffen	O	O	O	O	O	O	_	_	_
-Hans	O	O	O	O	O	O	_	_	_
+Hans	I-PER	O	O	O	O	O	_	_	_
 bili	O	O	O	O	O	O	_	_	_
 Ao	O	O	O	O	O	O	_	_	_
 13	O	O	O	O	O	O	_	_	_
 Febr	O	O	O	O	O	O	_	_	_
 1911	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Bekla	O	O	O	O	O	O	_	_	_
+Bekla	I-PER	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
 Schwägerin	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
@@ -145,7 +145,7 @@ Zeilen	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 beglücken	O	O	O	O	O	O	_	_	_
 Hiebe	O	O	O	O	O	O	_	_	_
-Tekla	O	O	O	O	O	O	_	_	_
+Tekla	I-PER	O	O	O	O	O	_	_	_
 uns	O	O	O	O	O	O	_	_	_
 geht	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
@@ -167,7 +167,7 @@ bester	O	O	O	O	O	O	_	_	_
 Gesundheit	O	O	O	O	O	O	_	_	_
 antrifft	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Teklar	O	O	O	O	O	O	_	_	_
+Teklar	I-PER	O	O	O	O	O	_	_	_
 nachdem	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 jetzt	O	O	O	O	O	O	_	_	_
@@ -209,8 +209,8 @@ Zimmer	O	O	O	O	O	O	_	_	_
 macht	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 ausgezeichnet	O	O	O	O	O	O	_	_	_
-Mis	O	O	O	O	O	O	_	_	_
-Ger	O	O	O	O	O	O	_	_	_
+Mis	I-PER	O	O	O	O	O	_	_	_
+Ger	I-PER	O	O	O	O	O	_	_	_
 freut	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 immer	O	O	O	O	O	O	_	_	_
@@ -221,5 +221,5 @@ das	O	O	O	O	O	O	_	_	_
 Zimmer	O	O	O	O	O	O	_	_	_
 tritt	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Tobler	O	O	O	O	O	O	_	_	_
+Tobler	I-PER	O	O	O	O	O	_	_	_
 wie	O	O	O	O	O	O	_	_	_
