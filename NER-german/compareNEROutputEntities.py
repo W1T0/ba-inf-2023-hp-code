@@ -64,65 +64,86 @@ if len(files[0]) == len(files[1]) == len(files[2]):
                         == germaNERLineSplitFirstWord
                         == sequenceTaggingLineSplitFirstWord
                     ):
-                        # checks that the entity tpye exist
-                        if (
-                            flairNERGermanLineSplit[1] != "O"
-                            and germaNERLineSplit[1] != "O"
-                            and sequenceTaggingLineSplit[1] != "O"
-                        ):
-                            # get the entity type (without B- or I- infront)
+                        # default values that won't appear
+                        flairNERGermanLineSplitEntityType = "-1"
+                        germaNERLineSplitEntityType = "-2"
+                        sequenceTaggingLineSplitEntityType = "-3"
+
+                        # checks that the entity tpye exist and get the entity type (without B- or I- infront)
+                        if flairNERGermanLineSplit[1] != "O":
                             flairNERGermanLineSplitEntityType = flairNERGermanLineSplit[
                                 1
                             ].split("-")[1]
+
+                        if germaNERLineSplit[1] != "O":
                             germaNERLineSplitEntityType = germaNERLineSplit[1].split(
                                 "-"
                             )[1]
+                        if sequenceTaggingLineSplit[1] != "O":
                             sequenceTaggingLineSplitEntityType = (
                                 sequenceTaggingLineSplit[1].split("-")[1]
                             )
 
-                            # checks if the entity type is the same for two
-                            if (
-                                flairNERGermanLineSplitEntityType
-                                == germaNERLineSplitEntityType
-                                or flairNERGermanLineSplitEntityType
-                                == sequenceTaggingLineSplitEntityType
-                                or germaNERLineSplitEntityType
-                                == sequenceTaggingLineSplitEntityType
-                            ):
-                                # write to file
-                                # print("----------------------------------------")
-                                # print("Word: " + flairNERGermanLineSplitFirstWord)
-                                # print(
-                                #     "Entity type: " + flairNERGermanLineSplitEntityType
-                                # )
-                                # print("----------------------------------------")
-                                # writeToFile.write(
-                                #     "----------------------------------------\n"
-                                # )
-                                writeToFile.write(
-                                    flairNERGermanLineSplitFirstWord
-                                    + " "
-                                    + flairNERGermanLineSplitEntityType
-                                    + "\n"
-                                )
-                            else:
-                                print("################################")
-                                print("[INFO] Not the same or no entity")
-                                print("Word: " + flairNERGermanLineSplitFirstWord)
-                                print(
-                                    "Entity type flair-NER: "
-                                    + flairNERGermanLineSplitEntityType
-                                )
-                                print(
-                                    "Entity type germaNER: "
-                                    + germaNERLineSplitEntityType
-                                )
-                                print(
-                                    "Entity type sequence_tagging: "
-                                    + sequenceTaggingLineSplitEntityType
-                                )
-                                print("################################")
+                        # checks if the entity type is the same for two
+                        if (
+                            flairNERGermanLineSplitEntityType
+                            == germaNERLineSplitEntityType
+                            or flairNERGermanLineSplitEntityType
+                            == sequenceTaggingLineSplitEntityType
+                        ):
+                            # write to file
+                            # print("----------------------------------------")
+                            # print("Word: " + flairNERGermanLineSplitFirstWord)
+                            # print(
+                            #     "Entity type: "
+                            #     + flairNERGermanLineSplitEntityType
+                            #     + sequenceTaggingLineSplitEntityType
+                            #     + germaNERLineSplitEntityType
+                            # )
+                            # print("----------------------------------------")
+                            # writeToFile.write(
+                            #     "----------------------------------------\n"
+                            # )
+                            writeToFile.write(
+                                flairNERGermanLineSplitFirstWord
+                                + " "
+                                + flairNERGermanLineSplitEntityType
+                                + "\n"
+                            )
+                        elif (
+                            germaNERLineSplitEntityType
+                            == sequenceTaggingLineSplitEntityType
+                        ):
+                            writeToFile.write(
+                                flairNERGermanLineSplitFirstWord
+                                + " "
+                                + germaNERLineSplitEntityType
+                                + "\n"
+                            )
+                            # print("----------------------------------------")
+                            # print("Word: " + flairNERGermanLineSplitFirstWord)
+                            # print(
+                            #     "Entity type: "
+                            #     + germaNERLineSplitEntityType
+                            #     + sequenceTaggingLineSplitEntityType
+                            #     + germaNERLineSplitEntityType
+                            # )
+                        # else:
+                        # print("################################")
+                        # print("[INFO] Not the same or no entity")
+                        # print("Word: " + flairNERGermanLineSplitFirstWord)
+                        # print(
+                        #     "Entity type flair-NER: "
+                        #     + flairNERGermanLineSplitEntityType
+                        # )
+                        # print(
+                        #     "Entity type germaNER: " + germaNERLineSplitEntityType
+                        # )
+                        # print(
+                        #     "Entity type sequence_tagging: "
+                        #     + sequenceTaggingLineSplitEntityType
+                        # )
+                        # print("################################")
 
                     else:
                         print("[ERROR] The first word is not the same.")
