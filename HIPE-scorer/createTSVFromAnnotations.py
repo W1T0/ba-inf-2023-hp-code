@@ -1,6 +1,6 @@
 import os
 
-directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/test/"  # Stichprobe - Annotationen - Export
+directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/"  # Stichprobe - Annotationen - Export
 outputPath = "./HIPE-scorer/output-tsv-annotations/"
 
 # the directory where the files are stored
