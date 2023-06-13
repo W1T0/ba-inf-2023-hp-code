@@ -118,7 +118,7 @@ Rudolph	I-PER	O	O	O	O	O	_	_	_
 Neustadt	I-LOC	O	O	O	O	O	_	_	_
 18	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
-23.3.1912	I-OTH	O	O	O	O	O	_	_	_
+2331912	I-OTH	O	O	O	O	O	_	_	_
 Liebes	O	O	O	O	O	O	_	_	_
 Fräulein	O	O	O	O	O	O	_	_	_
 Sie	O	O	O	O	O	O	_	_	_
@@ -174,8 +174,7 @@ geht	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 thuen	O	O	O	O	O	O	_	_	_
 dann	O	O	O	O	O	O	_	_	_
-jetzt	O	O	O	O	O	O	_	_	_
-?	O	O	O	O	O	O	_	_	_
+jetzt?	O	O	O	O	O	O	_	_	_
 Hoffentlich	O	O	O	O	O	O	_	_	_
 haben	O	O	O	O	O	O	_	_	_
 Sie	O	O	O	O	O	O	_	_	_
