@@ -31,24 +31,23 @@ for file in os.listdir(directory):
         tagger.predict(sentence)
         print("[INFO] NER tags predicted")
 
+        # save entities
         entities = []
 
-        # iterate over entities and print
-        # TODO fix split
+        # iterate over entities, split them and print
         for entity in sentence.get_spans("ner"):
-            # print("-----------------------")
-            # print(str(entity))
-            # entitySplit = str(entity).split()
-            # print("-----------------------")
-            # print("Entity: " + entitySplit[1].replace('"', ""))
-            # print("Predicate: " + entitySplit[3])
-            # entities.append([entitySplit[1].replace('"', ""), entitySplit[3]])
             print("-----------------------")
             print(str(entity))
+            # get only the entites (is between '"' and '"')
             entityString = re.search('"(.*)"', str(entity)).group(1)
+
+            # get the predicat (is between "→" and " ")
             predicate = re.search("→(.*) ", str(entity)).group(1).replace(" ", "")
+
+            # check if there is a space in the entity string. If so, then that means more than one word is an entity and it needs to be split to fit the required format
             if " " in entityString:
                 entityStringSplit = entityString.split()
+                # iterate over every word and add it to the entities list
                 for entitySplit in entityStringSplit:
                     entities.append([entitySplit, predicate])
                     print("-----------------------")
@@ -62,11 +61,7 @@ for file in os.listdir(directory):
 
         print("[INFO] entities list full, length: " + str(len(entities)))
 
-        # # write tsv
-        # for file in os.listdir(directory):
-        #     filename = os.fsdecode(file)
-        #     if filename.endswith(".txt"):
-        # open file
+        # open file (again, because otherwise there are errors)
         readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
 
         # read every line
@@ -91,6 +86,7 @@ for file in os.listdir(directory):
             + "\n"
         )
 
+        # keeps track of the number of entities added and the index of the entities list
         index = 0
         count = 0
 
@@ -102,6 +98,7 @@ for file in os.listdir(directory):
                 for word in lineSplit:
                     predicate = "O"
 
+                    # checks if entites are present
                     if len(entities) > 0:
                         print(
                             "[INFO] firstWord: "
@@ -110,6 +107,7 @@ for file in os.listdir(directory):
                             + entities[index][0]
                         )
 
+                        # check for every word if it is an entity
                         if word.replace("¬", "").replace(",", "").replace(
                             ".", ""
                         ) == entities[index][0].replace("¬", "").replace(
@@ -118,9 +116,7 @@ for file in os.listdir(directory):
                             ".", ""
                         ):
                             predicate = "I-" + entities[index][1]
-                            # print(predicate)
-                            # print("len(entities): " + str(len(entities)))
-                            # print("Index: " + str(index))
+                            # increase index, if size of entities list is not already reached
                             if index != len(entities) - 1:
                                 index += 1
                             count += 1
