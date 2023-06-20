@@ -1,0 +1,121 @@
+FILE: L9110213-TL0015_1a_pdf.conll
+
+FILE: L9120323-TL0033_1a_pdf.conll
+
+FILE: L9120903-TL0046_1a_pdf.conll
+
+FILE: L9130421-TL0063_1b_pdf.conll
+Word: Marta | Label: Mara | 89
+Word: Anna | Label: Arinna | 80
+Word: Pras | Label: Prasad | 80
+Word: Marta | Label: Mara | 89
+Word: Marta | Label: Mara | 89
+
+FILE: L9140528-TL0092_1b_pdf.conll
+Word: Ehre | Label: Ehe | 86
+Word: Gottes | Label: Gott | 80
+Word: Gottes | Label: Grotte | 83
+
+FILE: L9150629-TL0111_1a_pdf.conll
+Word: Gott | Label: Gott | 100
+Word: Gott | Label: Grotte | 80
+Word: Mar | Label: Mara | 86
+
+FILE: L9151117-TL0116_1b_pdf.conll
+Word: Gott | Label: Gott | 100
+Word: Gott | Label: Grotte | 80
+Word: Ar | Label: Ara | 80
+
+FILE: L9170131-TL0136_2a_pdf.conll
+Word: Gebeten | Label: Gebet | 83
+Word: Gebeten | Label: Gebet | 83
+Word: Mar | Label: Mara | 86
+
+FILE: L9190421-TL0157_1a_pdf.conll
+
+FILE: L9191208-TL0169_2a_pdf.conll
+Word: Anna | Label: Arinna | 80
+Word: Seele | Label: Seele | 100
+Word: Seele | Label: Seele | 100
+
+FILE: L9200320-TL0187_1b_pdf.conll
+Word: Dein | Label: Delion | 80
+
+FILE: L9200422-TL0001_1a_pdf.conll
+Word: Sator | Label: Satori | 91
+
+FILE: L9200626-TL0201_2a_pdf.conll
+
+FILE: L9200910-TL0220_1b_pdf.conll
+Word: Dein | Label: Delion | 80
+Word: Menschen | Label: Menschensohn | 80
+Word: Störung | Label: Strömung | 80
+Word: Dein | Label: Delion | 80
+
+FILE: L9201110-TL0230_1a_pdf.conll
+
+FILE: L9210103-TL0249_1a_pdf.conll
+Word: Gott | Label: Gott | 100
+Word: Gott | Label: Grotte | 80
+Word: Muß | Label: Mu | 80
+
+FILE: L9210529-TL0272_1b_pdf.conll
+Word: Dein | Label: Delion | 80
+Word: Gebet | Label: Gebet | 100
+Word: Gebet | Label: Gebet | 100
+Word: Gott | Label: Gott | 100
+Word: Gott | Label: Grotte | 80
+Word: Pakete | Label: Pate | 80
+
+FILE: L921xx17-TL0283_2b_pdf.conll
+
+FILE: L9220904-TL0307_1b_pdf.conll
+Word: Ehe | Label: Ehe | 100
+
+FILE: L9221214-TL0322_1a_pdf.conll
+Word: Himmel | Label: Himmel | 100
+Word: Gott | Label: Gott | 100
+Word: Gott | Label: Grotte | 80
+
+FILE: L92309xx-TL1016_2b_pdf.conll
+Word: Parten | Label: Pate | 80
+Word: Parten | Label: Patene | 83
+Word: Mut | Label: Mu | 80
+
+FILE: L9260206-TL1039_3b_pdf.conll
+Word: Kirche | Label: Kirche | 100
+Word: Kirche | Label: Kirche | 100
+Word: Kirche | Label: Kirche | 100
+Word: Kirche | Label: Kirche | 100
+Word: Kirche | Label: Kirche | 100
+Word: Kirche | Label: Kirche | 100
+Word: Kirche | Label: Kirche | 100
+Word: Kirche | Label: Kirche | 100
+Word: Festottesdienst | Label: Gottesdienst | 81
+Word: Festottesdienst | Label: Gottesdienst | 81
+Word: Predigt | Label: Prediger | 80
+
+FILE: L9300925-TL0222_1a_pdf.conll
+Word: Amit | Label: Amrita | 80
+
+FILE: L9xx0527-TL2027_1a_pdf.conll
+Word: May | Label: Maya | 86
+
+FILE: L9xx12xx-TL2068_1b_pdf.conll
+Word: Gott | Label: Gott | 100
+Word: Gott | Label: Grotte | 80
+
+FILE: L9xxxxxx-TL0234_1b_pdf.conll
+
+FILE: L9xxxxxx-TL2026_1b_pdf.conll
+Word: Pastorn | Label: Pastor | 92
+
+FILE: L9xxxxxx-TL2055_1a_pdf.conll
+Word: Martha | Label: Mara | 80
+Word: Martha | Label: Mara | 80
+
+FILE: L9xxxxxx-TL2082_1a_pdf.conll
+Word: Himmels | Label: Himmel | 92
+
+FILE: L9xxxxxx-TL2112_1b_pdf.conll
+
