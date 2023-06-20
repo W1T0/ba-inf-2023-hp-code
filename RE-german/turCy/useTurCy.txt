@@ -1,0 +1,5 @@
+use  turcy
+
+> pip install turcy
+
+> python -m spacy download de_core_news_lg-3.0.0 --direct
