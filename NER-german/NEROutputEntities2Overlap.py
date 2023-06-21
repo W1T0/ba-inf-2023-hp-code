@@ -1,13 +1,13 @@
 import os
 
 directories = [
-    "./HIPE-scorer/output-tsv-flair-ner-german/",
-    "./HIPE-scorer/output-tsv-germaNER/",
-    "./HIPE-scorer/output-tsv-sequence_tagging/",
+    "./HIPE-scorer/output-tsv-flair-ner-german2/",
+    "./HIPE-scorer/output-tsv-germaNER2/",
+    "./HIPE-scorer/output-tsv-sequence_tagging2/",
 ]
 
 # output path
-outputPath = "./NER-german/comparisonOutput.txt"
+outputPath = "./NER-german/comparisonOutput2.txt"
 
 # [0]:flair-ner-german, [1]:germaNER, [2]:sequence_tagging
 files = [[], [], []]
@@ -68,51 +68,38 @@ if len(files[0]) == len(files[1]) == len(files[2]):
                         flairNERGermanLineSplitEntityType = "-1"
                         germaNERLineSplitEntityType = "-2"
                         sequenceTaggingLineSplitEntityType = "-3"
+                        flairNERGermanLineSplitEntityTypeCleaned = "-1"
+                        germaNERLineSplitEntityTypeCleaned = "-2"
+                        sequenceTaggingLineSplitEntityTypeCleaned = "-3"
 
-                        # checks that the entity tpye exist and get the entity type (without B- or I- infront)
+                        # checks that the entity tpye exist and get the entity type without B- or I- infront (cleaned) and with B- or I- infront
                         if flairNERGermanLineSplit[1] != "O":
+                            flairNERGermanLineSplitEntityTypeCleaned = (
+                                flairNERGermanLineSplit[1].split("-")[1]
+                            )
                             flairNERGermanLineSplitEntityType = flairNERGermanLineSplit[
                                 1
-                            ].split("-")[1]
+                            ]
 
                         if germaNERLineSplit[1] != "O":
-                            germaNERLineSplitEntityType = germaNERLineSplit[1].split(
-                                "-"
-                            )[1]
+                            germaNERLineSplitEntityTypeCleaned = germaNERLineSplit[
+                                1
+                            ].split("-")[1]
+                            germaNERLineSplitEntityType = germaNERLineSplit[1]
                         if sequenceTaggingLineSplit[1] != "O":
-                            sequenceTaggingLineSplitEntityType = (
+                            sequenceTaggingLineSplitEntityTypeCleaned = (
                                 sequenceTaggingLineSplit[1].split("-")[1]
+                            )
+                            sequenceTaggingLineSplitEntityType = (
+                                sequenceTaggingLineSplit[1]
                             )
 
                         # checks if the entity type is the same for two
+                        # checks only if the cleaned type is the same, because flair does not offer B- or I-
+                        # if they are the same, it takes the "uncleaned" entity type of germanNER or sequence_tagging
                         if (
-                            flairNERGermanLineSplitEntityType
-                            == germaNERLineSplitEntityType
-                            or flairNERGermanLineSplitEntityType
-                            == sequenceTaggingLineSplitEntityType
-                        ):
-                            # write to file
-                            # print("----------------------------------------")
-                            # print("Word: " + flairNERGermanLineSplitFirstWord)
-                            # print(
-                            #     "Entity type: "
-                            #     + flairNERGermanLineSplitEntityType
-                            #     + sequenceTaggingLineSplitEntityType
-                            #     + germaNERLineSplitEntityType
-                            # )
-                            # print("----------------------------------------")
-                            # writeToFile.write(
-                            #     "----------------------------------------\n"
-                            # )
-                            writeToFile.write(
-                                flairNERGermanLineSplitFirstWord
-                                + " "
-                                + flairNERGermanLineSplitEntityType
-                                + "\n"
-                            )
-                        elif (
-                            germaNERLineSplitEntityType
-                            == sequenceTaggingLineSplitEntityType
+                            flairNERGermanLineSplitEntityTypeCleaned
+                            == germaNERLineSplitEntityTypeCleaned
                         ):
                             writeToFile.write(
                                 flairNERGermanLineSplitFirstWord
@@ -120,30 +107,27 @@ if len(files[0]) == len(files[1]) == len(files[2]):
                                 + germaNERLineSplitEntityType
                                 + "\n"
                             )
-                            # print("----------------------------------------")
-                            # print("Word: " + flairNERGermanLineSplitFirstWord)
-                            # print(
-                            #     "Entity type: "
-                            #     + germaNERLineSplitEntityType
-                            #     + sequenceTaggingLineSplitEntityType
-                            #     + germaNERLineSplitEntityType
-                            # )
-                        # else:
-                        # print("################################")
-                        # print("[INFO] Not the same or no entity")
-                        # print("Word: " + flairNERGermanLineSplitFirstWord)
-                        # print(
-                        #     "Entity type flair-NER: "
-                        #     + flairNERGermanLineSplitEntityType
-                        # )
-                        # print(
-                        #     "Entity type germaNER: " + germaNERLineSplitEntityType
-                        # )
-                        # print(
-                        #     "Entity type sequence_tagging: "
-                        #     + sequenceTaggingLineSplitEntityType
-                        # )
-                        # print("################################")
+
+                        elif (
+                            flairNERGermanLineSplitEntityTypeCleaned
+                            == sequenceTaggingLineSplitEntityTypeCleaned
+                        ):
+                            writeToFile.write(
+                                flairNERGermanLineSplitFirstWord
+                                + " "
+                                + sequenceTaggingLineSplitEntityType
+                                + "\n"
+                            )
+                        elif (
+                            germaNERLineSplitEntityTypeCleaned
+                            == sequenceTaggingLineSplitEntityTypeCleaned
+                        ):
+                            writeToFile.write(
+                                flairNERGermanLineSplitFirstWord
+                                + " "
+                                + germaNERLineSplitEntityType
+                                + "\n"
+                            )
 
                     else:
                         print("[ERROR] The first word is not the same.")
