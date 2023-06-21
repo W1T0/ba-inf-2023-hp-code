@@ -1,0 +1,163 @@
+FILE: L9110213-TL0015_1a_pdf.conll
+
+FILE: L9120323-TL0033_1a_pdf.conll
+Word: Neustadt | Label: Neustadt | Link: http://www.wikidata.org/entity/Q205383 | 100
+
+FILE: L9120903-TL0046_1a_pdf.conll
+Word: Neustadt | Label: Neustadt | Link: http://www.wikidata.org/entity/Q205383 | 100
+Word: Neustadt | Label: Neustadt | Link: http://www.wikidata.org/entity/Q205383 | 100
+
+FILE: L9130421-TL0063_1b_pdf.conll
+Word: Paul | Label: Paul | Link: http://www.wikidata.org/entity/Q1518011 | 100
+Word: München | Label: München | Link: http://www.wikidata.org/entity/Q1726 | 100
+Word: Paul | Label: Paul | Link: http://www.wikidata.org/entity/Q1518011 | 100
+Word: Witt | Label: Witt | Link: http://www.wikidata.org/entity/Q579969 | 100
+Word: Anna | Label: Anna | Link: http://www.wikidata.org/entity/Q559296 | 100
+Word: Deutschland | Label: Deutschland | Link: http://www.wikidata.org/entity/Q183 | 100
+Word: Paul | Label: Paul | Link: http://www.wikidata.org/entity/Q1518011 | 100
+Word: Hause | Label: Hauser | Link: http://www.wikidata.org/entity/Q1517712 | 91
+
+FILE: L9140528-TL0092_1b_pdf.conll
+Word: Stein | Label: Stein | Link: http://www.wikidata.org/entity/Q522045 | 100
+Word: Kasse | Label: Kassel | Link: http://www.wikidata.org/entity/Q2865 | 91
+Word: Brant | Label: Bryant | Link: http://www.wikidata.org/entity/Q79427 | 91
+Word: Allen | Label: Allen | Link: http://www.wikidata.org/entity/Q33147 | 100
+
+FILE: L9150629-TL0111_1a_pdf.conll
+Word: August | Label: Augusta | Link: http://www.wikidata.org/entity/Q28206 | 92
+Word: Frankreich | Label: Frankreich | Link: http://www.wikidata.org/entity/Q142 | 100
+
+FILE: L9151117-TL0116_1b_pdf.conll
+Word: Sache | Label: Sachse | Link: http://www.wikidata.org/entity/Q620327 | 91
+
+FILE: L9170131-TL0136_2a_pdf.conll
+Word: Löhne | Label: Löhne | Link: http://www.wikidata.org/entity/Q14863 | 100
+Word: Lande | Label: Lander | Link: http://www.wikidata.org/entity/Q992094 | 91
+Word: Ungarn | Label: Ungarn | Link: http://www.wikidata.org/entity/Q28 | 100
+Word: Gas | Label: Gas | Link: http://www.wikidata.org/entity/Q2135060 | 100
+
+FILE: L9190421-TL0157_1a_pdf.conll
+Word: Hause | Label: Hauser | Link: http://www.wikidata.org/entity/Q1517712 | 91
+Word: August | Label: Augusta | Link: http://www.wikidata.org/entity/Q28206 | 92
+Word: Stelle | Label: Stelle | Link: http://www.wikidata.org/entity/Q701148 | 100
+Word: August | Label: Augusta | Link: http://www.wikidata.org/entity/Q28206 | 92
+
+FILE: L9191208-TL0169_2a_pdf.conll
+Word: Paul | Label: Paul | Link: http://www.wikidata.org/entity/Q1518011 | 100
+Word: Muster | Label: Munster | Link: http://www.wikidata.org/entity/Q506599 | 92
+Word: Anna | Label: Anna | Link: http://www.wikidata.org/entity/Q559296 | 100
+Word: War | Label: War | Link: http://www.wikidata.org/entity/Q2058013 | 100
+Word: Seele | Label: Seelze | Link: http://www.wikidata.org/entity/Q16052 | 91
+Word: Wetter | Label: Wetter | Link: http://www.wikidata.org/entity/Q11343 | 100
+Word: Butter | Label: Butte | Link: http://www.wikidata.org/entity/Q467664 | 91
+
+FILE: L9200320-TL0187_1b_pdf.conll
+Word: Düsseldorf | Label: Düsseldorf | Link: http://www.wikidata.org/entity/Q1718 | 100
+Word: Deutschland | Label: Deutschland | Link: http://www.wikidata.org/entity/Q183 | 100
+
+FILE: L9200422-TL0001_1a_pdf.conll
+Word: August | Label: Augusta | Link: http://www.wikidata.org/entity/Q28206 | 92
+Word: Berthold | Label: Berthold | Link: http://www.wikidata.org/entity/Q1880357 | 100
+Word: Berthold | Label: Berthold | Link: http://www.wikidata.org/entity/Q1880357 | 100
+Word: Wetter | Label: Wetter | Link: http://www.wikidata.org/entity/Q11343 | 100
+Word: Regen | Label: Regen | Link: http://www.wikidata.org/entity/Q489059 | 100
+
+FILE: L9200626-TL0201_2a_pdf.conll
+Word: Alten | Label: Altena | Link: http://www.wikidata.org/entity/Q5276 | 91
+Word: Löhne | Label: Löhne | Link: http://www.wikidata.org/entity/Q14863 | 100
+
+FILE: L9200910-TL0220_1b_pdf.conll
+Word: Sache | Label: Sachse | Link: http://www.wikidata.org/entity/Q620327 | 91
+Word: Sache | Label: Sachse | Link: http://www.wikidata.org/entity/Q620327 | 91
+Word: Berlin | Label: Berlin | Link: http://www.wikidata.org/entity/Q64 | 100
+Word: Hagen | Label: Hagen | Link: http://www.wikidata.org/entity/Q2871 | 100
+
+FILE: L9201110-TL0230_1a_pdf.conll
+Word: Berlin | Label: Berlin | Link: http://www.wikidata.org/entity/Q64 | 100
+Word: Schwerden | Label: Schweden | Link: http://www.wikidata.org/entity/Q34 | 94
+Word: Butter | Label: Butte | Link: http://www.wikidata.org/entity/Q467664 | 91
+
+FILE: L9210103-TL0249_1a_pdf.conll
+Word: Robert | Label: Roberts | Link: http://www.wikidata.org/entity/Q1517849 | 92
+Word: Berlin | Label: Berlin | Link: http://www.wikidata.org/entity/Q64 | 100
+
+FILE: L9210529-TL0272_1b_pdf.conll
+Word: Deutschland | Label: Deutschland | Link: http://www.wikidata.org/entity/Q183 | 100
+Word: Polen | Label: Polen | Link: http://www.wikidata.org/entity/Q36 | 100
+Word: Lande | Label: Lander | Link: http://www.wikidata.org/entity/Q992094 | 91
+Word: Deutschland | Label: Deutschland | Link: http://www.wikidata.org/entity/Q183 | 100
+Word: Herrn | Label: Herrin | Link: http://www.wikidata.org/entity/Q577950 | 91
+Word: Neffen | Label: Neuffen | Link: http://www.wikidata.org/entity/Q82520 | 92
+Word: Witten | Label: Witten | Link: http://www.wikidata.org/entity/Q3764 | 100
+
+FILE: L921xx17-TL0283_2b_pdf.conll
+Word: Hetter | Label: Huetter | Link: http://www.wikidata.org/entity/Q1510757 | 92
+Word: Paul | Label: Paul | Link: http://www.wikidata.org/entity/Q1518011 | 100
+Word: Sache | Label: Sachse | Link: http://www.wikidata.org/entity/Q620327 | 91
+Word: Betten | Label: Bretten | Link: http://www.wikidata.org/entity/Q495428 | 92
+
+FILE: L9220904-TL0307_1b_pdf.conll
+Word: Nürnberg | Label: Nürnberg | Link: http://www.wikidata.org/entity/Q2090 | 100
+Word: Buchen | Label: Buchen | Link: http://www.wikidata.org/entity/Q179252 | 100
+Word: Deutschland | Label: Deutschland | Link: http://www.wikidata.org/entity/Q183 | 100
+Word: München | Label: München | Link: http://www.wikidata.org/entity/Q1726 | 100
+Word: Hof | Label: Hof | Link: http://www.wikidata.org/entity/Q6938 | 100
+Word: Sache | Label: Sachse | Link: http://www.wikidata.org/entity/Q620327 | 91
+
+FILE: L9221214-TL0322_1a_pdf.conll
+Word: Robert | Label: Roberts | Link: http://www.wikidata.org/entity/Q1517849 | 92
+Word: August | Label: Augusta | Link: http://www.wikidata.org/entity/Q28206 | 92
+Word: Paul | Label: Paul | Link: http://www.wikidata.org/entity/Q1518011 | 100
+Word: Porte | Label: Porter | Link: http://www.wikidata.org/entity/Q1900352 | 91
+Word: Winter | Label: Winters | Link: http://www.wikidata.org/entity/Q969524 | 92
+Word: Lander | Label: Lander | Link: http://www.wikidata.org/entity/Q992094 | 100
+Word: Deutschland | Label: Deutschland | Link: http://www.wikidata.org/entity/Q183 | 100
+
+FILE: L92309xx-TL1016_2b_pdf.conll
+Word: Neustadt | Label: Neustadt | Link: http://www.wikidata.org/entity/Q205383 | 100
+Word: München | Label: München | Link: http://www.wikidata.org/entity/Q1726 | 100
+Word: Leipzig | Label: Leipzig | Link: http://www.wikidata.org/entity/Q2079 | 100
+Word: Italien | Label: Italien | Link: http://www.wikidata.org/entity/Q38 | 100
+Word: Rom | Label: Rom | Link: http://www.wikidata.org/entity/Q220 | 100
+Word: München | Label: München | Link: http://www.wikidata.org/entity/Q1726 | 100
+
+FILE: L9260206-TL1039_3b_pdf.conll
+Word: Kirche | Label: Kirchen | Link: http://www.wikidata.org/entity/Q532613 | 92
+Word: George | Label: George | Link: http://www.wikidata.org/entity/Q1519093 | 100
+Word: Kirche | Label: Kirchen | Link: http://www.wikidata.org/entity/Q532613 | 92
+Word: Kirche | Label: Kirchen | Link: http://www.wikidata.org/entity/Q532613 | 92
+Word: Friedrichshaffen | Label: Friedrichshafen | Link: http://www.wikidata.org/entity/Q4051 | 97
+Word: München | Label: München | Link: http://www.wikidata.org/entity/Q1726 | 100
+Word: Kirche | Label: Kirchen | Link: http://www.wikidata.org/entity/Q532613 | 92
+Word: Mersburg | Label: Merseburg | Link: http://www.wikidata.org/entity/Q14945 | 94
+Word: Konstanz | Label: Konstanz | Link: http://www.wikidata.org/entity/Q3834 | 100
+
+FILE: L9300925-TL0222_1a_pdf.conll
+Word: München | Label: München | Link: http://www.wikidata.org/entity/Q1726 | 100
+Word: Ford | Label: Ford | Link: http://www.wikidata.org/entity/Q1867523 | 100
+Word: München | Label: München | Link: http://www.wikidata.org/entity/Q1726 | 100
+
+FILE: L9xx0527-TL2027_1a_pdf.conll
+
+FILE: L9xx12xx-TL2068_1b_pdf.conll
+Word: Neustad | Label: Neustadt | Link: http://www.wikidata.org/entity/Q205383 | 93
+
+FILE: L9xxxxxx-TL0234_1b_pdf.conll
+Word: Berta | Label: Bertha | Link: http://www.wikidata.org/entity/Q2186616 | 91
+
+FILE: L9xxxxxx-TL2026_1b_pdf.conll
+Word: Hause | Label: Hauser | Link: http://www.wikidata.org/entity/Q1517712 | 91
+
+FILE: L9xxxxxx-TL2055_1a_pdf.conll
+Word: Paul | Label: Paul | Link: http://www.wikidata.org/entity/Q1518011 | 100
+Word: Vielen | Label: Velen | Link: http://www.wikidata.org/entity/Q200549 | 91
+Word: August | Label: Augusta | Link: http://www.wikidata.org/entity/Q28206 | 92
+
+FILE: L9xxxxxx-TL2082_1a_pdf.conll
+
+FILE: L9xxxxxx-TL2112_1b_pdf.conll
+Word: August | Label: Augusta | Link: http://www.wikidata.org/entity/Q28206 | 92
+Word: Kentner | Label: Kenner | Link: http://www.wikidata.org/entity/Q991464 | 92
+Word: Hungern | Label: Hungen | Link: http://www.wikidata.org/entity/Q602629 | 92
+Word: Butter | Label: Butte | Link: http://www.wikidata.org/entity/Q467664 | 91
+

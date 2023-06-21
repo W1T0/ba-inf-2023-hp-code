@@ -1,0 +1,79 @@
+FILE: L9110213-TL0015_1a_pdf.conll
+
+FILE: L9120323-TL0033_1a_pdf.conll
+
+FILE: L9120903-TL0046_1a_pdf.conll
+
+FILE: L9130421-TL0063_1b_pdf.conll
+
+FILE: L9140528-TL0092_1b_pdf.conll
+
+FILE: L9150629-TL0111_1a_pdf.conll
+Word: Gott | Label: Gott | Link: http://www.wikidata.org/entity/Q190 | 100
+
+FILE: L9151117-TL0116_1b_pdf.conll
+Word: Gott | Label: Gott | Link: http://www.wikidata.org/entity/Q190 | 100
+
+FILE: L9170131-TL0136_2a_pdf.conll
+
+FILE: L9190421-TL0157_1a_pdf.conll
+
+FILE: L9191208-TL0169_2a_pdf.conll
+Word: Seele | Label: Seele | Link: http://www.wikidata.org/entity/Q9165 | 100
+
+FILE: L9200320-TL0187_1b_pdf.conll
+
+FILE: L9200422-TL0001_1a_pdf.conll
+Word: Sator | Label: Satori | Link: http://www.wikidata.org/entity/Q584580 | 91
+
+FILE: L9200626-TL0201_2a_pdf.conll
+
+FILE: L9200910-TL0220_1b_pdf.conll
+
+FILE: L9201110-TL0230_1a_pdf.conll
+
+FILE: L9210103-TL0249_1a_pdf.conll
+Word: Gott | Label: Gott | Link: http://www.wikidata.org/entity/Q190 | 100
+
+FILE: L9210529-TL0272_1b_pdf.conll
+Word: Gebet | Label: Gebet | Link: http://www.wikidata.org/entity/Q40953 | 100
+Word: Gott | Label: Gott | Link: http://www.wikidata.org/entity/Q190 | 100
+Word: Kolleke | Label: Kollekte | Link: http://www.wikidata.org/entity/Q1779350 | 93
+
+FILE: L921xx17-TL0283_2b_pdf.conll
+
+FILE: L9220904-TL0307_1b_pdf.conll
+Word: Ehe | Label: Ehe | Link: http://www.wikidata.org/entity/Q8445 | 100
+
+FILE: L9221214-TL0322_1a_pdf.conll
+Word: Himmel | Label: Himmel | Link: http://www.wikidata.org/entity/Q4489450 | 100
+Word: Gott | Label: Gott | Link: http://www.wikidata.org/entity/Q190 | 100
+
+FILE: L92309xx-TL1016_2b_pdf.conll
+
+FILE: L9260206-TL1039_3b_pdf.conll
+Word: Kirche | Label: Kirche | Link: http://www.wikidata.org/entity/Q34651 | 100
+Word: Kirche | Label: Kirche | Link: http://www.wikidata.org/entity/Q34651 | 100
+Word: Kirche | Label: Kirche | Link: http://www.wikidata.org/entity/Q34651 | 100
+Word: Kirche | Label: Kirche | Link: http://www.wikidata.org/entity/Q34651 | 100
+Word: Predigt | Label: Predigt | Link: http://www.wikidata.org/entity/Q60797 | 100
+
+FILE: L9300925-TL0222_1a_pdf.conll
+
+FILE: L9xx0527-TL2027_1a_pdf.conll
+
+FILE: L9xx12xx-TL2068_1b_pdf.conll
+Word: Gott | Label: Gott | Link: http://www.wikidata.org/entity/Q190 | 100
+
+FILE: L9xxxxxx-TL0234_1b_pdf.conll
+
+FILE: L9xxxxxx-TL2026_1b_pdf.conll
+Word: Pastorn | Label: Pastor | Link: http://www.wikidata.org/entity/Q152002 | 92
+
+FILE: L9xxxxxx-TL2055_1a_pdf.conll
+
+FILE: L9xxxxxx-TL2082_1a_pdf.conll
+Word: Himmels | Label: Himmel | Link: http://www.wikidata.org/entity/Q4489450 | 92
+
+FILE: L9xxxxxx-TL2112_1b_pdf.conll
+

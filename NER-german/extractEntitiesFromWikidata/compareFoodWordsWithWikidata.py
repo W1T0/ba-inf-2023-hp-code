@@ -6,6 +6,9 @@ directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotatio
 # output path
 outputPath = "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput2.txt"
 
+# Levenshtein distance
+levenshteinDistance = 90
+
 # sparql query to get food out of wikidata
 query = """
 SELECT ?item ?itemLabel {
@@ -40,4 +43,6 @@ SELECT ?item ?itemLabel {
 }
 """
 
-compareWikidataQueryWithLetterWords.compare(directoryPath, outputPath, query)
+compareWikidataQueryWithLetterWords.compare(
+    directoryPath, outputPath, query, levenshteinDistance
+)

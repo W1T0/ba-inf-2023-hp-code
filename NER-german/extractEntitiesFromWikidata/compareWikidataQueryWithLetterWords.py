@@ -4,16 +4,11 @@ import testWikidataSPARQLQuery
 
 
 # function to compare results of a SPARQL query (queryDF) with every word in the letters located in the directoryPath, letters must be in conll format
-def compare(directoryPath, outputPath, query):
+def compare(directoryPath, outputPath, query, levenshteinDistance):
     # run query and save as dataframe
     data_extracter = testWikidataSPARQLQuery.WikiDataQueryResults(query)
     queryDF = data_extracter.load_as_dataframe()
     print("[INFO] Query ran")
-
-    # print(queryDF)
-
-    # print(queryDF.loc[(queryDF.itemLabel == "Gurke")].item.shape[0])
-    # print((queryDF.loc[(queryDF.itemLabel == "Gurke")]).values[2, 0])
 
     # open file to write to
     writeToFile = open(outputPath, "a", encoding="utf-8")
@@ -49,27 +44,35 @@ def compare(directoryPath, outputPath, query):
                     if firstWord[0].isupper():
                         # store query results with fuzz.ratio > 90
                         possibleMatch = []
+
+                        # store match and link in dict
                         possibleMatchAndLink = {}
 
                         # iterate over labels in query result
                         for label in queryDF.itemLabel:
                             # compare firstWord and label with fuzzywuzzy
-                            if fuzz.ratio(firstWord, label) > 90:
+                            if fuzz.ratio(firstWord, label) > levenshteinDistance:
+                                # add label to possible match list
                                 possibleMatch.append(label)
                                 # get wikidata link
+                                # check if there are more than one links
                                 if (
                                     queryDF.loc[
                                         (queryDF.itemLabel == label)
                                     ].item.shape[0]
                                     > 1
                                 ):
+                                    # if there are more than one link, choose the first one
                                     wikidataLink = (
                                         queryDF.loc[(queryDF.itemLabel == label)]
                                     ).values[0, 0]
                                 else:
+                                    # get link from dataframe
                                     wikidataLink = queryDF.loc[
                                         (queryDF.itemLabel == label)
                                     ].item.item()
+
+                                # add link to dict
                                 possibleMatchAndLink[label] = wikidataLink
 
                         # make sure that there are matches in the list
