@@ -37,7 +37,7 @@ SELECT ?item ?itemLabel {
 # neustadt (prudnik) gesondert behandeln Q986984
 """
 
-
+# call function to compare query with every word in the letters of the directory
 compareWikidataQueryWithLetterWords.compare(
     directoryPath, outputPath, query, levenshteinDistance
 )

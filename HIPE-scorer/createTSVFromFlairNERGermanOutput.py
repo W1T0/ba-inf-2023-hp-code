@@ -95,7 +95,9 @@ for file in os.listdir(directory):
             lineSplit = line.split()
             print("[INFO] lineSplit: " + str(lineSplit))
             if lineSplit:
+                # for every word in the line
                 for word in lineSplit:
+                    # set default predicate
                     predicate = "O"
 
                     # checks if entites are present
@@ -115,6 +117,7 @@ for file in os.listdir(directory):
                         ).replace(
                             ".", ""
                         ):
+                            # set the predicate, if word is an entity
                             predicate = "I-" + entities[index][1]
                             # increase index, if size of entities list is not already reached
                             if index != len(entities) - 1:
@@ -128,6 +131,7 @@ for file in os.listdir(directory):
                                 + " DONE "
                             )
 
+                    # write entity and predicate to file
                     writeToFile.write(
                         word.replace(",", "").replace(".", "").replace("¬", "")
                         + "	"
@@ -136,9 +140,11 @@ for file in os.listdir(directory):
                         + "\n"
                     )
 
+        # check if all entities have been mapped
         if count == len(entities):
             print("[INFO] ALL ENTITIES MAPPED")
         else:
+            # if not, set error to 1 so that error message can be printed
             error = 1
 
         writeToFile.close()
@@ -151,5 +157,6 @@ for file in os.listdir(directory):
     else:
         continue
 
+# error message, if not all entites have been mapped
 if error == 1:
     print("[ERROR] Not all Entities have been mapped")

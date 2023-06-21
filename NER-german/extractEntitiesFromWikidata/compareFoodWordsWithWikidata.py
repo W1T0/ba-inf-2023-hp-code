@@ -43,6 +43,7 @@ SELECT ?item ?itemLabel {
 }
 """
 
+# call function to compare query with every word in the letters of the directory
 compareWikidataQueryWithLetterWords.compare(
     directoryPath, outputPath, query, levenshteinDistance
 )

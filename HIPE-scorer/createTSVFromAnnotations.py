@@ -43,10 +43,13 @@ for file in os.listdir(directory):
             lineSplit = line.split()
 
             if lineSplit:
+                # save first word of line
                 firstWord = lineSplit[0]
 
+                # set the default predicate
                 predicate = "O"
 
+                # checks if line ends with entity type
                 if (
                     line.endswith("I-PER\n")
                     or line.endswith("B-PER\n")
@@ -57,9 +60,12 @@ for file in os.listdir(directory):
                     or line.endswith("I-ORG\n")
                     or line.endswith("B-ORG\n")
                 ):
+                    # if so, get the entity type
                     predicate = lineSplit[-1]
 
+                # ignore special characters
                 if firstWord != "," and firstWord != "." and firstWord != "¬":
+                    # write entity and entity type to file
                     writeToFile.write(
                         firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
                     )

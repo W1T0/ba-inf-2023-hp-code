@@ -1,6 +1,3 @@
-# import os
-# import testWikidataSPARQLQuery
-# from fuzzywuzzy import fuzz
 import compareWikidataQueryWithLetterWords
 
 #  input path
@@ -52,6 +49,7 @@ SELECT ?item ?itemLabel ?offName {
 # timed out: { ?item wdt:P31 wd:Q16970 } # is | church building 
 """
 
+# call function to compare query with every word in the letters of the directory
 compareWikidataQueryWithLetterWords.compare(
     directoryPath, outputPath, query, levenshteinDistance
 )

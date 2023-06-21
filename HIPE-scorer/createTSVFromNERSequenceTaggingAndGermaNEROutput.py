@@ -18,6 +18,7 @@ path = pathList[whichOne]
 outputPath = outputPathList[whichOne]
 additionalFilename = additionalFilenameList[whichOne]
 
+# the filename of the letters
 outputFilenames = [
     "L9xx12xx-TL2068_1b_pdf",
     "L9xx0527-TL2027_1a_pdf",
@@ -51,7 +52,6 @@ outputFilenames = [
     "L9300925-TL0222_1a_pdf",
 ]
 
-
 # opens the file and reads all lines
 file = open(path, "r", encoding="utf-8")
 lines = file.readlines()
@@ -60,21 +60,28 @@ lines = file.readlines()
 counter = 0
 lastCounter = 0
 
+# set filename variable
 filename = ""
 
 # write every word
 for line in lines:
+    # if a line starts with #, then that means that a new letter starts
     if line.startswith("#"):
         filename = outputFilenames[counter]
         counter += 1
         # print("[INFO] " + str(counter) + " Files written")
 
+    # split the lines
     lineSplit = line.split()
 
     if lineSplit:
+        # replace special characters
         firstWord = lineSplit[0].replace(",", "").replace(".", "").replace("¬", "")
 
+        # set default predicate
         predicate = "O"
+
+        # checks if line ends with entity type
         if (
             line.endswith("I-PER\n")
             or line.endswith("B-PER\n")
@@ -85,6 +92,7 @@ for line in lines:
             or line.endswith("I-ORG\n")
             or line.endswith("B-ORG\n")
         ):
+            # if so, get the entity type
             predicate = lineSplit[-1]
 
         # open file to write to tsv file
@@ -98,6 +106,7 @@ for line in lines:
             encoding="utf-8",
         )
 
+        # check if counter changed and writes first line for every letter
         if lastCounter != counter:
             # write first line
             writeToFile.write(
@@ -106,6 +115,7 @@ for line in lines:
             )
             lastCounter = counter
 
+        # checks that the firstWord is a valid word
         if firstWord != "O" and firstWord != "#":
             # write word
             writeToFile.write(firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n")
