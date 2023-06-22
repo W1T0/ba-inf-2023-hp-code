@@ -1,62 +1,97 @@
 import os
 import numpy as np
 
+# the directories where the hipe output is stored
 directories = [
+    # "./HIPE-scorer/HIPE-results/HIPE-output-test/"
     "./HIPE-scorer/HIPE-results/output-hipe-flair-ner-german/",
-    "./HIPE-scorer/HIPE-results/output-hipe-germaNER/",
-    "./HIPE-scorer/HIPE-results/output-hipe-sequence_tagging/",
+    # "./HIPE-scorer/HIPE-results/output-hipe-germaNER/",
+    # "./HIPE-scorer/HIPE-results/output-hipe-sequence_tagging/",
 ]
-
-# "./HIPE-scorer/HIPE-results/output-hipe-flair-ner-german/"
-# "./output-hipe-germaNER/",
-# "./output-hipe-sequence_tagging/",
 
 # iterate over directories
 for directory in directories:
-    # true positive, false positive and false negative overall arrays
+    # Micro: true positive, false positive and false negative overall arrays
     # ALL LOC OTH ORG PER ALL LOC OTH ORG PER
     tpOverall = np.zeros((10))
     fpOverall = np.zeros((10))
     fnOverall = np.zeros((10))
 
-    listsOverall = [tpOverall, fpOverall, fnOverall]
+    # Macro: precision, recall and f1 overall arrays
+    # ALL LOC OTH ORG PER ALL LOC OTH ORG PER
+    pOverall = np.zeros((20))
+    rOverall = np.zeros((20))
+    f1Overall = np.zeros((20))
+
+    # stores lists in list
+    listsMicroOverall = [tpOverall, fpOverall, fnOverall]
+    listsMacroOverall = [pOverall, rOverall, f1Overall]
+
+    # counts the files
+    fileCount = 0
+
     # for every file in the directory which ends with .tsv
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
         if filename.endswith(".tsv"):
+            # increase file count
+            fileCount += 1
+
             # open file, store every line of file and count lines
             readFromFile = open(directory + filename, "r", encoding="utf-8")
             lines = readFromFile.readlines()
             lineLength = len(lines)
-            n = int(np.round((lineLength - 1) / 2)) + 1
+            nMicro = int(np.round((lineLength - 1) / 2)) + 1
+            nMacro = len(lines)
 
-            # open file and store first 9 lines
+            # Micro: open file and store first n lines
             with open(directory + filename, "r", encoding="utf-8") as input_file:
-                firstNLines = [next(input_file) for _ in range(n)]
+                firstNMicroLines = [next(input_file) for _ in range(nMicro)]
+
+            # Macro: open file and store first n lines
+            with open(directory + filename, "r", encoding="utf-8") as input_file:
+                firstNMacroLines = [next(input_file) for _ in range(nMacro)]
 
             # remove first line
-            firstNMinus1Lines = firstNLines[1:]
+            firstNMicroMinus1Lines = firstNMicroLines[1:]
+            firstNMacroMinus1Lines = firstNMacroLines[1:]
 
-            # create temporary lists for true positive, false positive and false negative
+            # Micro: create temporary lists for true positive, false positive and false negative
             tpTemp = []
             fpTemp = []
             fnTemp = []
 
-            # get values out of first 8 lines and append them to lists
-            for line in firstNMinus1Lines:
+            # Macro: create  temporary lists for precision, recall, f1
+            pTemp = []
+            rTemp = []
+            f1Temp = []
+
+            # Micro: get values out of first 8 lines and append them to lists. First the category (ALL, LOC, etc.) and then the tp, fp or fn value
+            for line in firstNMicroMinus1Lines:
                 lineSplit = line.split()
                 tpTemp.append([lineSplit[2], int(lineSplit[6])])
                 fpTemp.append([lineSplit[2], int(lineSplit[7])])
                 fnTemp.append([lineSplit[2], int(lineSplit[8])])
 
-            # stores lists in list
-            listsTemp = [tpTemp, fpTemp, fnTemp]
-            # print(tpTemp)
-            # print(fpTemp)
-            # print(fnTemp)
+            # Macro: get values out of p, r and f1 columns and append them to lists
+            # TODO account for missing values
+            for line in firstNMacroMinus1Lines:
+                lineSplit = line.split()
+                print(lineSplit)
+                pTemp.append([lineSplit[2], float(lineSplit[3])])
+                rTemp.append([lineSplit[2], float(lineSplit[4])])
+                f1Temp.append([lineSplit[2], float(lineSplit[5])])
 
-            # iterate over lists in lists
-            for listTemp, listOverall in list(zip(listsTemp, listsOverall)):
+            print(pTemp)
+            print(rTemp)
+            print(f1Temp)
+
+            # Micro: stores lists in list
+            listsMicroTemp = [tpTemp, fpTemp, fnTemp]
+            listsMacroTemp = [pTemp, rTemp, f1Temp]
+
+            # Micro: iterate over lists in lists
+            for listTemp, listOverall in list(zip(listsMicroTemp, listsMicroOverall)):
                 halfOfList = int(len(listTemp) / 2)
                 # sum the first half of the entries in the temporary list
                 for entry in listTemp[:halfOfList]:
@@ -83,19 +118,48 @@ for directory in directories:
                         listOverall[8] += entry[1]
                     elif entry[0] == "PER":
                         listOverall[9] += entry[1]
-    print(tpOverall)
-    print(fpOverall)
-    print(fnOverall)
 
-    # calculate precision
-    precision = tpOverall / (tpOverall + fpOverall)
+            # Macro: iterate over lists in lists
+            for i in range(4):
+                for listTemp, listOverall in list(
+                    zip(listsMacroTemp, listsMacroOverall)
+                ):
+                    quarterOfList = int(len(listTemp) / 4)
+                    # sum the first quarter of the entries in the temporary list
+                    for entry in listTemp[quarterOfList * i : quarterOfList * (i + 1)]:
+                        if entry[0] == "ALL":
+                            listOverall[(5 * i) + 0] += entry[1]
+                        elif entry[0] == "LOC":
+                            listOverall[(5 * i) + 1] += entry[1]
+                        elif entry[0] == "OTH":
+                            listOverall[(5 * i) + 2] += entry[1]
+                        elif entry[0] == "ORG":
+                            listOverall[(5 * i) + 3] += entry[1]
+                        elif entry[0] == "PER":
+                            listOverall[(5 * i) + 4] += entry[1]
 
-    # calculate recall
-    recall = tpOverall / (tpOverall + fnOverall)
+    # print(tpOverall)
+    # print(fpOverall)
+    # print(fnOverall)
 
-    # calculate f1
-    f1 = 2 * ((precision * recall) / (precision + recall))
+    print("fileCount: " + str(fileCount))
+    # Macro: calculate precision, recall, f1
+    macroPrecision = pOverall / fileCount
+    macroRecall = rOverall / fileCount
+    microf1 = f1Overall / fileCount
 
-    print("Micro Precision:" + str(precision))
-    print("Micro Recall:" + str(recall))
-    print("Micro F1:" + str(f1))
+    print("Macro Precision: " + str(macroPrecision))
+    print("Macro Recall: " + str(macroRecall))
+    print("Macro F1: " + str(microf1))
+
+    # Micro: calculate precision, recall, f1 (add small number to prevent divison of zero)
+    microPrecision = tpOverall / (tpOverall + fpOverall + 0.000000000000001)
+    microRecall = tpOverall / (tpOverall + fnOverall + 0.000000000000001)
+    microf1 = 2 * (
+        (microPrecision * microRecall)
+        / (microPrecision + microRecall + 0.000000000000001)
+    )
+
+    print("Micro Precision: " + str(microPrecision))
+    print("Micro Recall: " + str(microRecall))
+    print("Micro F1: " + str(microf1))
