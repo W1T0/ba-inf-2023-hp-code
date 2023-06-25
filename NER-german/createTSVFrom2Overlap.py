@@ -3,11 +3,11 @@ import NEROutputEntities2Overlap
 
 # generate 2 Overlap entities and save them
 entities2Overlap = NEROutputEntities2Overlap.run(boolWriteToFile=False)
-print(entities2Overlap)
+# print(entities2Overlap)
 
 
 def run(
-    directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/test/",  # Stichprobe - Annotationen - Export
+    directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",  # Stichprobe - Annotationen - Export
     output="./NER-german/output-2overlap-annotations/",
 ):
     # path of the directory
@@ -21,6 +21,12 @@ def run(
 
     # keeps track of how many files haven been processed
     fileCount = 1
+
+    # to check if there has been an error
+    error = 0
+
+    # length of entities list
+    entitiesListLength = 0
 
     # maybe relevant for later
     # filenamesFile2Overlap = []
@@ -48,7 +54,7 @@ def run(
 
             # read every line
             lines = readFromFile.readlines()
-            print("[INFO] read lines")
+            # print("[INFO] read lines")
 
             # open file to write into
             writeToFile = open(
@@ -60,7 +66,7 @@ def run(
                 "a",
                 encoding="utf-8",
             )
-            print("[INFO] opened output file")
+            # print("[INFO] opened output file")
 
             # write first line
             writeToFile.write(
@@ -68,8 +74,7 @@ def run(
                 + "\n"
             )
 
-            # keeps track of the number of entities added and the index of the entities list
-            index = 0
+            # keeps track of the number of entities added
             count = 0
 
             # write every word
@@ -95,39 +100,54 @@ def run(
                         and firstWord != " "
                         and firstWord != "	"
                     ):
+                        # replace special characters
                         firstWord.replace(",", "").replace(".", "").replace(
                             "¬", ""
                         ).replace("?", "").replace(":", "").replace(";", "").replace(
                             "-", ""
                         )
 
-                        # TODO for now it just compares the entityName with one firstWord but needs to compare with every
                         for entities in entities2Overlap:
                             if len(entities) > 0:
                                 if entities[0] == filenameClean:
-                                    print("EQUAL FILENAME")
-                                    print(entities[0], filenameClean)
+                                    # print("EQUAL FILENAME")
+                                    # print(entities[0], filenameClean)
 
-                                    # delete filename from list
-                                    del entities[0]
+                                    entitiesListLength = len(entities[1:])
 
-                                    for entity in entities:
+                                    for entity in entities[1:]:
                                         # split entity
                                         entityName = entity.split()[0]
 
-                                        print(firstWord, entityName)
+                                        # print(firstWord, entityName)
 
                                         # check for every word if it is an entity
                                         if firstWord == entityName:
                                             # set the predicate, if word is an entity
                                             predicate = entity.split()[1]
+                                            count += 1
 
                         # write entity and predicate to file
                         writeToFile.write(
                             firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
                         )
 
-            # check if all entities have been mapped, errror if not
+            # check if all entities have been mapped
+            if count >= entitiesListLength:
+                print("[INFO] ALL ENTITIES MAPPED")
+            else:
+                # if not, set error to 1 so that error message can be printed
+                error = 1
+                print("[ERROR]: " + str(count) + " " + str(entitiesListLength))
+
+            writeToFile.close()
+
+            print("[INFO] " + str(fileCount) + " FILES DONE")
+            fileCount = fileCount + 1
+
+    # error message, if not all entites have been mapped
+    if error == 1:
+        print("[ERROR] Not all Entities have been mapped")
 
 
 run()

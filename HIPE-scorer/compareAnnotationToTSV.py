@@ -7,6 +7,7 @@ def run(
         "./HIPE-scorer/output-tsv-flair-ner-german/",
         "./HIPE-scorer/output-tsv-germaNER/",
         "./HIPE-scorer/output-tsv-sequence_tagging/",
+        #         "./NER-german/output-tsv-2Overlap/",
     ]
 ):
     directories = directoriesList

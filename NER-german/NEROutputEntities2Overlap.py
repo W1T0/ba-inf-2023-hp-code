@@ -2,6 +2,8 @@ import os
 
 
 def run(boolWriteToFile=True):
+    print("[INFO] boolWriteToFile: " + str(boolWriteToFile))
+
     directories = [
         "./HIPE-scorer/output-tsv-flair-ner-german2/",
         "./HIPE-scorer/output-tsv-germaNER2/",
@@ -21,7 +23,7 @@ def run(boolWriteToFile=True):
             filename = os.fsdecode(file)
             files[index].append(directory + filename)
         index += 1
-    print("[INFO] Files saved")
+    # print("[INFO] Files saved")
 
     # list to save filename and entities to
     entities2Overlap = []
@@ -34,7 +36,7 @@ def run(boolWriteToFile=True):
             flairNERGermanFile = open(files[0][i], "r", encoding="utf-8")
             germaNERFile = open(files[1][i], "r", encoding="utf-8")
             sequenceTaggingFile = open(files[2][i], "r", encoding="utf-8")
-            print("[INFO] Files opened")
+            # print("[INFO] Files opened")
 
             # append file name to entites2Overlap list
             entities2Overlap.append([files[0][i][43:65]])
@@ -225,4 +227,4 @@ def run(boolWriteToFile=True):
 
 
 # run code
-run()
+# run()
