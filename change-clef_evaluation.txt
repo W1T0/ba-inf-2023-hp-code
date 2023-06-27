@@ -1,0 +1,20 @@
+def ownMain(args):
+    tasks = ("nerc_coarse", "nerc_fine", "nel")
+    if args["--task"] not in tasks:
+        msg = "Please restrict to one of the available evaluation tasks: " + ", ".join(tasks)
+        logging.error(msg)
+        sys.exit(1)
+    logging.debug(f"ARGUMENTS {args}")
+    main(args)
+
+################################################################################
+# if __name__ == "__main__":
+#     args = docopt(__doc__)
+
+#     tasks = ("nerc_coarse", "nerc_fine", "nel")
+#     if args["--task"] not in tasks:
+#         msg = "Please restrict to one of the available evaluation tasks: " + ", ".join(tasks)
+#         logging.error(msg)
+#         sys.exit(1)
+#     logging.debug(f"ARGUMENTS {args}")
+#     m

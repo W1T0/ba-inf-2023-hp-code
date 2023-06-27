@@ -54,8 +54,8 @@ if len(files[0]) == len(files[1]) == len(files[2]) == len(files[3]) == len(files
                 os.makedirs(outdir)
 
             # get only the original filename to compare
-            orgFilenamePred = pred.split("/")[3][0:22]
-            orgFilenameGold = gold.split("/")[3][0:22]
+            orgFilenamePred = pred.split("/")[4][0:22]
+            orgFilenameGold = gold.split("/")[4][0:22]
 
             # check if the filenames are the same (and consequently the files)
             if orgFilenameGold == orgFilenamePred:
