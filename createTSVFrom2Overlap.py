@@ -1,15 +1,18 @@
 import os
 import get2OverlapEntitiesFromNEROutput
 
-# generate 2 Overlap entities and save them
-entities2Overlap = get2OverlapEntitiesFromNEROutput.run(boolWriteToFile=False)
-# print(entities2Overlap)
-
 
 def run(
-    directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",  # Stichprobe - Annotationen - Export
+    directoriesList,
+    directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/test/",  # Stichprobe - Annotationen - Export
     output="./HIPE-scorer-output/output-tsv-2overlap/",
 ):
+    # generate 2 Overlap entities and save them
+    entities2Overlap = get2OverlapEntitiesFromNEROutput.run(
+        directoriesList, boolWriteToFile=False
+    )
+    # print(entities2Overlap)
+
     # path of the directory
     directoryPath = directory
 
@@ -56,6 +59,10 @@ def run(
             lines = readFromFile.readlines()
             # print("[INFO] read lines")
 
+            # create folder if it does not exist
+            if not os.path.exists(outputPath):
+                os.makedirs(outputPath)
+
             # open file to write into
             writeToFile = open(
                 outputPath
@@ -101,10 +108,15 @@ def run(
                         and firstWord != "	"
                     ):
                         # replace special characters
-                        firstWord.replace(",", "").replace(".", "").replace(
-                            "¬", ""
-                        ).replace("?", "").replace(":", "").replace(";", "").replace(
-                            "-", ""
+                        firstWordReplaced = (
+                            firstWord.replace(",", "")
+                            .replace(".", "")
+                            .replace("¬", "")
+                            .replace("?", "")
+                            .replace(":", "")
+                            .replace(";", "")
+                            .replace("-", "")
+                            .replace("-", "")
                         )
 
                         for entities in entities2Overlap:
@@ -122,14 +134,18 @@ def run(
                                         # print(firstWord, entityName)
 
                                         # check for every word if it is an entity
-                                        if firstWord == entityName:
+                                        if firstWordReplaced == entityName:
                                             # set the predicate, if word is an entity
                                             predicate = entity.split()[1]
                                             count += 1
 
                         # write entity and predicate to file
                         writeToFile.write(
-                            firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
+                            firstWordReplaced
+                            + "	"
+                            + predicate
+                            + "	O	O	O	O	O	_	_	_"
+                            + "\n"
                         )
 
             # check if all entities have been mapped
@@ -148,6 +164,3 @@ def run(
     # error message, if not all entites have been mapped
     if error == 1:
         print("[ERROR] Not all Entities have been mapped")
-
-
-run()

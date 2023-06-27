@@ -73,6 +73,10 @@ def run(
             # stores every line of file
             lines = readFromFile.readlines()
 
+            # create folder if it does not exist
+            if not os.path.exists(outputPath):
+                os.makedirs(outputPath)
+
             # open file to write to tsv file
             writeToFile = open(
                 outputPath

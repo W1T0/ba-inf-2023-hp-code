@@ -1,17 +1,18 @@
 import os
 
 
-def run(boolWriteToFile=True):
+def run(
+    directoriesList,
+    boolWriteToFile=True,
+    outputFile="./NER-german/comparisonOutput2.txt",
+):
     print("[INFO] boolWriteToFile: " + str(boolWriteToFile))
 
-    directories = [
-        "./HIPE-scorer/output-tsv-flair-ner-german2/",
-        "./HIPE-scorer/output-tsv-germaNER2/",
-        "./HIPE-scorer/output-tsv-sequence_tagging2/",
-    ]
+    # list of directories to get entities from
+    directories = directoriesList
 
     # output path
-    outputPath = "./NER-german/comparisonOutput2.txt"
+    outputPath = outputFile
 
     # [0]:flair-ner-german, [1]:germaNER, [2]:sequence_tagging
     files = [[], [], []]

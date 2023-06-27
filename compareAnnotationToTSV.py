@@ -7,13 +7,13 @@ def run(
         "./HIPE-scorer-output/output-tsv-flair-ner-german/",
         "./HIPE-scorer-output/output-tsv-germaNER/",
         "./HIPE-scorer-output/output-tsv-sequence_tagging/",
-        #         "./NER-german/output-tsv-2Overlap/",
+        "./HIPE-scorer-output/output-tsv-2Overlap/",
     ]
 ):
     directories = directoriesList
 
-    # [0]:flair-ner-german, [1]:germaNER, [2]:sequence_tagging
-    files = [[], [], [], []]
+    # [0]:annotations, [1]:flair-ner-german, [2]:germaNER, [3]:sequence_tagging, [4]: overlap
+    files = [[], [], [], [], []]
     index = 0
 
     # save every filename in a list
@@ -25,7 +25,13 @@ def run(
     print("[INFO] Files saved")
 
     # check if there are the same number of files in every directory
-    if len(files[0]) == len(files[1]) == len(files[2]) == len(files[3]):
+    if (
+        len(files[0])
+        == len(files[1])
+        == len(files[2])
+        == len(files[3])
+        == len(files[4])
+    ):
         # compare the entites
         for i in range(30):
             # open files
@@ -33,6 +39,7 @@ def run(
             flairNERGermanFile = open(files[1][i], "r", encoding="utf-8")
             germaNERFile = open(files[2][i], "r", encoding="utf-8")
             sequenceTaggingFile = open(files[3][i], "r", encoding="utf-8")
+            overlap2File = open(files[4][i], "r", encoding="utf-8")
             print("[INFO] " + str(i + 1) + " Files opened")
 
             # stores every line of file
@@ -40,6 +47,21 @@ def run(
             flairNERGermanLines = flairNERGermanFile.readlines()
             germaNERLines = germaNERFile.readlines()
             sequenceTaggingLines = sequenceTaggingFile.readlines()
+            overlap2Lines = overlap2File.readlines()
+
+            # string to print if there is an error
+            printFiles = (
+                "[ERROR]: annotationFile: "
+                + files[0][i]
+                + " | flairNERGermanFile: "
+                + files[1][i]
+                + " | germaNERFile: "
+                + files[2][i]
+                + " | sequenceTaggingFile: "
+                + files[3][i]
+                + " | overlap2File: "
+                + files[4][i]
+            )
 
             # checks if all the files have the same number of lines
             if (
@@ -47,6 +69,7 @@ def run(
                 == len(germaNERLines)
                 == len(sequenceTaggingLines)
                 == len(annotationLines)
+                == len(overlap2Lines)
             ):
                 # split every line and compare them
                 for j in range(len(flairNERGermanLines) - 1):
@@ -54,6 +77,7 @@ def run(
                     flairNERGermanLineSplit = flairNERGermanLines[j + 1].split()
                     germaNERLineSplit = germaNERLines[j + 1].split()
                     sequenceTaggingLineSplit = sequenceTaggingLines[j + 1].split()
+                    overlap2LineSplit = overlap2Lines[j + 1].split()
 
                     # checks if there is a line for every file
                     if (
@@ -61,11 +85,13 @@ def run(
                         and flairNERGermanLineSplit
                         and germaNERLineSplit
                         and sequenceTaggingLineSplit
+                        and overlap2LineSplit
                     ):
                         annotationLineSplitFirstWord = annotationLineSplit[0]
                         flairNERGermanLineSplitFirstWord = flairNERGermanLineSplit[0]
                         germaNERLineSplitFirstWord = germaNERLineSplit[0]
                         sequenceTaggingLineSplitFirstWord = sequenceTaggingLineSplit[0]
+                        overlap2FirstWord = overlap2LineSplit[0]
 
                         # checks if the first word is the same
                         if (
@@ -73,22 +99,14 @@ def run(
                             == flairNERGermanLineSplitFirstWord
                             == germaNERLineSplitFirstWord
                             == sequenceTaggingLineSplitFirstWord
+                            == overlap2FirstWord
                         ):
                             # print("[INFO] First word is the same")
                             x = 1
 
                         else:
                             print("[ERROR] The first word is not the same.")
-                            print(
-                                "[ERROR]: annotationFile: "
-                                + files[0][i]
-                                + " | flairNERGermanFile: "
-                                + files[1][i]
-                                + " | germaNERFile: "
-                                + files[2][i]
-                                + " | sequenceTaggingFile: "
-                                + files[3][i]
-                            )
+                            print(printFiles)
                             print(
                                 "[ERROR]: "
                                 + annotationLineSplitFirstWord
@@ -98,33 +116,17 @@ def run(
                                 + germaNERLineSplitFirstWord
                                 + " | "
                                 + sequenceTaggingLineSplitFirstWord
+                                + " | "
+                                + overlap2FirstWord
                             )
                     else:
                         print(
                             "[ERROR] There is a missing line in one or multiple files."
                         )
-                        print(
-                            "[ERROR]: annotationFile: "
-                            + files[0][i]
-                            + " | flairNERGermanFile: "
-                            + files[1][i]
-                            + " | germaNERFile: "
-                            + files[2][i]
-                            + " | sequenceTaggingFile: "
-                            + files[3][i]
-                        )
+                        print(printFiles)
             else:
                 print("[ERROR] The files do not have the same number of lines.")
-                print(
-                    "[ERROR]: annotationFile: "
-                    + files[0][i]
-                    + " | flairNERGermanFile: "
-                    + files[1][i]
-                    + " | germaNERFile: "
-                    + files[2][i]
-                    + " | sequenceTaggingFile: "
-                    + files[3][i]
-                )
+                print(printFiles)
                 print(
                     "[ERROR]: "
                     + str(len(annotationLines))
@@ -134,6 +136,8 @@ def run(
                     + str(len(germaNERLines))
                     + " | "
                     + str(len(sequenceTaggingLines))
+                    + " | "
+                    + str(len(overlap2Lines))
                 )
     else:
         print("[ERROR] There are not the same number of files in every directory.")

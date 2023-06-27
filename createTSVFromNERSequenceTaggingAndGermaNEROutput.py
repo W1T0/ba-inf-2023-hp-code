@@ -1,3 +1,6 @@
+import os
+
+
 def run(
     directoryList=[
         "./NER-german/germaNER/germaNER-output.txt",
@@ -107,6 +110,10 @@ def run(
                 ):
                     # if so, get the entity type
                     predicate = lineSplit[-1]
+
+                # create folder if it does not exist
+                if not os.path.exists(outputPath):
+                    os.makedirs(outputPath)
 
                 # open file to write to tsv file
                 writeToFile = open(

@@ -1,5 +1,8 @@
 import os
 
+
+# maybe before run compareAnnotationToTSV
+
 directories = [
     "./HIPE-scorer/output-tsv-annotations/",
     "./HIPE-scorer/output-tsv-flair-ner-german/",

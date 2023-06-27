@@ -44,8 +44,8 @@ def run(
 
             # iterate over entities, split them and print
             for entity in sentence.get_spans("ner"):
-                print("-----------------------")
-                print(str(entity))
+                # print("-----------------------")
+                # print(str(entity))
                 # get only the entites (is between '"' and '"')
                 entityString = re.search('"(.*)"', str(entity)).group(1)
 
@@ -58,13 +58,13 @@ def run(
                     # iterate over every word and add it to the entities list
                     for entitySplit in entityStringSplit:
                         entities.append([entitySplit, predicate])
-                        print("-----------------------")
-                        print("Entity: " + entitySplit)
-                        print("Predicate: " + predicate)
+                        # print("-----------------------")
+                        # print("Entity: " + entitySplit)
+                        # print("Predicate: " + predicate)
                 else:
-                    print("-----------------------")
-                    print("Entity: " + entityString)
-                    print("Predicate: " + predicate)
+                    # print("-----------------------")
+                    # print("Entity: " + entityString)
+                    # print("Predicate: " + predicate)
                     entities.append([entityString, predicate])
 
             print("[INFO] entities list full, length: " + str(len(entities)))
@@ -75,6 +75,10 @@ def run(
             # read every line
             lines = readFromFile.readlines()
             print("[INFO] read lines")
+
+            # create folder if it does not exist
+            if not os.path.exists(outputPath):
+                os.makedirs(outputPath)
 
             # open file to write into
             writeToFile = open(
@@ -101,7 +105,7 @@ def run(
             # write every word
             for line in lines:
                 lineSplit = line.split()
-                print("[INFO] lineSplit: " + str(lineSplit))
+                # print("[INFO] lineSplit: " + str(lineSplit))
                 if lineSplit:
                     # for every word in the line
                     for word in lineSplit:
@@ -133,12 +137,12 @@ def run(
                                 .replace("-", "")
                             )
 
-                            print(
-                                "[INFO] firstWord: "
-                                + editedWord
-                                + " || entity: "
-                                + entity
-                            )
+                            # print(
+                            #     "[INFO] firstWord: "
+                            #     + editedWord
+                            #     + " || entity: "
+                            #     + entity
+                            # )
 
                             # check for every word if it is an entity
                             if editedWord == entity:
