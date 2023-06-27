@@ -40,7 +40,7 @@ def run(
             # print("[INFO] Files opened")
 
             # append file name to entites2Overlap list
-            entities2Overlap.append([files[0][i][43:65]])
+            entities2Overlap.append([files[0][i][57:79]])
 
             if boolWriteToFile:
                 # open file to write to
@@ -225,7 +225,3 @@ def run(
         print("[ERROR] There are not the same number of files in every directory.")
 
     return entities2Overlap
-
-
-# run code
-# run()

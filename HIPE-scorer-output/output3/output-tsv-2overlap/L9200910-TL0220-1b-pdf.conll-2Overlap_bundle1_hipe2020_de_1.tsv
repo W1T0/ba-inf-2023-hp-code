@@ -59,7 +59,7 @@ mich	O	O	O	O	O	O	_	_	_
 gemacht	O	O	O	O	O	O	_	_	_
 Ich	O	O	O	O	O	O	_	_	_
 wurde	O	O	O	O	O	O	_	_	_
-Josef	O	O	O	O	O	O	_	_	_
+Josef	B-PER	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Sache	O	O	O	O	O	O	_	_	_
 mitteilen	O	O	O	O	O	O	_	_	_
@@ -74,7 +74,7 @@ machen	O	O	O	O	O	O	_	_	_
 Ein	O	O	O	O	O	O	_	_	_
 schen	O	O	O	O	O	O	_	_	_
 hatt	O	O	O	O	O	O	_	_	_
-Josef	O	O	O	O	O	O	_	_	_
+Josef	B-PER	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 soviel	O	O	O	O	O	O	_	_	_
@@ -109,7 +109,7 @@ Freundin	O	O	O	O	O	O	_	_	_
 her	O	O	O	O	O	O	_	_	_
 Ich	O	O	O	O	O	O	_	_	_
 werde	O	O	O	O	O	O	_	_	_
-Josef	O	O	O	O	O	O	_	_	_
+Josef	B-PER	O	O	O	O	O	_	_	_
 Die	O	O	O	O	O	O	_	_	_
 Sache	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
@@ -119,7 +119,7 @@ ihm	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 Bild	O	O	O	O	O	O	_	_	_
 nach	O	O	O	O	O	O	_	_	_
-Langenbrück	O	O	O	O	O	O	_	_	_
+Langenbrück	B-LOC	O	O	O	O	O	_	_	_
 schicken	O	O	O	O	O	O	_	_	_
 wo	O	O	O	O	O	O	_	_	_
 er	O	O	O	O	O	O	_	_	_
@@ -178,7 +178,7 @@ und	O	O	O	O	O	O	_	_	_
 da	O	O	O	O	O	O	_	_	_
 man	O	O	O	O	O	O	_	_	_
 diesem	O	O	O	O	O	O	_	_	_
-Berlin	O	O	O	O	O	O	_	_	_
+Berlin	B-LOC	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 kennt	O	O	O	O	O	O	_	_	_
 hatte	O	O	O	O	O	O	_	_	_
@@ -216,7 +216,7 @@ unserer	O	O	O	O	O	O	_	_	_
 lieben	O	O	O	O	O	O	_	_	_
 Mutter	O	O	O	O	O	O	_	_	_
 aus	O	O	O	O	O	O	_	_	_
-Langenbrück	O	O	O	O	O	O	_	_	_
+Langenbrück	B-LOC	O	O	O	O	O	_	_	_
 einen	O	O	O	O	O	O	_	_	_
 Korb	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_

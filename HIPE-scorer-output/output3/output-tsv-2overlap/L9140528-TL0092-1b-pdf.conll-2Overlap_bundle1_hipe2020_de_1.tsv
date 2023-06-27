@@ -24,7 +24,7 @@ Höchsten	O	O	O	O	O	O	_	_	_
 beschlossen	O	O	O	O	O	O	_	_	_
 unser	O	O	O	O	O	O	_	_	_
 Sohn	O	O	O	O	O	O	_	_	_
-Kurt	O	O	O	O	O	O	_	_	_
+Kurt	B-PER	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
 vorigen	O	O	O	O	O	O	_	_	_
 Jah	O	O	O	O	O	O	_	_	_
@@ -39,8 +39,8 @@ se	O	O	O	O	O	O	_	_	_
 bei	O	O	O	O	O	O	_	_	_
 dem	O	O	O	O	O	O	_	_	_
 hiesigen	O	O	O	O	O	O	_	_	_
-Willer	O	O	O	O	O	O	_	_	_
-Re	O	O	O	O	O	O	_	_	_
+Willer	B-PER	O	O	O	O	O	_	_	_
+Re	I-PER	O	O	O	O	O	_	_	_
 zufallen	O	O	O	O	O	O	_	_	_
 ohne	O	O	O	O	O	O	_	_	_
 alles	O	O	O	O	O	O	_	_	_

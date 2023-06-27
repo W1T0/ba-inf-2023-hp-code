@@ -9,7 +9,7 @@ nicht	O	O	O	O	O	O	_	_	_
 drum	O	O	O	O	O	O	_	_	_
 welche	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
-Berthold	O	O	O	O	O	O	_	_	_
+Berthold	B-PER	O	O	O	O	O	_	_	_
 bestimmt	O	O	O	O	O	O	_	_	_
 war	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
@@ -99,15 +99,15 @@ Schuhe	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 500	O	O	O	O	O	O	_	_	_
-Mark	O	O	O	O	O	O	_	_	_
+Mark	B-OTH	O	O	O	O	O	_	_	_
 früher	O	O	O	O	O	O	_	_	_
 zahlten	O	O	O	O	O	O	_	_	_
 10	O	O	O	O	O	O	_	_	_
-Mark	O	O	O	O	O	O	_	_	_
+Mark	B-OTH	O	O	O	O	O	_	_	_
 gelobt	O	O	O	O	O	O	_	_	_
 sei	O	O	O	O	O	O	_	_	_
-Jesu	O	O	O	O	O	O	_	_	_
-Christus	O	O	O	O	O	O	_	_	_
+Jesu	B-PER	O	O	O	O	O	_	_	_
+Christus	I-PER	O	O	O	O	O	_	_	_
 22	O	O	O	O	O	O	_	_	_
 440	O	O	O	O	O	O	_	_	_
 Langenblik	O	O	O	O	O	O	_	_	_
@@ -125,7 +125,7 @@ Gelde	O	O	O	O	O	O	_	_	_
 welches	O	O	O	O	O	O	_	_	_
 zur	O	O	O	O	O	O	_	_	_
 Schwester	O	O	O	O	O	O	_	_	_
-Agnes	O	O	O	O	O	O	_	_	_
+Agnes	B-PER	O	O	O	O	O	_	_	_
 bestimmt	O	O	O	O	O	O	_	_	_
 war	O	O	O	O	O	O	_	_	_
 haben	O	O	O	O	O	O	_	_	_
@@ -151,7 +151,7 @@ wo	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 Geld	O	O	O	O	O	O	_	_	_
 sind	O	O	O	O	O	O	_	_	_
-Berthold	O	O	O	O	O	O	_	_	_
+Berthold	B-PER	O	O	O	O	O	_	_	_
 besten	O	O	O	O	O	O	_	_	_
 war	O	O	O	O	O	O	_	_	_
 dahin	O	O	O	O	O	O	_	_	_
@@ -159,7 +159,7 @@ bald	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 Brief	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
-Agnes	O	O	O	O	O	O	_	_	_
+Agnes	B-PER	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 dem	O	O	O	O	O	O	_	_	_
 Gelde	O	O	O	O	O	O	_	_	_

@@ -51,8 +51,8 @@ größte	O	O	O	O	O	O	_	_	_
 Pfeife	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 Dampfer	O	O	O	O	O	O	_	_	_
-George	O	O	O	O	O	O	_	_	_
-Kasington	O	O	O	O	O	O	_	_	_
+George	B-PER	O	O	O	O	O	_	_	_
+Kasington	I-PER	O	O	O	O	O	_	_	_
 Vorstehst	O	O	O	O	O	O	_	_	_
 ei	O	O	O	O	O	O	_	_	_
 Orgel	O	O	O	O	O	O	_	_	_
@@ -72,7 +72,7 @@ wanderte	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 weiter	O	O	O	O	O	O	_	_	_
 nach	O	O	O	O	O	O	_	_	_
-Walde	O	O	O	O	O	O	_	_	_
+Walde	B-LOC	O	O	O	O	O	_	_	_
 Inhalt	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 wegt	O	O	O	O	O	O	_	_	_
@@ -99,8 +99,8 @@ aufsuchte	O	O	O	O	O	O	_	_	_
 Nächsten	O	O	O	O	O	O	_	_	_
 Tag	O	O	O	O	O	O	_	_	_
 nach	O	O	O	O	O	O	_	_	_
-Raven	O	O	O	O	O	O	_	_	_
-Oburg	O	O	O	O	O	O	_	_	_
+Raven	B-LOC	O	O	O	O	O	_	_	_
+Oburg	I-LOC	O	O	O	O	O	_	_	_
 zurück	O	O	O	O	O	O	_	_	_
 Als	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
@@ -192,7 +192,7 @@ mußte	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 ders	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-München	O	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
 Umzügen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
@@ -259,9 +259,9 @@ ergessen	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Unwisse	O	O	O	O	O	O	_	_	_
 vom	O	O	O	O	O	O	_	_	_
-L	O	O	O	O	O	O	_	_	_
-R	O	O	O	O	O	O	_	_	_
-III	O	O	O	O	O	O	_	_	_
+L	B-PER	O	O	O	O	O	_	_	_
+R	I-PER	O	O	O	O	O	_	_	_
+III	I-PER	O	O	O	O	O	_	_	_
 sehen	O	O	O	O	O	O	_	_	_
 In	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
@@ -284,7 +284,7 @@ Tags	O	O	O	O	O	O	_	_	_
 Sonntag	O	O	O	O	O	O	_	_	_
 hielt	O	O	O	O	O	O	_	_	_
 Bischof	O	O	O	O	O	O	_	_	_
-Reppler	O	O	O	O	O	O	_	_	_
+Reppler	B-PER	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 Rothen	O	O	O	O	O	O	_	_	_
 Wanderung	O	O	O	O	O	O	_	_	_
@@ -306,7 +306,7 @@ da	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 Dampfer	O	O	O	O	O	O	_	_	_
 nach	O	O	O	O	O	O	_	_	_
-Konstanz	O	O	O	O	O	O	_	_	_
+Konstanz	B-LOC	O	O	O	O	O	_	_	_
 war	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
 Ehefellenhaus	O	O	O	O	O	O	_	_	_

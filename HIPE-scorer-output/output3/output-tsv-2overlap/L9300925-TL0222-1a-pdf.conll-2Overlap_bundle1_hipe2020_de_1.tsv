@@ -5,7 +5,7 @@ Man	O	O	O	O	O	O	_	_	_
 kann	O	O	O	O	O	O	_	_	_
 da	O	O	O	O	O	O	_	_	_
 sicher	O	O	O	O	O	O	_	_	_
-München	O	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 23	O	O	O	O	O	O	_	_	_
 Sept	O	O	O	O	O	O	_	_	_
@@ -49,7 +49,7 @@ Englung	O	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
 Millionen	O	O	O	O	O	O	_	_	_
-Dollar	O	O	O	O	O	O	_	_	_
+Dollar	B-OTH	O	O	O	O	O	_	_	_
 habe	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 erhalten	O	O	O	O	O	O	_	_	_
@@ -58,7 +58,7 @@ sage	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
-Amit	O	O	O	O	O	O	_	_	_
+Amit	B-PER	O	O	O	O	O	_	_	_
 schreiben	O	O	O	O	O	O	_	_	_
 unsere	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
@@ -77,12 +77,12 @@ paar	O	O	O	O	O	O	_	_	_
 Jahre	O	O	O	O	O	O	_	_	_
 warten	O	O	O	O	O	O	_	_	_
 ließet	O	O	O	O	O	O	_	_	_
-Ford	O	O	O	O	O	O	_	_	_
+Ford	B-PER	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
 zur	O	O	O	O	O	O	_	_	_
 Zeit	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-München	O	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 einem	O	O	O	O	O	O	_	_	_
 Brief	O	O	O	O	O	O	_	_	_

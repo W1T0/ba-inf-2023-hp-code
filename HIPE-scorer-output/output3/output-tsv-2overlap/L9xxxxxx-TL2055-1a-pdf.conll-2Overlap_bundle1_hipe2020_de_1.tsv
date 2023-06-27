@@ -1,9 +1,9 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
 Lieber	O	O	O	O	O	O	_	_	_
 Schwager	O	O	O	O	O	O	_	_	_
-Paul	O	O	O	O	O	O	_	_	_
+Paul	B-PER	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
-Martha	O	O	O	O	O	O	_	_	_
+Martha	B-PER	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
 Kinder	O	O	O	O	O	O	_	_	_
 Vielen	O	O	O	O	O	O	_	_	_
@@ -59,7 +59,7 @@ gehn	O	O	O	O	O	O	_	_	_
 Bei	O	O	O	O	O	O	_	_	_
 uns	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
-Marien	O	O	O	O	O	O	_	_	_
+Marien	B-PER	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
 bis	O	O	O	O	O	O	_	_	_
 Bett	O	O	O	O	O	O	_	_	_
@@ -134,7 +134,7 @@ macht	O	O	O	O	O	O	_	_	_
 Deine	O	O	O	O	O	O	_	_	_
 Schwester	O	O	O	O	O	O	_	_	_
 liebe	O	O	O	O	O	O	_	_	_
-Martha	O	O	O	O	O	O	_	_	_
+Martha	B-PER	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
 wohl	O	O	O	O	O	O	_	_	_
 jetzt	O	O	O	O	O	O	_	_	_

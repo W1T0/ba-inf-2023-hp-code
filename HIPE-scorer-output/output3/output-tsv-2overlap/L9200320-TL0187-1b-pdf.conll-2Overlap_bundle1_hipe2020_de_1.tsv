@@ -152,7 +152,7 @@ mehr	O	O	O	O	O	O	_	_	_
 hoch	O	O	O	O	O	O	_	_	_
 kommen	O	O	O	O	O	O	_	_	_
 sondern	O	O	O	O	O	O	_	_	_
-Deutschland	O	O	O	O	O	O	_	_	_
+Deutschland	B-LOC	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 ärmer	O	O	O	O	O	O	_	_	_
@@ -190,7 +190,7 @@ nicht	O	O	O	O	O	O	_	_	_
 erfüllen	O	O	O	O	O	O	_	_	_
 können	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Thea	O	O	O	O	O	O	_	_	_
+Thea	B-PER	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 hast	O	O	O	O	O	O	_	_	_
 mir	O	O	O	O	O	O	_	_	_

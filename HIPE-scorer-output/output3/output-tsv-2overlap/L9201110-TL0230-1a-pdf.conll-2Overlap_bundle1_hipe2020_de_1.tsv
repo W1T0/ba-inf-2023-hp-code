@@ -1,5 +1,5 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
-Berlin	O	O	O	O	O	O	_	_	_
+Berlin	B-LOC	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 10	O	O	O	O	O	O	_	_	_
 Nov	O	O	O	O	O	O	_	_	_
@@ -7,11 +7,11 @@ Nov	O	O	O	O	O	O	_	_	_
 Meine	O	O	O	O	O	O	_	_	_
 liebe	O	O	O	O	O	O	_	_	_
 Kleine	O	O	O	O	O	O	_	_	_
-Braut	O	O	O	O	O	O	_	_	_
-Voller	O	O	O	O	O	O	_	_	_
-Sehnsucht	O	O	O	O	O	O	_	_	_
-und	O	O	O	O	O	O	_	_	_
-Besorgniß	O	O	O	O	O	O	_	_	_
+Braut	B-OTH	O	O	O	O	O	_	_	_
+Voller	I-OTH	O	O	O	O	O	_	_	_
+Sehnsucht	I-OTH	O	O	O	O	O	_	_	_
+und	I-OTH	O	O	O	O	O	_	_	_
+Besorgniß	I-OTH	O	O	O	O	O	_	_	_
 schreibe	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 heute	O	O	O	O	O	O	_	_	_
@@ -82,10 +82,10 @@ Briefe	O	O	O	O	O	O	_	_	_
 doch	O	O	O	O	O	O	_	_	_
 so	O	O	O	O	O	O	_	_	_
 schön	O	O	O	O	O	O	_	_	_
-und	O	O	O	O	O	O	_	_	_
+und	I-OTH	O	O	O	O	O	_	_	_
 liebe	O	O	O	O	O	O	_	_	_
 voll	O	O	O	O	O	O	_	_	_
-und	O	O	O	O	O	O	_	_	_
+und	I-OTH	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 habe	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
@@ -104,7 +104,7 @@ Körbchen	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 Obst	O	O	O	O	O	O	_	_	_
 Brot	O	O	O	O	O	O	_	_	_
-und	O	O	O	O	O	O	_	_	_
+und	I-OTH	O	O	O	O	O	_	_	_
 Butter	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
@@ -141,7 +141,7 @@ Der	O	O	O	O	O	O	_	_	_
 neue	O	O	O	O	O	O	_	_	_
 Präsident	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Amerika	O	O	O	O	O	O	_	_	_
+Amerika	B-LOC	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
 wohl	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
@@ -184,7 +184,7 @@ uns	O	O	O	O	O	O	_	_	_
 erschwert	O	O	O	O	O	O	_	_	_
 vergessen	O	O	O	O	O	O	_	_	_
 sein	O	O	O	O	O	O	_	_	_
-und	O	O	O	O	O	O	_	_	_
+und	I-OTH	O	O	O	O	O	_	_	_
 einer	O	O	O	O	O	O	_	_	_
 neuen	O	O	O	O	O	O	_	_	_
 Glücklichen	O	O	O	O	O	O	_	_	_

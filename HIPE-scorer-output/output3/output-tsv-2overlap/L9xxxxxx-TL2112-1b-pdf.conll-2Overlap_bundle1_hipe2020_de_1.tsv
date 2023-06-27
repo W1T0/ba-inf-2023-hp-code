@@ -9,14 +9,14 @@ Und	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
 Bartelt	O	O	O	O	O	O	_	_	_
 1100	O	O	O	O	O	O	_	_	_
-Mark	O	O	O	O	O	O	_	_	_
+Mark	I-OTH	O	O	O	O	O	_	_	_
 fürs	O	O	O	O	O	O	_	_	_
 kauf	O	O	O	O	O	O	_	_	_
 bekommen	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
 kleine	O	O	O	O	O	O	_	_	_
 Paulchen	O	O	O	O	O	O	_	_	_
-Pfund	O	O	O	O	O	O	_	_	_
+Pfund	B-OTH	O	O	O	O	O	_	_	_
 Die	O	O	O	O	O	O	_	_	_
 Schachtel	O	O	O	O	O	O	_	_	_
 Streichhörzer	O	O	O	O	O	O	_	_	_
@@ -33,7 +33,7 @@ ist	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 eben	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Deutschlän	O	O	O	O	O	O	_	_	_
+Deutschlän	B-LOC	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 schlecht	O	O	O	O	O	O	_	_	_
 Für	O	O	O	O	O	O	_	_	_
@@ -59,7 +59,7 @@ muß	O	O	O	O	O	O	_	_	_
 man	O	O	O	O	O	O	_	_	_
 über	O	O	O	O	O	O	_	_	_
 150	O	O	O	O	O	O	_	_	_
-Mark	O	O	O	O	O	O	_	_	_
+Mark	I-OTH	O	O	O	O	O	_	_	_
 früher	O	O	O	O	O	O	_	_	_
 Wenn	O	O	O	O	O	O	_	_	_
 auch	O	O	O	O	O	O	_	_	_
@@ -126,7 +126,7 @@ so	O	O	O	O	O	O	_	_	_
 sein	O	O	O	O	O	O	_	_	_
 Ihr	O	O	O	O	O	O	_	_	_
 105	O	O	O	O	O	O	_	_	_
-Mark	O	O	O	O	O	O	_	_	_
+Mark	I-OTH	O	O	O	O	O	_	_	_
 zahlen	O	O	O	O	O	O	_	_	_
 da	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
@@ -237,7 +237,7 @@ habe	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 müssen	O	O	O	O	O	O	_	_	_
 50	O	O	O	O	O	O	_	_	_
-Mark	O	O	O	O	O	O	_	_	_
+Mark	I-OTH	O	O	O	O	O	_	_	_
 bezahlen	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 nur	O	O	O	O	O	O	_	_	_
@@ -260,7 +260,7 @@ ich	O	O	O	O	O	O	_	_	_
 nothwen	O	O	O	O	O	O	_	_	_
 drüben	O	O	O	O	O	O	_	_	_
 aus	O	O	O	O	O	O	_	_	_
-Amerika	O	O	O	O	O	O	_	_	_
+Amerika	B-LOC	O	O	O	O	O	_	_	_
 kommt	O	O	O	O	O	O	_	_	_
 müssen	O	O	O	O	O	O	_	_	_
 gebrauch	O	O	O	O	O	O	_	_	_
@@ -269,8 +269,8 @@ in	O	O	O	O	O	O	_	_	_
 schland	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
-Pfund	O	O	O	O	O	O	_	_	_
-Mark	O	O	O	O	O	O	_	_	_
+Pfund	B-OTH	O	O	O	O	O	_	_	_
+Mark	I-OTH	O	O	O	O	O	_	_	_
 zahlen	O	O	O	O	O	O	_	_	_
 eben	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_

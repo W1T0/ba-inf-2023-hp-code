@@ -10,9 +10,9 @@ ein	O	O	O	O	O	O	_	_	_
 Art	O	O	O	O	O	O	_	_	_
 schreiben	O	O	O	O	O	O	_	_	_
 über	O	O	O	O	O	O	_	_	_
-Hedwig	O	O	O	O	O	O	_	_	_
+Hedwig	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-Paul	O	O	O	O	O	O	_	_	_
+Paul	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 ihr	O	O	O	O	O	O	_	_	_
 Verhältniß	O	O	O	O	O	O	_	_	_
@@ -63,7 +63,7 @@ zu	O	O	O	O	O	O	_	_	_
 allem	O	O	O	O	O	O	_	_	_
 ja	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-Anna	O	O	O	O	O	O	_	_	_
+Anna	B-PER	O	O	O	O	O	_	_	_
 sagen	O	O	O	O	O	O	_	_	_
 weil	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
@@ -101,13 +101,13 @@ liebsten	O	O	O	O	O	O	_	_	_
 wäre	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 ihren	O	O	O	O	O	O	_	_	_
-Agnes	O	O	O	O	O	O	_	_	_
+Agnes	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-Barthold	O	O	O	O	O	O	_	_	_
+Barthold	B-PER	O	O	O	O	O	_	_	_
 räumten	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 Platz	O	O	O	O	O	O	_	_	_
-Josef	O	O	O	O	O	O	_	_	_
+Josef	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 an	O	O	O	O	O	O	_	_	_
 sehe	O	O	O	O	O	O	_	_	_

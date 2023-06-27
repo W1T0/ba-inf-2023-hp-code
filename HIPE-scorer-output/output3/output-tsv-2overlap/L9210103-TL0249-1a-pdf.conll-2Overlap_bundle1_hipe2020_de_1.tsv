@@ -7,7 +7,7 @@ wir	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 reichen	O	O	O	O	O	O	_	_	_
 Schwester	O	O	O	O	O	O	_	_	_
-Hedwig	O	O	O	O	O	O	_	_	_
+Hedwig	B-PER	O	O	O	O	O	_	_	_
 schickte	O	O	O	O	O	O	_	_	_
 mir	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
@@ -33,7 +33,7 @@ Mohnabe	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 nur	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
-Schlesien	O	O	O	O	O	O	_	_	_
+Schlesien	B-LOC	O	O	O	O	O	_	_	_
 so	O	O	O	O	O	O	_	_	_
 gut	O	O	O	O	O	O	_	_	_
 gebacken	O	O	O	O	O	O	_	_	_
@@ -127,8 +127,8 @@ im	O	O	O	O	O	O	_	_	_
 Feuer	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
-Robert	O	O	O	O	O	O	_	_	_
-Berlin	O	O	O	O	O	O	_	_	_
+Robert	B-PER	O	O	O	O	O	_	_	_
+Berlin	I-PER	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 §	O	O	O	O	O	O	_	_	_
 1807	O	O	O	O	O	O	_	_	_
@@ -140,8 +140,8 @@ dem	O	O	O	O	O	O	_	_	_
 30	O	O	O	O	O	O	_	_	_
 November	O	O	O	O	O	O	_	_	_
 liebe	O	O	O	O	O	O	_	_	_
-Thea	O	O	O	O	O	O	_	_	_
-Garbi	O	O	O	O	O	O	_	_	_
+Thea	B-PER	O	O	O	O	O	_	_	_
+Garbi	I-PER	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 keine	O	O	O	O	O	O	_	_	_
 Nachacht	O	O	O	O	O	O	_	_	_

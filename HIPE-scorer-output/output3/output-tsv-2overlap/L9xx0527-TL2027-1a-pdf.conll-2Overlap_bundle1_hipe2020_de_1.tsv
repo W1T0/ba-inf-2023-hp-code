@@ -70,7 +70,7 @@ waren	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 gutes	O	O	O	O	O	O	_	_	_
 Mädchen	O	O	O	O	O	O	_	_	_
-Strauß	O	O	O	O	O	O	_	_	_
+Strauß	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 nun	O	O	O	O	O	O	_	_	_
 leben	O	O	O	O	O	O	_	_	_
@@ -124,9 +124,9 @@ Schneider	O	O	O	O	O	O	_	_	_
 guter	O	O	O	O	O	O	_	_	_
 etiam	O	O	O	O	O	O	_	_	_
 wischen	O	O	O	O	O	O	_	_	_
-G	O	O	O	O	O	O	_	_	_
+G	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-D	O	O	O	O	O	O	_	_	_
+D	B-PER	O	O	O	O	O	_	_	_
 Sie	O	O	O	O	O	O	_	_	_
 lassen	O	O	O	O	O	O	_	_	_
 auf	O	O	O	O	O	O	_	_	_

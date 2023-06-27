@@ -55,7 +55,7 @@ bitte	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 einen	O	O	O	O	O	O	_	_	_
 Reisebericht	O	O	O	O	O	O	_	_	_
-Nürnberg	O	O	O	O	O	O	_	_	_
+Nürnberg	B-LOC	O	O	O	O	O	_	_	_
 fahre	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 zum	O	O	O	O	O	O	_	_	_
@@ -79,7 +79,7 @@ u	O	O	O	O	O	O	_	_	_
 gegenseitig	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 Schacht	O	O	O	O	O	O	_	_	_
-Josef	O	O	O	O	O	O	_	_	_
+Josef	B-PER	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 keine	O	O	O	O	O	O	_	_	_
@@ -129,7 +129,7 @@ dem	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Deutschland	O	O	O	O	O	O	_	_	_
+Deutschland	B-LOC	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 begab	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	_
@@ -148,7 +148,7 @@ Er	O	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-München	O	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 geführt	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_

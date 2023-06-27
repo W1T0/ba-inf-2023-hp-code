@@ -23,7 +23,7 @@ Bett	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 fürchterliches	O	O	O	O	O	O	_	_	_
 Geläut	O	O	O	O	O	O	_	_	_
-Frank	O	O	O	O	O	O	_	_	_
+Frank	B-PER	O	O	O	O	O	_	_	_
 machte	O	O	O	O	O	O	_	_	_
 Licht	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
@@ -42,7 +42,7 @@ genannt	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Glate	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
-Schiller	O	O	O	O	O	O	_	_	_
+Schiller	B-PER	O	O	O	O	O	_	_	_
 Diesen	O	O	O	O	O	O	_	_	_
 Spaß	O	O	O	O	O	O	_	_	_
 hätten	O	O	O	O	O	O	_	_	_
@@ -71,7 +71,7 @@ zu	O	O	O	O	O	O	_	_	_
 Gompagnie	O	O	O	O	O	O	_	_	_
 geladen	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Tekla	O	O	O	O	O	O	_	_	_
+Tekla	B-PER	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 1	O	O	O	O	O	O	_	_	_
 bis	O	O	O	O	O	O	_	_	_
@@ -118,7 +118,7 @@ Ao	O	O	O	O	O	O	_	_	_
 Febr	O	O	O	O	O	O	_	_	_
 1911	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Bekla	O	O	O	O	O	O	_	_	_
+Bekla	B-PER	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
 Schwägerin	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
@@ -145,7 +145,7 @@ Zeilen	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 beglücken	O	O	O	O	O	O	_	_	_
 Hiebe	O	O	O	O	O	O	_	_	_
-Tekla	O	O	O	O	O	O	_	_	_
+Tekla	B-PER	O	O	O	O	O	_	_	_
 uns	O	O	O	O	O	O	_	_	_
 geht	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
@@ -209,8 +209,8 @@ Zimmer	O	O	O	O	O	O	_	_	_
 macht	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 ausgezeichnet	O	O	O	O	O	O	_	_	_
-Mis	O	O	O	O	O	O	_	_	_
-Ger	O	O	O	O	O	O	_	_	_
+Mis	B-PER	O	O	O	O	O	_	_	_
+Ger	I-PER	O	O	O	O	O	_	_	_
 freut	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 immer	O	O	O	O	O	O	_	_	_

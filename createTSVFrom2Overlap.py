@@ -11,7 +11,7 @@ def run(
     entities2Overlap = get2OverlapEntitiesFromNEROutput.run(
         directoriesList, boolWriteToFile=False
     )
-    # print(entities2Overlap)
+    print(entities2Overlap)
 
     # path of the directory
     directoryPath = directory

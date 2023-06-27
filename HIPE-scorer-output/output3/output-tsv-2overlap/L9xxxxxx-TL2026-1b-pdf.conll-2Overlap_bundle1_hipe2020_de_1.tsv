@@ -25,7 +25,7 @@ eine	O	O	O	O	O	O	_	_	_
 Karte	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
-Gadeschneiders	O	O	O	O	O	O	_	_	_
+Gadeschneiders	B-PER	O	O	O	O	O	_	_	_
 Hause	O	O	O	O	O	O	_	_	_
 vor	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
@@ -38,7 +38,7 @@ sind	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 unseren	O	O	O	O	O	O	_	_	_
 Sommergästen	O	O	O	O	O	O	_	_	_
-Josef	O	O	O	O	O	O	_	_	_
+Josef	B-PER	O	O	O	O	O	_	_	_
 beim	O	O	O	O	O	O	_	_	_
 Rocke	O	O	O	O	O	O	_	_	_
 eine	O	O	O	O	O	O	_	_	_
@@ -58,8 +58,8 @@ die	O	O	O	O	O	O	_	_	_
 Gedie	O	O	O	O	O	O	_	_	_
 Pastorn	O	O	O	O	O	O	_	_	_
 vom	O	O	O	O	O	O	_	_	_
-Johann	O	O	O	O	O	O	_	_	_
-Heidenreich	O	O	O	O	O	O	_	_	_
+Johann	B-PER	O	O	O	O	O	_	_	_
+Heidenreich	I-PER	O	O	O	O	O	_	_	_
 wohern	O	O	O	O	O	O	_	_	_
 auch	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
