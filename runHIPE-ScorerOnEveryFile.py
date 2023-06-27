@@ -1,23 +1,24 @@
 import os
 
-
 # maybe before run compareAnnotationToTSV
 
 directories = [
-    "./HIPE-scorer/output-tsv-annotations/",
-    "./HIPE-scorer/output-tsv-flair-ner-german/",
-    "./HIPE-scorer/output-tsv-germaNER/",
-    "./HIPE-scorer/output-tsv-sequence_tagging/",
+    "./HIPE-scorer-output/output3/output-tsv-annotations/",
+    "./HIPE-scorer-output/output3/output-tsv-flair-ner-german/",
+    "./HIPE-scorer-output/output3/output-tsv-germaNER/",
+    "./HIPE-scorer-output/output3/output-tsv-sequence_tagging/",
+    "./HIPE-scorer-output/output3/output-tsv-2overlap/",
 ]
 
 outputDirectory = [
-    "./HIPE-scorer/output-hipe-flair-ner-german/",
-    "./HIPE-scorer/output-hipe-germaNER/",
-    "./HIPE-scorer/output-hipe-sequence_tagging/",
+    "./HIPE-results/output-hipe-flair-ner-german/",
+    "./HIPE-results/output-hipe-germaNER/",
+    "./HIPE-results/output-hipe-sequence_tagging/",
+    "./HIPE-results/output-hipe-2overlap/",
 ]
 
-# [0]: annotations, [1]:flair-ner-german, [2]:germaNER, [3]:sequence_tagging
-files = [[], [], [], []]
+# [0]: annotations, [1]:flair-ner-german, [2]:germaNER, [3]:sequence_tagging, [4]:2overlap
+files = [[], [], [], [], []]
 index = 0
 
 # save every filename in a list
@@ -28,18 +29,21 @@ for directory in directories:
     index += 1
 
 # check if there are the same number of files in every directory
-if len(files[0]) == len(files[1]) == len(files[2]) == len(files[3]):
+if len(files[0]) == len(files[1]) == len(files[2]) == len(files[3]) == len(files[4]):
     # let the HIPE-scorer run on every NER file with the corresponding annotation
-    for i in range(3):
-        print(i + 1)
+    for i in range(4):
         count = 0
         for j in range(30):
-            # get the prediction (flair-ner-german, germaNER, sequence_tagging) and the gold (annotation)
+            # get the prediction (flair-ner-german, germaNER, sequence_tagging, 2overlap) and the gold (annotation)
             pred = files[i + 1][j]
             gold = files[0][j]
 
             # get the output directory
             outdir = outputDirectory[i]
+
+            # create folder if it does not exist
+            if not os.path.exists(outdir):
+                os.makedirs(outdir)
 
             # get only the original filename to compare
             orgFilenamePred = pred.split("/")[3][0:22]
