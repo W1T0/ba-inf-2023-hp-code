@@ -4,8 +4,8 @@ def run(
         "./NER-german/sequence_tagging/sequence_tagging-output2.txt",
     ],
     outputList=[
-        "./HIPE-scorer/output-tsv-germaNER/",
-        "./HIPE-scorer/output-tsv-sequence_tagging2/",
+        "./HIPE-scorer-output/output-tsv-germaNER/",
+        "./HIPE-scorer-output/output-tsv-sequence_tagging2/",
     ],
 ):
     # the path to the file to read (usually a NER output file)

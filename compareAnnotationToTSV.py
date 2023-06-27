@@ -3,10 +3,10 @@ import os
 
 def run(
     directoriesList=[
-        "./HIPE-scorer/output-tsv-annotations/",
-        "./HIPE-scorer/output-tsv-flair-ner-german/",
-        "./HIPE-scorer/output-tsv-germaNER/",
-        "./HIPE-scorer/output-tsv-sequence_tagging/",
+        "./HIPE-scorer-output/output-tsv-annotations/",
+        "./HIPE-scorer-output/output-tsv-flair-ner-german/",
+        "./HIPE-scorer-output/output-tsv-germaNER/",
+        "./HIPE-scorer-output/output-tsv-sequence_tagging/",
         #         "./NER-german/output-tsv-2Overlap/",
     ]
 ):

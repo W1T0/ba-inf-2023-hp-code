@@ -6,7 +6,7 @@ import re
 
 def run(
     directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe - Annotationen/",
-    output="./HIPE-scorer/output-tsv-flair-ner-german/",
+    output="./HIPE-scorer-output/output-tsv-flair-ner-german/",
 ):
     # load tagger
     tagger = SequenceTagger.load("flair/ner-german-large")

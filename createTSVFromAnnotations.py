@@ -49,7 +49,7 @@ def writeFirstWord(firstWord, line, lineSplit, writeToFile):
 
 def run(
     directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",
-    output="./HIPE-scorer/output-tsv-annotations/",
+    output="./HIPE-scorer-output/output-tsv-annotations/",
 ):
     # path of the directory
     directoryPath = directory

@@ -4,9 +4,9 @@ import numpy as np
 # the directories where the hipe output is stored
 directories = [
     # "./HIPE-scorer/HIPE-results/HIPE-output-test/"
-    "./HIPE-scorer/HIPE-results/output-hipe-flair-ner-german/",
-    "./HIPE-scorer/HIPE-results/output-hipe-germaNER/",
-    "./HIPE-scorer/HIPE-results/output-hipe-sequence_tagging/",
+    "./HIPE-results/output-hipe-flair-ner-german/",
+    "./HIPE-results/output-hipe-germaNER/",
+    "./HIPE-results/output-hipe-sequence_tagging/",
 ]
 
 # iterate over directories

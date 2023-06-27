@@ -1,14 +1,14 @@
 import os
-import NEROutputEntities2Overlap
+import get2OverlapEntitiesFromNEROutput
 
 # generate 2 Overlap entities and save them
-entities2Overlap = NEROutputEntities2Overlap.run(boolWriteToFile=False)
+entities2Overlap = get2OverlapEntitiesFromNEROutput.run(boolWriteToFile=False)
 # print(entities2Overlap)
 
 
 def run(
     directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",  # Stichprobe - Annotationen - Export
-    output="./NER-german/output-2overlap-annotations/",
+    output="./HIPE-scorer-output/output-tsv-2overlap/",
 ):
     # path of the directory
     directoryPath = directory
