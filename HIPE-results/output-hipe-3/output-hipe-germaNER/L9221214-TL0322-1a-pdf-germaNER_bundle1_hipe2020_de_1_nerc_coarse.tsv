@@ -1,0 +1,17 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.286	0.111	0.16				2	5	16
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC	0.0	0.0	0				0	1	1
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	OTH	0.333	0.25	0.286				1	2	3
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PER	0.333	0.077	0.125				1	2	12
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.143	0.056	0.08				1	6	17
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC	0.0	0.0	0				0	1	1
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	OTH	0.0	0.0	0				0	3	4
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PER	0.333	0.077	0.125				1	2	12
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.286	0.111	0.16	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC	0.0	0.0	0.0	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	OTH	0.333	0.25	0.286	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PER	0.333	0.077	0.125	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.143	0.056	0.08	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC	0.0	0.0	0.0	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	OTH	0.0	0.0	0.0	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PER	0.333	0.077	0.125	0.0	0.0	0.0			
