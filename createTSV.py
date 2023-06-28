@@ -4,15 +4,23 @@ import createTSVFromNERSequenceTaggingAndGermaNEROutput
 import compareAnnotationToTSV
 import createTSVFrom2Overlap
 
-outputAnnotations = "./HIPE-scorer-output/output3/output-tsv-annotations/"
-outputFlair = "./HIPE-scorer-output/output3/output-tsv-flair-ner-german/"
-outputS_T = "./HIPE-scorer-output/output3/output-tsv-sequence_tagging/"
-outputGermaNER = "./HIPE-scorer-output/output3/output-tsv-germaNER/"
-output2Overlap = "./HIPE-scorer-output/output4/output-tsv-2overlap/"
+version = 4
+
+outputAnnotations = (
+    "./HIPE-scorer-output/output" + str(version) + "/output-tsv-annotations/"
+)
+outputFlair = (
+    "./HIPE-scorer-output/output" + str(version) + "/output-tsv-flair-ner-german/"
+)
+outputS_T = (
+    "./HIPE-scorer-output/output" + str(version) + "/output-tsv-sequence_tagging/"
+)
+outputGermaNER = "./HIPE-scorer-output/output" + str(version) + "/output-tsv-germaNER/"
+output2Overlap = "./HIPE-scorer-output/output" + str(version) + "/output-tsv-2overlap/"
 
 # print("[INFO] Run Annotations TSV Parser")
 # createTSVFromAnnotations.run(
-#     "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",
+#     "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe-Annotationen-Inception-Export-2/",
 #     outputAnnotations,
 # )
 
