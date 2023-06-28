@@ -15,7 +15,7 @@ def run(directoryPath, outputPath, levenshteinDistance, boolWriteToFile):
 
     # sparql query to get food out of wikidata
     query = """
-  SELECT ?item ?itemLabel ?offName {
+SELECT ?item ?itemLabel ?offName {
     {
     SELECT ?item ?itemLabel WHERE {
         { ?item wdt:P463 wd:Q34651 } # member of | christian church
@@ -35,8 +35,12 @@ def run(directoryPath, outputPath, levenshteinDistance, boolWriteToFile):
         { ?item wdt:P1269 wd:Q9174 } # facet of | religion 
       UNION
         { ?item wdt:P31 wd:Q24398318 } # is | religious  building 
+       UNION
+        { ?item wdt:P279 wd:Q24398318 } # subclass of | religious  building 
       UNION
         { ?item wdt:P31 wd:Q21029893 } # is | religious object 
+      UNION
+        { ?item wdt:P279 wd:Q21029893 } # subclass of | religious object 
       UNION
         { ?item wdt:P31 wd:Q1370598 } # is | structure of worship
       UNION
