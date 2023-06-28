@@ -1,7 +1,7 @@
 import os
 
-directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/"
-outputPath = "./Annotationen/outputEntities.txt"
+directoryPath = "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe-Annotationen-Inception-Export-2/"
+outputPath = "./Annotationen/output-entities-annotations-2.txt"
 
 # the directory where the files are stored
 directory = os.fsencode(directoryPath)

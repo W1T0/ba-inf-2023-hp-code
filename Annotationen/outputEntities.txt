@@ -1,0 +1,439 @@
+# --- ENTITIES OF L9110213-TL0015_1a_pdf.conll ---
+Bauer B-PER
+Frank B-PER
+Schiller B-PER
+Jekla B-PER
+Tekla B-PER
+Onkel B-PER
+Seba B-LOC
+ka I-LOC
+Schlacht B-LOC
+hause I-LOC
+Neger B-PER
+Hans B-PER
+Bekla B-PER
+Tekla B-PER
+Teklar B-PER
+Mis B-PER
+Ger I-PER
+Tobler B-PER
+
+# --- ENTITIES OF L9120323-TL0033_1a_pdf.conll ---
+Kommunion B-OTH
+Frauen B-PER
+Männer B-PER
+Manne B-PER
+Thekla B-PER
+Osterhaft B-OTH
+Marsante B-PER
+Rudolph I-PER
+Neustadt B-LOC
+Unfall B-OTH
+Amerika B-LOC
+
+# --- ENTITIES OF L9120903-TL0046_1a_pdf.conll ---
+Neustadt B-LOC
+Thekla B-PER
+Soldat B-PER
+Rechnung B-OTH
+Neustadt B-LOC
+Frau B-PER
+
+# --- ENTITIES OF L9130421-TL0063_1b_pdf.conll ---
+Paul B-PER
+Schwester B-PER
+München B-LOC
+Paul B-PER
+Marta B-PER
+Martel B-PER
+Thekla B-PER
+Mark B-PER
+Portographie B-OTH
+Bräutigam B-PER
+Schmied B-PER
+Martel I-PER
+Rike B-PER
+Anna B-PER
+Deutschland B-LOC
+Thekla B-PER
+Marta B-PER
+Paul B-PER
+Marta B-PER
+Photographie B-OTH
+Herr B-PER
+Gürtler I-PER
+Reisegeld B-OTH
+Lungenkrank B-OTH
+Pfarrer B-PER
+Baum I-PER
+
+# --- ENTITIES OF L9140528-TL0092_1b_pdf.conll ---
+Kurt B-PER
+Pfingstfest B-OTH
+wachtmeister B-PER
+Gottes B-OTH
+
+# --- ENTITIES OF L9150629-TL0111_1a_pdf (1).conll ---
+Gagern B-LOC
+Schwester B-PER
+Krieg B-OTH
+Rosina B-PER
+Josef I-PER
+Onkel B-PER
+August I-PER
+Frankreich B-LOC
+König B-PER
+Vaterland B-LOC
+Thekla B-PER
+Bruder B-PER
+Richard I-PER
+
+# --- ENTITIES OF L9151117-TL0116_1b_pdf.conll ---
+Gott B-OTH
+Onkel B-PER
+Johann I-PER
+Fleisch B-OTH
+
+# --- ENTITIES OF L9170131-TL0136_2a_pdf.conll ---
+Weihnach B-OTH
+Gebeten B-OTH
+Marie B-PER
+Ungarn B-LOC
+
+# --- ENTITIES OF L9190421-TL0157_1a_pdf.conll ---
+Pritzburgk B-LOC
+Tekla B-PER
+Engel B-PER
+Ostern B-OTH
+
+# --- ENTITIES OF L9191208-TL0169_2a_pdf.conll ---
+Hedwig B-PER
+Paul B-PER
+Großmutter B-PER
+Mutter B-PER
+Anna B-PER
+Agnes B-PER
+Barthold B-PER
+Josef B-PER
+Seele B-OTH
+Kaffe B-OTH
+Butter B-OTH
+Mutter B-PER
+gers I-PER
+Forthold B-PER
+Botschuld B-PER
+
+# --- ENTITIES OF L9200320-TL0187_1b_pdf.conll ---
+Thee B-PER
+Schupfen B-OTH
+Halsentzündung B-OTH
+Amerika B-LOC
+Besetzung B-OTH
+Wasser B-OTH
+Düsseldorf B-LOC
+Dasburg B-LOC
+Aurort B-LOC
+Deutschland B-LOC
+Kohlengebiet B-LOC
+Friedensvertrag B-OTH
+Thea B-PER
+Geburtstag B-OTH
+Tabak B-OTH
+
+# --- ENTITIES OF L9200422-TL0001_1a_pdf.conll ---
+August B-PER
+Berthold B-PER
+Kaffee B-OTH
+Kaffee B-OTH
+Futter B-OTH
+Schuhe B-OTH
+Jesu B-PER
+Christus I-PER
+Gelde B-OTH
+Agnes B-PER
+Ostern B-OTH
+Berthold B-PER
+Agnes B-PER
+
+# --- ENTITIES OF L9200626-TL0201_2a_pdf.conll ---
+Deutschen B-PER
+Politik B-OTH
+Kriege B-OTH
+Wirtschaft B-OTH
+arbeitenden B-PER
+Klassen I-PER
+Geld B-OTH
+Pension B-OTH
+Tengungszulage B-OTH
+Bekla B-PER
+
+# --- ENTITIES OF L9200910-TL0220_1b_pdf.conll ---
+Königen B-PER
+meines I-PER
+Herzens I-PER
+Freundin B-PER
+Josef B-PER
+Josef B-PER
+Familie B-OTH
+Josef B-PER
+Langenbrück B-LOC
+Freundin B-PER
+Klöse B-OTH
+Berlin B-LOC
+Mutter B-PER
+Obst B-OTH
+Gurken B-OTH
+
+# --- ENTITIES OF L9201110-TL0230_1a_pdf.conll ---
+Berlin B-LOC
+Braut B-PER
+Ausschen B-PER
+Obst B-OTH
+Brot B-OTH
+Butter B-OTH
+Mutter B-PER
+Sohn B-PER
+Theor B-PER
+Präsident B-PER
+Amerika B-LOC
+Frieden B-OTH
+deutschland B-PER
+
+# --- ENTITIES OF L9210103-TL0249_1a_pdf.conll ---
+Gott B-PER
+Hedwig B-PER
+Weihnachts B-OTH
+Äpfel B-OTH
+Pfefferuch B-OTH
+Mohnabe B-OTH
+Schlesien B-LOC
+Liebling B-PER
+Frau B-PER
+Ausfuhrbewilligung B-OTH
+Robert B-PER
+Berlin B-LOC
+Thea B-PER
+
+# --- ENTITIES OF L9210529-TL0272_1b_pdf.conll ---
+Schwester B-PER
+Thekla B-PER
+Ostern B-OTH
+Sand B-PER
+Lahner I-PER
+Schwesterchen B-PER
+Damen B-PER
+Frau B-PER
+Reinhardt I-PER
+Kinder B-PER
+bina B-PER
+Schule B-LOC
+Tante B-PER
+Amerika B-LOC
+Eltern B-OTH
+fest I-OTH
+Kessenbrot B-OTH
+Weihnachtsfest B-OTH
+Christine B-OTH
+Kindheit B-OTH
+Kriegs B-PER
+kinden I-PER
+Geschwister B-PER
+Oberschlesischen B-LOC
+Deutschland B-LOC
+Franzosen B-PER
+Polen B-LOC
+Herrgott B-PER
+Amerika B-LOC
+Vater B-PER
+Brüder B-PER
+Ehekla B-PER
+Franz B-PER
+Ehekla B-PER
+von I-PER
+Gerhard I-PER
+Josel I-PER
+Pauls B-PER
+Bübchen I-PER
+Neffen B-PER
+Amerika B-LOC
+Gott B-OTH
+Rauchfleisch B-OTH
+Franz B-PER
+Pakete B-OTH
+Kolleke B-PER
+Thekla B-PER
+
+# --- ENTITIES OF L921xx17-TL0283_2b_pdf.conll ---
+Paul B-PER
+Mutter B-PER
+Waldmeister B-OTH
+
+# --- ENTITIES OF L9220904-TL0307_1b_pdf.conll ---
+Katholikentages B-OTH
+Gesellen B-PER
+Nürnberg B-LOC
+Thekla B-PER
+Josef B-PER
+Rathman B-PER
+Deutschland B-LOC
+München B-LOC
+Margarin B-OTH
+Damenschuhe B-OTH
+Brauhaus B-LOC
+
+# --- ENTITIES OF L9221214-TL0322_1a_pdf.conll ---
+Himmel B-OTH
+Vater B-PER
+Mutter B-PER
+Gott B-PER
+Franz B-PER
+Robert B-PER
+Bruder B-PER
+August B-PER
+Schwäger B-PER
+Paul B-PER
+Marte B-PER
+Kinder B-PER
+chen I-PER
+Gristkindlein B-OTH
+Tante B-PER
+Fortunata I-PER
+Philothe B-PER
+Strelitz B-LOC
+Dollar B-OTH
+Holz B-OTH
+Kohle B-OTH
+Deutschland B-LOC
+
+# --- ENTITIES OF L92309xx-TL1016_2b_pdf.conll ---
+Sozialdemokraten B-PER
+Neustädter B-ORG
+Zeitung I-ORG
+Neustadt B-LOC
+Scheidemann-Prozesses B-PER
+Kapitän B-PER
+Ehrhar I-PER
+München B-LOC
+Leipzig B-LOC
+Italien B-LOC
+Zeitungen B-ORG
+Italiener B-PER
+Rom B-LOC
+Baÿern B-LOC
+München B-LOC
+Bayern B-LOC
+
+# --- ENTITIES OF L9260206-TL1039_3b_pdf.conll ---
+Kirche B-OTH
+Orgel B-OTH
+George B-PER
+Kasington I-PER
+Orgel B-OTH
+Raven B-LOC
+Oburg I-LOC
+Mädchen B-PER
+Kirche B-OTH
+Friedrichshaffen B-LOC
+Schreiner B-PER
+München B-LOC
+Bodensee B-LOC
+Kirche B-OTH
+Bischof B-PER
+Reppler I-PER
+Predigt B-OTH
+Konstanz B-LOC
+
+# --- ENTITIES OF L9300925-TL0222_1a_pdf.conll ---
+München B-LOC
+Bruder B-PER
+Dollar B-OTH
+Ford B-PER
+München B-LOC
+Frau B-PER
+Tante B-PER
+Mark B-OTH
+Mark B-OTH
+
+# --- ENTITIES OF L9xx0527-TL2027_1a_pdf.conll ---
+Supla B-LOC
+Gekla B-PER
+Mädchen B-PER
+Schlachthaus B-LOC
+Mann B-PER
+Eltern B-PER
+G B-PER
+. I-PER
+D B-PER
+. I-PER
+
+# --- ENTITIES OF L9xx12xx-TL2068_1b_pdf.conll ---
+Mai B-PER
+Hedwig B-PER
+Neustad B-LOC
+Josef B-PER
+Amerik B-LOC
+Töchter B-PER
+Vater B-PER
+
+# --- ENTITIES OF L9xxxxxx-TL0234_1b_pdf.conll ---
+Tekla B-PER
+Gottlohne B-OTH
+Josef B-PER
+Berta B-PER
+Nieman B-PER
+Geisleis B-ORG
+Mutter B-PER
+
+# --- ENTITIES OF L9xxxxxx-TL2026_1b_pdf.conll ---
+Gadeschneiders B-LOC
+Hause I-LOC
+Josef B-PER
+Tochter B-PER
+Sommergessen B-LOC
+Erwin B-PER
+Pastorn B-OTH
+Johann B-PER
+Heidenreich I-PER
+
+# --- ENTITIES OF L9xxxxxx-TL2055_1a_pdf.conll ---
+Paul B-PER
+Martha B-PER
+Kinder B-PER
+Dotter B-OTH
+Mutter B-PER
+Schule B-LOC
+Marien B-PER
+beth B-PER
+Handels B-LOC
+schule I-LOC
+Geld B-OTH
+August B-PER
+Schwester B-PER
+Martha B-PER
+Franz B-PER
+
+# --- ENTITIES OF L9xxxxxx-TL2082_1a_pdf.conll ---
+Herr B-PER
+Richter B-PER
+Kolleger B-PER
+Himmels B-OTH
+
+# --- ENTITIES OF L9xxxxxx-TL2112_1b_pdf.conll ---
+Mark B-OTH
+Paulchen B-PER
+Pfund B-OTH
+Deutschlän B-LOC
+Kinder B-PER
+Thekla B-PER
+Paulchen B-PER
+Polchen B-PER
+Jungen B-PER
+Lebensmittel B-OTH
+Mehl B-OTH
+Roggen B-OTH
+Mark B-OTH
+Margarine B-OTH
+Butter B-OTH
+Amerika B-OTH
+Mark B-OTH
+
