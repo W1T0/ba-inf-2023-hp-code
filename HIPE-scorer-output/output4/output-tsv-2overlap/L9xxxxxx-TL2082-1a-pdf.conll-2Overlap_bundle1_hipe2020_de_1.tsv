@@ -39,7 +39,7 @@ mir	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 sein	O	O	O	O	O	O	_	_	_
 Die	O	O	O	O	O	O	_	_	_
-Hausen	O	O	O	O	O	O	_	_	_
+Hausen	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q83363024	_	_
 küste	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 wesen	O	O	O	O	O	O	_	_	_
@@ -64,7 +64,7 @@ Millionen	O	O	O	O	O	O	_	_	_
 hingehen	O	O	O	O	O	O	_	_	_
 an	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
-Himmels	O	O	O	O	O	O	_	_	_
+Himmels	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q4489450	_	_
 Zonen	O	O	O	O	O	O	_	_	_
 um	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_

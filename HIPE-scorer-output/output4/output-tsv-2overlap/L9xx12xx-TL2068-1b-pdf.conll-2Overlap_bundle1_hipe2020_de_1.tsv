@@ -31,7 +31,7 @@ mir	O	O	O	O	O	O	_	_	_
 fleisig	O	O	O	O	O	O	_	_	_
 zum	O	O	O	O	O	O	_	_	_
 lieben	O	O	O	O	O	O	_	_	_
-Gott	O	O	O	O	O	O	_	_	_
+Gott	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q190	_	_
 der	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
 dich	O	O	O	O	O	O	_	_	_
@@ -53,7 +53,7 @@ Mai	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 Hedwig	B-PER	O	O	O	O	O	_	_	_
 aus	O	O	O	O	O	O	_	_	_
-Neustad	B-LOC	O	O	O	O	O	_	_	_
+Neustad	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q205383	_	_
 mit	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 Kindern	O	O	O	O	O	O	_	_	_
@@ -99,5 +99,5 @@ diesen	O	O	O	O	O	O	_	_	_
 verbleibe	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 dem	O	O	O	O	O	O	_	_	_
-Lieber	O	O	O	O	O	O	_	_	_
+Lieber	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q1470283	_	_
 Vater	O	O	O	O	O	O	_	_	_

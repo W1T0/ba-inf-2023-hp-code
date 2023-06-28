@@ -1,7 +1,7 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
 der	O	O	O	O	O	O	_	_	_
 Liebe	O	O	O	O	O	O	_	_	_
-Gott	O	O	O	O	O	O	_	_	_
+Gott	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q190	_	_
 daß	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
@@ -245,7 +245,7 @@ Jahr	O	O	O	O	O	O	_	_	_
 wohl	O	O	O	O	O	O	_	_	_
 nur	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
-Bruch	O	O	O	O	O	O	_	_	_
+Bruch	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q622563	_	_
 leider	O	O	O	O	O	O	_	_	_
 unterbrechen	O	O	O	O	O	O	_	_	_
 um	O	O	O	O	O	O	_	_	_

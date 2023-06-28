@@ -56,7 +56,7 @@ Bruder	O	O	O	O	O	O	_	_	_
 Paul	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q1518011	_	_
 den	O	O	O	O	O	O	_	_	_
 Aber	O	O	O	O	O	O	_	_	_
-Marta	B-PER	O	O	O	O	O	_	_	_
+Marta	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q1352021	_	_
 hat	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 fast	O	O	O	O	O	O	_	_	_
@@ -174,7 +174,7 @@ laß	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 Brief	O	O	O	O	O	O	_	_	_
 gefreut	O	O	O	O	O	O	_	_	_
-Marta	B-PER	O	O	O	O	O	_	_	_
+Marta	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q1352021	_	_
 will	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 gleich	O	O	O	O	O	O	_	_	_
@@ -192,7 +192,7 @@ dem	O	O	O	O	O	O	_	_	_
 also	O	O	O	O	O	O	_	_	_
 nur	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Marta	B-PER	O	O	O	O	O	_	_	_
+Marta	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q1352021	_	_
 war	O	O	O	O	O	O	_	_	_
 ganz	O	O	O	O	O	O	_	_	_
 weg	O	O	O	O	O	O	_	_	_

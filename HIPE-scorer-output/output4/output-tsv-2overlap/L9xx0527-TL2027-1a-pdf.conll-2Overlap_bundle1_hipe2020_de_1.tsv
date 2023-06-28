@@ -2,7 +2,7 @@ TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NEST
 Supla	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 24	O	O	O	O	O	O	_	_	_
-May	O	O	O	O	O	O	_	_	_
+May	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q223890	_	_
 Und	O	O	O	O	O	O	_	_	_
 nun	O	O	O	O	O	O	_	_	_
 lite	O	O	O	O	O	O	_	_	_

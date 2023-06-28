@@ -26,7 +26,7 @@ Karte	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 Gadeschneiders	B-PER	O	O	O	O	O	_	_	_
-Hause	O	O	O	O	O	O	_	_	_
+Hause	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q1517712	_	_
 vor	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 wohnen	O	O	O	O	O	O	_	_	_
@@ -56,7 +56,7 @@ Dann	O	O	O	O	O	O	_	_	_
 hinten	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Gedie	O	O	O	O	O	O	_	_	_
-Pastorn	O	O	O	O	O	O	_	_	_
+Pastorn	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q152002	_	_
 vom	O	O	O	O	O	O	_	_	_
 Johann	B-PER	O	O	O	O	O	_	_	_
 Heidenreich	I-PER	O	O	O	O	O	_	_	_

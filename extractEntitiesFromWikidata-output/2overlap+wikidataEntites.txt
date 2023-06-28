@@ -1,0 +1,402 @@
+[INFO] FILENAME: L9110213-TL0015-1a-pdf
+Frank B-PER _
+Schiller B-PER _
+Tekla B-PER _
+Bekla B-PER _
+Tekla B-PER _
+Mis B-PER _
+Ger I-PER _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 1 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9120323-TL0033-1a-pdf
+Neustadt B-LOC http://www.wikidata.org/entity/Q205383
+Amerika B-LOC _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 2 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9120903-TL0046-1a-pdf
+Neustadt B-LOC http://www.wikidata.org/entity/Q205383
+Schles I-LOC _
+Neustadt B-LOC http://www.wikidata.org/entity/Q205383
+[INFO] ALL ENTITIES MAPPED
+[INFO] 3 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9130421-TL0063-1b-pdf
+Paul B-LOC http://www.wikidata.org/entity/Q1518011
+Titt B-PER _
+München B-LOC http://www.wikidata.org/entity/Q1726
+Paul B-LOC http://www.wikidata.org/entity/Q1518011
+Marta B-OTH http://www.wikidata.org/entity/Q1352021
+Martel B-PER _
+Thekla B-PER _
+Mark B-PER _
+Martel B-PER _
+Witt B-LOC http://www.wikidata.org/entity/Q579969
+Anna B-LOC http://www.wikidata.org/entity/Q559296
+Görlich B-PER _
+Görlich B-PER _
+Deutschland B-LOC http://www.wikidata.org/entity/Q183
+Thekla B-PER _
+Marta B-OTH http://www.wikidata.org/entity/Q1352021
+Paul B-LOC http://www.wikidata.org/entity/Q1518011
+Marta B-OTH http://www.wikidata.org/entity/Q1352021
+Gürtler B-PER _
+Hause B-LOC http://www.wikidata.org/entity/Q1517712
+Baum B-PER _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 4 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9140528-TL0092-1b-pdf
+Kurt B-PER _
+Willer B-PER _
+Re I-PER _
+Stein B-LOC http://www.wikidata.org/entity/Q522045
+Kasse B-LOC http://www.wikidata.org/entity/Q2865
+Ehre B-OTH http://www.wikidata.org/entity/Q8445
+Gottes B-OTH http://www.wikidata.org/entity/Q99571837
+Brant B-LOC http://www.wikidata.org/entity/Q79427
+Allen B-LOC http://www.wikidata.org/entity/Q33147
+[INFO] ALL ENTITIES MAPPED
+[INFO] 5 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9150629-TL0111-1a-pdf
+Gott B-OTH http://www.wikidata.org/entity/Q190
+Rosina B-PER _
+Josef I-PER _
+August B-LOC http://www.wikidata.org/entity/Q28206
+Frankreich B-LOC http://www.wikidata.org/entity/Q142
+Thekla B-PER _
+Ma B-PER _
+Richard B-PER _
+Mar B-OTH http://www.wikidata.org/entity/Q1352021
+[INFO] ALL ENTITIES MAPPED
+[INFO] 6 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9151117-TL0116-1b-pdf
+Gott B-OTH http://www.wikidata.org/entity/Q190
+Sache B-LOC http://www.wikidata.org/entity/Q620327
+Johann B-PER _
+Fleisch B-OTH http://www.wikidata.org/entity/Q10990
+[INFO] ALL ENTITIES MAPPED
+[INFO] 7 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9170131-TL0136-2a-pdf
+Löhne B-LOC http://www.wikidata.org/entity/Q14863
+Gebeten B-OTH http://www.wikidata.org/entity/Q40953
+Mar B-OTH http://www.wikidata.org/entity/Q1352021
+Lande B-LOC http://www.wikidata.org/entity/Q992094
+Marie B-PER _
+Ungarn B-LOC http://www.wikidata.org/entity/Q28
+Gas B-LOC http://www.wikidata.org/entity/Q2135060
+[INFO] ALL ENTITIES MAPPED
+[INFO] 8 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9190421-TL0157-1a-pdf
+Hause B-LOC http://www.wikidata.org/entity/Q1517712
+August B-LOC http://www.wikidata.org/entity/Q28206
+Stelle B-LOC http://www.wikidata.org/entity/Q701148
+Anali B-PER _
+August B-LOC http://www.wikidata.org/entity/Q28206
+[INFO] ALL ENTITIES MAPPED
+[INFO] 9 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9191208-TL0169-2a-pdf
+Hedwig B-PER _
+Paul B-LOC http://www.wikidata.org/entity/Q1518011
+Muster B-LOC http://www.wikidata.org/entity/Q506599
+Anna B-LOC http://www.wikidata.org/entity/Q559296
+Agnes B-PER _
+Barthold B-PER _
+Platz B-OTH http://www.wikidata.org/entity/Q2099548
+Josef B-PER _
+War B-LOC http://www.wikidata.org/entity/Q2058013
+Seele B-OTH http://www.wikidata.org/entity/Q9165
+Wetter B-LOC http://www.wikidata.org/entity/Q11343
+Butter B-LOC http://www.wikidata.org/entity/Q467664
+[INFO] ALL ENTITIES MAPPED
+[INFO] 10 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9200320-TL0187-1b-pdf
+Düsseldorf B-LOC http://www.wikidata.org/entity/Q1718
+Deutschland B-LOC http://www.wikidata.org/entity/Q183
+Thea B-PER _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 11 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9200422-TL0001-1a-pdf
+August B-LOC http://www.wikidata.org/entity/Q28206
+Berthold B-LOC http://www.wikidata.org/entity/Q1880357
+Sator B-OTH http://www.wikidata.org/entity/Q584580
+Mark B-OTH _
+Mark B-OTH _
+Jesu B-PER _
+Christus I-PER _
+Agnes B-PER _
+Berthold B-LOC http://www.wikidata.org/entity/Q1880357
+Agnes B-PER _
+Wetter B-LOC http://www.wikidata.org/entity/Q11343
+Regen B-LOC http://www.wikidata.org/entity/Q489059
+[INFO] ALL ENTITIES MAPPED
+[INFO] 12 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9200626-TL0201-2a-pdf
+Alten B-LOC http://www.wikidata.org/entity/Q5276
+Löhne B-LOC http://www.wikidata.org/entity/Q14863
+[INFO] ALL ENTITIES MAPPED
+[INFO] 13 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9200910-TL0220-1b-pdf
+Josef B-PER _
+Sache B-LOC http://www.wikidata.org/entity/Q620327
+Josef B-PER _
+Josef B-PER _
+Sache B-LOC http://www.wikidata.org/entity/Q620327
+Langenbrück B-LOC _
+Berlin B-LOC http://www.wikidata.org/entity/Q64
+Langenbrück B-LOC _
+Obst B-OTH http://www.wikidata.org/entity/Q3314483
+Hagen B-LOC http://www.wikidata.org/entity/Q2871
+Gurken B-OTH http://www.wikidata.org/entity/Q23425
+[INFO] ALL ENTITIES MAPPED
+[INFO] 14 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9201110-TL0230-1a-pdf
+Berlin B-LOC http://www.wikidata.org/entity/Q64
+Braut B-OTH _
+Voller I-OTH _
+Sehnsucht I-OTH _
+und I-OTH _
+Besorgniß I-OTH _
+Schwerden B-LOC http://www.wikidata.org/entity/Q34
+und I-OTH _
+und I-OTH _
+Obst B-OTH http://www.wikidata.org/entity/Q3314483
+Brot B-OTH http://www.wikidata.org/entity/Q7802
+und I-OTH _
+Butter B-LOC http://www.wikidata.org/entity/Q467664
+Amerika B-LOC _
+und I-OTH _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 15 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9210103-TL0249-1a-pdf
+Gott B-OTH http://www.wikidata.org/entity/Q190
+Hedwig B-PER _
+Schlesien B-LOC _
+Robert B-LOC http://www.wikidata.org/entity/Q1517849
+Berlin B-LOC http://www.wikidata.org/entity/Q64
+Thea B-PER _
+Garbi I-PER _
+Bruch B-OTH http://www.wikidata.org/entity/Q622563
+[INFO] ALL ENTITIES MAPPED
+[INFO] 16 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9210529-TL0272-1b-pdf
+Thekla B-PER _
+Amerika B-LOC _
+Christine B-PER _
+ist I-OTH _
+an I-OTH _
+ist I-OTH _
+Buch I-OTH _
+Deutschland B-LOC http://www.wikidata.org/entity/Q183
+OberSchlesiens B-LOC _
+Polen B-LOC http://www.wikidata.org/entity/Q36
+Lande B-LOC http://www.wikidata.org/entity/Q992094
+an I-OTH _
+Deutschland B-LOC http://www.wikidata.org/entity/Q183
+oft I-OTH _
+Amerika B-LOC _
+ist I-OTH _
+Herrn B-LOC http://www.wikidata.org/entity/Q577950
+Ehekla B-PER _
+Franz B-PER _
+Ehekla B-PER _
+Gerhard B-PER _
+Josel I-PER _
+Pauls B-PER _
+Neffen B-LOC http://www.wikidata.org/entity/Q82520
+Witten B-LOC http://www.wikidata.org/entity/Q3764
+Amerika B-LOC _
+Sonnen I-OTH _
+Im I-OTH _
+Gebet B-OTH http://www.wikidata.org/entity/Q40953
+denke I-OTH _
+ist I-OTH _
+oft I-OTH _
+an I-OTH _
+Buch I-OTH _
+Möge I-OTH _
+Buch I-OTH _
+Gott B-OTH http://www.wikidata.org/entity/Q190
+Buch I-OTH _
+an I-OTH _
+Franz B-PER _
+Kolleke B-OTH http://www.wikidata.org/entity/Q1779350
+Thekla B-PER _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 17 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L921xx17-TL0283-2b-pdf 
+Hetter B-LOC http://www.wikidata.org/entity/Q1510757
+Paul B-LOC http://www.wikidata.org/entity/Q1518011
+Sache B-LOC http://www.wikidata.org/entity/Q620327
+Betten B-LOC http://www.wikidata.org/entity/Q495428
+[INFO] ALL ENTITIES MAPPED
+[INFO] 18 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9220904-TL0307-1b-pdf
+Nürnberg B-LOC http://www.wikidata.org/entity/Q2090
+Buchen B-LOC http://www.wikidata.org/entity/Q179252
+Josef B-PER _
+Deutschland B-LOC http://www.wikidata.org/entity/Q183
+München B-LOC http://www.wikidata.org/entity/Q1726
+Margarin B-OTH http://www.wikidata.org/entity/Q4287
+Ehe B-OTH http://www.wikidata.org/entity/Q8445
+Hof B-LOC http://www.wikidata.org/entity/Q6938
+Sache B-LOC http://www.wikidata.org/entity/Q620327
+[INFO] ALL ENTITIES MAPPED
+[INFO] 19 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9221214-TL0322-1a-pdf
+Himmel B-OTH http://www.wikidata.org/entity/Q4489450
+Gott B-OTH http://www.wikidata.org/entity/Q190
+Franz B-PER _
+Robert B-LOC http://www.wikidata.org/entity/Q1517849
+August B-LOC http://www.wikidata.org/entity/Q28206
+Paul B-LOC http://www.wikidata.org/entity/Q1518011
+Fortunata B-PER _
+Porte B-LOC http://www.wikidata.org/entity/Q1900352
+Dollar B-OTH _
+Winter B-LOC http://www.wikidata.org/entity/Q969524
+Lander B-LOC http://www.wikidata.org/entity/Q992094
+Deutschland B-LOC http://www.wikidata.org/entity/Q183
+[INFO] ALL ENTITIES MAPPED
+[INFO] 20 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L92309xx-TL1016-2b-pdf 
+Sozialdem B-ORG _
+Parten B-OTH http://www.wikidata.org/entity/Q1044124
+Neustädter I-ORG _
+Zeitung I-ORG _
+Neustadt B-LOC http://www.wikidata.org/entity/Q205383
+Ehrhar B-PER _
+München B-LOC http://www.wikidata.org/entity/Q1726
+Leipzig B-LOC http://www.wikidata.org/entity/Q2079
+Italien B-LOC http://www.wikidata.org/entity/Q38
+Rom B-LOC http://www.wikidata.org/entity/Q220
+München B-LOC http://www.wikidata.org/entity/Q1726
+Bayern B-LOC _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 21 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9260206-TL1039-3b-pdf
+Kirche B-OTH http://www.wikidata.org/entity/Q34651
+Dampfer B-OTH http://www.wikidata.org/entity/Q260765
+George B-LOC http://www.wikidata.org/entity/Q1519093
+Kasington I-PER _
+Walde B-LOC _
+Kirche B-OTH http://www.wikidata.org/entity/Q34651
+Raven B-LOC _
+Oburg I-LOC _
+Kirche B-OTH http://www.wikidata.org/entity/Q34651
+Friedrichshaffen B-LOC http://www.wikidata.org/entity/Q4051
+München B-LOC http://www.wikidata.org/entity/Q1726
+L B-PER _
+R I-PER _
+III I-PER _
+Kirche B-OTH http://www.wikidata.org/entity/Q34651
+Reppler B-PER _
+Festottesdienst B-OTH http://www.wikidata.org/entity/Q2514663
+Predigt B-OTH http://www.wikidata.org/entity/Q60797
+Mersburg B-LOC http://www.wikidata.org/entity/Q14945
+Dampfer B-OTH http://www.wikidata.org/entity/Q260765
+Konstanz B-LOC http://www.wikidata.org/entity/Q3834
+[INFO] ALL ENTITIES MAPPED
+[INFO] 22 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9300925-TL0222-1a-pdf
+München B-LOC http://www.wikidata.org/entity/Q1726
+Lieber B-OTH http://www.wikidata.org/entity/Q1470283
+Dollar B-OTH _
+Amit B-PER _
+Ford B-LOC http://www.wikidata.org/entity/Q1867523
+München B-LOC http://www.wikidata.org/entity/Q1726
+[INFO] ALL ENTITIES MAPPED
+[INFO] 23 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9xx0527-TL2027-1a-pdf 
+May B-OTH http://www.wikidata.org/entity/Q223890
+Strauß B-PER _
+G B-PER _
+D B-PER _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 24 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9xx12xx-TL2068-1b-pdf 
+Gott B-OTH http://www.wikidata.org/entity/Q190
+Mai B-PER _
+Hedwig B-PER _
+Neustad B-LOC http://www.wikidata.org/entity/Q205383
+Josef B-PER _
+Amerik B-LOC _
+Lieber B-OTH http://www.wikidata.org/entity/Q1470283
+[INFO] ALL ENTITIES MAPPED
+[INFO] 25 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9xxxxxx-TL0234-1b-pdf 
+Tekla B-PER _
+Josef B-PER _
+Berta B-LOC http://www.wikidata.org/entity/Q2186616
+[INFO] ALL ENTITIES MAPPED
+[INFO] 26 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9xxxxxx-TL2026-1b-pdf 
+Gadeschneiders B-PER _
+Hause B-LOC http://www.wikidata.org/entity/Q1517712
+Josef B-PER _
+Pastorn B-OTH http://www.wikidata.org/entity/Q152002
+Johann B-PER _
+Heidenreich I-PER _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 27 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9xxxxxx-TL2055-1a-pdf 
+Lieber B-OTH http://www.wikidata.org/entity/Q1470283
+Paul B-LOC http://www.wikidata.org/entity/Q1518011
+Martha B-PER _
+Vielen B-LOC http://www.wikidata.org/entity/Q200549
+Dotter B-OTH http://www.wikidata.org/entity/Q181409
+Marien B-PER _
+August B-LOC http://www.wikidata.org/entity/Q28206
+Martha B-PER _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 28 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9xxxxxx-TL2082-1a-pdf 
+Hausen B-OTH http://www.wikidata.org/entity/Q83363024
+Himmels B-OTH http://www.wikidata.org/entity/Q4489450
+[INFO] ALL ENTITIES MAPPED
+[INFO] 29 FILES DONE
+--------------------------------------------------
+[INFO] FILENAME: L9xxxxxx-TL2112-1b-pdf 
+Mark I-OTH _
+Pfund B-OTH _
+Deutschlän B-LOC _
+Mark I-OTH _
+August B-LOC http://www.wikidata.org/entity/Q28206
+Mark I-OTH _
+Lebensmittel B-OTH http://www.wikidata.org/entity/Q8195619
+Mehl B-OTH http://www.wikidata.org/entity/Q36465
+Kentner B-LOC http://www.wikidata.org/entity/Q991464
+Roggen B-OTH http://www.wikidata.org/entity/Q219426
+Mark I-OTH _
+Hungern B-LOC http://www.wikidata.org/entity/Q602629
+Margarine B-OTH http://www.wikidata.org/entity/Q4287
+Butter B-LOC http://www.wikidata.org/entity/Q467664
+Amerika B-LOC _
+Pfund B-OTH _
+Mark I-OTH _
+[INFO] ALL ENTITIES MAPPED
+[INFO] 30 FILES DONE

@@ -189,7 +189,7 @@ thut	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
-Seele	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q16052	_	_
+Seele	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q9165	_	_
 leid	O	O	O	O	O	O	_	_	_
 wann	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_

@@ -26,7 +26,7 @@ an	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 jetzigen	O	O	O	O	O	O	_	_	_
 Verhältnissen	O	O	O	O	O	O	_	_	_
-Lieber	O	O	O	O	O	O	_	_	_
+Lieber	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q1470283	_	_
 Bruder	O	O	O	O	O	O	_	_	_
 gewählt	O	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
@@ -69,8 +69,7 @@ du	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 Zeitungen	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
-6	O	O	O	O	O	O	_	_	_
-8	O	O	O	O	O	O	_	_	_
+68	O	O	O	O	O	O	_	_	_
 Millionen	O	O	O	O	O	O	_	_	_
 gleich	O	O	O	O	O	O	_	_	_
 paar	O	O	O	O	O	O	_	_	_

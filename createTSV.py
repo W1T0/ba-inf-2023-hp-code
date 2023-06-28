@@ -34,14 +34,14 @@ output2Overlap = "./HIPE-scorer-output/output4/output-tsv-2overlap/"
 #     ],
 # )
 
-print("[INFO] Run 2 Overlap TSV Parser")
-createTSVFrom2Overlap.run(
-    [outputFlair, outputGermaNER, outputS_T],
-    "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",  # Stichprobe - Annotationen - Export
-    output2Overlap,
-)
-
-# print("[INFO] Compare TSV")
-# compareAnnotationToTSV.run(
-#     [outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap]
+# print("[INFO] Run 2 Overlap TSV Parser")
+# createTSVFrom2Overlap.run(
+#     [outputFlair, outputGermaNER, outputS_T],
+#     "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",  # Stichprobe - Annotationen - Export
+#     output2Overlap,
 # )
+
+print("[INFO] Compare TSV")
+compareAnnotationToTSV.run(
+    [outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap]
+)

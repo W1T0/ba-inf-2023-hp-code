@@ -29,7 +29,7 @@ viel	O	O	O	O	O	O	_	_	_
 tausendmal	O	O	O	O	O	O	_	_	_
 Josef	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-Berta	B-PER	O	O	O	O	O	_	_	_
+Berta	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q2186616	_	_
 sen	O	O	O	O	O	O	_	_	_
 eben	O	O	O	O	O	O	_	_	_
 unartig	O	O	O	O	O	O	_	_	_

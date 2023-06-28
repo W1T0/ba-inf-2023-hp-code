@@ -213,6 +213,9 @@ def run(
                                             # print("RELIGION")
                                             # print(firstWordReplaced, entity.split()[1])
 
+                        if predicate != "O":
+                            print(firstWordReplaced, predicate, wikidataQID)
+
                         # write entity and predicate to file
                         writeToFile.write(
                             firstWordReplaced

@@ -123,7 +123,7 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
             tempBestMatchDistinct = [*set(tempBestMatch)]
 
             # add best matches to results list
-            if len(tempBestMatchDistinct) > 1:
+            if len(tempBestMatchDistinct) > 0:
                 for bestMatch in tempBestMatchDistinct:
                     results[counter - 1].append(bestMatch)
 

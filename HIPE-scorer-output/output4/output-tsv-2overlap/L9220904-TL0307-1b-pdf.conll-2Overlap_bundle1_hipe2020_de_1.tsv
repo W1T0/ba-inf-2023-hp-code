@@ -168,10 +168,10 @@ kann	O	O	O	O	O	O	_	_	_
 daß	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 billigste	O	O	O	O	O	O	_	_	_
-Margarin	O	O	O	O	O	O	_	_	_
+Margarin	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q4287	_	_
 1806	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
-Ehe	O	O	O	O	O	O	_	_	_
+Ehe	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q8445	_	_
 es	O	O	O	O	O	O	_	_	_
 nun	O	O	O	O	O	O	_	_	_
 verstehen	O	O	O	O	O	O	_	_	_

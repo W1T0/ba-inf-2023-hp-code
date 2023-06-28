@@ -24,7 +24,7 @@ und	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 Vereinigte	O	O	O	O	O	O	_	_	_
 Sozialdem	B-ORG	O	O	O	O	O	_	_	_
-Parten	I-ORG	O	O	O	O	O	_	_	_
+Parten	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q1044124	_	_
 nennt	O	O	O	O	O	O	_	_	_
 In	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_

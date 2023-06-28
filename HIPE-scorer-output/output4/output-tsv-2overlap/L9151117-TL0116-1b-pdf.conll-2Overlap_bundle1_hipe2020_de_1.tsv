@@ -23,7 +23,7 @@ Hanshagen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 eine	O	O	O	O	O	O	_	_	_
 liebe	O	O	O	O	O	O	_	_	_
-Gott	O	O	O	O	O	O	_	_	_
+Gott	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q190	_	_
 mich	O	O	O	O	O	O	_	_	_
 gemachte	O	O	O	O	O	O	_	_	_
 gen	O	O	O	O	O	O	_	_	_
@@ -38,7 +38,7 @@ fur	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Sache	O	O	O	O	O	O	_	_	_
+Sache	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q620327	_	_
 In	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 haben	O	O	O	O	O	O	_	_	_
@@ -113,7 +113,7 @@ Schwersten	O	O	O	O	O	O	_	_	_
 Burschen	O	O	O	O	O	O	_	_	_
 Jahr	O	O	O	O	O	O	_	_	_
 seiner	O	O	O	O	O	O	_	_	_
-Fleisch	O	O	O	O	O	O	_	_	_
+Fleisch	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q10990	_	_
 Rutenbeken	O	O	O	O	O	O	_	_	_
 besaget	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_

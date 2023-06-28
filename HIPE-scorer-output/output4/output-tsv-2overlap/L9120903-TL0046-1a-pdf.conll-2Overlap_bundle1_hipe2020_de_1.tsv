@@ -1,5 +1,5 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
-Neustadt	B-LOC	O	O	O	O	O	_	_	_
+Neustadt	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q205383	_	_
 Schles	I-LOC	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 3	O	O	O	O	O	O	_	_	_
@@ -141,7 +141,7 @@ fänglich	O	O	O	O	O	O	_	_	_
 gehen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 über	O	O	O	O	O	O	_	_	_
-Neustadt	B-LOC	O	O	O	O	O	_	_	_
+Neustadt	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q205383	_	_
 Un	O	O	O	O	O	O	_	_	_
 sein	O	O	O	O	O	O	_	_	_
 würde	O	O	O	O	O	O	_	_	_
