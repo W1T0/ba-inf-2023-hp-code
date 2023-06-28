@@ -4,19 +4,23 @@ import testWikidataSPARQLQuery
 
 
 # function to compare results of a SPARQL query (queryDF) with every word in the letters located in the directoryPath, letters must be in conll format
-def compare(directoryPath, outputPath, query, levenshteinDistance):
+def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFile):
     # run query and save as dataframe
     data_extracter = testWikidataSPARQLQuery.WikiDataQueryResults(query)
     queryDF = data_extracter.load_as_dataframe()
     print("[INFO] Query ran")
 
     # open file to write to
-    writeToFile = open(outputPath, "a", encoding="utf-8")
+    if boolWriteToFile:
+        writeToFile = open(outputPath, "a", encoding="utf-8")
 
     # count files
     counter = 0
 
-    # for every file in the directory which ends with .txt
+    # list to save the filename and the best matches
+    results = []
+
+    # for every file in the directory which ends with .conll
     for file in os.listdir(directoryPath):
         filename = os.fsdecode(file)
         if filename.endswith(".conll"):
@@ -27,7 +31,14 @@ def compare(directoryPath, outputPath, query, levenshteinDistance):
             print("[INFO] " + str(counter) + " Files opened")
 
             # write filename
-            writeToFile.write("FILE: " + filename + "\n")
+            if boolWriteToFile:
+                writeToFile.write("FILE: " + filename + "\n")
+
+            # store filename
+            results.append([filename.replace(".conll", "").replace("_", "-")])
+
+            # temporary storage of best matches
+            tempBestMatch = []
 
             # stores every line of file
             lines = letterFile.readlines()
@@ -77,31 +88,52 @@ def compare(directoryPath, outputPath, query, levenshteinDistance):
 
                         # make sure that there are matches in the list
                         if len(possibleMatch) > 0:
-                            print("[INFO] possibleMatch: " + str(possibleMatch))
+                            # print("[INFO] possibleMatch: " + str(possibleMatch))
                             # get the label with the highest fuzz.ratio
                             bestMatch = process.extractOne(firstWord, possibleMatch)
-                            print(
-                                "[INFO] firstWord "
-                                + firstWord
-                                + " | bestMatch: "
-                                + str(bestMatch)
-                            )
+                            # print(
+                            #     "[INFO] firstWord "
+                            #     + firstWord
+                            #     + " | bestMatch: "
+                            #     + str(bestMatch)
+                            # )
 
                             # write the best match to file
-                            writeToFile.write(
-                                "Word: "
-                                + firstWord
-                                + " | Label: "
-                                + str(bestMatch[0])
-                                + " | Link: "
+                            if boolWriteToFile:
+                                writeToFile.write(
+                                    "Word: "
+                                    + firstWord
+                                    + " | Label: "
+                                    + str(bestMatch[0])
+                                    + " | Link: "
+                                    + str(possibleMatchAndLink[bestMatch[0]])
+                                    + " | "
+                                    + str(fuzz.ratio(firstWord, bestMatch[0]))
+                                    + "\n"
+                                )
+
+                            # store best match
+                            tempBestMatch.append(
+                                firstWord
+                                + " "
                                 + str(possibleMatchAndLink[bestMatch[0]])
-                                + " | "
-                                + str(fuzz.ratio(firstWord, bestMatch[0]))
-                                + "\n"
                             )
 
+            # remove duplicates
+            tempBestMatchDistinct = [*set(tempBestMatch)]
+
+            # add best matches to results list
+            if len(tempBestMatchDistinct) > 1:
+                for bestMatch in tempBestMatchDistinct:
+                    results[counter - 1].append(bestMatch)
+
             # add line break
-            writeToFile.write("\n")
+            if boolWriteToFile:
+                writeToFile.write("\n")
 
     # close file
-    writeToFile.close()
+    if boolWriteToFile:
+        writeToFile.close()
+
+    # return results list
+    return results

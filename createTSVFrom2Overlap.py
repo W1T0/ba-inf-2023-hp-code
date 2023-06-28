@@ -1,17 +1,31 @@
 import os
 import get2OverlapEntitiesFromNEROutput
+import extractAllWithWikidata
 
 
 def run(
     directoriesList,
     directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/test/",  # Stichprobe - Annotationen - Export
-    output="./HIPE-scorer-output/output-tsv-2overlap/",
+    output="./HIPE-scorer-output/",
 ):
     # generate 2 Overlap entities and save them
     entities2Overlap = get2OverlapEntitiesFromNEROutput.run(
         directoriesList, boolWriteToFile=False
     )
-    print(entities2Overlap)
+    # print(entities2Overlap)
+
+    # extract entities from wikidata and save them
+    wikidataEntites = extractAllWithWikidata.run()
+    religionEntities = wikidataEntites[0]
+    locationEntities = wikidataEntites[1]
+    foodEntities = wikidataEntites[2]
+
+    # print("------------------------ RELIGION ------------------------")
+    # print(religionEntities)
+    # print("------------------------ LOCATION ------------------------")
+    # print(locationEntities)
+    # print("------------------------ FOOD ------------------------")
+    # print(foodEntities)
 
     # path of the directory
     directoryPath = directory
@@ -51,6 +65,9 @@ def run(
         if filename.endswith(".conll"):
             # save the filename without .conll and with _ instead of - to conform with filenames from 2 Overlap
             filenameClean = filename.replace(".conll", "").replace("_", "-")
+
+            print("--------------------------------------------------")
+            print("[INFO] FILENAME: " + filenameClean)
 
             # open file
             readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
@@ -92,8 +109,9 @@ def run(
                     # save first word of line
                     firstWord = lineSplit[0]
 
-                    # set default predicate
+                    # set default predicate and Wikidata Q ID
                     predicate = "O"
+                    wikidataQID = "_"
 
                     # ignore special characters
                     if (
@@ -119,16 +137,21 @@ def run(
                             .replace("-", "")
                         )
 
+                        # print(firstWordReplaced)
+
+                        # iterate over all 2-overlap-entities
                         for entities in entities2Overlap:
                             if len(entities) > 0:
+                                # check if filename is the same
                                 if entities[0] == filenameClean:
                                     # print("EQUAL FILENAME")
                                     # print(entities[0], filenameClean)
 
                                     entitiesListLength = len(entities[1:])
 
+                                    # iterate over the entites only
                                     for entity in entities[1:]:
-                                        # split entity
+                                        # split entity and get the name
                                         entityName = entity.split()[0]
 
                                         # print(firstWord, entityName)
@@ -139,12 +162,65 @@ def run(
                                             predicate = entity.split()[1]
                                             count += 1
 
+                        # iterate over all food entities
+                        for foodEntity in foodEntities:
+                            # check if there are entities in the list
+                            if len(foodEntity) > 1:
+                                # check if filename is the same
+                                if foodEntity[0] == filenameClean:
+                                    for entity in foodEntity[1:]:
+                                        # split entity and get the name
+                                        entityName = entity.split()[0]
+
+                                        # check for every word if it is an entity
+                                        if firstWordReplaced == entityName:
+                                            predicate = "B-OTH"
+                                            wikidataQID = entity.split()[1]
+                                            # print("FOOD")
+                                            # print(firstWordReplaced, entity.split()[1])
+
+                        # iterate over all location entities
+                        for locationEntity in locationEntities:
+                            # check if there are entities in the list
+                            if len(foodEntity) > 1:
+                                # check if filename is the same
+                                if locationEntity[0] == filenameClean:
+                                    for entity in locationEntity[1:]:
+                                        # split entity and get the name
+                                        entityName = entity.split()[0]
+
+                                        # check for every word if it is an entity
+                                        if firstWordReplaced == entityName:
+                                            predicate = "B-LOC"
+                                            wikidataQID = entity.split()[1]
+                                            # print("LOCATION")
+                                            # print(firstWordReplaced, entity.split()[1])
+
+                        # iterate over all location entities
+                        for religionEntity in religionEntities:
+                            # check if there are entities in the list
+                            if len(foodEntity) > 1:
+                                # check if filename is the same
+                                if religionEntity[0] == filenameClean:
+                                    for entity in religionEntity[1:]:
+                                        # split entity and get the name
+                                        entityName = entity.split()[0]
+
+                                        # check for every word if it is an entity
+                                        if firstWordReplaced == entityName:
+                                            predicate = "B-OTH"
+                                            wikidataQID = entity.split()[1]
+                                            # print("RELIGION")
+                                            # print(firstWordReplaced, entity.split()[1])
+
                         # write entity and predicate to file
                         writeToFile.write(
                             firstWordReplaced
                             + "	"
                             + predicate
-                            + "	O	O	O	O	O	_	_	_"
+                            + "	O	O	O	O	O	"
+                            + wikidataQID
+                            + "	_	_"
                             + "\n"
                         )
 

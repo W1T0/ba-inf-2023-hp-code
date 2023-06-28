@@ -85,7 +85,7 @@ nicht	O	O	O	O	O	O	_	_	_
 abzusehen	O	O	O	O	O	O	_	_	_
 aber	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
-Alten	O	O	O	O	O	O	_	_	_
+Alten	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q5276	_	_
 werden	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
@@ -161,7 +161,7 @@ die	O	O	O	O	O	O	_	_	_
 Ge	O	O	O	O	O	O	_	_	_
 hälter	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-Löhne	O	O	O	O	O	O	_	_	_
+Löhne	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q14863	_	_
 der	O	O	O	O	O	O	_	_	_
 arbeitenden	O	O	O	O	O	O	_	_	_
 Klassen	O	O	O	O	O	O	_	_	_
@@ -224,7 +224,7 @@ geweiß	O	O	O	O	O	O	_	_	_
 sehr	O	O	O	O	O	O	_	_	_
 wenn	O	O	O	O	O	O	_	_	_
 man	O	O	O	O	O	O	_	_	_
-eine	O	O	O	O	O	O	_	_	_
+einer	O	O	O	O	O	O	_	_	_
 wartet	O	O	O	O	O	O	_	_	_
 etwas	O	O	O	O	O	O	_	_	_
 erhält	O	O	O	O	O	O	_	_	_
