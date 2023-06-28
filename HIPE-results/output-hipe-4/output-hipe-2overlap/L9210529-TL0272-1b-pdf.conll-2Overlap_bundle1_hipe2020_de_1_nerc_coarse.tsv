@@ -1,0 +1,17 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.394	0.333	0.361				13	20	26
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC	0.5	0.714	0.588				5	5	2
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	OTH	0.077	0.111	0.091				1	12	8
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PER	0.7	0.304	0.424				7	3	16
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.333	0.282	0.306				11	22	28
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC	0.5	0.714	0.588				5	5	2
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	OTH	0.077	0.111	0.091				1	12	8
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PER	0.5	0.217	0.303				5	5	18
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.394	0.333	0.361	0.0	0.0	0.0			
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC	0.5	0.714	0.588	0.0	0.0	0.0			
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	OTH	0.077	0.111	0.091	0.0	0.0	0.0			
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PER	0.7	0.304	0.424	0.0	0.0	0.0			
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.333	0.282	0.306	0.0	0.0	0.0			
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC	0.5	0.714	0.588	0.0	0.0	0.0			
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	OTH	0.077	0.111	0.091	0.0	0.0	0.0			
+l9210529-tl0272-1b-pdf.conll-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PER	0.5	0.217	0.303	0.0	0.0	0.0			

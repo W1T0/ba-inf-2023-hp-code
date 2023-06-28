@@ -1,0 +1,13 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.889	0.571	0.696				8	1	6
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	OTH	1.0	0.667	0.8				2	0	1
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PER	0.857	0.545	0.667				6	1	5
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.667	0.429	0.522				6	3	8
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	OTH	0.0	0.0	0				0	2	3
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PER	0.857	0.545	0.667				6	1	5
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.889	0.571	0.696	0.0	0.0	0.0			
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	OTH	1.0	0.667	0.8	0.0	0.0	0.0			
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PER	0.857	0.545	0.667	0.0	0.0	0.0			
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.667	0.429	0.522	0.0	0.0	0.0			
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	OTH	0.0	0.0	0.0	0.0	0.0	0.0			
+l9191208-tl0169-2a-pdf-germaner_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PER	0.857	0.545	0.667	0.0	0.0	0.0			

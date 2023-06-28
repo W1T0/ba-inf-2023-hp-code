@@ -1,0 +1,17 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.857	0.3	0.444				6	1	14
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC	1.0	0.5	0.667				1	0	1
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	OTH	1.0	0.2	0.333				1	0	4
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PER	0.8	0.308	0.444				4	1	9
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.714	0.25	0.37				5	2	15
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC	1.0	0.5	0.667				1	0	1
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	OTH	1.0	0.2	0.333				1	0	4
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PER	0.6	0.231	0.333				3	2	10
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.857	0.3	0.444	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC	1.0	0.5	0.667	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	OTH	1.0	0.2	0.333	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PER	0.8	0.308	0.444	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.714	0.25	0.37	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC	1.0	0.5	0.667	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	OTH	1.0	0.2	0.333	0.0	0.0	0.0			
+l9221214-tl0322-1a-pdf-sequencetagging_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PER	0.6	0.231	0.333	0.0	0.0	0.0			

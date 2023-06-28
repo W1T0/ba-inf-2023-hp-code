@@ -1,0 +1,17 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.583	0.467	0.519				7	5	8
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC	0.556	1.0	0.714				5	4	0
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	OTH	0	0.0	0				0	0	6
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PER	0.667	0.5	0.571				2	1	2
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.5	0.4	0.444				6	6	9
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC	0.556	1.0	0.714				5	4	0
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	OTH	0	0.0	0				0	0	6
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PER	0.333	0.25	0.286				1	2	3
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.583	0.467	0.519	0.0	0.0	0.0			
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC	0.556	1.0	0.714	0.0	0.0	0.0			
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	OTH		0.0				0.0			
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PER	0.667	0.5	0.571	0.0	0.0	0.0			
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.5	0.4	0.444	0.0	0.0	0.0			
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC	0.556	1.0	0.714	0.0	0.0	0.0			
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	OTH		0.0				0.0			
+l9260206-tl1039-3b-pdf-flairnergerman_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PER	0.333	0.25	0.286	0.0	0.0	0.0			
