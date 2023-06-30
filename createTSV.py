@@ -3,20 +3,21 @@ import createTSVFromFlairNERGermanOutput
 import createTSVFromNERSequenceTaggingAndGermaNEROutput
 import compareAnnotationToTSV
 import createTSVFrom2Overlap
+import createTSVFromGermaNER
 
-version = 4
+version = 5
 
 outputAnnotations = (
-    "./HIPE-scorer-output/output" + str(version) + "/output-tsv-annotations/"
+    "./HIPE-scorer-input/output" + str(version) + "/output-tsv-annotations/"
 )
 outputFlair = (
-    "./HIPE-scorer-output/output" + str(version) + "/output-tsv-flair-ner-german/"
+    "./HIPE-scorer-input/output" + str(version) + "/output-tsv-flair-ner-german/"
 )
 outputS_T = (
-    "./HIPE-scorer-output/output" + str(version) + "/output-tsv-sequence_tagging/"
+    "./HIPE-scorer-input/output" + str(version) + "/output-tsv-sequence_tagging/"
 )
-outputGermaNER = "./HIPE-scorer-output/output" + str(version) + "/output-tsv-germaNER/"
-output2Overlap = "./HIPE-scorer-output/output" + str(version) + "/output-tsv-2overlap/"
+outputGermaNER = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-germaNER/"
+output2Overlap = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-2overlap/"
 
 # print("[INFO] Run Annotations TSV Parser")
 # createTSVFromAnnotations.run(
@@ -42,6 +43,9 @@ output2Overlap = "./HIPE-scorer-output/output" + str(version) + "/output-tsv-2ov
 #     ],
 # )
 
+print("[INFO] Run germaNER TSV Parser")
+createTSVFromGermaNER.run("./NER-german-output/output-germaNER/", outputGermaNER)
+
 # print("[INFO] Run 2 Overlap TSV Parser")
 # createTSVFrom2Overlap.run(
 #     [outputFlair, outputGermaNER, outputS_T],
@@ -49,7 +53,7 @@ output2Overlap = "./HIPE-scorer-output/output" + str(version) + "/output-tsv-2ov
 #     output2Overlap,
 # )
 
-print("[INFO] Compare TSV")
-compareAnnotationToTSV.run(
-    [outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap]
-)
+# print("[INFO] Compare TSV")
+# compareAnnotationToTSV.run(
+#     [outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap]
+# )
