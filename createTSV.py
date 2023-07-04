@@ -38,12 +38,12 @@ output2Overlap = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-2ove
 # print("[INFO] Run sequence_tagging TSV Parser")
 # createTSVFromSequenceTaggingOutput.run("./NER-german-output/output-Sequence_tagging/", outputS_T)
 
-print("[INFO] Run 2 Overlap TSV Parser")
-createTSVFrom2Overlap.run(
-    [outputFlair, outputGermaNER, outputS_T],
-    "./TokenizedLetters/",
-    output2Overlap,
-)
+# print("[INFO] Run 2 Overlap TSV Parser")
+# createTSVFrom2Overlap.run(
+#     [outputFlair, outputGermaNER, outputS_T],
+#     "./TokenizedLetters/",
+#     output2Overlap,
+# )
 
 # print("[INFO] Compare TSV")
 # compareAnnotationToTSV.run(
