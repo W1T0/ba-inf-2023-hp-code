@@ -34,7 +34,7 @@ die	O	O	O	O	O	O	_	_	_
 Übersendung	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 Schacks	O	O	O	O	O	O	_	_	_
-Josef	B-PER	O	O	O	O	O	_	_	_
+Josef	I-PER	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 keine	O	O	O	O	O	O	_	_	_
@@ -67,7 +67,7 @@ Er	O	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-München	B-LOC	O	O	O	O	O	_	_	_
+München	I-LOC	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 geführt	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
@@ -139,7 +139,7 @@ anders	O	O	O	O	O	O	_	_	_
 kennen	O	O	O	O	O	O	_	_	_
 lerne	O	O	O	O	O	O	_	_	_
 Nach	O	O	O	O	O	O	_	_	_
-Nürnberg	B-LOC	O	O	O	O	O	_	_	_
+Nürnberg	I-LOC	O	O	O	O	O	_	_	_
 fahre	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 zum	O	O	O	O	O	O	_	_	_
@@ -147,7 +147,7 @@ Techen	O	O	O	O	O	O	_	_	_
 Das	O	O	O	O	O	O	_	_	_
 Du	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-Thekla	O	O	O	O	O	O	_	_	_
+Thekla	I-PER	O	O	O	O	O	_	_	_
 einander	O	O	O	O	O	O	_	_	_
 gern	O	O	O	O	O	O	_	_	_
 habt	O	O	O	O	O	O	_	_	_
@@ -168,7 +168,7 @@ der	O	O	O	O	O	O	_	_	_
 Überfahrt	O	O	O	O	O	O	_	_	_
 warst	O	O	O	O	O	O	_	_	_
 wurde	O	O	O	O	O	O	_	_	_
-Rathenau	B-PER	O	O	O	O	O	_	_	_
+Rathenau	I-PER	O	O	O	O	O	_	_	_
 ermordet	O	O	O	O	O	O	_	_	_
 Du	O	O	O	O	O	O	_	_	_
 wirst	O	O	O	O	O	O	_	_	_
@@ -180,7 +180,7 @@ dem	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Deutschland	B-LOC	O	O	O	O	O	_	_	_
+Deutschland	I-LOC	O	O	O	O	O	_	_	_
 rapid	O	O	O	O	O	O	_	_	_
 begab	O	O	O	O	O	O	_	_	_
 gegangen	O	O	O	O	O	O	_	_	_

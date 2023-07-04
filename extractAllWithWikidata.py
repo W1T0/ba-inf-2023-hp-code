@@ -6,7 +6,7 @@ import extractFoodWordsWithWikidata
 def run():
     # run religion
     religion = extractReligionWordsFromWikidata.run(
-        "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",
+        "./TokenizedLetters/",
         "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput3.txt",
         80,
         False,
@@ -15,7 +15,7 @@ def run():
 
     # run location
     location = extractLocationsWordsWithWikidata.run(
-        "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",
+        "./TokenizedLetters/",
         "./NER-german/extractEntitiesFromWikidata/comparisonLocationOutput2.txt",
         90,
         False,
@@ -24,7 +24,7 @@ def run():
 
     # run food
     food = extractFoodWordsWithWikidata.run(
-        "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",
+        "./TokenizedLetters/",
         "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput2.txt",
         90,
         False,

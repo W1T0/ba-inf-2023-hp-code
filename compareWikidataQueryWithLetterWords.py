@@ -23,7 +23,7 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
     # for every file in the directory which ends with .conll
     for file in os.listdir(directoryPath):
         filename = os.fsdecode(file)
-        if filename.endswith(".conll"):
+        if filename.endswith(".txt"):
             counter += 1
 
             # open one letter
@@ -35,7 +35,7 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
                 writeToFile.write("FILE: " + filename + "\n")
 
             # store filename
-            results.append([filename.replace(".conll", "").replace("_", "-")])
+            results.append([filename.replace(".txt", "").replace("_", "-")])
 
             # temporary storage of best matches
             tempBestMatch = []

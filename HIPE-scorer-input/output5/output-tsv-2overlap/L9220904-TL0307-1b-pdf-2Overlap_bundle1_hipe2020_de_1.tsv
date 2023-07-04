@@ -67,7 +67,7 @@ Er	O	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-München	B-LOC	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q1726	_	_
 ein	O	O	O	O	O	O	_	_	_
 geführt	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
@@ -139,7 +139,7 @@ anders	O	O	O	O	O	O	_	_	_
 kennen	O	O	O	O	O	O	_	_	_
 lerne	O	O	O	O	O	O	_	_	_
 Nach	O	O	O	O	O	O	_	_	_
-Nürnberg	B-LOC	O	O	O	O	O	_	_	_
+Nürnberg	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q2090	_	_
 fahre	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 zum	O	O	O	O	O	O	_	_	_
@@ -180,7 +180,7 @@ dem	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Deutschland	B-LOC	O	O	O	O	O	_	_	_
+Deutschland	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q183	_	_
 rapid	O	O	O	O	O	O	_	_	_
 begab	O	O	O	O	O	O	_	_	_
 gegangen	O	O	O	O	O	O	_	_	_
@@ -200,7 +200,7 @@ schreibe	O	O	O	O	O	O	_	_	_
 daß	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 billigte	O	O	O	O	O	O	_	_	_
-Margarine	O	O	O	O	O	O	_	_	_
+Margarine	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q4287	_	_
 1809	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 Po	O	O	O	O	O	O	_	_	_

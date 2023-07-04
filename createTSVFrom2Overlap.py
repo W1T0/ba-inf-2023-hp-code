@@ -12,7 +12,7 @@ def run(
     entities2Overlap = get2OverlapEntitiesFromNEROutput.run(
         directoriesList, boolWriteToFile=False
     )
-    # print(entities2Overlap)
+    print(entities2Overlap)
 
     # extract entities from wikidata and save them
     wikidataEntites = extractAllWithWikidata.run()
@@ -20,12 +20,12 @@ def run(
     locationEntities = wikidataEntites[1]
     foodEntities = wikidataEntites[2]
 
-    # print("------------------------ RELIGION ------------------------")
-    # print(religionEntities)
-    # print("------------------------ LOCATION ------------------------")
-    # print(locationEntities)
-    # print("------------------------ FOOD ------------------------")
-    # print(foodEntities)
+    print("------------------------ RELIGION ------------------------")
+    print(religionEntities)
+    print("------------------------ LOCATION ------------------------")
+    print(locationEntities)
+    print("------------------------ FOOD ------------------------")
+    print(foodEntities)
 
     # path of the directory
     directoryPath = directory
@@ -62,9 +62,9 @@ def run(
     # for every file in the directory which ends with .conll
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
-        if filename.endswith(".conll"):
+        if filename.endswith(".txt"):
             # save the filename without .conll and with _ instead of - to conform with filenames from 2 Overlap
-            filenameClean = filename.replace(".conll", "").replace("_", "-")
+            filenameClean = filename.replace(".txt", "").replace("_", "-")
 
             print("--------------------------------------------------")
             print("[INFO] FILENAME: " + filenameClean)

@@ -40,7 +40,7 @@ def run(
             # print("[INFO] Files opened")
 
             # append file name to entites2Overlap list
-            entities2Overlap.append([files[0][i][57:79]])
+            entities2Overlap.append([files[0][i][56:78]])
 
             if boolWriteToFile:
                 # open file to write to
