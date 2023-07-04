@@ -40,7 +40,7 @@ es	O	O	O	O	O	O	_	_	_
 dir	O	O	O	O	O	O	_	_	_
 ganz	O	O	O	O	O	O	_	_	_
 alleine	O	O	O	O	O	O	_	_	_
-Butter	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q467664	_	_
+Butter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 sie	O	O	O	O	O	O	_	_	_
 soll	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_

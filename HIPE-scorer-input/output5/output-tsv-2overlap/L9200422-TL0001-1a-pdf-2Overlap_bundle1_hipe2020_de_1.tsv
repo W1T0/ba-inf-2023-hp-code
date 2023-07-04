@@ -47,7 +47,7 @@ Sachen	O	O	O	O	O	O	_	_	_
 gestohlen	O	O	O	O	O	O	_	_	_
 haben	O	O	O	O	O	O	_	_	_
 eine	O	O	O	O	O	O	_	_	_
-Blute	O	O	O	O	O	O	_	_	_
+Blute	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q494268	_	_
 mit	O	O	O	O	O	O	_	_	_
 blauen	O	O	O	O	O	O	_	_	_
 Kragen	O	O	O	O	O	O	_	_	_
@@ -56,7 +56,7 @@ Petit	O	O	O	O	O	O	_	_	_
 Kleides	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 etwas	O	O	O	O	O	O	_	_	_
-Futter	O	O	O	O	O	O	_	_	_
+Futter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 zweien	O	O	O	O	O	O	_	_	_
 Leibchen	O	O	O	O	O	O	_	_	_
 sie	O	O	O	O	O	O	_	_	_

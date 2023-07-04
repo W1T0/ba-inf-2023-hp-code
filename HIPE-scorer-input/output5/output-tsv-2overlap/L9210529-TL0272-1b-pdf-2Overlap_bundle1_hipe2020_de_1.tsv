@@ -109,7 +109,7 @@ mich	O	O	O	O	O	O	_	_	_
 gleich	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 lb	O	O	O	O	O	O	_	_	_
-Pante	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q223973	_	_
+Pante	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 Amerika	B-LOC	O	O	O	O	O	_	_	_
 schreiben	O	O	O	O	O	O	_	_	_
@@ -148,7 +148,7 @@ Zuschauerung	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 Festes	O	O	O	O	O	O	_	_	_
 beitrugen	O	O	O	O	O	O	_	_	_
-Daran	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q847416	_	_
+Daran	O	O	O	O	O	O	_	_	_
 schloß	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
@@ -487,7 +487,7 @@ in	O	O	O	O	O	O	_	_	_
 Amerika	B-LOC	O	O	O	O	O	_	_	_
 kennen	O	O	O	O	O	O	_	_	_
 Im	O	O	O	O	O	O	_	_	_
-Gebete	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q40953	_	_
+Gebete	O	O	O	O	O	O	_	_	_
 denke	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 oft	O	O	O	O	O	O	_	_	_
@@ -497,7 +497,7 @@ möge	O	O	O	O	O	O	_	_	_
 Euch	O	O	O	O	O	O	_	_	_
 alle	O	O	O	O	O	O	_	_	_
 daselb	O	O	O	O	O	O	_	_	_
-Gott	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q190	_	_
+Gott	O	O	O	O	O	O	_	_	_
 sey	O	O	O	O	O	O	_	_	_
 nen	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
@@ -568,7 +568,7 @@ sie	O	O	O	O	O	O	_	_	_
 dann	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 einige	O	O	O	O	O	O	_	_	_
-Wochen	O	O	O	O	O	O	_	_	_
+Wochen	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q110611281	_	_
 getragen	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
 jetzt	O	O	O	O	O	O	_	_	_

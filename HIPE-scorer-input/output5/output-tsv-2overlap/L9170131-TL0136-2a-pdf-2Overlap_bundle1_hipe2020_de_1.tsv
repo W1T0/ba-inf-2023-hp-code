@@ -99,7 +99,7 @@ allzeit	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 dem	O	O	O	O	O	O	_	_	_
-Gebet	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q40953	_	_
+Gebet	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 wie	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
@@ -141,7 +141,7 @@ für	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 habe	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
-Gas	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q2135060	_	_
+Gas	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q83363022	_	_
 fehlen	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 meine	O	O	O	O	O	O	_	_	_

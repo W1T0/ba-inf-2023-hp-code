@@ -20,7 +20,7 @@ ich	O	O	O	O	O	O	_	_	_
 nun	O	O	O	O	O	O	_	_	_
 schon	O	O	O	O	O	O	_	_	_
 mehrere	O	O	O	O	O	O	_	_	_
-Wochen	O	O	O	O	O	O	_	_	_
+Wochen	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q110611281	_	_
 ohne	O	O	O	O	O	O	_	_	_
 jede	O	O	O	O	O	O	_	_	_
 Nachricht	O	O	O	O	O	O	_	_	_
@@ -113,7 +113,7 @@ mich	O	O	O	O	O	O	_	_	_
 sehr	O	O	O	O	O	O	_	_	_
 gefreut	O	O	O	O	O	O	_	_	_
 hatt	O	O	O	O	O	O	_	_	_
-Mutter	O	O	O	O	O	O	_	_	_
+Mutter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 ist	O	O	O	O	O	O	_	_	_
 so	O	O	O	O	O	O	_	_	_
 gut	O	O	O	O	O	O	_	_	_

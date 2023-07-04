@@ -47,7 +47,7 @@ Karte	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 Gadeschneiders	O	O	O	O	O	O	_	_	_
-Hause	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q1517712	_	_
+Hause	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q83363024	_	_
 wo	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 wohnen	O	O	O	O	O	O	_	_	_

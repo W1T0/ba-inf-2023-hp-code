@@ -216,7 +216,7 @@ ich	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 unserer	O	O	O	O	O	O	_	_	_
 lieben	O	O	O	O	O	O	_	_	_
-Mutter	O	O	O	O	O	O	_	_	_
+Mutter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 aus	O	O	O	O	O	O	_	_	_
 Langenbrück	O	O	O	O	O	O	_	_	_
 einen	O	O	O	O	O	O	_	_	_

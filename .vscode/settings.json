@@ -1,6 +1,5 @@
 {
   "[python]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "python.formatting.provider": "none"
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }

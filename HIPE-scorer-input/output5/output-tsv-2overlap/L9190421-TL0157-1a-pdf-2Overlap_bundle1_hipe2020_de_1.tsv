@@ -25,7 +25,7 @@ dann	O	O	O	O	O	O	_	_	_
 immer	O	O	O	O	O	O	_	_	_
 1871	O	O	O	O	O	O	_	_	_
 Uhr	O	O	O	O	O	O	_	_	_
-Mich	O	O	O	O	O	O	_	_	_
+Mich	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q8495	_	_
 wunderts	O	O	O	O	O	O	_	_	_
 ob	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
@@ -33,7 +33,7 @@ in	O	O	O	O	O	O	_	_	_
 halt	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
-Hause	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q1517712	_	_
+Hause	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q83363024	_	_
 er	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_

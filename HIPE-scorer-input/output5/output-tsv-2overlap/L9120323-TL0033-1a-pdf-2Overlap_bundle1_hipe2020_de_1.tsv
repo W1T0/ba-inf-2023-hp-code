@@ -91,7 +91,7 @@ für	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 dortigen	O	O	O	O	O	O	_	_	_
 Verhältniße	O	O	O	O	O	O	_	_	_
-Nun	O	O	O	O	O	O	_	_	_
+Nun	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q2005160	_	_
 wünsche	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 Ihnen	O	O	O	O	O	O	_	_	_
@@ -140,7 +140,7 @@ einer	O	O	O	O	O	O	_	_	_
 älteren	O	O	O	O	O	O	_	_	_
 deme	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
-Schreiben	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q697295	_	_
+Schreiben	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 mehr	O	O	O	O	O	O	_	_	_
 so	O	O	O	O	O	O	_	_	_

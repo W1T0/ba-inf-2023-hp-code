@@ -14,10 +14,10 @@ ein	O	O	O	O	O	O	_	_	_
 Weihnachts	O	O	O	O	O	O	_	_	_
 paket	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Kirchen	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34651	_	_
+Kirchen	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q196	_	_
 Äpfel	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-Pfefferung	O	O	O	O	O	O	_	_	_
+Pfefferung	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q3143131	_	_
 was	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 sehr	O	O	O	O	O	O	_	_	_
@@ -33,7 +33,7 @@ Mohnabe	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 nur	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
-Schlesien	B-LOC	O	O	O	O	O	_	_	_
+Schlesien	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q83363035	_	_
 so	O	O	O	O	O	O	_	_	_
 gut	O	O	O	O	O	O	_	_	_
 gebacken	O	O	O	O	O	O	_	_	_
@@ -44,7 +44,7 @@ was	O	O	O	O	O	O	_	_	_
 los	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
 Backen	O	O	O	O	O	O	_	_	_
-Nun	O	O	O	O	O	O	_	_	_
+Nun	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q2005160	_	_
 kleiner	O	O	O	O	O	O	_	_	_
 Liebling	O	O	O	O	O	O	_	_	_
 wie	O	O	O	O	O	O	_	_	_

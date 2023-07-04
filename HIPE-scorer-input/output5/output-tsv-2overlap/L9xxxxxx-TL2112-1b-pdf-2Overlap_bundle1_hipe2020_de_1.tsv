@@ -74,12 +74,12 @@ von	O	O	O	O	O	O	_	_	_
 Papp	O	O	O	O	O	O	_	_	_
 Vor	O	O	O	O	O	O	_	_	_
 dem	O	O	O	O	O	O	_	_	_
-Schaffen	O	O	O	O	O	O	_	_	_
+Schaffen	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q67756297	_	_
 ist	O	O	O	O	O	O	_	_	_
 einem	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 meiste	O	O	O	O	O	O	_	_	_
-Kummer	O	O	O	O	O	O	_	_	_
+Kummer	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q61864890	_	_
 Die	O	O	O	O	O	O	_	_	_
 Feuerung	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
@@ -134,7 +134,7 @@ Hungern	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q602629	_	_
 brauchen	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Margarine	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q4287	_	_
-Butter	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q467664	_	_
+Butter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 die	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 drüben	O	O	O	O	O	O	_	_	_
@@ -246,7 +246,7 @@ Jacke	O	O	O	O	O	O	_	_	_
 oder	O	O	O	O	O	O	_	_	_
 einen	O	O	O	O	O	O	_	_	_
 alten	O	O	O	O	O	O	_	_	_
-Mantel	O	O	O	O	O	O	_	_	_
+Mantel	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q184357	_	_
 für	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 hast	O	O	O	O	O	O	_	_	_

@@ -11,6 +11,7 @@ Rate	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 höchsten	O	O	O	O	O	O	_	_	_
 beschlossen	O	O	O	O	O	O	_	_	_
+O	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
 dann	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
@@ -35,7 +36,7 @@ das	O	O	O	O	O	O	_	_	_
 Geschick	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 eingreift	O	O	O	O	O	O	_	_	_
-Nun	O	O	O	O	O	O	_	_	_
+Nun	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q2005160	_	_
 haben	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -73,10 +74,10 @@ Singen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 Zwischen	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
-Vogel	O	O	O	O	O	O	_	_	_
+Vogel	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q659503	_	_
 ertönt	O	O	O	O	O	O	_	_	_
 zur	O	O	O	O	O	O	_	_	_
-Ehre	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q8445	_	_
+Ehre	O	O	O	O	O	O	_	_	_
 Gottes	O	O	O	O	O	O	_	_	_
 Nicht	O	O	O	O	O	O	_	_	_
 umsonst	O	O	O	O	O	O	_	_	_
@@ -271,7 +272,7 @@ noch	O	O	O	O	O	O	_	_	_
 etwas	O	O	O	O	O	O	_	_	_
 erreicht	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
-Nun	O	O	O	O	O	O	_	_	_
+Nun	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q2005160	_	_
 will	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 auch	O	O	O	O	O	O	_	_	_

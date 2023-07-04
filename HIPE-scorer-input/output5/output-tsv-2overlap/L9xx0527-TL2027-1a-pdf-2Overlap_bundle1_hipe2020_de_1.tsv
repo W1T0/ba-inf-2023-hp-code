@@ -27,7 +27,7 @@ ich	O	O	O	O	O	O	_	_	_
 Ihnen	O	O	O	O	O	O	_	_	_
 aber	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
-Geiste	O	O	O	O	O	O	_	_	_
+Geiste	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q61665121	_	_
 der	O	O	O	O	O	O	_	_	_
 Erinnerung	O	O	O	O	O	O	_	_	_
 eine	O	O	O	O	O	O	_	_	_
@@ -46,7 +46,7 @@ mit	O	O	O	O	O	O	_	_	_
 besten	O	O	O	O	O	O	_	_	_
 Gruß	O	O	O	O	O	O	_	_	_
 Mein	O	O	O	O	O	O	_	_	_
-Mann	O	O	O	O	O	O	_	_	_
+Mann	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q241156	_	_
 läßt	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Eltern	O	O	O	O	O	O	_	_	_

@@ -30,7 +30,7 @@ gegeben	O	O	O	O	O	O	_	_	_
 dazu	O	O	O	O	O	O	_	_	_
 daß	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Mutter	O	O	O	O	O	O	_	_	_
+Mutter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 das	O	O	O	O	O	O	_	_	_
 Haus	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
@@ -40,7 +40,7 @@ will	O	O	O	O	O	O	_	_	_
 ob	O	O	O	O	O	O	_	_	_
 aber	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Mutter	O	O	O	O	O	O	_	_	_
+Mutter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 daß	O	O	O	O	O	O	_	_	_
 so	O	O	O	O	O	O	_	_	_
 haben	O	O	O	O	O	O	_	_	_
@@ -67,10 +67,10 @@ fort	O	O	O	O	O	O	_	_	_
 wohnen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Butter	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q467664	_	_
+Butter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 sich	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Gebett	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q40953	_	_
+Gebett	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 allein	O	O	O	O	O	O	_	_	_
 machen	O	O	O	O	O	O	_	_	_
@@ -185,7 +185,7 @@ thut	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
-Seele	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q9165	_	_
+Seele	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q16052	_	_
 leid	O	O	O	O	O	O	_	_	_
 wenn	O	O	O	O	O	O	_	_	_
 ver	O	O	O	O	O	O	_	_	_
@@ -194,7 +194,7 @@ sehr	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Butter	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q467664	_	_
+Butter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 anher	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
@@ -239,7 +239,7 @@ Haus	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 mehr	O	O	O	O	O	O	_	_	_
 betreten	O	O	O	O	O	O	_	_	_
-Mutter	O	O	O	O	O	O	_	_	_
+Mutter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 Agers	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 Barthold	B-PER	O	O	O	O	O	_	_	_

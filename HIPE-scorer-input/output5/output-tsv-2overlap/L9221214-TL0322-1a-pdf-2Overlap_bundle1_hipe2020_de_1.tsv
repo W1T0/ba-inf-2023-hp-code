@@ -1,7 +1,7 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
 mal	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
-Himmel	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q4489450	_	_
+Himmel	O	O	O	O	O	O	_	_	_
 wiedersehen	O	O	O	O	O	O	_	_	_
 Wie	O	O	O	O	O	O	_	_	_
 gut	O	O	O	O	O	O	_	_	_
@@ -16,7 +16,7 @@ nicht	O	O	O	O	O	O	_	_	_
 mehr	O	O	O	O	O	O	_	_	_
 erlebt	O	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	_
-Mutter	O	O	O	O	O	O	_	_	_
+Mutter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 wäre	O	O	O	O	O	O	_	_	_
 sicher	O	O	O	O	O	O	_	_	_
 auch	O	O	O	O	O	O	_	_	_
@@ -29,7 +29,7 @@ ganzen	O	O	O	O	O	O	_	_	_
 Kräfte	O	O	O	O	O	O	_	_	_
 eingesetzt	O	O	O	O	O	O	_	_	_
 hätte	O	O	O	O	O	O	_	_	_
-Nun	O	O	O	O	O	O	_	_	_
+Nun	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q2005160	_	_
 will	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 schließen	O	O	O	O	O	O	_	_	_
@@ -40,7 +40,7 @@ allen	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 einmal	O	O	O	O	O	O	_	_	_
 herzlich	O	O	O	O	O	O	_	_	_
-Gott	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q190	_	_
+Gott	O	O	O	O	O	O	_	_	_
 vergelts	O	O	O	O	O	O	_	_	_
 sage	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_

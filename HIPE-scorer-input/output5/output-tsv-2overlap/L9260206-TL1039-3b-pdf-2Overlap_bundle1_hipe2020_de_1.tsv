@@ -15,7 +15,7 @@ Blutsprozession	O	O	O	O	O	O	_	_	_
 Eine	O	O	O	O	O	O	_	_	_
 schöne	O	O	O	O	O	O	_	_	_
 große	O	O	O	O	O	O	_	_	_
-Kirche	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34651	_	_
+Kirche	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q196	_	_
 mit	O	O	O	O	O	O	_	_	_
 berühmter	O	O	O	O	O	O	_	_	_
 Orgel	O	O	O	O	O	O	_	_	_
@@ -43,9 +43,9 @@ wiegt	O	O	O	O	O	O	_	_	_
 sechs	O	O	O	O	O	O	_	_	_
 Zentner	O	O	O	O	O	O	_	_	_
 Die	O	O	O	O	O	O	_	_	_
-Ehe	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q8445	_	_
+Ehe	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
-Kirche	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34651	_	_
+Kirche	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q196	_	_
 betragt	O	O	O	O	O	O	_	_	_
 bis	O	O	O	O	O	O	_	_	_
 zur	O	O	O	O	O	O	_	_	_
@@ -66,7 +66,7 @@ das	O	O	O	O	O	O	_	_	_
 jährige	O	O	O	O	O	O	_	_	_
 Bestehen	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
-Kirche	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34651	_	_
+Kirche	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q196	_	_
 gefeiert	O	O	O	O	O	O	_	_	_
 Abends	O	O	O	O	O	O	_	_	_
 war	O	O	O	O	O	O	_	_	_
@@ -140,7 +140,7 @@ berg	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 zurück	O	O	O	O	O	O	_	_	_
 zur	O	O	O	O	O	O	_	_	_
-Kirche	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34651	_	_
+Kirche	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q196	_	_
 bewegte	O	O	O	O	O	O	_	_	_
 Andern	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q110611302	_	_
 Tags	O	O	O	O	O	O	_	_	_
@@ -152,7 +152,7 @@ von	I-PER	O	O	O	O	O	_	_	_
 Rothen	I-PER	O	O	O	O	O	_	_	_
 burg	O	O	O	O	O	O	_	_	_
 beim	O	O	O	O	O	O	_	_	_
-Gastgottesdienst	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q2514663	_	_
+Gastgottesdienst	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Predigt	O	O	O	O	O	O	_	_	_
 Mittags	O	O	O	O	O	O	_	_	_
@@ -235,7 +235,7 @@ hätte	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 bei	O	O	O	O	O	O	_	_	_
 einem	O	O	O	O	O	O	_	_	_
-Schreiner	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q697295	_	_
+Schreiner	O	O	O	O	O	O	_	_	_
 bei	O	O	O	O	O	O	_	_	_
 denen	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
@@ -277,7 +277,7 @@ Friedrichshagen	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q4051	_	_
 am	O	O	O	O	O	O	_	_	_
 schönen	O	O	O	O	O	O	_	_	_
 Bodensee	O	O	O	O	O	O	_	_	_
-Bei	O	O	O	O	O	O	_	_	_
+Bei	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q186817	_	_
 den	O	O	O	O	O	O	_	_	_
 Zeppelinhalten	O	O	O	O	O	O	_	_	_
 konnte	O	O	O	O	O	O	_	_	_

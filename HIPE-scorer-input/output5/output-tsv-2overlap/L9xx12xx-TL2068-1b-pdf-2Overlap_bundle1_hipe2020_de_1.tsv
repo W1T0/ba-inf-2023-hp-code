@@ -32,7 +32,7 @@ mir	O	O	O	O	O	O	_	_	_
 fleisig	O	O	O	O	O	O	_	_	_
 zum	O	O	O	O	O	O	_	_	_
 lieben	O	O	O	O	O	O	_	_	_
-Gott	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q190	_	_
+Gott	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
 dich	O	O	O	O	O	O	_	_	_
@@ -89,7 +89,7 @@ Klestern	O	O	O	O	O	O	_	_	_
 Liebete	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 schließenen	O	O	O	O	O	O	_	_	_
-Schreiben	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q697295	_	_
+Schreiben	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 vielen	O	O	O	O	O	O	_	_	_
 herzlichen	O	O	O	O	O	O	_	_	_
