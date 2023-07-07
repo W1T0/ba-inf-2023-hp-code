@@ -18,7 +18,7 @@ def run(
 
     # load sequence tagger
     tagger = SequenceTagger.load("flair/ner-german-large")
-    print("[INFO] tagger loaded")
+    print("[INFO] SequenceTagger loaded")
 
     # keeps track of how many files haven been processed
     fileCount = 1
@@ -36,7 +36,7 @@ def run(
             # process file with flair NER and predict NER tags
             sentence = Sentence(readFromFile.read())
             tagger.predict(sentence)
-            print("[INFO] NER tags predicted")
+            # print("[INFO] NER tags predicted")
 
             # save entities
             entities = []
@@ -69,7 +69,7 @@ def run(
                     # print("Entity: " + entityString)
                     # print("Predicate: " + predicate)
 
-            print("[INFO] Entities list full, length: " + str(len(entities)))
+            # print("[INFO] Entities list full, length: " + str(len(entities)))
 
             # open file (again, because otherwise there are errors)
             readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
