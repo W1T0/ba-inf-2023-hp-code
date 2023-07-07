@@ -35,7 +35,7 @@ das	O	O	O	O	O	O	_	_	_
 Geschick	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 eingreift	O	O	O	O	O	O	_	_	_
-Nun	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q2005160	_	_
+Nun	O	O	O	O	O	O	_	_	_
 haben	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -44,7 +44,7 @@ Ta	O	O	O	O	O	O	_	_	_
 gen	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 schöne	O	O	O	O	O	O	_	_	_
-Pfingstfest	O	O	O	O	O	O	_	_	_
+Pfingstfest	B-OTH	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Natur	O	O	O	O	O	O	_	_	_
@@ -73,11 +73,11 @@ Singen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 Zwischen	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
-Vogel	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q659503	_	_
+Vogel	O	O	O	O	O	O	_	_	_
 ertönt	O	O	O	O	O	O	_	_	_
 zur	O	O	O	O	O	O	_	_	_
 Ehre	O	O	O	O	O	O	_	_	_
-Gottes	O	O	O	O	O	O	_	_	_
+Gottes	B-OTH	O	O	O	O	O	_	_	_
 Nicht	O	O	O	O	O	O	_	_	_
 umsonst	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
@@ -141,7 +141,7 @@ entwickeln	O	O	O	O	O	O	_	_	_
 Aber	O	O	O	O	O	O	_	_	_
 auch	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Allen	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q33147	_	_
+Allen	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 vergönnt	O	O	O	O	O	O	_	_	_
@@ -271,7 +271,7 @@ noch	O	O	O	O	O	O	_	_	_
 etwas	O	O	O	O	O	O	_	_	_
 erreicht	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
-Nun	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q2005160	_	_
+Nun	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 auch	O	O	O	O	O	O	_	_	_
