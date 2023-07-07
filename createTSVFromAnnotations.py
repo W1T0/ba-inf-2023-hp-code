@@ -2,46 +2,6 @@ import os
 import replaceSpecialCharacters
 
 
-def writeFirstWord(firstWord, line, lineSplit, writeToFile):
-    # set the default predicate
-    predicate = "O"
-
-    # checks if line ends with entity type
-    if (
-        line.endswith("I-PER\n")
-        or line.endswith("B-PER\n")
-        or line.endswith("I-LOC\n")
-        or line.endswith("B-LOC\n")
-        or line.endswith("I-OTH\n")
-        or line.endswith("B-OTH\n")
-        or line.endswith("I-ORG\n")
-        or line.endswith("B-ORG\n")
-    ):
-        # if so, get the entity type
-        predicate = lineSplit[-1]
-
-    # ignore special characters
-    if (
-        firstWord != ","
-        and firstWord != "."
-        and firstWord != "¬"
-        and firstWord != "?"
-        and firstWord != ":"
-        and firstWord != ";"
-        and firstWord != "-"
-        and firstWord != " "
-        and firstWord != "	"
-    ):
-        # write entity and entity type to file
-        writeToFile.write(
-            replaceSpecialCharacters.replace(firstWord)
-            + "	"
-            + predicate
-            + "	O	O	O	O	O	_	_	_"
-            + "\n"
-        )
-
-
 def run(
     directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/Stichprobe - Annotationen - Export/",
     output="./HIPE-scorer-output/output-tsv-annotations/",
@@ -99,7 +59,45 @@ def run(
                     # save first word of line
                     firstWord = lineSplit[0]
 
-                    writeFirstWord(firstWord, line, lineSplit, writeToFile)
+                    # writeFirstWord(firstWord, line, lineSplit, writeToFile)
+
+                    # set the default predicate
+                    predicate = "O"
+
+                    # checks if line ends with entity type
+                    if (
+                        line.endswith("I-PER\n")
+                        or line.endswith("B-PER\n")
+                        or line.endswith("I-LOC\n")
+                        or line.endswith("B-LOC\n")
+                        or line.endswith("I-OTH\n")
+                        or line.endswith("B-OTH\n")
+                        or line.endswith("I-ORG\n")
+                        or line.endswith("B-ORG\n")
+                    ):
+                        # if so, get the entity type
+                        predicate = lineSplit[-1]
+
+                    # ignore special characters
+                    if (
+                        firstWord != ","
+                        and firstWord != "."
+                        and firstWord != "¬"
+                        and firstWord != "?"
+                        and firstWord != ":"
+                        and firstWord != ";"
+                        and firstWord != "-"
+                        and firstWord != " "
+                        and firstWord != "	"
+                    ):
+                        # write entity and entity type to file
+                        writeToFile.write(
+                            replaceSpecialCharacters.replace(firstWord)
+                            + "	"
+                            + predicate
+                            + "	O	O	O	O	O	_	_	_"
+                            + "\n"
+                        )
 
                     # print("firstWord: " + firstWord)
 

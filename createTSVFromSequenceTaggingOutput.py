@@ -65,11 +65,11 @@ def run(directoryPath, outputDirectoryPath):
                         predicate = lineSplit[-1]
 
                     # checks that the firstWord is a valid word
-                    if firstWord != "O" and firstWord != "#" and firstWord != " ":
-                        # write word
-                        writeToFile.write(
-                            firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
-                        )
+                    # if firstWord != "O" and firstWord != "#" and firstWord != " ":
+                    # write word
+                    writeToFile.write(
+                        firstWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
+                    )
 
             writeToFile.close()
             print("[INFO] " + str(count) + " Files done")

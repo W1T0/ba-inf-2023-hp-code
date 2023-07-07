@@ -1,6 +1,7 @@
 import os
 import get2OverlapEntitiesFromNEROutput
 import extractAllWithWikidata
+import replaceSpecialCharacters
 
 
 def run(
@@ -123,16 +124,7 @@ def run(
                         and firstWord != "	"
                     ):
                         # replace special characters
-                        firstWordReplaced = (
-                            firstWord.replace(",", "")
-                            .replace(".", "")
-                            .replace("¬", "")
-                            .replace("?", "")
-                            .replace(":", "")
-                            .replace(";", "")
-                            .replace("-", "")
-                            .replace("-", "")
-                        )
+                        firstWordReplaced = replaceSpecialCharacters.replace(firstWord)
 
                         # print(firstWordReplaced)
 
