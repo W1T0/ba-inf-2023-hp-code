@@ -7,8 +7,8 @@ def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
     Creates a TSV-file for the annotations, the germaNER output and the sequence_tagging output
     in a format the HIPE-scorer accepts.
 
-    directoryPath: The path of the directory where the files are stored.
-    outputPath: The path of the directory where the output should be stored.
+    directoryPath: The path of the directory where the files are stored in.
+    outputPath: The path of the directory where the output should be stored in.
     fileEnding: The ending of the file (".conll" or ".txt").
     hipeFileAdd: An addition to the filename to conform with the HIPE-scorer format and identify the file.
     """

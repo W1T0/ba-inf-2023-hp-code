@@ -10,10 +10,10 @@ def run(
     outputPath,
 ):
     """
-    Creates a TSV-file for the flair/ner-german output in a format the HIPE-scorer accepts.
+    Creates a TSV file for the flair/ner-german output in a format the HIPE-scorer accepts.
 
-    directoryPath: The path of the directory where the files are stored.
-    outputPath: The path of the directory where the output should be stored.
+    directoryPath: The path of the directory where the files are stored in.
+    outputPath: The path of the directory where the output should be stored in.
     """
 
     # load sequence tagger
@@ -179,6 +179,7 @@ def run(
 
             # check if all entities have been mapped
             if count != len(entities):
+                # if not, set error to 1 so that error message can be printed
                 error = 1
                 print(
                     "[ERROR] NOT ALL ENTITIES MAPPED IN "

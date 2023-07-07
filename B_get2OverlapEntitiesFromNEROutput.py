@@ -2,17 +2,19 @@ import os
 
 
 def run(
-    directoriesList,
+    directories,
+    outputPath="./NER-german/comparisonOutput2.txt",
     boolWriteToFile=True,
-    outputFile="./NER-german/comparisonOutput2.txt",
 ):
+    """
+    Returns the entities that are in the output of at least 2 of the three NER-systems (flair, germaNER, sequence_tagging).
+
+    directoriesList: A list of the directories that store the output of the NER-systems.
+    outputPath: The path of the file where the output should be stored in.
+    boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
+    """
+
     print("[INFO] boolWriteToFile: " + str(boolWriteToFile))
-
-    # list of directories to get entities from
-    directories = directoriesList
-
-    # output path
-    outputPath = outputFile
 
     # [0]:flair-ner-german, [1]:germaNER, [2]:sequence_tagging
     files = [[], [], []]

@@ -3,8 +3,18 @@ from fuzzywuzzy import fuzz, process
 import B_wikidataSPARQLQuery
 
 
-# function to compare results of a SPARQL query (queryDF) with every word in the letters located in the directoryPath, letters must be in conll format
 def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFile):
+    """
+    Compares every result of a SPARQL query with every word in the letters.
+    Letters must be in ??? (conll or tsv) format?
+
+    directoryPath: The path of the directory where the files are stored in.
+    outputPath: The path of the file where the output should be stored in.
+    query: The Wikidata query.
+    levenshteinDistance: The Levenshtein-Distance. A metric to compare the differences between two strings.
+    boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
+    """
+
     # run query and save as dataframe
     data_extracter = B_wikidataSPARQLQuery.WikiDataQueryResults(query)
     queryDF = data_extracter.load_as_dataframe()
@@ -20,7 +30,7 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
     # list to save the filename and the best matches
     results = []
 
-    # for every file in the directory which ends with .conll
+    # for every file in the directory which ends with .txt
     for file in os.listdir(directoryPath):
         filename = os.fsdecode(file)
         if filename.endswith(".txt"):
@@ -53,7 +63,7 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
 
                     # check if first word is noun (upper case)
                     if firstWord[0].isupper():
-                        # store query results with fuzz.ratio > 90
+                        # store query results with fuzz.ratio > levenshteinDistance
                         possibleMatch = []
 
                         # store match and link in dict
@@ -65,8 +75,8 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
                             if fuzz.ratio(firstWord, label) > levenshteinDistance:
                                 # add label to possible match list
                                 possibleMatch.append(label)
-                                # get wikidata link
-                                # check if there are more than one links
+
+                                # get wikidata link and check if there are more than one link
                                 if (
                                     queryDF.loc[
                                         (queryDF.itemLabel == label)

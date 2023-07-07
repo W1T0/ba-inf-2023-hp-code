@@ -5,13 +5,20 @@ import B_replaceSpecialCharacters
 
 
 def run(
-    directoriesList,
-    directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Code/Annotationen/test/",  # Stichprobe - Annotationen - Export
-    output="./HIPE-scorer-output/",
+    directories,
+    directoryPath,
+    outputPath,
 ):
+    """
+    Creates a TSV file for the 2 Overlap output in a format the HIPE-scorer accepts.
+
+    directories: A list of the directories that store the output of the NER-systems.
+    directoryPath: The path of the directory where the tokenized letters are stored in.
+    outputPath: The path of the directory where the output should be stored in.
+    """
     # generate 2 Overlap entities and save them
     entities2Overlap = B_get2OverlapEntitiesFromNEROutput.run(
-        directoriesList, boolWriteToFile=False
+        directories, boolWriteToFile=False
     )
     print(entities2Overlap)
 
@@ -25,15 +32,6 @@ def run(
     print("------------------------ FOOD ------------------------")
     print(foodEntities)
 
-    # path of the directory
-    directoryPath = directory
-
-    # output path
-    outputPath = output
-
-    # the directory where the files are stored
-    directory = os.fsencode(directoryPath)
-
     # keeps track of how many files haven been processed
     fileCount = 1
 
@@ -43,25 +41,11 @@ def run(
     # length of entities list
     entitiesListLength = 0
 
-    # maybe relevant for later
-    # filenamesFile2Overlap = []
-
-    # # open file with 2Overlap entities and read every line
-    # file2Overlap = open(
-    #     "./NER-german/comparison2OverlapOutput2.txt", "r", encoding="utf-8"
-    # )
-    # file2OverlapLines = file2Overlap.readlines()
-
-    # # save the filenames
-    # for line in file2OverlapLines:
-    #     if line.startswith("FILE"):
-    #         filenamesFile2Overlap.append(line[49:71])
-
-    # for every file in the directory which ends with .conll
-    for file in os.listdir(directory):
+    # for every file in the directory which ends with .txt
+    for file in os.listdir(directoryPath):
         filename = os.fsdecode(file)
         if filename.endswith(".txt"):
-            # save the filename without .conll and with _ instead of - to conform with filenames from 2 Overlap
+            # save the filename without .txt and with _ instead of - to conform with filenames from 2 Overlap
             filenameClean = filename.replace(".txt", "").replace("_", "-")
 
             print("--------------------------------------------------")
@@ -111,7 +95,7 @@ def run(
                     predicate = "O"
                     wikidataQID = "_"
 
-                    # ignore special characters
+                    # ignore special characters at the beginning
                     if (
                         firstWord != ","
                         and firstWord != "."
@@ -170,23 +154,6 @@ def run(
                                             # print("FOOD")
                                             # print(firstWordReplaced, entity.split()[1])
 
-                        # # iterate over all location entities
-                        # for locationEntity in locationEntities:
-                        #     # check if there are entities in the list
-                        #     if len(foodEntity) > 1:
-                        #         # check if filename is the same
-                        #         if locationEntity[0] == filenameClean:
-                        #             for entity in locationEntity[1:]:
-                        #                 # split entity and get the name
-                        #                 entityName = entity.split()[0]
-
-                        #                 # check for every word if it is an entity
-                        #                 if firstWordReplaced == entityName:
-                        #                     predicate = "B-LOC"
-                        #                     wikidataQID = entity.split()[1]
-                        #                     # print("LOCATION")
-                        #                     # print(firstWordReplaced, entity.split()[1])
-
                         # iterate over all location entities
                         for religionEntity in religionEntities:
                             # check if there are entities in the list
@@ -219,18 +186,22 @@ def run(
                         )
 
             # check if all entities have been mapped
-            if count >= entitiesListLength:
-                print("[INFO] ALL ENTITIES MAPPED")
-            else:
+            if count < entitiesListLength:
                 # if not, set error to 1 so that error message can be printed
                 error = 1
                 print("[ERROR]: " + str(count) + " " + str(entitiesListLength))
+                print(
+                    "[ERROR] NOT ALL ENTITIES MAPPED IN "
+                    + filename
+                    + " (TSV Parser 2 Overlap)"
+                )
 
             writeToFile.close()
 
-            print("[INFO] " + str(fileCount) + " FILES DONE")
-            fileCount = fileCount + 1
+            print("[INFO] " + str(fileCount) + " FILES DONE (TSV Parser 2 Overlap)")
+
+            fileCount += 1
 
     # error message, if not all entites have been mapped
     if error == 1:
-        print("[ERROR] Not all Entities have been mapped")
+        print("[ERROR] NOT ALL ENTITIES HAVE BEEN MAPPED (TSV Parser 2 Overlap)")

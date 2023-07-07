@@ -2,7 +2,11 @@ import B_compareWikidataQueryWithLetterWords
 
 
 def run():
-    # run religion query
+    """
+    Has the Wikidata queries saved as strings and calls a function to process them.
+    """
+
+    # religion query
     queryReligion = """
     SELECT ?item ?itemLabel ?offName {
       {
@@ -48,53 +52,7 @@ def run():
       # timed out: { ?item wdt:P31 wd:Q16970 } # is | church building 
       """
 
-    religion = B_compareWikidataQueryWithLetterWords.compare(
-        "./TokenizedLetters/",
-        "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput3.txt",
-        queryReligion,
-        80,
-        False,
-    )
-    print("[INFO] Religion query ran")
-
-    # # run location query
-    # queryLocation = """
-    # SELECT ?item ?itemLabel {
-    #   {
-    #   SELECT ?item ?itemLabel WHERE {
-    #       { ?item wdt:P31 wd:Q6256 } # country
-    #     UNION
-    #       { ?item wdt:P31 wd:Q3624078 } # sovereign state
-    #     UNION
-    #       { ?item wdt:P31 wd:Q15974307 } # administrative unit of Germany
-    #     UNION
-    #       { ?item wdt:P31 wd:Q42744322 } # urban municipality of Germany (Stadt in Deutschland)
-    #     UNION
-    #       { ?item wdt:P31 wd:Q5119 } # capital city
-    #     UNION
-    #       { ?item wdt:P31 wd:Q15334 } # municipality of Poland
-    #     UNION
-    #       { ?item wdt:P31 wd:Q1093829 } # city in the United States
-
-    #     SERVICE wikibase:label { bd:serviceParam wikibase:language "de". }
-    #     }
-    #   }
-    #   FILTER lang(?itemLabel) # removes item that have no label
-    # }
-
-    # # neustadt (prudnik) gesondert behandeln Q986984
-    # """
-
-    # location = compareWikidataQueryWithLetterWords.compare(
-    #     "./TokenizedLetters/",
-    #     "./NER-german/extractEntitiesFromWikidata/comparisonLocationOutput2.txt",
-    #     queryLocation,
-    #     90,
-    #     False,
-    # )
-    # print("[INFO] Location query ran")
-
-    # run food query
+    # food query
     queryFood = """
     SELECT ?item ?itemLabel {
       {
@@ -127,6 +85,15 @@ def run():
       FILTER lang(?itemLabel) # removes item that have no label 
     }
     """
+
+    religion = B_compareWikidataQueryWithLetterWords.compare(
+        "./TokenizedLetters/",
+        "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput3.txt",
+        queryReligion,
+        80,
+        False,
+    )
+    print("[INFO] Religion query ran")
 
     food = B_compareWikidataQueryWithLetterWords.compare(
         "./TokenizedLetters/",

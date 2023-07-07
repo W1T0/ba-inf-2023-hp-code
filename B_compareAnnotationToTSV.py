@@ -1,16 +1,14 @@
 import os
 
 
-def run(
-    directoriesList=[
-        "./HIPE-scorer-output/output-tsv-annotations/",
-        "./HIPE-scorer-output/output-tsv-flair-ner-german/",
-        "./HIPE-scorer-output/output-tsv-germaNER/",
-        "./HIPE-scorer-output/output-tsv-sequence_tagging/",
-        "./HIPE-scorer-output/output-tsv-2Overlap/",
-    ]
-):
-    directories = directoriesList
+def run(directories):
+    """
+    Compares the annotations in TSV format to the TSV files of flair, germaNER, sequence_tagging and 2overlap.
+    Prints if something does not match up.
+    Necessary because it can detect errors in the TSV parser and the HIPE-scorer requires the files to have the same number of lines, etc.
+
+    directories: A list of directories that store the TSV files of the annotations, flair, germaNER, sequence_tagging and 2overlap.
+    """
 
     # [0]:annotations, [1]:flair-ner-german, [2]:germaNER, [3]:sequence_tagging, [4]: overlap
     files = [[], [], [], [], []]
