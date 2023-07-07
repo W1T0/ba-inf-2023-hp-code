@@ -1,7 +1,7 @@
-import B_createTSVFromFlairNERGermanOutput
+import B_TSVParserFlair
 import B_compareAnnotationToTSV
-import B_createTSVFrom2Overlap
-import B_createTSVBasic
+import B_TSVParser2Overlap
+import B_TSVParserBasic
 
 version = 7
 
@@ -26,7 +26,7 @@ output2Overlap = "./HIPE-scorer-input/output" + str(6) + "/output-tsv-2overlap/"
 # )
 
 print("[INFO] Run Flair NER German TSV Parser")
-B_createTSVFromFlairNERGermanOutput.run(
+B_TSVParserFlair.run(
     "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe-Annotationen-3/",
     outputFlair,
 )
