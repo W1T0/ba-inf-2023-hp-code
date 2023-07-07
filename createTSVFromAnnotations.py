@@ -1,4 +1,5 @@
 import os
+import replaceSpecialCharacters
 
 
 def writeFirstWord(firstWord, line, lineSplit, writeToFile):
@@ -33,13 +34,7 @@ def writeFirstWord(firstWord, line, lineSplit, writeToFile):
     ):
         # write entity and entity type to file
         writeToFile.write(
-            firstWord.replace(",", "")
-            .replace(".", "")
-            .replace("¬", "")
-            .replace("?", "")
-            .replace(":", "")
-            .replace(";", "")
-            .replace("-", "")
+            replaceSpecialCharacters.replace(firstWord)
             + "	"
             + predicate
             + "	O	O	O	O	O	_	_	_"

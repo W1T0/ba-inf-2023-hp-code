@@ -1,4 +1,5 @@
 import os
+import replaceSpecialCharacters
 
 
 def run(directoryPath, outputDirectoryPath):
@@ -43,16 +44,7 @@ def run(directoryPath, outputDirectoryPath):
 
                 if lineSplit:
                     # replace special characters
-                    firstWord = (
-                        lineSplit[0]
-                        .replace(",", "")
-                        .replace(".", "")
-                        .replace("¬", "")
-                        .replace("?", "")
-                        .replace(":", "")
-                        .replace(";", "")
-                        .replace("-", "")
-                    )
+                    firstWord = replaceSpecialCharacters.replace(lineSplit[0])
 
                     # set default predicate
                     predicate = "O"
