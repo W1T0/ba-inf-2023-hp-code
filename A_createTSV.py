@@ -8,7 +8,9 @@ version = 7
 outputAnnotations = (
     "./HIPE-scorer-input/output" + str(version) + "/output-tsv-annotations/"
 )
-outputFlair = "./HIPE-scorer-input/output" + str(6) + "/output-tsv-flair-ner-german/"
+outputFlair = (
+    "./HIPE-scorer-input/output" + str(version) + "/output-tsv-flair-ner-german/"
+)
 outputS_T = (
     "./HIPE-scorer-input/output" + str(version) + "/output-tsv-sequence_tagging/"
 )
@@ -23,11 +25,11 @@ output2Overlap = "./HIPE-scorer-input/output" + str(6) + "/output-tsv-2overlap/"
 #     "-annotations",
 # )
 
-# print("[INFO] Run Flair NER German TSV Parser")
-# createTSVFromFlairNERGermanOutput.run(
-#     "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe-Annotationen-3/",
-#     outputFlair,
-# )
+print("[INFO] Run Flair NER German TSV Parser")
+B_createTSVFromFlairNERGermanOutput.run(
+    "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe-Annotationen-3/",
+    outputFlair,
+)
 
 # print("[INFO] Run germaNER TSV Parser")
 # B_createTSVBasic.run(
@@ -46,7 +48,7 @@ output2Overlap = "./HIPE-scorer-input/output" + str(6) + "/output-tsv-2overlap/"
 # )
 
 # print("[INFO] Run 2 Overlap TSV Parser")
-# createTSVFrom2Overlap.run(
+# B_createTSVFrom2Overlap.run(
 #     [outputFlair, outputGermaNER, outputS_T],
 #     "./TokenizedLetters/",
 #     output2Overlap,

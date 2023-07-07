@@ -6,30 +6,28 @@ import B_replaceSpecialCharacters
 
 
 def run(
-    directory="D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe - Annotationen/",
-    output="./HIPE-scorer-output/output-tsv-flair-ner-german/",
+    directoryPath,
+    outputPath,
 ):
-    # load tagger
+    """
+    Creates a TSV-file for the flair/ner-german output in a format the HIPE-scorer accepts.
+
+    directoryPath: The path of the directory where the files are stored.
+    outputPath: The path of the directory where the output should be stored.
+    """
+
+    # load sequence tagger
     tagger = SequenceTagger.load("flair/ner-german-large")
     print("[INFO] tagger loaded")
-
-    # path of the directory
-    directoryPath = directory
-
-    # output path
-    outputPath = output
-
-    # the directory where the transcripts are stored
-    directory = os.fsencode(directoryPath)
 
     # keeps track of how many files haven been processed
     fileCount = 1
 
-    # to check if there has been an error
+    # variable to check if there has been an error
     error = 0
 
     # for every file in the directory which ends with .txt
-    for file in os.listdir(directory):
+    for file in os.listdir(directoryPath):
         filename = os.fsdecode(file)
         if filename.endswith(".txt"):
             # open file
@@ -47,15 +45,18 @@ def run(
             for entity in sentence.get_spans("ner"):
                 # print("-----------------------")
                 # print(str(entity))
+
                 # get only the entites (is between '"' and '"')
                 entityString = re.search('"(.*)"', str(entity)).group(1)
 
-                # get the predicat (is between "→" and " ")
+                # get the predicate (is between "→" and " ")
                 predicate = re.search("→(.*) ", str(entity)).group(1).replace(" ", "")
 
-                # check if there is a space in the entity string. If so, then that means more than one word is an entity and it needs to be split to fit the required format
+                # check if there is a space in the entity string.
+                # If so, then that means more than one word is an entity and it needs to be split to fit the required format
                 if " " in entityString:
                     entityStringSplit = entityString.split()
+
                     # iterate over every word and add it to the entities list
                     for entitySplit in entityStringSplit:
                         entities.append([entitySplit, predicate])
@@ -63,19 +64,18 @@ def run(
                         # print("Entity: " + entitySplit)
                         # print("Predicate: " + predicate)
                 else:
+                    entities.append([entityString, predicate])
                     # print("-----------------------")
                     # print("Entity: " + entityString)
                     # print("Predicate: " + predicate)
-                    entities.append([entityString, predicate])
 
-            print("[INFO] entities list full, length: " + str(len(entities)))
+            print("[INFO] Entities list full, length: " + str(len(entities)))
 
             # open file (again, because otherwise there are errors)
             readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
 
             # read every line
             lines = readFromFile.readlines()
-            print("[INFO] read lines")
 
             # create folder if it does not exist
             if not os.path.exists(outputPath):
@@ -91,7 +91,6 @@ def run(
                 "a",
                 encoding="utf-8",
             )
-            print("[INFO] opened output file")
 
             # write first line
             writeToFile.write(
@@ -108,61 +107,90 @@ def run(
                 lineSplit = line.split()
                 # print("[INFO] lineSplit: " + str(lineSplit))
                 if lineSplit:
-                    # for every word in the line
+                    # for every word in the line split
                     for word in lineSplit:
-                        # replace special characters
-                        editedWord = B_replaceSpecialCharacters.replace(word)
-
-                        # set default predicate
-                        predicate = "O"
-
-                        # checks if entites are present
-                        if len(entities) > 0:
+                        # ignore special characters at the beginning
+                        if (
+                            word != ","
+                            and word != "."
+                            and word != "¬"
+                            and word != "?"
+                            and word != ":"
+                            and word != ";"
+                            and word != "-"
+                            and word != "!"
+                            and word != "("
+                            and word != ")"
+                            and word != "/"
+                            and word != " "
+                            and word != "	"
+                        ):
                             # replace special characters
-                            entity = B_replaceSpecialCharacters.replace(
-                                entities[index][0]
-                            )
+                            wordReplaced = B_replaceSpecialCharacters.replace(word)
 
-                            # print(
-                            #     "[INFO] firstWord: "
-                            #     + editedWord
-                            #     + " || entity: "
-                            #     + entity
-                            # )
+                            # set default predicate
+                            predicate = "O"
 
-                            # check for every word if it is an entity
-                            if editedWord == entity:
-                                # set the predicate, if word is an entity
-                                predicate = "I-" + entities[index][1]
-                                # increase index, if size of entities list is not already reached
-                                if index != len(entities) - 1:
-                                    index += 1
-                                count += 1
-                                print(
-                                    "[INFO] "
-                                    + str(count)
-                                    + " / "
-                                    + str(len(entities))
-                                    + " DONE "
+                            # checks if entites are present
+                            if len(entities) > 0:
+                                # replace special characters
+                                entity = B_replaceSpecialCharacters.replace(
+                                    entities[index][0]
                                 )
 
-                        # write entity and predicate to file
-                        writeToFile.write(
-                            editedWord + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n"
-                        )
+                                # print(
+                                #     "[INFO] firstWord: "
+                                #     + wordReplaced
+                                #     + " || entity: "
+                                #     + entity
+                                # )
+
+                                # check for every word if it is an entity
+                                if wordReplaced == entity:
+                                    # set the predicate, if word is an entity
+                                    predicate = "B-" + entities[index][1]
+
+                                    # replace MISC entity types with OTH
+                                    if predicate == "B-MISC":
+                                        predicate = "B-OTH"
+
+                                    # increase index, if size of entities list is not already reached
+                                    if index != len(entities) - 1:
+                                        index += 1
+
+                                    # increase count to check later if all entities have been mapped
+                                    count += 1
+                                    # print(
+                                    #     "[INFO] "
+                                    #     + str(count)
+                                    #     + " / "
+                                    #     + str(len(entities))
+                                    #     + " DONE "
+                                    # )
+
+                            # write entity and predicate to file
+                            writeToFile.write(
+                                wordReplaced
+                                + "	"
+                                + predicate
+                                + "	O	O	O	O	O	_	_	_"
+                                + "\n"
+                            )
 
             # check if all entities have been mapped
-            if count == len(entities):
-                print("[INFO] ALL ENTITIES MAPPED")
-            else:
-                # if not, set error to 1 so that error message can be printed
+            if count != len(entities):
                 error = 1
+                print(
+                    "[ERROR] NOT ALL ENTITIES MAPPED IN "
+                    + filename
+                    + " (TSV Parser Flair)"
+                )
 
             writeToFile.close()
 
-            print("[INFO] " + str(fileCount) + " FILES DONE")
+            print("[INFO] " + str(fileCount) + " FILES DONE (TSV Parser Flair)")
 
-            fileCount = fileCount + 1
+            fileCount += 1
 
             continue
         else:
@@ -170,4 +198,4 @@ def run(
 
     # error message, if not all entites have been mapped
     if error == 1:
-        print("[ERROR] Not all Entities have been mapped")
+        print("[ERROR] NOT ALL ENTITIES HAVE BEEN MAPPED (TSV Parser Flair)")

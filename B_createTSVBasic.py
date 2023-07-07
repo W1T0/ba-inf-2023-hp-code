@@ -5,12 +5,12 @@ import B_replaceSpecialCharacters
 def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
     """
     Creates a TSV-file for the annotations, the germaNER output and the sequence_tagging output
-    in a format the HIPE-scorer accepts
+    in a format the HIPE-scorer accepts.
 
-    directoryPath: The path of the directory where the files are stored
-    outputPath: The path of the directory where the output should be stored
-    fileEnding: The ending of the file (".conll" or ".txt")
-    hipeFileAdd: An addition to the filename to conform with the HIPE-scorer format and identify the file
+    directoryPath: The path of the directory where the files are stored.
+    outputPath: The path of the directory where the output should be stored.
+    fileEnding: The ending of the file (".conll" or ".txt").
+    hipeFileAdd: An addition to the filename to conform with the HIPE-scorer format and identify the file.
     """
 
     # keeps track of how many files haven been processed
@@ -74,7 +74,7 @@ def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
                         # if so, get the entity type
                         predicate = lineSplit[-1]
 
-                    # ignore special characters
+                    # ignore special characters at the beginning
                     if (
                         firstWord != ","
                         and firstWord != "."
@@ -105,8 +105,7 @@ def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
 
             writeToFile.close()
 
-            print("[INFO] ENTITIES WRITTEN")
-            print("[INFO] " + str(fileCount) + " FILES DONE")
+            print("[INFO] " + str(fileCount) + " FILES DONE (createTSVBasic)")
             fileCount += 1
             continue
         else:
