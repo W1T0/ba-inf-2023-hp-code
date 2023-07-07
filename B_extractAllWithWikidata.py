@@ -1,4 +1,4 @@
-import compareWikidataQueryWithLetterWords
+import B_compareWikidataQueryWithLetterWords
 
 
 def run():
@@ -48,7 +48,7 @@ def run():
       # timed out: { ?item wdt:P31 wd:Q16970 } # is | church building 
       """
 
-    religion = compareWikidataQueryWithLetterWords.compare(
+    religion = B_compareWikidataQueryWithLetterWords.compare(
         "./TokenizedLetters/",
         "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput3.txt",
         queryReligion,
@@ -128,7 +128,7 @@ def run():
     }
     """
 
-    food = compareWikidataQueryWithLetterWords.compare(
+    food = B_compareWikidataQueryWithLetterWords.compare(
         "./TokenizedLetters/",
         "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput2.txt",
         queryFood,

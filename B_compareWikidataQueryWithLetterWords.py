@@ -1,12 +1,12 @@
 import os
 from fuzzywuzzy import fuzz, process
-import testWikidataSPARQLQuery
+import B_wikidataSPARQLQuery
 
 
 # function to compare results of a SPARQL query (queryDF) with every word in the letters located in the directoryPath, letters must be in conll format
 def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFile):
     # run query and save as dataframe
-    data_extracter = testWikidataSPARQLQuery.WikiDataQueryResults(query)
+    data_extracter = B_wikidataSPARQLQuery.WikiDataQueryResults(query)
     queryDF = data_extracter.load_as_dataframe()
     print("[INFO] Query ran")
 

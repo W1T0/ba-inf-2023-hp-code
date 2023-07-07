@@ -2,7 +2,7 @@ from flair.data import Sentence
 from flair.models import SequenceTagger
 import os
 import re
-import replaceSpecialCharacters
+import B_replaceSpecialCharacters
 
 
 def run(
@@ -111,7 +111,7 @@ def run(
                     # for every word in the line
                     for word in lineSplit:
                         # replace special characters
-                        editedWord = replaceSpecialCharacters.replace(word)
+                        editedWord = B_replaceSpecialCharacters.replace(word)
 
                         # set default predicate
                         predicate = "O"
@@ -119,7 +119,7 @@ def run(
                         # checks if entites are present
                         if len(entities) > 0:
                             # replace special characters
-                            entity = replaceSpecialCharacters.replace(
+                            entity = B_replaceSpecialCharacters.replace(
                                 entities[index][0]
                             )
 

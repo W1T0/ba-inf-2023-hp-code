@@ -1,5 +1,5 @@
 import os
-import replaceSpecialCharacters
+import B_replaceSpecialCharacters
 
 
 def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
@@ -90,7 +90,9 @@ def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
                         and firstWord != " "
                         and firstWord != "	"
                     ):
-                        firstWordReplaced = replaceSpecialCharacters.replace(firstWord)
+                        firstWordReplaced = B_replaceSpecialCharacters.replace(
+                            firstWord
+                        )
 
                         # write entity and entity type to file
                         writeToFile.write(

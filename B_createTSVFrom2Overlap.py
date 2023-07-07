@@ -1,7 +1,7 @@
 import os
-import get2OverlapEntitiesFromNEROutput
-import extractAllWithWikidata
-import replaceSpecialCharacters
+import B_get2OverlapEntitiesFromNEROutput
+import B_extractAllWithWikidata
+import B_replaceSpecialCharacters
 
 
 def run(
@@ -10,13 +10,13 @@ def run(
     output="./HIPE-scorer-output/",
 ):
     # generate 2 Overlap entities and save them
-    entities2Overlap = get2OverlapEntitiesFromNEROutput.run(
+    entities2Overlap = B_get2OverlapEntitiesFromNEROutput.run(
         directoriesList, boolWriteToFile=False
     )
     print(entities2Overlap)
 
     # extract entities from wikidata and save them
-    wikidataEntites = extractAllWithWikidata.run()
+    wikidataEntites = B_extractAllWithWikidata.run()
     religionEntities = wikidataEntites[0]
     foodEntities = wikidataEntites[1]
 
@@ -124,7 +124,9 @@ def run(
                         and firstWord != "	"
                     ):
                         # replace special characters
-                        firstWordReplaced = replaceSpecialCharacters.replace(firstWord)
+                        firstWordReplaced = B_replaceSpecialCharacters.replace(
+                            firstWord
+                        )
 
                         # print(firstWordReplaced)
 
