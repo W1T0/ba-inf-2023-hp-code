@@ -17,13 +17,10 @@ def run(
     # extract entities from wikidata and save them
     wikidataEntites = extractAllWithWikidata.run()
     religionEntities = wikidataEntites[0]
-    locationEntities = wikidataEntites[1]
-    foodEntities = wikidataEntites[2]
+    foodEntities = wikidataEntites[1]
 
     print("------------------------ RELIGION ------------------------")
     print(religionEntities)
-    print("------------------------ LOCATION ------------------------")
-    print(locationEntities)
     print("------------------------ FOOD ------------------------")
     print(foodEntities)
 
@@ -179,22 +176,22 @@ def run(
                                             # print("FOOD")
                                             # print(firstWordReplaced, entity.split()[1])
 
-                        # iterate over all location entities
-                        for locationEntity in locationEntities:
-                            # check if there are entities in the list
-                            if len(foodEntity) > 1:
-                                # check if filename is the same
-                                if locationEntity[0] == filenameClean:
-                                    for entity in locationEntity[1:]:
-                                        # split entity and get the name
-                                        entityName = entity.split()[0]
+                        # # iterate over all location entities
+                        # for locationEntity in locationEntities:
+                        #     # check if there are entities in the list
+                        #     if len(foodEntity) > 1:
+                        #         # check if filename is the same
+                        #         if locationEntity[0] == filenameClean:
+                        #             for entity in locationEntity[1:]:
+                        #                 # split entity and get the name
+                        #                 entityName = entity.split()[0]
 
-                                        # check for every word if it is an entity
-                                        if firstWordReplaced == entityName:
-                                            predicate = "B-LOC"
-                                            wikidataQID = entity.split()[1]
-                                            # print("LOCATION")
-                                            # print(firstWordReplaced, entity.split()[1])
+                        #                 # check for every word if it is an entity
+                        #                 if firstWordReplaced == entityName:
+                        #                     predicate = "B-LOC"
+                        #                     wikidataQID = entity.split()[1]
+                        #                     # print("LOCATION")
+                        #                     # print(firstWordReplaced, entity.split()[1])
 
                         # iterate over all location entities
                         for religionEntity in religionEntities:
