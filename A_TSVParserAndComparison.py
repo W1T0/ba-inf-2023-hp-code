@@ -15,7 +15,7 @@ outputS_T = (
     "./HIPE-scorer-input/output" + str(version) + "/output-tsv-sequence_tagging/"
 )
 outputGermaNER = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-germaNER/"
-output2Overlap = "./HIPE-scorer-input/output" + str(6) + "/output-tsv-2overlap/"
+output2Overlap = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-2overlap/"
 
 # print("[INFO] Run Annotations TSV Parser")
 # B_TSVParserBasic.run(
@@ -25,13 +25,13 @@ output2Overlap = "./HIPE-scorer-input/output" + str(6) + "/output-tsv-2overlap/"
 #     "-annotations",
 # )
 
-print("[INFO] Run Flair NER German TSV Parser")
-B_TSVParserFlair.run(
-    "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe-Annotationen-3/",
-    outputFlair,
-)
+# print("[INFO] Run TSV Parser Flair")
+# B_TSVParserFlair.run(
+#     "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe-Annotationen-3/",
+#     outputFlair,
+# )
 
-# print("[INFO] Run germaNER TSV Parser")
+# print("[INFO] Run TSV Parser germaNER")
 # B_TSVParserBasic.run(
 #     "./NER-german-output/output-germaNER/",
 #     outputGermaNER,
@@ -39,7 +39,7 @@ B_TSVParserFlair.run(
 #     "-germaNER" + "_bundle1_hipe2020_de_1",
 # )
 
-# print("[INFO] Run sequence_tagging TSV Parser")
+# print("[INFO] Run TSV Parser sequence_tagging")
 # B_TSVParserBasic.run(
 #     "./NER-german-output/output-Sequence_tagging/",
 #     outputS_T,
@@ -47,12 +47,12 @@ B_TSVParserFlair.run(
 #     "-sequenceTagging" + "_bundle1_hipe2020_de_1",
 # )
 
-# print("[INFO] Run 2 Overlap TSV Parser")
-# B_TSVParser2Overlap.run(
-#     [outputFlair, outputGermaNER, outputS_T],
-#     "./TokenizedLetters/",
-#     output2Overlap,
-# )
+print("[INFO] Run TSV Parser 2 Overlap")
+B_TSVParser2Overlap.run(
+    [outputFlair, outputGermaNER, outputS_T],
+    "./TokenizedLetters/",
+    output2Overlap,
+)
 
 print("[INFO] Compare TSV")
 B_compareAnnotationToTSV.run(

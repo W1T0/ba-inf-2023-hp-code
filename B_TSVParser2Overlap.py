@@ -16,6 +16,7 @@ def run(
     directoryPath: The path of the directory where the tokenized letters are stored in.
     outputPath: The path of the directory where the output should be stored in.
     """
+
     # generate 2 Overlap entities and save them
     entities2Overlap = B_get2OverlapEntitiesFromNEROutput.run(
         directories, boolWriteToFile=False
@@ -104,6 +105,10 @@ def run(
                         and firstWord != ":"
                         and firstWord != ";"
                         and firstWord != "-"
+                        and firstWord != "!"
+                        and firstWord != "("
+                        and firstWord != ")"
+                        and firstWord != "/"
                         and firstWord != " "
                         and firstWord != "	"
                     ):
