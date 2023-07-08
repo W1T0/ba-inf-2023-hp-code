@@ -18,9 +18,7 @@ def run(
     """
 
     # generate 2 Overlap entities and save them
-    entities2Overlap = B_get2OverlapEntitiesFromNEROutput.run(
-        directories, boolWriteToFile=False
-    )
+    entities2Overlap = B_get2OverlapEntitiesFromNEROutput.run(directories, boolWriteToFile=False)
     print(entities2Overlap)
 
     # extract entities from wikidata and save them
@@ -113,9 +111,7 @@ def run(
                         and firstWord != "	"
                     ):
                         # replace special characters
-                        firstWordReplaced = B_replaceSpecialCharacters.replace(
-                            firstWord
-                        )
+                        firstWordReplaced = B_replaceSpecialCharacters.replace(firstWord)
 
                         # print(firstWordReplaced)
 
@@ -191,13 +187,7 @@ def run(
 
                         # write entity and predicate to file
                         writeToFile.write(
-                            firstWordReplaced
-                            + "	"
-                            + predicate
-                            + "	O	O	O	O	O	"
-                            + wikidataQID
-                            + "	_	_"
-                            + "\n"
+                            firstWordReplaced + "	" + predicate + "	O	O	O	O	O	" + wikidataQID + "	_	_" + "\n"
                         )
 
             # check if all entities have been mapped
@@ -205,11 +195,7 @@ def run(
                 # if not, set error to 1 so that error message can be printed
                 error = 1
                 print("[ERROR]: " + str(count) + " " + str(entitiesListLength))
-                print(
-                    "[ERROR] NOT ALL ENTITIES MAPPED IN "
-                    + filename
-                    + " (TSV Parser 2 Overlap)"
-                )
+                print("[ERROR] NOT ALL ENTITIES MAPPED IN " + filename + " (TSV Parser 2 Overlap)")
 
             writeToFile.close()
 

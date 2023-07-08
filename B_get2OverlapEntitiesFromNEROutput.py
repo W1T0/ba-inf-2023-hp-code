@@ -36,9 +36,9 @@ def run(
         # compare the entites
         for i in range(30):
             # open files
-            flairNERGermanFile = open(files[0][i], "r", encoding="utf-8")
+            flairFile = open(files[0][i], "r", encoding="utf-8")
             germaNERFile = open(files[1][i], "r", encoding="utf-8")
-            sequenceTaggingFile = open(files[2][i], "r", encoding="utf-8")
+            s_TFile = open(files[2][i], "r", encoding="utf-8")
             # print("[INFO] Files opened")
 
             # append file name to entites2Overlap list
@@ -50,127 +50,86 @@ def run(
                 writeToFile.write("FILE: " + files[0][i] + "\n")
 
             # stores every line of file
-            flairNERGermanLines = flairNERGermanFile.readlines()
+            flairLines = flairFile.readlines()
             germaNERLines = germaNERFile.readlines()
-            sequenceTaggingLines = sequenceTaggingFile.readlines()
+            s_TLines = s_TFile.readlines()
 
             # checks if all the files have the same number of lines
-            if (
-                len(flairNERGermanLines)
-                == len(germaNERLines)
-                == len(sequenceTaggingLines)
-            ):
+            if len(flairLines) == len(germaNERLines) == len(s_TLines):
                 # split every line and compare them
-                for j in range(len(flairNERGermanLines) - 1):
-                    flairNERGermanLineSplit = flairNERGermanLines[j + 1].split()
+                for j in range(len(flairLines) - 1):
+                    # split the lines
+                    # ignore the first line, because of HIPE-scorer headlines (j+1)
+                    flairLineSplit = flairLines[j + 1].split()
                     germaNERLineSplit = germaNERLines[j + 1].split()
-                    sequenceTaggingLineSplit = sequenceTaggingLines[j + 1].split()
+                    s_TLineSplit = s_TLines[j + 1].split()
 
                     # checks if there is a line for every file
-                    if (
-                        flairNERGermanLineSplit
-                        and germaNERLineSplit
-                        and sequenceTaggingLineSplit
-                    ):
-                        flairNERGermanLineSplitFirstWord = flairNERGermanLineSplit[0]
-                        germaNERLineSplitFirstWord = germaNERLineSplit[0]
-                        sequenceTaggingLineSplitFirstWord = sequenceTaggingLineSplit[0]
+                    if flairLineSplit and germaNERLineSplit and s_TLineSplit:
+                        # get the first word of the line
+                        flairFirstWord = flairLineSplit[0]
+                        germaNERFirstWord = germaNERLineSplit[0]
+                        s_TFirstWord = s_TLineSplit[0]
 
                         # checks if the first word is the same
-                        if (
-                            flairNERGermanLineSplitFirstWord
-                            == germaNERLineSplitFirstWord
-                            == sequenceTaggingLineSplitFirstWord
-                        ):
+                        if flairFirstWord == germaNERFirstWord == s_TFirstWord:
                             # default values that won't appear
-                            flairNERGermanLineSplitEntityType = "-1"
-                            germaNERLineSplitEntityType = "-2"
-                            sequenceTaggingLineSplitEntityType = "-3"
-                            flairNERGermanLineSplitEntityTypeCleaned = "-1"
-                            germaNERLineSplitEntityTypeCleaned = "-2"
-                            sequenceTaggingLineSplitEntityTypeCleaned = "-3"
+                            # used for comparison
+                            flairEntityType = "-1"
+                            germaNEREntityType = "-2"
+                            s_TEntityType = "-3"
+                            flairEntityTypeCleaned = "-1"
+                            germaNEREntityTypeCleaned = "-2"
+                            s_TEntityTypeCleaned = "-3"
 
-                            # checks that the entity tpye exist and get the entity type without B- or I- infront (cleaned) and with B- or I- infront
-                            if flairNERGermanLineSplit[1] != "O":
-                                flairNERGermanLineSplitEntityTypeCleaned = (
-                                    flairNERGermanLineSplit[1].split("-")[1]
-                                )
-                                flairNERGermanLineSplitEntityType = (
-                                    flairNERGermanLineSplit[1]
-                                )
+                            # flair: checks that the entity tpye exist and get the entity type
+                            # without B- or I- infront (cleaned) and with B- or I- infront
+                            if flairLineSplit[1] != "O":
+                                flairEntityTypeCleaned = flairLineSplit[1].split("-")[1]
+                                flairEntityType = flairLineSplit[1]
 
+                            # germaNER: checks that the entity tpye exist and get the entity type
+                            # without B- or I- infront (cleaned) and with B- or I- infront
                             if germaNERLineSplit[1] != "O":
-                                germaNERLineSplitEntityTypeCleaned = germaNERLineSplit[
-                                    1
-                                ].split("-")[1]
-                                germaNERLineSplitEntityType = germaNERLineSplit[1]
-                            if sequenceTaggingLineSplit[1] != "O":
-                                sequenceTaggingLineSplitEntityTypeCleaned = (
-                                    sequenceTaggingLineSplit[1].split("-")[1]
-                                )
-                                sequenceTaggingLineSplitEntityType = (
-                                    sequenceTaggingLineSplit[1]
-                                )
+                                germaNEREntityTypeCleaned = germaNERLineSplit[1].split("-")[1]
+                                germaNEREntityType = germaNERLineSplit[1]
+
+                            # sequence_tagging: checks that the entity tpye exist and get the entity type
+                            # without B- or I- infront (cleaned) and with B- or I- infront
+                            if s_TLineSplit[1] != "O":
+                                s_TEntityTypeCleaned = s_TLineSplit[1].split("-")[1]
+                                s_TEntityType = s_TLineSplit[1]
 
                             # checks if the entity type is the same for two
                             # checks only if the cleaned type is the same, because flair does not offer B- or I-
                             # if they are the same, it takes the "uncleaned" entity type of germanNER or sequence_tagging
-                            if (
-                                flairNERGermanLineSplitEntityTypeCleaned
-                                == germaNERLineSplitEntityTypeCleaned
-                            ):
+
+                            # checks if entity type of flair and germaNER is the same
+                            if flairEntityTypeCleaned == germaNEREntityTypeCleaned:
                                 if boolWriteToFile:
-                                    writeToFile.write(
-                                        flairNERGermanLineSplitFirstWord
-                                        + " "
-                                        + germaNERLineSplitEntityType
-                                        + "\n"
-                                    )
+                                    # write entity and entity type to file
+                                    writeToFile.write(flairFirstWord + " " + germaNEREntityType + "\n")
 
                                 # add entities to entities2Overlap list
-                                entities2Overlap[i].append(
-                                    flairNERGermanLineSplitFirstWord
-                                    + " "
-                                    + germaNERLineSplitEntityType
-                                )
+                                entities2Overlap[i].append(flairFirstWord + " " + germaNEREntityType)
 
-                            elif (
-                                flairNERGermanLineSplitEntityTypeCleaned
-                                == sequenceTaggingLineSplitEntityTypeCleaned
-                            ):
+                            # checks if entity type of flair and sequence_tagging is the same
+                            elif flairEntityTypeCleaned == s_TEntityTypeCleaned:
                                 if boolWriteToFile:
-                                    writeToFile.write(
-                                        flairNERGermanLineSplitFirstWord
-                                        + " "
-                                        + sequenceTaggingLineSplitEntityType
-                                        + "\n"
-                                    )
+                                    # write entity and entity type to file
+                                    writeToFile.write(flairFirstWord + " " + s_TEntityType + "\n")
 
                                 # add entities to entities2Overlap list
-                                entities2Overlap[i].append(
-                                    flairNERGermanLineSplitFirstWord
-                                    + " "
-                                    + sequenceTaggingLineSplitEntityType
-                                )
+                                entities2Overlap[i].append(flairFirstWord + " " + s_TEntityType)
 
-                            elif (
-                                germaNERLineSplitEntityTypeCleaned
-                                == sequenceTaggingLineSplitEntityTypeCleaned
-                            ):
+                            # checks if entity type of germaNER and sequence_tagging is the same
+                            elif germaNEREntityTypeCleaned == s_TEntityTypeCleaned:
                                 if boolWriteToFile:
-                                    writeToFile.write(
-                                        flairNERGermanLineSplitFirstWord
-                                        + " "
-                                        + germaNERLineSplitEntityType
-                                        + "\n"
-                                    )
+                                    # write entity and entity type to file
+                                    writeToFile.write(flairFirstWord + " " + germaNEREntityType + "\n")
 
                                 # add entities to entities2Overlap list
-                                entities2Overlap[i].append(
-                                    flairNERGermanLineSplitFirstWord
-                                    + " "
-                                    + germaNERLineSplitEntityType
-                                )
+                                entities2Overlap[i].append(flairFirstWord + " " + germaNEREntityType)
 
                         else:
                             print("[ERROR] The first word is not the same.")
@@ -182,18 +141,9 @@ def run(
                                 + " | sequenceTaggingFile: "
                                 + files[2][i]
                             )
-                            print(
-                                "[ERROR]: "
-                                + flairNERGermanLineSplitFirstWord
-                                + " "
-                                + germaNERLineSplitFirstWord
-                                + " "
-                                + sequenceTaggingLineSplitFirstWord
-                            )
+                            print("[ERROR]: " + flairFirstWord + " " + germaNERFirstWord + " " + s_TFirstWord)
                     else:
-                        print(
-                            "[ERROR] There is a missing line in one or multiple files."
-                        )
+                        print("[ERROR] There is a missing line in one or multiple files.")
                         print(
                             "[ERROR]: flairNERGermanFile: "
                             + files[0][i]
@@ -214,11 +164,11 @@ def run(
                 )
                 print(
                     "[ERROR]: "
-                    + str(len(flairNERGermanLines))
+                    + str(len(flairLines))
                     + " "
                     + str(len(germaNERLines))
                     + " "
-                    + str(len(sequenceTaggingLines))
+                    + str(len(s_TLines))
                 )
 
             if boolWriteToFile:
