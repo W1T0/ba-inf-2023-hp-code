@@ -73,9 +73,7 @@ def run(
 
                         # checks if the first word is the same
                         if flairFirstWord == germaNERFirstWord == s_TFirstWord:
-                            # default values that won't appear
-                            # used for comparison
-                            flairEntityType = "-1"
+                            # default values that won't appear, used for comparison
                             germaNEREntityType = "-2"
                             s_TEntityType = "-3"
                             flairEntityTypeCleaned = "-1"
@@ -86,7 +84,6 @@ def run(
                             # without B- or I- infront (cleaned) and with B- or I- infront
                             if flairLineSplit[1] != "O":
                                 flairEntityTypeCleaned = flairLineSplit[1].split("-")[1]
-                                flairEntityType = flairLineSplit[1]
 
                             # germaNER: checks that the entity tpye exist and get the entity type
                             # without B- or I- infront (cleaned) and with B- or I- infront
@@ -100,12 +97,20 @@ def run(
                                 s_TEntityTypeCleaned = s_TLineSplit[1].split("-")[1]
                                 s_TEntityType = s_TLineSplit[1]
 
-                            # checks if the entity type is the same for two
-                            # checks only if the cleaned type is the same, because flair does not offer B- or I-
-                            # if they are the same, it takes the "uncleaned" entity type of germanNER or sequence_tagging
+                            """ 
+                            checks if the entity type is the same for two
+                            checks only if the cleaned type is the same, because flair does not offer B- or I-
+                            if they are the same, it takes the "uncleaned" entity type of germanNER or sequence_tagging
+                            ignore all I-OTH entity types, because they are false most of the time
+                            """
+
+                            # create a boolean that checks if both entity types are I-OTH
+                            IOTH = False
+                            if germaNEREntityType == "I-OTH" or s_TEntityType == "I-OTH":
+                                IOTH = True
 
                             # checks if entity type of flair and germaNER is the same
-                            if flairEntityTypeCleaned == germaNEREntityTypeCleaned:
+                            if flairEntityTypeCleaned == germaNEREntityTypeCleaned and not IOTH:
                                 if boolWriteToFile:
                                     # write entity and entity type to file
                                     writeToFile.write(flairFirstWord + " " + germaNEREntityType + "\n")
@@ -114,7 +119,7 @@ def run(
                                 entities2Overlap[i].append(flairFirstWord + " " + germaNEREntityType)
 
                             # checks if entity type of flair and sequence_tagging is the same
-                            elif flairEntityTypeCleaned == s_TEntityTypeCleaned:
+                            elif flairEntityTypeCleaned == s_TEntityTypeCleaned and not IOTH:
                                 if boolWriteToFile:
                                     # write entity and entity type to file
                                     writeToFile.write(flairFirstWord + " " + s_TEntityType + "\n")
@@ -123,7 +128,7 @@ def run(
                                 entities2Overlap[i].append(flairFirstWord + " " + s_TEntityType)
 
                             # checks if entity type of germaNER and sequence_tagging is the same
-                            elif germaNEREntityTypeCleaned == s_TEntityTypeCleaned:
+                            elif germaNEREntityTypeCleaned == s_TEntityTypeCleaned and not IOTH:
                                 if boolWriteToFile:
                                     # write entity and entity type to file
                                     writeToFile.write(flairFirstWord + " " + germaNEREntityType + "\n")

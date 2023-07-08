@@ -5,15 +5,9 @@ import B_TSVParserFlair
 
 version = 7
 
-outputAnnotations = (
-    "./HIPE-scorer-input/output" + str(version) + "/output-tsv-annotations/"
-)
-outputFlair = (
-    "./HIPE-scorer-input/output" + str(version) + "/output-tsv-flair-ner-german/"
-)
-outputS_T = (
-    "./HIPE-scorer-input/output" + str(version) + "/output-tsv-sequence_tagging/"
-)
+outputAnnotations = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-annotations/"
+outputFlair = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-flair-ner-german/"
+outputS_T = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-sequence_tagging/"
 outputGermaNER = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-germaNER/"
 output2Overlap = "./HIPE-scorer-input/output" + str(8) + "/output-tsv-2overlap/"
 
