@@ -138,6 +138,11 @@ def run(
                                             predicate = entity.split()[1]
                                             count += 1
 
+                        # gets the wikidata link for a entity with a B-LOC entity type
+                        if predicate == "B-LOC":
+                            # search for location with wikidata
+                            y = 1
+
                         # iterate over all food entities
                         for foodEntity in foodEntities:
                             # check if there are entities in the list
