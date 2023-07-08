@@ -129,7 +129,7 @@ def run(
 
                                     entitiesListLength = len(entities[1:])
 
-                                    # iterate over the entites only
+                                    # iterate over the entities only
                                     for entity in entities[1:]:
                                         # split entity and get the name
                                         entityName = entity.split()[0]
@@ -153,7 +153,12 @@ def run(
                                         entityName = entity.split()[0]
 
                                         # check for every word if it is an entity
-                                        if firstWordReplaced == entityName:
+                                        # ignore PER entities
+                                        if (
+                                            firstWordReplaced == entityName
+                                            and predicate != "B-PER"
+                                            and predicate != "I-PER"
+                                        ):
                                             predicate = "B-OTH"
                                             wikidataQID = entity.split()[1]
                                             # print("FOOD")
@@ -170,7 +175,12 @@ def run(
                                         entityName = entity.split()[0]
 
                                         # check for every word if it is an entity
-                                        if firstWordReplaced == entityName:
+                                        # ignore PER entities
+                                        if (
+                                            firstWordReplaced == entityName
+                                            and predicate != "B-PER"
+                                            and predicate != "I-PER"
+                                        ):
                                             predicate = "B-OTH"
                                             wikidataQID = entity.split()[1]
                                             # print("RELIGION")
