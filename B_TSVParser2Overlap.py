@@ -139,95 +139,109 @@ def run(
                                             predicate = entity.split()[1]
                                             count += 1
 
-                        # gets the wikidata link for a entity with a B-LOC entity type
-                        if predicate == "B-LOC":
-                            # search for location with wikidata
-                            query = """
-                                SELECT ?item ?itemLabel WHERE {
-                                    VALUES ?itemLabel { 'Deutschland'@de }
-                                    ?item rdfs:label|skos:altLabel ?itemLabel .
-                                    {
-                                        SELECT ?item WHERE 
-                                        {      
-                                        { ?item wdt:P31 wd:Q6256 } # country
-                                            UNION
-                                        { ?item wdt:P31 wd:Q3624078} # sovereign state
-                                            UNION
-                                        { ?item wdt:P31 wd:Q15334 } # municipality of Poland
-                                            UNION
-                                        { ?item wdt:P31 wd:Q515 } # city
-                                            UNION
-                                        { ?item wdt:P31 wd:Q5119 } # capital city
-                                            UNION
-                                        { ?item wdt:P31 wd:Q1549591 } # big city
-                                            UNION
-                                        { ?item wdt:P31 wd:Q1093829 } # city in the United States }         
-                                            UNION
-                                        { ?item wdt:P31 wd:Q15974307 } # administrative unit of Germany
-                                            UNION
-                                        { ?item wdt:P31 wd:Q42744322 } # urban municipality of Germany (Stadt in Deutschland)
+                        # ignore the wikidata linking if predicate is B-PER
+                        if not predicate == "B-PER":
+                            # gets the wikidata link for a entity with a B-LOC entity type
+                            # if prediacte is B-LOC the food and religion query do not have to run, see else below
+                            if predicate == "B-LOC":
+                                # search for location with wikidata
+                                query = (
+                                    """
+                                    SELECT ?item ?itemLabel WHERE {
+                                        VALUES ?itemLabel { '"""
+                                    + firstWordReplaced
+                                    + """'@de }
+                                        ?item rdfs:label|skos:altLabel ?itemLabel .
+                                        {
+                                            SELECT ?item WHERE 
+                                            {      
+                                            { ?item wdt:P31 wd:Q6256 } # country
+                                                UNION
+                                            { ?item wdt:P31 wd:Q3624078} # sovereign state
+                                                UNION
+                                            { ?item wdt:P31 wd:Q15334 } # municipality of Poland
+                                                UNION
+                                            { ?item wdt:P31 wd:Q515 } # city
+                                                UNION
+                                            { ?item wdt:P31 wd:Q5119 } # capital city
+                                                UNION
+                                            { ?item wdt:P31 wd:Q1549591 } # big city
+                                                UNION
+                                            { ?item wdt:P31 wd:Q1093829 } # city in the United States }         
+                                                UNION
+                                            { ?item wdt:P31 wd:Q15974307 } # administrative unit of Germany
+                                                UNION
+                                            { ?item wdt:P31 wd:Q42744322 } # urban municipality of Germany (Stadt in Deutschland)
+                                            }
+                                        }
                                     }
-                                }
-                            """
+                                """
+                                )
 
-                            # run query and save as dataframe
-                            data_extracter = B_wikidataSPARQLQuery.WikiDataQueryResults(query)
-                            queryDF = data_extracter.load_as_dataframe()
+                                # run query and save as dataframe
+                                data_extracter = B_wikidataSPARQLQuery.WikiDataQueryResults(query)
+                                queryDF = data_extracter.load_as_dataframe()
 
-                            if not queryDF.empty:
-                                # iterate over labels in query result
-                                for label in queryDF.itemLabel:
-                                    # get wikidata link and check if there are more than one link
-                                    if queryDF.loc[(queryDF.itemLabel == label)].item.shape[0] > 1:
-                                        # if there are more than one link, choose the first one
-                                        wikidataQID = (queryDF.loc[(queryDF.itemLabel == label)]).values[0, 0]
-                                    else:
-                                        # get link from dataframe
-                                        wikidataQID = queryDF.loc[(queryDF.itemLabel == label)].item.item()
+                                if not queryDF.empty:
+                                    # iterate over labels in query result
+                                    for label in queryDF.itemLabel:
+                                        # get wikidata link and check if there are more than one link
+                                        if queryDF.loc[(queryDF.itemLabel == label)].item.shape[0] > 1:
+                                            # if there are more than one link, choose the first one
+                                            wikidataQID = (queryDF.loc[(queryDF.itemLabel == label)]).values[
+                                                0, 0
+                                            ]
+                                        else:
+                                            # get link from dataframe
+                                            wikidataQID = queryDF.loc[
+                                                (queryDF.itemLabel == label)
+                                            ].item.item()
 
-                        # iterate over all food entities
-                        for foodEntity in foodEntities:
-                            # check if there are entities in the list
-                            if len(foodEntity) > 1:
-                                # check if filename is the same
-                                if foodEntity[0] == filenameClean:
-                                    for entity in foodEntity[1:]:
-                                        # split entity and get the name
-                                        entityName = entity.split()[0]
+                            # if prediacte is B-LOC the food and religion query do not have to run
+                            else:
+                                # iterate over all food entities
+                                for foodEntity in foodEntities:
+                                    # check if there are entities in the list
+                                    if len(foodEntity) > 1:
+                                        # check if filename is the same
+                                        if foodEntity[0] == filenameClean:
+                                            for entity in foodEntity[1:]:
+                                                # split entity and get the name
+                                                entityName = entity.split()[0]
 
-                                        # check for every word if it is an entity
-                                        # ignore PER entities
-                                        if (
-                                            firstWordReplaced == entityName
-                                            and predicate != "B-PER"
-                                            and predicate != "I-PER"
-                                        ):
-                                            predicate = "B-OTH"
-                                            wikidataQID = entity.split()[1]
-                                            # print("FOOD")
-                                            # print(firstWordReplaced, entity.split()[1])
+                                                # check for every word if it is an entity
+                                                # ignore PER entities
+                                                if (
+                                                    firstWordReplaced == entityName
+                                                    and predicate != "B-PER"
+                                                    and predicate != "I-PER"
+                                                ):
+                                                    predicate = "B-OTH"
+                                                    wikidataQID = entity.split()[1]
+                                                    # print("FOOD")
+                                                    # print(firstWordReplaced, entity.split()[1])
 
-                        # iterate over all location entities
-                        for religionEntity in religionEntities:
-                            # check if there are entities in the list
-                            if len(foodEntity) > 1:
-                                # check if filename is the same
-                                if religionEntity[0] == filenameClean:
-                                    for entity in religionEntity[1:]:
-                                        # split entity and get the name
-                                        entityName = entity.split()[0]
+                                # iterate over all location entities
+                                for religionEntity in religionEntities:
+                                    # check if there are entities in the list
+                                    if len(foodEntity) > 1:
+                                        # check if filename is the same
+                                        if religionEntity[0] == filenameClean:
+                                            for entity in religionEntity[1:]:
+                                                # split entity and get the name
+                                                entityName = entity.split()[0]
 
-                                        # check for every word if it is an entity
-                                        # ignore PER entities
-                                        if (
-                                            firstWordReplaced == entityName
-                                            and predicate != "B-PER"
-                                            and predicate != "I-PER"
-                                        ):
-                                            predicate = "B-OTH"
-                                            wikidataQID = entity.split()[1]
-                                            # print("RELIGION")
-                                            # print(firstWordReplaced, entity.split()[1])
+                                                # check for every word if it is an entity
+                                                # ignore PER entities
+                                                if (
+                                                    firstWordReplaced == entityName
+                                                    and predicate != "B-PER"
+                                                    and predicate != "I-PER"
+                                                ):
+                                                    predicate = "B-OTH"
+                                                    wikidataQID = entity.split()[1]
+                                                    # print("RELIGION")
+                                                    # print(firstWordReplaced, entity.split()[1])
 
                         if predicate != "O":
                             print(firstWordReplaced, predicate, wikidataQID)
