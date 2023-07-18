@@ -9,7 +9,7 @@ outputAnnotations = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-a
 outputFlair = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-flair-ner-german/"
 outputS_T = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-sequence_tagging/"
 outputGermaNER = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-germaNER/"
-output2Overlap = "./HIPE-scorer-input/output" + str(10) + "/output-tsv-2overlap/"
+output2Overlap = "./HIPE-scorer-input/output" + str(11) + "/output-tsv-2overlap/"
 
 # print("[INFO] Run Annotations TSV Parser")
 # B_TSVParserBasic.run(

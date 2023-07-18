@@ -1,6 +1,7 @@
 import os
 from fuzzywuzzy import fuzz, process
 import B_wikidataSPARQLQuery
+import B_replaceSpecialCharacters
 
 
 def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFile):
@@ -38,7 +39,7 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
 
             # open one letter
             letterFile = open(directoryPath + filename, "r", encoding="utf-8")
-            print("[INFO] " + str(counter) + " Files opened")
+            print("[INFO] " + str(counter) + " Files opened: " + filename)
 
             # write filename
             if boolWriteToFile:
@@ -59,75 +60,63 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
 
                 if lineSplit:
                     # get the first word
-                    firstWord = lineSplit[0]
+                    firstWord = B_replaceSpecialCharacters.replace(lineSplit[0])
 
-                    # check if first word is noun (upper case)
-                    if firstWord[0].isupper():
-                        # store query results with fuzz.ratio > levenshteinDistance
-                        possibleMatch = []
+                    # check if there is a word
+                    if firstWord:
+                        # check if first word is noun (upper case)
+                        if firstWord[0].isupper():
+                            # store query results with fuzz.ratio > levenshteinDistance
+                            possibleMatch = []
 
-                        # store match and link in dict
-                        possibleMatchAndLink = {}
+                            # store match and link in dict
+                            possibleMatchAndLink = {}
 
-                        # iterate over labels in query result
-                        for label in queryDF.itemLabel:
-                            # compare firstWord and label with fuzzywuzzy
-                            if fuzz.ratio(firstWord, label) > levenshteinDistance:
-                                # add label to possible match list
-                                possibleMatch.append(label)
+                            # iterate over labels in query result
+                            for label in queryDF.itemLabel:
+                                # compare firstWord and label with fuzzywuzzy
+                                if fuzz.ratio(firstWord, label) > levenshteinDistance:
+                                    # add label to possible match list
+                                    possibleMatch.append(label)
 
-                                # get wikidata link and check if there are more than one link
-                                if (
-                                    queryDF.loc[
-                                        (queryDF.itemLabel == label)
-                                    ].item.shape[0]
-                                    > 1
-                                ):
-                                    # if there are more than one link, choose the first one
-                                    wikidataLink = (
-                                        queryDF.loc[(queryDF.itemLabel == label)]
-                                    ).values[0, 0]
-                                else:
-                                    # get link from dataframe
-                                    wikidataLink = queryDF.loc[
-                                        (queryDF.itemLabel == label)
-                                    ].item.item()
+                                    # get wikidata link and check if there are more than one link
+                                    if queryDF.loc[(queryDF.itemLabel == label)].item.shape[0] > 1:
+                                        # if there are more than one link, choose the first one
+                                        wikidataLink = (queryDF.loc[(queryDF.itemLabel == label)]).values[
+                                            0, 0
+                                        ]
+                                    else:
+                                        # get link from dataframe
+                                        wikidataLink = queryDF.loc[(queryDF.itemLabel == label)].item.item()
 
-                                # add link to dict
-                                possibleMatchAndLink[label] = wikidataLink
+                                    # add link to dict
+                                    possibleMatchAndLink[label] = wikidataLink
 
-                        # make sure that there are matches in the list
-                        if len(possibleMatch) > 0:
-                            # print("[INFO] possibleMatch: " + str(possibleMatch))
-                            # get the label with the highest fuzz.ratio
-                            bestMatch = process.extractOne(firstWord, possibleMatch)
-                            # print(
-                            #     "[INFO] firstWord "
-                            #     + firstWord
-                            #     + " | bestMatch: "
-                            #     + str(bestMatch)
-                            # )
+                            # make sure that there are matches in the list
+                            if len(possibleMatch) > 0:
+                                print("[INFO] possibleMatch: " + str(possibleMatch))
+                                # get the label with the highest fuzz.ratio
+                                bestMatch = process.extractOne(firstWord, possibleMatch)
+                                print("[INFO] firstWord: " + firstWord + " | bestMatch: " + str(bestMatch))
 
-                            # write the best match to file
-                            if boolWriteToFile:
-                                writeToFile.write(
-                                    "Word: "
-                                    + firstWord
-                                    + " | Label: "
-                                    + str(bestMatch[0])
-                                    + " | Link: "
-                                    + str(possibleMatchAndLink[bestMatch[0]])
-                                    + " | "
-                                    + str(fuzz.ratio(firstWord, bestMatch[0]))
-                                    + "\n"
+                                # write the best match to file
+                                if boolWriteToFile:
+                                    writeToFile.write(
+                                        "Word: "
+                                        + firstWord
+                                        + " | Label: "
+                                        + str(bestMatch[0])
+                                        + " | Link: "
+                                        + str(possibleMatchAndLink[bestMatch[0]])
+                                        + " | "
+                                        + str(fuzz.ratio(firstWord, bestMatch[0]))
+                                        + "\n"
+                                    )
+
+                                # store best match
+                                tempBestMatch.append(
+                                    firstWord + " " + str(possibleMatchAndLink[bestMatch[0]])
                                 )
-
-                            # store best match
-                            tempBestMatch.append(
-                                firstWord
-                                + " "
-                                + str(possibleMatchAndLink[bestMatch[0]])
-                            )
 
             # remove duplicates
             tempBestMatchDistinct = [*set(tempBestMatch)]
