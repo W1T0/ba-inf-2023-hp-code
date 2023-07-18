@@ -1,42 +1,43 @@
-Gott 		https://www.wikidata.org/wiki/Q190
-
-Neustadt 	https://www.wikidata.org/wiki/Q986984
-
-merika		https://www.wikidata.org/wiki/Q30
-
-Dotter 		http://www.wikidata.org/entity/Q181409
-
-himmel		https://www.wikidata.org/wiki/Q4489450
 
 
+food
+	brot		https://www.wikidata.org/wiki/Q7802
+	roggen		https://www.wikidata.org/wiki/Q61670635
+	Waldmeister	https://www.wikidata.org/wiki/Q161090
+	Kaffee		https://www.wikidata.org/wiki/Q8486
+	Tabak		https://www.wikidata.org/wiki/Q1566
+	Tierfutter	https://www.wikidata.org/wiki/Q2836947
+	Obst		https://www.wikidata.org/wiki/Q3314483
+	Apfel		https://www.wikidata.org/wiki/Q89
+	Pfeffer		https://www.wikidata.org/wiki/Q3143131
+	Rauchfleisch	https://www.wikidata.org/wiki/Q1682434
 
-query food
-brot
-roggen
-https://www.wikidata.org/wiki/Q161090
-https://www.wikidata.org/wiki/Q980
-https://www.wikidata.org/wiki/Q504051
-https://www.wikidata.org/wiki/Q39864
-https://www.wikidata.org/wiki/Q815721
-langenbrück
-amen
-https://www.wikidata.org/wiki/Q8486
-https://www.wikidata.org/wiki/Q1718
-https://www.wikidata.org/wiki/Q2749
-https://www.wikidata.org/wiki/Q1566
-https://www.wikidata.org/wiki/Q642420
-https://www.wikidata.org/wiki/Q2836947
-https://www.wikidata.org/wiki/Q3314483
-https://www.wikidata.org/wiki/Q19809
-https://www.wikidata.org/wiki/Q89
-https://www.wikidata.org/wiki/Q3143131
-schlesien https://www.wikidata.org/wiki/Q81720
-https://www.wikidata.org/wiki/Q81011
-https://www.wikidata.org/wiki/Q36
-https://www.wikidata.org/wiki/Q1682434
-strelitz
-https://www.wikidata.org/wiki/Q29182
-https://www.wikidata.org/wiki/Q60797
+
+religion
+	amen
+	Pfingsten	https://www.wikidata.org/wiki/Q39864
+	Christus	https://www.wikidata.org/wiki/Q642420
+	Weihnachten	https://www.wikidata.org/wiki/Q19809
+	Bischof		https://www.wikidata.org/wiki/Q29182
+	Predigt		https://www.wikidata.org/wiki/Q60797
+
+locations
+	strelitz
+	langenbrück
+	Schlesien 	https://www.wikidata.org/wiki/Q81720
+	Bayern 		https://www.wikidata.org/wiki/Q980
+	Nebra 		https://www.wikidata.org/wiki/Q504051
+	Nysa/Neisse	https://www.wikidata.org/wiki/Q815721
+	Düsseldorf	https://www.wikidata.org/wiki/Q1718
+	Augsburg	https://www.wikidata.org/wiki/Q2749
+	Oberschlesien	https://www.wikidata.org/wiki/Q81011
+	Poland		https://www.wikidata.org/wiki/Q36
+	Friedrichshafen	https://www.wikidata.org/wiki/Q4051
+	Bodensee	https://www.wikidata.org/wiki/Q579011
+	Meersburg	https://www.wikidata.org/wiki/Q498212
+	Konstanz	https://www.wikidata.org/wiki/Q3834
+	England		https://www.wikidata.org/wiki/Q21
+
 
 chnaged to O
 festtag

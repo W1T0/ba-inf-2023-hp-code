@@ -1,6 +1,6 @@
 import os
 import B_get2OverlapEntitiesFromNEROutput
-import B_extractAllWithWikidata
+import B_queryRunner
 import B_replaceSpecialCharacters
 import B_wikidataSPARQLQuery
 
@@ -23,7 +23,7 @@ def run(
     print(entities2Overlap)
 
     # extract entities from wikidata and save them
-    wikidataEntites = B_extractAllWithWikidata.run()
+    wikidataEntites = B_queryRunner.run()
     religionEntities = wikidataEntites[0]
     foodEntities = wikidataEntites[1]
 

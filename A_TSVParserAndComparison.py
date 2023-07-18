@@ -41,12 +41,12 @@ output2Overlap = "./HIPE-scorer-input/output" + str(8) + "/output-tsv-2overlap/"
 #     "-sequenceTagging" + "_bundle1_hipe2020_de_1",
 # )
 
-# print("[INFO] Run TSV Parser 2 Overlap")
-# B_TSVParser2Overlap.run(
-#     [outputFlair, outputGermaNER, outputS_T],
-#     "./TokenizedLetters/",  # "./TokenizedLetters/"
-#     output2Overlap,
-# )
+print("[INFO] Run TSV Parser 2 Overlap")
+B_TSVParser2Overlap.run(
+    [outputFlair, outputGermaNER, outputS_T],
+    "./TokenizedLetters/test/",  # "./TokenizedLetters/"
+    output2Overlap,
+)
 
-print("[INFO] Compare TSV")
-B_compareAnnotationToTSV.run([outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap])
+# print("[INFO] Compare TSV")
+# B_compareAnnotationToTSV.run([outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap])
