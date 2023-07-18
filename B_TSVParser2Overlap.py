@@ -153,25 +153,32 @@ def run(
                                     + """'@de }
                                         ?item rdfs:label|skos:altLabel ?itemLabel .
                                         {
-                                            SELECT ?item WHERE 
-                                            {      
+                                            SELECT ?item WHERE {      
                                             { ?item wdt:P31 wd:Q6256 } # country
-                                                UNION
+                                            UNION
                                             { ?item wdt:P31 wd:Q3624078} # sovereign state
-                                                UNION
+                                            UNION
                                             { ?item wdt:P31 wd:Q15334 } # municipality of Poland
-                                                UNION
+                                            UNION
                                             { ?item wdt:P31 wd:Q515 } # city
-                                                UNION
+                                            UNION
                                             { ?item wdt:P31 wd:Q5119 } # capital city
-                                                UNION
+                                            UNION
                                             { ?item wdt:P31 wd:Q1549591 } # big city
-                                                UNION
-                                            { ?item wdt:P31 wd:Q1093829 } # city in the United States }         
-                                                UNION
+                                            UNION
+                                            { ?item wdt:P31 wd:Q1093829 } # city in the United States         
+                                            UNION
                                             { ?item wdt:P31 wd:Q15974307 } # administrative unit of Germany
-                                                UNION
-                                            { ?item wdt:P31 wd:Q42744322 } # urban municipality of Germany (Stadt in Deutschland)
+                                            UNION
+                                            { ?item wdt:P31 wd:Q42744322 } # urban municipality of Germany 
+                                            UNION
+                                            { ?item wdt:P31 wd:Q116457956 } # non-urban municipality in Germany
+                                            UNION
+                                            { ?item wdt:P31 wd:Q1221156 } # federated state of Germany
+                                            UNION
+                                            { ?item wdt:P31 wd:Q82794 } # geographic region
+                                            UNION
+                                            { ?item wdt:P31 wd:Q1620908 } # historical region
                                             }
                                         }
                                     }
