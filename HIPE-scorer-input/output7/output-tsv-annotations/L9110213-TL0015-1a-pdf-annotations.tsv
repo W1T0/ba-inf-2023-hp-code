@@ -80,7 +80,7 @@ war	O	O	O	O	O	O	_	_	_
 mein	O	O	O	O	O	O	_	_	_
 Onkel	B-PER	O	O	O	O	O	_	_	_
 aus	O	O	O	O	O	O	_	_	_
-Nebra	B-LOC	O	O	O	O	O	_	_	_
+Nebra	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q504051	_	_
 ka	I-LOC	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 Besuch	O	O	O	O	O	O	_	_	_

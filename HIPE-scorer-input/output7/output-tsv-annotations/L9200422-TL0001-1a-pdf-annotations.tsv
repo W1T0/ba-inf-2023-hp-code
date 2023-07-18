@@ -13,7 +13,7 @@ Berthold	B-PER	O	O	O	O	O	_	_	_
 bestimmt	O	O	O	O	O	O	_	_	_
 war	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
-Kaffee	B-OTH	O	O	O	O	O	_	_	_
+Kaffee	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q8486	_	_
 war	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 da	O	O	O	O	O	O	_	_	_
@@ -22,7 +22,7 @@ wundere	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 dessen	O	O	O	O	O	O	_	_	_
 guten	O	O	O	O	O	O	_	_	_
-Kaffee	B-OTH	O	O	O	O	O	_	_	_
+Kaffee	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q8486	_	_
 gelassen	O	O	O	O	O	O	_	_	_
 haben	O	O	O	O	O	O	_	_	_
 aber	O	O	O	O	O	O	_	_	_
@@ -56,7 +56,7 @@ Petit	O	O	O	O	O	O	_	_	_
 Kleides	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 etwas	O	O	O	O	O	O	_	_	_
-Futter	B-OTH	O	O	O	O	O	_	_	_
+Futter	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q2836947	_	_
 zweien	O	O	O	O	O	O	_	_	_
 Leibchen	O	O	O	O	O	O	_	_	_
 sie	O	O	O	O	O	O	_	_	_
@@ -109,7 +109,7 @@ Mark	O	O	O	O	O	O	_	_	_
 Gelobt	O	O	O	O	O	O	_	_	_
 sei	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
-Christus	B-OTH	O	O	O	O	O	_	_	_
+Christus	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q642420	_	_
 B	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 7	O	O	O	O	O	O	_	_	_
@@ -148,7 +148,7 @@ Brief	O	O	O	O	O	O	_	_	_
 hatte	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 an	O	O	O	O	O	O	_	_	_
-Ostern	B-OTH	O	O	O	O	O	_	_	_
+Ostern	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q21196	_	_
 weggeschickt	O	O	O	O	O	O	_	_	_
 wo	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_

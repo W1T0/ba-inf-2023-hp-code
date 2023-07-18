@@ -42,7 +42,7 @@ des	O	O	O	O	O	O	_	_	_
 Wahl	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
 Kreise	O	O	O	O	O	O	_	_	_
-Neustadt	B-LOC	O	O	O	O	O	_	_	_
+Neustadt	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q986984	_	_
 lesen	O	O	O	O	O	O	_	_	_
 In	O	O	O	O	O	O	_	_	_
 einigen	O	O	O	O	O	O	_	_	_
@@ -77,13 +77,13 @@ in	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 Nähe	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
-München	B-LOC	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q1726	_	_
 verhaftet	O	O	O	O	O	O	_	_	_
 worden	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Leipzig	B-LOC	O	O	O	O	O	_	_	_
+Leipzig	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q2079	_	_
 im	O	O	O	O	O	O	_	_	_
 Gefängnis	O	O	O	O	O	O	_	_	_
 besonders	O	O	O	O	O	O	_	_	_
@@ -102,7 +102,7 @@ wieder	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 Neues	O	O	O	O	O	O	_	_	_
 In	O	O	O	O	O	O	_	_	_
-Italien	B-LOC	O	O	O	O	O	_	_	_
+Italien	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q38	_	_
 haben	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Faszisten	O	O	O	O	O	O	_	_	_
@@ -149,7 +149,7 @@ dabei	O	O	O	O	O	O	_	_	_
 daß	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Rom	B-LOC	O	O	O	O	O	_	_	_
+Rom	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q220	_	_
 allein	O	O	O	O	O	O	_	_	_
 achtzig	O	O	O	O	O	O	_	_	_
 Johe	O	O	O	O	O	O	_	_	_
@@ -168,9 +168,9 @@ auch	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Nationalsozialisten	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Bayern	B-LOC	O	O	O	O	O	_	_	_
+Bayern	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q980	_	_
 besonders	O	O	O	O	O	O	_	_	_
-München	B-LOC	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q1726	_	_
 wieder	O	O	O	O	O	O	_	_	_
 Mut	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
@@ -184,7 +184,7 @@ wieder	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 Umsturz	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Bayern	B-LOC	O	O	O	O	O	_	_	_
+Bayern	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q980	_	_
 befürchtet	O	O	O	O	O	O	_	_	_
 Doch	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_

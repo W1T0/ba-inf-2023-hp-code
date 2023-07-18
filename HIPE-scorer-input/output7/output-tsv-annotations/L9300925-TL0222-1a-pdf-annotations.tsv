@@ -35,13 +35,13 @@ ganze	O	O	O	O	O	O	_	_	_
 Arbeitslosigkeit	O	O	O	O	O	O	_	_	_
 eine	O	O	O	O	O	O	_	_	_
 Weltkeise	O	O	O	O	O	O	_	_	_
-England	B-LOC	O	O	O	O	O	_	_	_
+England	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q21	_	_
 hat	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
 Millionen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
-Amerika	B-LOC	O	O	O	O	O	_	_	_
+Amerika	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q30	_	_
 schreiben	O	O	O	O	O	O	_	_	_
 unsere	O	O	O	O	O	O	_	_	_
 Zeitungen	O	O	O	O	O	O	_	_	_
@@ -53,7 +53,7 @@ ist	O	O	O	O	O	O	_	_	_
 zur	O	O	O	O	O	O	_	_	_
 Zeit	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-München	B-LOC	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q1726	_	_
 und	O	O	O	O	O	O	_	_	_
 besucht	O	O	O	O	O	O	_	_	_
 Ende	O	O	O	O	O	O	_	_	_
@@ -123,7 +123,7 @@ kann	O	O	O	O	O	O	_	_	_
 doch	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 kommen	O	O	O	O	O	O	_	_	_
-München	B-LOC	O	O	O	O	O	_	_	_
+München	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q1726	_	_
 den	O	O	O	O	O	O	_	_	_
 23	O	O	O	O	O	O	_	_	_
 Sept	O	O	O	O	O	O	_	_	_

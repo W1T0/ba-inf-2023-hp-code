@@ -23,7 +23,7 @@ Brief	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 Dir	O	O	O	O	O	O	_	_	_
-Ostern	B-OTH	O	O	O	O	O	_	_	_
+Ostern	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q21196	_	_
 schrieb	O	O	O	O	O	O	_	_	_
 erhalten	O	O	O	O	O	O	_	_	_
 Da	O	O	O	O	O	O	_	_	_
@@ -111,7 +111,7 @@ der	O	O	O	O	O	O	_	_	_
 lb	O	O	O	O	O	O	_	_	_
 Pante	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Amerika	B-LOC	O	O	O	O	O	_	_	_
+Amerika	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q30	_	_
 schreiben	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 dürfen	O	O	O	O	O	O	_	_	_
@@ -176,12 +176,12 @@ sorge	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 hl	O	O	O	O	O	O	_	_	_
-Weihnachtsfest	B-OTH	O	O	O	O	O	_	_	_
+Weihnachtsfest	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q19809	_	_
 treffen	O	O	O	O	O	O	_	_	_
 damit	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 lb	O	O	O	O	O	O	_	_	_
-Christkind	B-OTH	O	O	O	O	O	_	_	_
+Christkind	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q642420	_	_
 allen	O	O	O	O	O	O	_	_	_
 wenn	O	O	O	O	O	O	_	_	_
 auch	O	O	O	O	O	O	_	_	_
@@ -266,7 +266,7 @@ Oberschlesischen	O	O	O	O	O	O	_	_	_
 Be	O	O	O	O	O	O	_	_	_
 völkerung	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
-Deutschland	B-LOC	O	O	O	O	O	_	_	_
+Deutschland	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q183	_	_
 gestimmt	O	O	O	O	O	O	_	_	_
 Wenn	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
@@ -279,7 +279,7 @@ wäre	O	O	O	O	O	O	_	_	_
 damit	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
-OberSchlesiens	B-LOC	O	O	O	O	O	_	_	_
+OberSchlesiens	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q81011	_	_
 entschieden	O	O	O	O	O	O	_	_	_
 gewesen	O	O	O	O	O	O	_	_	_
 Aber	O	O	O	O	O	O	_	_	_
@@ -289,7 +289,7 @@ Franzosen	O	O	O	O	O	O	_	_	_
 verhetzt	O	O	O	O	O	O	_	_	_
 suchen	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Polen	B-LOC	O	O	O	O	O	_	_	_
+Polen	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q36	_	_
 jetzt	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
@@ -356,7 +356,7 @@ hört	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 man	O	O	O	O	O	O	_	_	_
 an	O	O	O	O	O	O	_	_	_
-Deutschland	B-LOC	O	O	O	O	O	_	_	_
+Deutschland	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q183	_	_
 stellt	O	O	O	O	O	O	_	_	_
 daß	O	O	O	O	O	O	_	_	_
 sie	O	O	O	O	O	O	_	_	_
@@ -381,7 +381,7 @@ meine	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 Geschwister	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Amerika	B-LOC	O	O	O	O	O	_	_	_
+Amerika	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q30	_	_
 so	O	O	O	O	O	O	_	_	_
 wohl	O	O	O	O	O	O	_	_	_
 geborgen	O	O	O	O	O	O	_	_	_
@@ -484,10 +484,10 @@ Neffen	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
 Nichten	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Amerika	B-LOC	O	O	O	O	O	_	_	_
+Amerika	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q30	_	_
 kennen	O	O	O	O	O	O	_	_	_
 Im	O	O	O	O	O	O	_	_	_
-Gebete	B-OTH	O	O	O	O	O	_	_	_
+Gebete	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q40953	_	_
 denke	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 oft	O	O	O	O	O	O	_	_	_
@@ -497,7 +497,7 @@ möge	O	O	O	O	O	O	_	_	_
 Euch	O	O	O	O	O	O	_	_	_
 alle	O	O	O	O	O	O	_	_	_
 daselb	O	O	O	O	O	O	_	_	_
-Gott	B-OTH	O	O	O	O	O	_	_	_
+Gott	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q190	_	_
 sey	O	O	O	O	O	O	_	_	_
 nen	O	O	O	O	O	O	_	_	_
 u	O	O	O	O	O	O	_	_	_
@@ -524,7 +524,7 @@ auch	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 schöne	O	O	O	O	O	O	_	_	_
-Rauchflisch	B-OTH	O	O	O	O	O	_	_	_
+Rauchflisch	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q1682434	_	_
 das	O	O	O	O	O	O	_	_	_
 Du	O	O	O	O	O	O	_	_	_
 lb	O	O	O	O	O	O	_	_	_

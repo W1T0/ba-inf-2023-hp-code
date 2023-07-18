@@ -67,10 +67,10 @@ fort	O	O	O	O	O	O	_	_	_
 wohnen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Butter	B-OTH	O	O	O	O	O	_	_	_
+Butter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 sich	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Gebett	B-OTH	O	O	O	O	O	_	_	_
+Gebett	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q40953	_	_
 nicht	O	O	O	O	O	O	_	_	_
 allein	O	O	O	O	O	O	_	_	_
 machen	O	O	O	O	O	O	_	_	_
@@ -185,7 +185,7 @@ thut	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
-Seele	B-OTH	O	O	O	O	O	_	_	_
+Seele	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q9165	_	_
 leid	O	O	O	O	O	O	_	_	_
 wenn	O	O	O	O	O	O	_	_	_
 ver	O	O	O	O	O	O	_	_	_
@@ -194,7 +194,7 @@ sehr	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Butter	B-OTH	O	O	O	O	O	_	_	_
+Butter	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34172	_	_
 anher	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
@@ -216,11 +216,11 @@ leid	O	O	O	O	O	O	_	_	_
 um	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Toffe	O	O	O	O	O	O	_	_	_
-Kaffe	B-OTH	O	O	O	O	O	_	_	_
+Kaffe	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q8486	_	_
 die	O	O	O	O	O	O	_	_	_
 uns	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Stutter	B-OTH	O	O	O	O	O	_	_	_
+Stutter	O	O	O	O	O	O	_	_	_
 gab	O	O	O	O	O	O	_	_	_
 wenn	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_

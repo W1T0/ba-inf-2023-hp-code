@@ -88,7 +88,7 @@ bleibt	O	O	O	O	O	O	_	_	_
 er	O	O	O	O	O	O	_	_	_
 wür	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Deutschland	B-LOC	O	O	O	O	O	_	_	_
+Deutschland	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q183	_	_
 Labe	O	O	O	O	O	O	_	_	_
 Sitte	O	O	O	O	O	O	_	_	_
 las	O	O	O	O	O	O	_	_	_

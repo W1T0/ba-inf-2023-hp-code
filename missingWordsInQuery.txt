@@ -1,0 +1,44 @@
+Gott 		https://www.wikidata.org/wiki/Q190
+
+Neustadt 	https://www.wikidata.org/wiki/Q986984
+
+merika		https://www.wikidata.org/wiki/Q30
+
+Dotter 		http://www.wikidata.org/entity/Q181409
+
+himmel		https://www.wikidata.org/wiki/Q4489450
+
+
+
+query food
+brot
+roggen
+https://www.wikidata.org/wiki/Q161090
+https://www.wikidata.org/wiki/Q980
+https://www.wikidata.org/wiki/Q504051
+https://www.wikidata.org/wiki/Q39864
+https://www.wikidata.org/wiki/Q815721
+langenbrück
+amen
+https://www.wikidata.org/wiki/Q8486
+https://www.wikidata.org/wiki/Q1718
+https://www.wikidata.org/wiki/Q2749
+https://www.wikidata.org/wiki/Q1566
+https://www.wikidata.org/wiki/Q642420
+https://www.wikidata.org/wiki/Q2836947
+https://www.wikidata.org/wiki/Q3314483
+https://www.wikidata.org/wiki/Q19809
+https://www.wikidata.org/wiki/Q89
+https://www.wikidata.org/wiki/Q3143131
+schlesien https://www.wikidata.org/wiki/Q81720
+https://www.wikidata.org/wiki/Q81011
+https://www.wikidata.org/wiki/Q36
+https://www.wikidata.org/wiki/Q1682434
+strelitz
+https://www.wikidata.org/wiki/Q29182
+https://www.wikidata.org/wiki/Q60797
+
+chnaged to O
+festtag
+geislers
+stutter

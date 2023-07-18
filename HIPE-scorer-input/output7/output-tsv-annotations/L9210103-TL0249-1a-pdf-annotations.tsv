@@ -1,7 +1,7 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
 der	O	O	O	O	O	O	_	_	_
 liebe	O	O	O	O	O	O	_	_	_
-Gott	B-OTH	O	O	O	O	O	_	_	_
+Gott	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q190	_	_
 daß	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
@@ -11,13 +11,13 @@ Hedwig	B-PER	O	O	O	O	O	_	_	_
 schickte	O	O	O	O	O	O	_	_	_
 mir	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
-Weihnachts	B-OTH	O	O	O	O	O	_	_	_
+Weihnachts	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q19809	_	_
 paket	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Kirchen	B-OTH	O	O	O	O	O	_	_	_
-Äpfel	B-OTH	O	O	O	O	O	_	_	_
+Kirchen	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q34651	_	_
+Äpfel	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q89	_	_
 und	O	O	O	O	O	O	_	_	_
-Pfefferung	B-OTH	O	O	O	O	O	_	_	_
+Pfefferung	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q3143131	_	_
 was	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 sehr	O	O	O	O	O	O	_	_	_
@@ -33,7 +33,7 @@ Mohnabe	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 nur	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
-Schlesien	B-LOC	O	O	O	O	O	_	_	_
+Schlesien	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q81720	_	_
 so	O	O	O	O	O	O	_	_	_
 gut	O	O	O	O	O	O	_	_	_
 gebacken	O	O	O	O	O	O	_	_	_

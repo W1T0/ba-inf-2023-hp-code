@@ -1,5 +1,5 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
-Berlin	B-LOC	O	O	O	O	O	_	_	_
+Berlin	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q64	_	_
 den	O	O	O	O	O	O	_	_	_
 10	O	O	O	O	O	O	_	_	_
 Nov	O	O	O	O	O	O	_	_	_
@@ -104,10 +104,10 @@ Woche	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
 Körbchen	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Obst	B-OTH	O	O	O	O	O	_	_	_
-Brot	B-OTH	O	O	O	O	O	_	_	_
+Obst	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q3314483	_	_
+Brot	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q7802	_	_
 und	O	O	O	O	O	O	_	_	_
-Butter	B-OTH	O	O	O	O	O	_	_	_
+Butter	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q34172	_	_
 was	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 sehr	O	O	O	O	O	O	_	_	_
@@ -143,13 +143,13 @@ Der	O	O	O	O	O	O	_	_	_
 neue	O	O	O	O	O	O	_	_	_
 Präsident	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Amerika	B-LOC	O	O	O	O	O	_	_	_
+Amerika	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q30	_	_
 wird	O	O	O	O	O	O	_	_	_
 wohl	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 Frieden	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Deutschland	B-LOC	O	O	O	O	O	_	_	_
+Deutschland	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q183	_	_
 schließen	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 glaub	O	O	O	O	O	O	_	_	_
