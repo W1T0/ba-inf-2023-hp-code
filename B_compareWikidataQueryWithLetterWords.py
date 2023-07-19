@@ -19,7 +19,6 @@ def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFi
     # run query and save as dataframe
     data_extracter = B_wikidataSPARQLQuery.WikiDataQueryResults(query)
     queryDF = data_extracter.load_as_dataframe()
-    print("[INFO] Query ran")
 
     # open file to write to
     if boolWriteToFile:

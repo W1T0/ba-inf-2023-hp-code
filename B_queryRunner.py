@@ -38,8 +38,6 @@ def run():
           { ?item wdt:P31*|wdt:P279*|wdt:P1269*|wdt:P361*|wdt:P463* wd:Q34651 }      # -""- : christian church
         UNION 
           { ?item wdt:P31*|wdt:P279*|wdt:P1269*|wdt:P361*|wdt:P463* wd:Q5043 }       # -""- : christianity
-        UNION
-          { ?item wdt:P31*|wdt:P279*|wdt:P1269*|wdt:P361*|wdt:P463* wd:Q34651 }      # -""- : christian Church 
 
         SERVICE wikibase:label { bd:serviceParam wikibase:language "de". }
         }
