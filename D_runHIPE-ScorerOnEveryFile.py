@@ -3,19 +3,21 @@ import clef_evaluation
 
 # maybe before run compareAnnotationToTSV
 
+version = 11
+
 directories = [
-    "./HIPE-scorer-output/output3/output-tsv-annotations/",
-    "./HIPE-scorer-output/output3/output-tsv-flair-ner-german/",
-    "./HIPE-scorer-output/output3/output-tsv-germaNER/",
-    "./HIPE-scorer-output/output3/output-tsv-sequence_tagging/",
-    "./HIPE-scorer-output/output3/output-tsv-2overlap/",
+    "./HIPE-scorer-output/output"+str(version)+"/output-tsv-annotations/",
+    "./HIPE-scorer-output/output"+str(version)+"/output-tsv-flair-ner-german/",
+    "./HIPE-scorer-output/output"+str(version)+"/output-tsv-germaNER/",
+    "./HIPE-scorer-output/output"+str(version)+"/output-tsv-sequence_tagging/",
+    "./HIPE-scorer-output/output"+str(version)+"/output-tsv-2overlap/",
 ]
 
 outputDirectory = [
-    "./HIPE-results/output-hipe-flair-ner-german/",
-    "./HIPE-results/output-hipe-germaNER/",
-    "./HIPE-results/output-hipe-sequence_tagging/",
-    "./HIPE-results/output-hipe-2overlap/",
+    "./HIPE-results/output"+str(version)+"/output-hipe-flair-ner-german/",
+    "./HIPE-results/output"+str(version)+"/output-hipe-germaNER/",
+    "./HIPE-results/output"+str(version)+"/output-hipe-sequence_tagging/",
+    "./HIPE-results/output"+str(version)+"/output-hipe-2overlap/",
 ]
 
 # [0]: annotations, [1]:flair-ner-german, [2]:germaNER, [3]:sequence_tagging, [4]:2overlap
@@ -40,6 +42,7 @@ files[4].sort()
 if len(files[0]) == len(files[1]) == len(files[2]) == len(files[3]) == len(files[4]):
     # let the HIPE-scorer run on every NER file with the corresponding annotation
     for i in range(4):
+        print("[INFO] Directory: " + directories[i+1])
         count = 0
         for j in range(30):
             # get the prediction (flair-ner-german, germaNER, sequence_tagging, 2overlap) and the gold (annotation)
@@ -56,6 +59,7 @@ if len(files[0]) == len(files[1]) == len(files[2]) == len(files[3]) == len(files
             # get only the original filename to compare
             orgFilenamePred = pred.split("/")[4][0:22]
             orgFilenameGold = gold.split("/")[4][0:22]
+
 
             # check if the filenames are the same (and consequently the files)
             if orgFilenameGold == orgFilenamePred:

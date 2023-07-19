@@ -48,6 +48,49 @@ def run():
     }
     """
 
+    """
+        SELECT ?item ?itemLabel ?offName {
+      {
+      SELECT ?item ?itemLabel WHERE {
+          { ?item wdt:P463 wd:Q34651 } # member of | christian church
+        UNION
+          { ?item wdt:P361 wd:Q5043 } # part of | christianity
+        UNION
+          { ?item wdt:P31 wd:Q63187345 } # is | religious occupation
+        UNION
+          { ?item wdt:P31 wd:Q34651 } # is | Christian Church 
+        UNION
+          { ?item wdt:P31 wd:Q23847174 } # is | religious concept 
+        UNION
+          { ?item wdt:P361 wd:Q9174 } # part of | religion 
+        UNION
+          { ?item wdt:P31 wd:Q1530022 } # is | religious organization (Glaubensgemeinschaft)
+        UNION
+          { ?item wdt:P1269 wd:Q9174 } # facet of | religion 
+        UNION
+          { ?item wdt:P31 wd:Q24398318 } # is | religious  building 
+        UNION
+          { ?item wdt:P279 wd:Q24398318 } # subclass of | religious  building 
+        UNION
+          { ?item wdt:P31 wd:Q21029893 } # is | religious object 
+        UNION
+          { ?item wdt:P279 wd:Q21029893 } # subclass of | religious object 
+        UNION
+          { ?item wdt:P31 wd:Q1370598 } # is | structure of worship
+        UNION
+          { ?item wdt:P31 wd:Q105889895 } # is | religious site
+        UNION
+          { ?item wdt:P361 wd:Q1539016 } # part of | Christian worship
+        UNION
+          { ?item wdt:P31 wd:Q60075825 } # is | Christian worship
+
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "de". }
+        }
+      }
+      FILTER lang(?itemLabel) # removes item that have no label 
+    }
+    """
+
     # food query
     queryFood = """
     SELECT ?item ?itemLabel {
@@ -75,6 +118,39 @@ def run():
       
         SERVICE wikibase:label { bd:serviceParam wikibase:language "de". }
         }
+      }
+      FILTER lang(?itemLabel) # removes item that have no label 
+    }
+    """
+
+    """
+     SELECT ?item ?itemLabel {
+      {
+      SELECT ?item ?itemLabel WHERE {
+      { ?item wdt:P31 wd:Q2095 } # is food (Nahrung)
+      UNION
+      { ?item wdt:P279 wd:Q2095 } # subclass food (Nahrung)
+      UNION
+      { ?item wdt:P31 wd:Q951964 } # is food product (Nahrungsmittel)
+      UNION
+      { ?item wdt:P31 wd:Q25403900 } # is food ingredient (Lebensmittelzutat)
+      UNION
+      { ?item wdt:P31 wd:Q19861951 } # is type of food or dish (Art eines Lebensmittels oder Gerichts)
+      UNION
+      { ?item wdt:P31 wd:Q736427 } # is staple food (Grundnahrungsmittel)
+      UNION
+      { ?item wdt:P31 wd:Q185217 } # is dairy product (Milcherzeugnis)
+      UNION
+      { ?item wdt:P31 wd:Q26856857 } # is products of the meat, dairy, fish, flour and cereal, feed and microbiological industries
+      UNION
+      { ?item wdt:P279 wd:Q27908772 } # is margarine and similar edible fats (Margarine und ähnliche Speisefette)
+      UNION
+      { ?item wdt:P279 wd:Q3314483 } # is fruit (Obst)
+      UNION
+      { ?item wdt:P31 wd:Q1364} # is fruit (Frucht)
+
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "de". }
+    }
       }
       FILTER lang(?itemLabel) # removes item that have no label 
     }

@@ -2,18 +2,20 @@ import os
 import numpy as np
 import csv
 
+version = 11
+
 # the directories where the hipe output is stored
 directories = [
     # "./HIPE-scorer/HIPE-results/HIPE-output-test/"
-    "./HIPE-results/output-hipe-4/output-hipe-flair-ner-german/",
-    "./HIPE-results/output-hipe-4/output-hipe-germaNER/",
-    "./HIPE-results/output-hipe-4/output-hipe-sequence_tagging/",
-    "./HIPE-results/output-hipe-4/output-hipe-2overlap/",
+    "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-flair-ner-german/",
+    "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-germaNER/",
+    "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-sequence_tagging/",
+    "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-2overlap/",
 ]
 
 # iterate over directories
 for directory in directories:
-    print(directory)
+    # print(directory)
 
     # Micro: true positive, false positive and false negative overall arrays
     # ALL LOC OTH ORG PER ALL LOC OTH ORG PER
@@ -160,8 +162,6 @@ for directory in directories:
     microPrecision = tpOverall / (tpOverall + fpOverall + 0.000000000000001)
     microRecall = tpOverall / (tpOverall + fnOverall + 0.000000000000001)
     microf1 = 2 * ((microPrecision * microRecall) / (microPrecision + microRecall + 0.000000000000001))
-
-    version = 5
 
     # open file to write into
     writeToFile = open(
