@@ -9,6 +9,7 @@ def run(
     directories,
     directoryPath,
     outputPath,
+    outputPathFoodReligion,
 ):
     """
     Creates a TSV file for the 2 Overlap output in a format the HIPE-scorer accepts.
@@ -16,6 +17,7 @@ def run(
     directories: A list of the directories that store the output of the NER-systems.
     directoryPath: The path of the directory where the tokenized letters are stored in.
     outputPath: The path of the directory where the output should be stored in.
+    outputPathFoodReligion: The path of the directory where the output for the food and religion evaluation should be stored in.
     """
 
     # generate 2 Overlap entities and save them
@@ -72,13 +74,28 @@ def run(
                 "a",
                 encoding="utf-8",
             )
-            # print("[INFO] opened output file")
+
+            # create folder if it does not exist
+            if not os.path.exists(outputPathFoodReligion):
+                os.makedirs(outputPathFoodReligion)
+
+            # open file to write into for food and religion evaluation
+            writeToFileFoodReligion = open(
+                outputPathFoodReligion
+                + filename.replace(".txt", "").replace("_", "-")
+                + "-2Overlap"
+                + "_food_and_religion_eval"
+                + ".tsv",
+                "a",
+                encoding="utf-8",
+            )
 
             # write first line
             writeToFile.write(
                 "TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC"
                 + "\n"
             )
+            writeToFileFoodReligion.write("TOKEN	NE-COARSE-LIT	FOO-OR-RED	-	-	-	-	NEL-LIT	-	-" + "\n")
 
             # keeps track of the number of entities added
             count = 0
@@ -91,8 +108,8 @@ def run(
                     # save first word of line
                     firstWord = lineSplit[0]
 
-                    # set default predicate and Wikidata Q ID
-                    predicate = "O"
+                    # set default entityType and Wikidata Q ID
+                    entityType = "O"
                     wikidataQID = "_"
 
                     # ignore special characters at the beginning
@@ -114,7 +131,8 @@ def run(
                         # replace special characters
                         firstWordReplaced = B_replaceSpecialCharacters.replace(firstWord)
 
-                        # print(firstWordReplaced)
+                        # create a special entity type to later store food and religion entity types
+                        specialEntityType = "O"
 
                         # iterate over all 2-overlap-entities
                         for entities in entities2Overlap:
@@ -135,15 +153,15 @@ def run(
 
                                         # check for every word if it is an entity
                                         if firstWordReplaced == entityName:
-                                            # set the predicate, if word is an entity
-                                            predicate = entity.split()[1]
+                                            # set the entityType, if word is an entity
+                                            entityType = entity.split()[1]
                                             count += 1
 
-                        # ignore the wikidata linking if predicate is B-PER
-                        if not predicate == "B-PER":
+                        # ignore the wikidata linking if entityType is B-PER
+                        if not entityType == "B-PER":
                             # gets the wikidata link for a entity with a B-LOC entity type
-                            # if prediacte is B-LOC the food and religion query do not have to run, see else below
-                            if predicate == "B-LOC":
+                            # if entityType is B-LOC the food and religion query do not have to run, see else below
+                            if entityType == "B-LOC":
                                 # search for location with wikidata
                                 query = (
                                     """
@@ -195,16 +213,20 @@ def run(
                                         # get wikidata link and check if there are more than one link
                                         if queryDF.loc[(queryDF.itemLabel == label)].item.shape[0] > 1:
                                             # if there are more than one link, choose the first one
-                                            wikidataQID = (queryDF.loc[(queryDF.itemLabel == label)]).values[
-                                                0, 0
-                                            ]
+                                            wikidataQID = (
+                                                (queryDF.loc[(queryDF.itemLabel == label)])
+                                                .values[0, 0]
+                                                .split("/")[-1]
+                                            )
                                         else:
-                                            # get link from dataframe
-                                            wikidataQID = queryDF.loc[
-                                                (queryDF.itemLabel == label)
-                                            ].item.item()
+                                            # get QID from dataframe
+                                            wikidataQID = (
+                                                queryDF.loc[(queryDF.itemLabel == label)]
+                                                .item.item()
+                                                .split("/")[-1]
+                                            )
 
-                            # if prediacte is B-LOC the food and religion query do not have to run
+                            # if entityType is B-LOC the food and religion query do not have to run
                             else:
                                 # iterate over all food entities
                                 for foodEntity in foodEntities:
@@ -220,13 +242,15 @@ def run(
                                                 # ignore PER entities
                                                 if (
                                                     firstWordReplaced == entityName
-                                                    and predicate != "B-PER"
-                                                    and predicate != "I-PER"
+                                                    and entityType != "B-PER"
+                                                    and entityType != "I-PER"
                                                 ):
-                                                    predicate = "B-OTH"
-                                                    wikidataQID = entity.split()[1]
+                                                    entityType = "B-OTH"
+                                                    wikidataQID = entity.split()[1].split("/")[-1]
                                                     # print("FOOD")
                                                     # print(firstWordReplaced, entity.split()[1])
+
+                                                    specialEntityType = "FOOD"
 
                                 # iterate over all location entities
                                 for religionEntity in religionEntities:
@@ -242,20 +266,33 @@ def run(
                                                 # ignore PER entities
                                                 if (
                                                     firstWordReplaced == entityName
-                                                    and predicate != "B-PER"
-                                                    and predicate != "I-PER"
+                                                    and entityType != "B-PER"
+                                                    and entityType != "I-PER"
                                                 ):
-                                                    predicate = "B-OTH"
-                                                    wikidataQID = entity.split()[1]
+                                                    entityType = "B-OTH"
+                                                    wikidataQID = entity.split()[1].split("/")[-1]
                                                     # print("RELIGION")
                                                     # print(firstWordReplaced, entity.split()[1])
 
-                        if predicate != "O":
-                            print(firstWordReplaced, predicate, wikidataQID)
+                                                    specialEntityType = "RELIGION"
 
-                        # write entity and predicate to file
+                        if entityType != "O":
+                            print(firstWordReplaced, entityType, wikidataQID)
+
+                        # write entity and entityType to file
                         writeToFile.write(
-                            firstWordReplaced + "	" + predicate + "	O	O	O	O	O	" + wikidataQID + "	_	_" + "\n"
+                            firstWordReplaced + "	" + entityType + "	O	O	O	O	O	" + wikidataQID + "	_	_" + "\n"
+                        )
+                        writeToFileFoodReligion.write(
+                            firstWordReplaced
+                            + "	"
+                            + entityType
+                            + "	"
+                            + specialEntityType
+                            + "	O	O	O	O	"
+                            + wikidataQID
+                            + "	_	_"
+                            + "\n"
                         )
 
             # check if all entities have been mapped
@@ -266,6 +303,7 @@ def run(
                 print("[ERROR] NOT ALL ENTITIES MAPPED IN " + filename + " (TSV Parser 2 Overlap)")
 
             writeToFile.close()
+            writeToFileFoodReligion.close()
 
             print("[INFO] " + str(fileCount) + " FILES DONE (TSV Parser 2 Overlap)")
 
