@@ -111,7 +111,7 @@ bei	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 Schreibe	O	O	O	O	O	O	_	_	_
 wen	O	O	O	O	O	O	_	_	_
-Neustadt	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q986984	_	_
+Neustadt	B-LOC	O	O	O	O	O	Q986984	_	_
 Schlos	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 3	O	O	O	O	O	O	_	_	_
@@ -180,7 +180,7 @@ Er	O	O	O	O	O	O	_	_	_
 gehen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 über	O	O	O	O	O	O	_	_	_
-Neustadt	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q986984	_	_
+Neustadt	B-LOC	O	O	O	O	O	Q986984	_	_
 5	O	O	O	O	O	O	_	_	_
 An	O	O	O	O	O	O	_	_	_
 Gelegenheiten	O	O	O	O	O	O	_	_	_

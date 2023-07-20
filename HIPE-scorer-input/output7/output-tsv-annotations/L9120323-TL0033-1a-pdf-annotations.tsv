@@ -2,7 +2,7 @@ TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NEST
 soll	O	O	O	O	O	O	_	_	_
 Zur	O	O	O	O	O	O	_	_	_
 hl	O	O	O	O	O	O	_	_	_
-Kommunion	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q1362402	_	_
+Kommunion	B-OTH	O	O	O	O	O	Q1362402	_	_
 gehen	O	O	O	O	O	O	_	_	_
 hier	O	O	O	O	O	O	_	_	_
 auch	O	O	O	O	O	O	_	_	_
@@ -106,7 +106,7 @@ recht	O	O	O	O	O	O	_	_	_
 frohes	O	O	O	O	O	O	_	_	_
 sagend	O	O	O	O	O	O	_	_	_
 reiches	O	O	O	O	O	O	_	_	_
-Osterfehl	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q21196	_	_
+Osterfehl	B-OTH	O	O	O	O	O	Q21196	_	_
 u	O	O	O	O	O	O	_	_	_
 verbleibe	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
@@ -118,7 +118,7 @@ allen	O	O	O	O	O	O	_	_	_
 Ihre	O	O	O	O	O	O	_	_	_
 Marsante	B-PER	O	O	O	O	O	_	_	_
 Rudolph	I-PER	O	O	O	O	O	_	_	_
-Neustadt	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q986984	_	_
+Neustadt	B-LOC	O	O	O	O	O	Q986984	_	_
 1	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 2331912	O	O	O	O	O	O	_	_	_

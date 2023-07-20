@@ -1,7 +1,7 @@
 TOKEN	NE-COARSE-LIT	FOO-OR-RED	-	-	-	-	NEL-LIT	-	-
 mal	O	O	O	O	O	O	_	_	_
 im	O	O	O	O	O	O	_	_	_
-Himmel	B-OTH	RELIGION	O	O	O	O	http://www.wikidata.org/entity/Q4489450	_	_
+Himmel	B-OTH	RELIGION	O	O	O	O	Q4489450	_	_
 wiedersehen	O	O	O	O	O	O	_	_	_
 Wie	O	O	O	O	O	O	_	_	_
 gut	O	O	O	O	O	O	_	_	_
@@ -40,7 +40,7 @@ allen	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 einmal	O	O	O	O	O	O	_	_	_
 herzlich	O	O	O	O	O	O	_	_	_
-Gott	B-OTH	RELIGION	O	O	O	O	https://www.wikidata.org/wiki/Q190	_	_
+Gott	B-OTH	RELIGION	O	O	O	O	Q190	_	_
 vergelts	O	O	O	O	O	O	_	_	_
 sage	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
@@ -82,7 +82,7 @@ Euch	O	O	O	O	O	O	_	_	_
 alle	O	O	O	O	O	O	_	_	_
 dem	O	O	O	O	O	O	_	_	_
 lieben	O	O	O	O	O	O	_	_	_
-Christkindlein	B-OTH	RELIGION	O	O	O	O	https://www.wikidata.org/wiki/Q642420	_	_
+Christkindlein	B-OTH	RELIGION	O	O	O	O	Q642420	_	_
 empfehle	O	O	O	O	O	O	_	_	_
 verbleibe	O	O	O	O	O	O	_	_	_
 Ich	O	O	O	O	O	O	_	_	_
@@ -216,7 +216,7 @@ soll	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 nur	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	_
-Deutschland	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q183	_	_
+Deutschland	B-LOC	O	O	O	O	O	Q183	_	_
 ist	O	O	O	O	O	O	_	_	_
 dem	O	O	O	O	O	O	_	_	_
 Untergang	O	O	O	O	O	O	_	_	_

@@ -96,7 +96,7 @@ es	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
 vielleicht	O	O	O	O	O	O	_	_	_
 beer	O	O	O	O	O	O	_	_	_
-Pittsburg	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q281248	_	_
+Pittsburg	B-LOC	O	O	O	O	O	Q281248	_	_
 den	O	O	O	O	O	O	_	_	_
 21	O	O	O	O	O	O	_	_	_
 April	O	O	O	O	O	O	_	_	_
@@ -143,7 +143,7 @@ du	O	O	O	O	O	O	_	_	_
 deine	O	O	O	O	O	O	_	_	_
 behl	O	O	O	O	O	O	_	_	_
 dabei	O	O	O	O	O	O	_	_	_
-Ostern	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q21196	_	_
+Ostern	B-OTH	O	O	O	O	O	Q21196	_	_
 verbracht	O	O	O	O	O	O	_	_	_
 denen	O	O	O	O	O	O	_	_	_
 Geschwistern	O	O	O	O	O	O	_	_	_

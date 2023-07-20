@@ -87,7 +87,7 @@ immer	O	O	O	O	O	O	_	_	_
 größer	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Lebensmittel	B-OTH	FOOD	O	O	O	O	http://www.wikidata.org/entity/Q8195619	_	_
+Lebensmittel	B-OTH	FOOD	O	O	O	O	Q8195619	_	_
 immer	O	O	O	O	O	O	_	_	_
 sag	O	O	O	O	O	O	_	_	_
 jetzt	O	O	O	O	O	O	_	_	_
@@ -102,10 +102,10 @@ pro	O	O	O	O	O	O	_	_	_
 Woche	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
-Mehl	B-OTH	FOOD	O	O	O	O	http://www.wikidata.org/entity/Q36465	_	_
+Mehl	B-OTH	FOOD	O	O	O	O	Q36465	_	_
 und	O	O	O	O	O	O	_	_	_
 oder	O	O	O	O	O	O	_	_	_
-Brot	B-OTH	FOOD	O	O	O	O	https://www.wikidata.org/wiki/Q7802	_	_
+Brot	B-OTH	FOOD	O	O	O	O	Q7802	_	_
 Ich	O	O	O	O	O	O	_	_	_
 habe	O	O	O	O	O	O	_	_	_
 mir	O	O	O	O	O	O	_	_	_
@@ -115,7 +115,7 @@ der	O	O	O	O	O	O	_	_	_
 Hand	O	O	O	O	O	O	_	_	_
 einen	O	O	O	O	O	O	_	_	_
 Leuter	O	O	O	O	O	O	_	_	_
-Roggen	B-OTH	FOOD	O	O	O	O	https://www.wikidata.org/wiki/Q61670635	_	_
+Roggen	B-OTH	FOOD	O	O	O	O	Q61670635	_	_
 durch	O	O	O	O	O	O	_	_	_
 viele	O	O	O	O	O	O	_	_	_
 Mühe	O	O	O	O	O	O	_	_	_
@@ -133,13 +133,13 @@ nicht	O	O	O	O	O	O	_	_	_
 Hungern	O	O	O	O	O	O	_	_	_
 brauchen	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
-Margarine	B-OTH	FOOD	O	O	O	O	http://www.wikidata.org/entity/Q4287	_	_
-Butter	B-OTH	FOOD	O	O	O	O	https://www.wikidata.org/wiki/Q34172	_	_
+Margarine	B-OTH	FOOD	O	O	O	O	Q4287	_	_
+Butter	B-OTH	FOOD	O	O	O	O	Q34172	_	_
 die	O	O	O	O	O	O	_	_	_
 von	O	O	O	O	O	O	_	_	_
 drüben	O	O	O	O	O	O	_	_	_
 aus	O	O	O	O	O	O	_	_	_
-Amerika	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q30	_	_
+Amerika	B-LOC	O	O	O	O	O	Q30	_	_
 kommt	O	O	O	O	O	O	_	_	_
 müssen	O	O	O	O	O	O	_	_	_
 wir	O	O	O	O	O	O	_	_	_

@@ -99,7 +99,7 @@ allzeit	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 dem	O	O	O	O	O	O	_	_	_
-Gebet	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q40953	_	_
+Gebet	B-OTH	O	O	O	O	O	Q40953	_	_
 in	O	O	O	O	O	O	_	_	_
 wie	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_

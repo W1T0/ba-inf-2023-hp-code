@@ -40,7 +40,7 @@ es	O	O	O	O	O	O	_	_	_
 dir	O	O	O	O	O	O	_	_	_
 ganz	O	O	O	O	O	O	_	_	_
 alleine	O	O	O	O	O	O	_	_	_
-Butter	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q34172	_	_
+Butter	B-OTH	O	O	O	O	O	Q34172	_	_
 sie	O	O	O	O	O	O	_	_	_
 soll	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
@@ -51,7 +51,7 @@ die	O	O	O	O	O	O	_	_	_
 Betten	O	O	O	O	O	O	_	_	_
 viele	O	O	O	O	O	O	_	_	_
 etwas	O	O	O	O	O	O	_	_	_
-Waldmeister	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q161090	_	_
+Waldmeister	B-OTH	O	O	O	O	O	Q161090	_	_
 der	O	O	O	O	O	O	_	_	_
 das	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_

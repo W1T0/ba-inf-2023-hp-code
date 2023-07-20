@@ -180,7 +180,7 @@ da	O	O	O	O	O	O	_	_	_
 man	O	O	O	O	O	O	_	_	_
 diese	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Berlin	B-LOC	O	O	O	O	O	http://www.wikidata.org/entity/Q64	_	_
+Berlin	B-LOC	O	O	O	O	O	Q64	_	_
 nicht	O	O	O	O	O	O	_	_	_
 kennt	O	O	O	O	O	O	_	_	_
 hatte	O	O	O	O	O	O	_	_	_
@@ -222,7 +222,7 @@ Langenbrück	B-LOC	O	O	O	O	O	_	_	_
 einen	O	O	O	O	O	O	_	_	_
 Korb	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
-Obst	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q3314483	_	_
+Obst	B-OTH	O	O	O	O	O	Q3314483	_	_
 worüber	O	O	O	O	O	O	_	_	_
 ich	O	O	O	O	O	O	_	_	_
 mich	O	O	O	O	O	O	_	_	_
@@ -278,6 +278,6 @@ getroffen	O	O	O	O	O	O	_	_	_
 bist	O	O	O	O	O	O	_	_	_
 deine	O	O	O	O	O	O	_	_	_
 Auglein	O	O	O	O	O	O	_	_	_
-Gurken	B-OTH	O	O	O	O	O	http://www.wikidata.org/entity/Q23425	_	_
+Gurken	B-OTH	O	O	O	O	O	Q23425	_	_
 so	O	O	O	O	O	O	_	_	_
 ruhig	O	O	O	O	O	O	_	_	_

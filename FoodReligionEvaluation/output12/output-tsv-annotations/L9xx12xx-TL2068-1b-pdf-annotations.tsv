@@ -32,7 +32,7 @@ mir	O	O	O	O	O	O	_	_	_
 fleisig	O	O	O	O	O	O	_	_	_
 zum	O	O	O	O	O	O	_	_	_
 lieben	O	O	O	O	O	O	_	_	_
-Gott	B-OTH	RELIGION	O	O	O	O	https://www.wikidata.org/wiki/Q190	_	_
+Gott	B-OTH	RELIGION	O	O	O	O	Q190	_	_
 der	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
 dich	O	O	O	O	O	O	_	_	_
@@ -55,7 +55,7 @@ Mari	B-PER	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 Hedwig	B-PER	O	O	O	O	O	_	_	_
 aus	O	O	O	O	O	O	_	_	_
-Neustad	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q986984	_	_
+Neustad	B-LOC	O	O	O	O	O	Q986984	_	_
 mit	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 Kindern	O	O	O	O	O	O	_	_	_
@@ -78,7 +78,7 @@ werden	O	O	O	O	O	O	_	_	_
 meine	O	O	O	O	O	O	_	_	_
 lieben	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Amerik	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q30	_	_
+Amerik	B-LOC	O	O	O	O	O	Q30	_	_
 machen	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_

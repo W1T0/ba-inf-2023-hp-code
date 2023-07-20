@@ -45,7 +45,7 @@ Ta	O	O	O	O	O	O	_	_	_
 gen	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 schöne	O	O	O	O	O	O	_	_	_
-Pfingstfest	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q39864	_	_
+Pfingstfest	B-OTH	O	O	O	O	O	Q39864	_	_
 und	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Natur	O	O	O	O	O	O	_	_	_
@@ -78,7 +78,7 @@ Vogel	O	O	O	O	O	O	_	_	_
 ertönt	O	O	O	O	O	O	_	_	_
 zur	O	O	O	O	O	O	_	_	_
 Ehre	O	O	O	O	O	O	_	_	_
-Gottes	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q190	_	_
+Gottes	B-OTH	O	O	O	O	O	Q190	_	_
 Nicht	O	O	O	O	O	O	_	_	_
 umsonst	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
@@ -223,7 +223,7 @@ geht	O	O	O	O	O	O	_	_	_
 er	O	O	O	O	O	O	_	_	_
 wieder	O	O	O	O	O	O	_	_	_
 nach	O	O	O	O	O	O	_	_	_
-Neisse	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q815721	_	_
+Neisse	B-LOC	O	O	O	O	O	Q815721	_	_
 aus	O	O	O	O	O	O	_	_	_
 Landgericht	O	O	O	O	O	O	_	_	_
 um	O	O	O	O	O	O	_	_	_

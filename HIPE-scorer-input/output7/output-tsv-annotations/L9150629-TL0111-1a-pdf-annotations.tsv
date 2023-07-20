@@ -30,7 +30,7 @@ Wir	O	O	O	O	O	O	_	_	_
 sind	O	O	O	O	O	O	_	_	_
 alle	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
-Gott	B-OTH	O	O	O	O	O	https://www.wikidata.org/wiki/Q190	_	_
+Gott	B-OTH	O	O	O	O	O	Q190	_	_
 lob	O	O	O	O	O	O	_	_	_
 noch	O	O	O	O	O	O	_	_	_
 gesund	O	O	O	O	O	O	_	_	_
@@ -59,7 +59,7 @@ vom	O	O	O	O	O	O	_	_	_
 Onkel	O	O	O	O	O	O	_	_	_
 August	B-PER	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
-Frankreich	B-LOC	O	O	O	O	O	https://www.wikidata.org/wiki/Q142	_	_
+Frankreich	B-LOC	O	O	O	O	O	Q142	_	_
 nach	O	O	O	O	O	O	_	_	_
 8	O	O	O	O	O	O	_	_	_
 tägigen	O	O	O	O	O	O	_	_	_
