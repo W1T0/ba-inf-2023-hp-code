@@ -10,8 +10,12 @@ outputAnnotations = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-a
 outputFlair = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-flair-ner-german/"
 outputS_T = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-sequence_tagging/"
 outputGermaNER = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-germaNER/"
-output2Overlap = "./HIPE-scorer-input/output" + str(13) + "/output-tsv-2overlap/"
-output2OverlapFoodReligion = "./FoodReligionEvaluation/output" + str(13) + "/output-tsv-2overlap/"
+# output2Overlap = "./HIPE-scorer-input/output" + str(13) + "/output-tsv-2overlap/"
+# output2OverlapFoodReligion = "./FoodReligionEvaluation/output" + str(13) + "/output-tsv-2overlap/"
+
+fwVersion = 1
+output2Overlap = "./HIPE-scorer-input/outputFW" + str(fwVersion) + "/output-tsv-2overlap/"
+output2OverlapFoodReligion = "./FoodReligionEvaluation/outputFW" + str(fwVersion) + "/output-tsv-2overlap/"
 
 # ANNOTATIONS TSV PARSER
 # print("[INFO] Run Annotations TSV Parser")
@@ -57,8 +61,8 @@ B_TSVParser2Overlap.run(
     "./NER-german/comparisonOutput" + str(version) + ".txt",
     False,
     "./TokenizedLetters/",
-    90,
-    80,
+    90,  # food
+    80,  # religion
     "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput" + str(version) + ".txt",
     "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput" + str(version) + ".txt",
     False,
