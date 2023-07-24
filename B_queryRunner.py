@@ -46,7 +46,7 @@ def run():
     }
     """
 
-    """
+    queryReligion2 = """
         SELECT ?item ?itemLabel ?offName {
       {
       SELECT ?item ?itemLabel WHERE {
@@ -121,7 +121,7 @@ def run():
     }
     """
 
-    """
+    queryFood2 = """
      SELECT ?item ?itemLabel {
       {
       SELECT ?item ?itemLabel WHERE {
@@ -157,7 +157,7 @@ def run():
     religion = B_compareWikidataQueryWithLetterWords.compare(
         "./TokenizedLetters/",
         "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput3.txt",
-        queryReligion,
+        queryReligion2,
         80,
         False,
     )
@@ -166,7 +166,7 @@ def run():
     food = B_compareWikidataQueryWithLetterWords.compare(
         "./TokenizedLetters/",
         "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput2.txt",
-        queryFood,
+        queryFood2,
         90,
         False,
     )

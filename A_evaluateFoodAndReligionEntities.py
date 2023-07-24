@@ -206,6 +206,6 @@ def run(directories):
 run(
     [
         "FoodReligionEvaluation/output12/output-tsv-annotations/",
-        "FoodReligionEvaluation/output7/output-tsv-2overlap/",
+        "FoodReligionEvaluation/output13/output-tsv-2overlap/",
     ]
 )
