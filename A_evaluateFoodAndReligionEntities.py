@@ -151,13 +151,13 @@ def run(directories):
                 + str(fnReligion)
             )
 
-        # add file evaluation to overall evaluation
-        overallTPFood += tpFood
-        overallFPFood += fpFood
-        overallFNFood += fnFood
-        overallTPReligion += tpReligion
-        overallFPReligion += fpReligion
-        overallFNReligion += fnReligion
+            # add file evaluation to overall evaluation
+            overallTPFood += tpFood
+            overallFPFood += fpFood
+            overallFNFood += fnFood
+            overallTPReligion += tpReligion
+            overallFPReligion += fpReligion
+            overallFNReligion += fnReligion
 
         print(
             "Overall Evaluation Food: \nTP: "
@@ -176,6 +176,29 @@ def run(directories):
             + str(overallFNReligion)
         )
 
+        precisionFood = overallTPFood / (overallTPFood + overallFPFood)
+        recallFood = overallTPFood / (overallTPFood + overallFNFood)
+        f1Food = 2 * ((precisionFood * recallFood) / (precisionFood + recallFood))
+        precisionReligion = overallTPReligion / (overallTPReligion + overallFPReligion)
+        recallReligion = overallTPReligion / (overallTPReligion + overallFNReligion)
+        f1Religion = 2 * ((precisionReligion * recallReligion) / (precisionReligion + recallReligion))
+        print(
+            "Overall Evaluation Food: \nPrecision: "
+            + str(precisionFood)
+            + "\nRecall: "
+            + str(recallFood)
+            + "\nF1: "
+            + str(f1Food)
+        )
+        print(
+            "Overall Evaluation Religion: \nPrecision: "
+            + str(precisionReligion)
+            + "\nRecall: "
+            + str(recallReligion)
+            + "\nF1: "
+            + str(f1Religion)
+        )
+
     else:
         print("[ERROR] There are not the same number of files in every directory.")
 
@@ -183,6 +206,6 @@ def run(directories):
 run(
     [
         "FoodReligionEvaluation/output12/output-tsv-annotations/",
-        "FoodReligionEvaluation/output12/output-tsv-2overlap/",
+        "FoodReligionEvaluation/output7/output-tsv-2overlap/",
     ]
 )
