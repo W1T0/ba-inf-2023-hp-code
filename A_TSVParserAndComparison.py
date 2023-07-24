@@ -2,6 +2,7 @@ import B_compareAnnotationToTSV
 import B_TSVParserBasic
 import B_TSVParser2Overlap
 import B_TSVParserFlair
+import B_evaluateFoodAndReligionEntities
 
 version = 7
 
@@ -12,6 +13,7 @@ outputGermaNER = "./HIPE-scorer-input/output" + str(version) + "/output-tsv-germ
 output2Overlap = "./HIPE-scorer-input/output" + str(13) + "/output-tsv-2overlap/"
 output2OverlapFoodReligion = "./FoodReligionEvaluation/output" + str(13) + "/output-tsv-2overlap/"
 
+# ANNOTATIONS TSV PARSER
 # print("[INFO] Run Annotations TSV Parser")
 # B_TSVParserBasic.run(
 #     "Annotationen/Stichprobe-Annotationen-Inception-Export-3/",
@@ -20,13 +22,15 @@ output2OverlapFoodReligion = "./FoodReligionEvaluation/output" + str(13) + "/out
 #     "-annotations",
 # )
 
-# print("[INFO] Run TSV Parser Flair")
+# FLAIR TSV PARSER
+# print("[INFO] Run Flair TSV Parser")
 # B_TSVParserFlair.run(
 #     "D:/Hannes/Dokumente/Dokumente/Uni/Bachelorarbeit/Kiefer-Scholz Collection/Stichprobe-Annotationen-3/",
 #     outputFlair,
 # )
 
-# print("[INFO] Run TSV Parser germaNER")
+# GERMANER TSV PARSER
+# print("[INFO] Run germanNER TSV Parser")
 # B_TSVParserBasic.run(
 #     "./NER-german-output/output-germaNER/",
 #     outputGermaNER,
@@ -34,7 +38,8 @@ output2OverlapFoodReligion = "./FoodReligionEvaluation/output" + str(13) + "/out
 #     "-germaNER" + "_bundle1_hipe2020_de_1",
 # )
 
-# print("[INFO] Run TSV Parser sequence_tagging")
+# SEQUENCE_TAGGING TSV PARSER
+# print("[INFO] Run sequence_tagging TSV Parser ")
 # B_TSVParserBasic.run(
 #     "./NER-german-output/output-Sequence_tagging/",
 #     outputS_T,
@@ -42,7 +47,8 @@ output2OverlapFoodReligion = "./FoodReligionEvaluation/output" + str(13) + "/out
 #     "-sequenceTagging" + "_bundle1_hipe2020_de_1",
 # )
 
-print("[INFO] Run TSV Parser 2 Overlap")
+# 2 OVERLAP TSV PARSER
+print("[INFO] Run 2 Overlap TSV Parser ")
 B_TSVParser2Overlap.run(
     [outputFlair, outputGermaNER, outputS_T],
     "./TokenizedLetters/",  # "./TokenizedLetters/"
@@ -50,5 +56,15 @@ B_TSVParser2Overlap.run(
     output2OverlapFoodReligion,
 )
 
+# FOOD AND RELIGION EVALUATION
+print("[INFO] Run Food and Religion Evaluation")
+B_evaluateFoodAndReligionEntities.run(
+    [
+        "FoodReligionEvaluation/output12/output-tsv-annotations/",
+        output2OverlapFoodReligion,  # "FoodReligionEvaluation/output13/output-tsv-2overlap/"
+    ]
+)
+
+# COMPARISON
 # print("[INFO] Compare TSV")
 # B_compareAnnotationToTSV.run([outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap])

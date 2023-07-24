@@ -201,11 +201,3 @@ def run(directories):
 
     else:
         print("[ERROR] There are not the same number of files in every directory.")
-
-
-run(
-    [
-        "FoodReligionEvaluation/output12/output-tsv-annotations/",
-        "FoodReligionEvaluation/output13/output-tsv-2overlap/",
-    ]
-)
