@@ -1,9 +1,21 @@
 import B_compareWikidataQueryWithLetterWords
 
 
-def run():
+def run(
+    directoryPath,
+    levenshteinDistanceFood,
+    levenshteinDistanceReligion,
+    outputPathFood,
+    outputPathReligion,
+    boolWriteToFile,
+):
     """
     Has the Wikidata queries saved as strings and calls a function to process them.
+
+    directoryPath: The path of the directory where the files are stored in.
+    levenshteinDistance(-Food, -Religion): The Levenshtein-Distance. A metric to compare the differences between two strings.
+    outputPath(-Food, -Religion): The path of the file where the output should be stored in.
+    boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
     """
 
     # religion query
@@ -155,21 +167,29 @@ def run():
     """
 
     religion = B_compareWikidataQueryWithLetterWords.compare(
-        "./TokenizedLetters/",
-        "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput3.txt",
-        queryReligion2,
-        80,
-        False,
+        directoryPath, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
     )
-    print("[INFO] Religion query ran")
 
     food = B_compareWikidataQueryWithLetterWords.compare(
-        "./TokenizedLetters/",
-        "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput2.txt",
-        queryFood2,
-        90,
-        False,
+        directoryPath, levenshteinDistanceFood, outputPathFood, boolWriteToFile
     )
+
+    # religion = B_compareWikidataQueryWithLetterWords.compare(
+    #     "./TokenizedLetters/",
+    #     "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput3.txt",
+    #     queryReligion2,
+    #     80,
+    #     False,
+    # )
+    print("[INFO] Religion query ran")
+
+    # food = B_compareWikidataQueryWithLetterWords.compare(
+    #     "./TokenizedLetters/",
+    #     "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput2.txt",
+    #     queryFood2,
+    #     90,
+    #     False,
+    # )
     print("[INFO] Food query ran")
 
     return [religion, food]

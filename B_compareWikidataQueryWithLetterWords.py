@@ -4,15 +4,15 @@ import B_wikidataSPARQLQuery
 import B_replaceSpecialCharacters
 
 
-def compare(directoryPath, outputPath, query, levenshteinDistance, boolWriteToFile):
+def compare(directoryPath, query, levenshteinDistance, outputPath, boolWriteToFile):
     """
     Compares every result of a SPARQL query with every word in the letters.
-    Letters must be in ??? (conll or tsv) format?
+    Letters must be tokenized.
 
     directoryPath: The path of the directory where the files are stored in.
-    outputPath: The path of the file where the output should be stored in.
     query: The Wikidata query.
     levenshteinDistance: The Levenshtein-Distance. A metric to compare the differences between two strings.
+    outputPath: The path of the file where the output should be stored in.
     boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
     """
 

@@ -54,6 +54,14 @@ B_TSVParser2Overlap.run(
     "./TokenizedLetters/",  # "./TokenizedLetters/"
     output2Overlap,
     output2OverlapFoodReligion,
+    "./NER-german/comparisonOutput" + str(version) + ".txt",
+    False,
+    "./TokenizedLetters/",
+    90,
+    80,
+    "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput" + str(version) + ".txt",
+    "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput" + str(version) + ".txt",
+    False,
 )
 
 # FOOD AND RELIGION EVALUATION

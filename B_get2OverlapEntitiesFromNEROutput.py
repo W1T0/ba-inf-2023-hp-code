@@ -3,18 +3,18 @@ import os
 
 def run(
     directories,
-    outputPath="./NER-german/comparisonOutput2.txt",
+    outputPathTXT,
     boolWriteToFile=True,
 ):
     """
     Returns the entities that are in the output of at least 2 of the three NER-systems (flair, germaNER, sequence_tagging).
 
     directoriesList: A list of the directories that store the output of the NER-systems.
-    outputPath: The path of the file where the output should be stored in.
+    outputPathTXT: The path of the file where the output, in this case only the 2Overlap entities, should be stored in.
     boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
     """
 
-    print("[INFO] boolWriteToFile: " + str(boolWriteToFile))
+    print("[INFO] 2Overlap writeToFile?: " + str(boolWriteToFile))
 
     # [0]:flair-ner-german, [1]:germaNER, [2]:sequence_tagging
     files = [[], [], []]
@@ -46,7 +46,7 @@ def run(
 
             if boolWriteToFile:
                 # open file to write to
-                writeToFile = open(outputPath, "a", encoding="utf-8")
+                writeToFile = open(outputPathTXT, "a", encoding="utf-8")
                 writeToFile.write("FILE: " + files[0][i] + "\n")
 
             # stores every line of file

@@ -10,6 +10,14 @@ def run(
     directoryPath,
     outputPath,
     outputPathFoodReligion,
+    outputPathTXT,
+    boolWriteToFile,
+    directoryPathQueryRunner,
+    levenshteinDistanceFoodQueryRunner,
+    levenshteinDistanceReligionQueryRunner,
+    outputPathFoodQueryRunner,
+    outputPathReligionQueryRunner,
+    boolWriteToFileQueryRunner,
 ):
     """
     Creates a TSV file for the 2 Overlap output in a format the HIPE-scorer accepts.
@@ -18,14 +26,27 @@ def run(
     directoryPath: The path of the directory where the tokenized letters are stored in.
     outputPath: The path of the directory where the output should be stored in.
     outputPathFoodReligion: The path of the directory where the output for the food and religion evaluation should be stored in.
+    outputPathTXT: The path of the file where the output, in this case only the 2Overlap entities, should be stored in.
+    boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
+    directoryPathQueryRunner: The path of the directory where the files are stored in for the query runner.
+    levenshteinDistance(-Food,-Religion)QueryRunner: The Levenshtein-Distance. A metric to compare the differences between two strings.
+    outputPath(-Food,-Religion)QueryRunner: The path of the file where the output should be stored in for the query runner.
+    boolWriteToFileQueryRunner: A boolean value that determines if the result of this function should be written to the output file. (True or False)
     """
 
     # generate 2 Overlap entities and save them
-    entities2Overlap = B_get2OverlapEntitiesFromNEROutput.run(directories, boolWriteToFile=False)
+    entities2Overlap = B_get2OverlapEntitiesFromNEROutput.run(directories, outputPathTXT, boolWriteToFile)
     print(entities2Overlap)
 
     # extract entities from wikidata and save them
-    wikidataEntites = B_queryRunner.run()
+    wikidataEntites = B_queryRunner.run(
+        directoryPathQueryRunner,
+        levenshteinDistanceFoodQueryRunner,
+        levenshteinDistanceReligionQueryRunner,
+        outputPathFoodQueryRunner,
+        outputPathReligionQueryRunner,
+        boolWriteToFileQueryRunner,
+    )
     religionEntities = wikidataEntites[0]
     foodEntities = wikidataEntites[1]
 
