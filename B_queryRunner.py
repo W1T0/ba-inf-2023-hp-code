@@ -167,11 +167,11 @@ def run(
     """
 
     religion = B_compareWikidataQueryWithLetterWords.compare(
-        directoryPath, queryReligion2, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
+        directoryPath, queryReligion, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
     )
 
     food = B_compareWikidataQueryWithLetterWords.compare(
-        directoryPath, queryFood2, levenshteinDistanceFood, outputPathFood, boolWriteToFile
+        directoryPath, queryFood, levenshteinDistanceFood, outputPathFood, boolWriteToFile
     )
 
     # religion = B_compareWikidataQueryWithLetterWords.compare(

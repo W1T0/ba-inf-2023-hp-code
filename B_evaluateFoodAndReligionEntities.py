@@ -1,4 +1,5 @@
 import os
+import csv
 
 
 def run(directories):
@@ -159,45 +160,102 @@ def run(directories):
             overallFPReligion += fpReligion
             overallFNReligion += fnReligion
 
-        print(
-            "Overall Evaluation Food: \nTP: "
-            + str(overallTPFood)
-            + "\nFP: "
-            + str(overallFPFood)
-            + "\nFN: "
-            + str(overallFNFood)
+        # calculate precision, recall, f1 (add small number to prevent divison of zero)
+        precisionFood = overallTPFood / (overallTPFood + overallFPFood + 0.000000000000001)
+        recallFood = overallTPFood / (overallTPFood + overallFNFood + 0.000000000000001)
+        f1Food = 2 * ((precisionFood * recallFood) / (precisionFood + recallFood + 0.000000000000001))
+        precisionReligion = overallTPReligion / (overallTPReligion + overallFPReligion + 0.000000000000001)
+        recallReligion = overallTPReligion / (overallTPReligion + overallFNReligion + 0.000000000000001)
+        f1Religion = 2 * (
+            (precisionReligion * recallReligion) / (precisionReligion + recallReligion + 0.000000000000001)
         )
-        print(
-            "Overall Evaluation Religion: \nTP: "
-            + str(overallTPReligion)
-            + "\nFP: "
-            + str(overallFPReligion)
-            + "\nFN: "
-            + str(overallFNReligion)
+        # print(
+        #     "Overall Evaluation Food: \nPrecision\tRecall\tF1\tTP\tFP\tFN\n"
+        #     + str(precisionFood)
+        #     + "\t"
+        #     + str(recallFood)
+        #     + "\t"
+        #     + str(f1Food)
+        #     + "\t"
+        #     + str(overallTPFood)
+        #     + "\t"
+        #     + str(overallFPFood)
+        #     + "\t"
+        #     + str(overallFNFood)
+        # )
+        # print(
+        #     "Overall Evaluation Religion: \nPrecision\tRecall\tF1\tTP\tFP\tFN\n"
+        #     + str(precisionReligion)
+        #     + "\t"
+        #     + str(recallReligion)
+        #     + "\t"
+        #     + str(f1Religion)
+        #     + "\t"
+        #     + str(overallTPReligion)
+        #     + "\t"
+        #     + str(overallFPReligion)
+        #     + "\t"
+        #     + str(overallFNReligion)
+        # )
+
+        # open file to write into
+        writeToFile = open(
+            "./HIPE-results/output-foodAndReligionEval-results.csv",
+            "a",
+            encoding="utf-8",
+            newline="",
         )
 
-        precisionFood = overallTPFood / (overallTPFood + overallFPFood)
-        recallFood = overallTPFood / (overallTPFood + overallFNFood)
-        f1Food = 2 * ((precisionFood * recallFood) / (precisionFood + recallFood))
-        precisionReligion = overallTPReligion / (overallTPReligion + overallFPReligion)
-        recallReligion = overallTPReligion / (overallTPReligion + overallFNReligion)
-        f1Religion = 2 * ((precisionReligion * recallReligion) / (precisionReligion + recallReligion))
-        print(
-            "Overall Evaluation Food: \nPrecision: "
-            + str(precisionFood)
-            + "\nRecall: "
-            + str(recallFood)
-            + "\nF1: "
-            + str(f1Food)
+        # create csv writer
+        CSVWriter = csv.writer(writeToFile)
+
+        # write header
+        CSVWriter.writerow(["FOOD"])
+        CSVWriter.writerow("Pre Recall F1 TP FP FN".split(" "))
+
+        # write food
+        CSVWriter.writerow(
+            (
+                str(precisionFood)
+                + " "
+                + str(recallFood)
+                + " "
+                + str(f1Food)
+                + " "
+                + str(overallTPFood)
+                + " "
+                + str(overallFPFood)
+                + " "
+                + str(overallFNFood)
+            ).split(" ")
         )
-        print(
-            "Overall Evaluation Religion: \nPrecision: "
-            + str(precisionReligion)
-            + "\nRecall: "
-            + str(recallReligion)
-            + "\nF1: "
-            + str(f1Religion)
+
+        # write new line
+        CSVWriter.writerow("\n")
+
+        # write header
+        CSVWriter.writerow(["RELIGION"])
+        CSVWriter.writerow("Pre Recall F1 TP FP FN".split(" "))
+
+        # write food
+        CSVWriter.writerow(
+            (
+                str(precisionReligion)
+                + " "
+                + str(recallReligion)
+                + " "
+                + str(f1Religion)
+                + " "
+                + str(overallTPReligion)
+                + " "
+                + str(overallFPReligion)
+                + " "
+                + str(overallFNReligion)
+            ).split(" ")
         )
+
+        # write new line
+        CSVWriter.writerow("\n")
 
     else:
         print("[ERROR] There are not the same number of files in every directory.")
