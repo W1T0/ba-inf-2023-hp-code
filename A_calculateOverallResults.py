@@ -2,15 +2,17 @@ import os
 import numpy as np
 import csv
 
-version = 11
+version = 10
 
 # the directories where the hipe output is stored
 directories = [
     # "./HIPE-scorer/HIPE-results/HIPE-output-test/"
-    "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-flair-ner-german/",
-    "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-germaNER/",
-    "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-sequence_tagging/",
-    "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-2overlap/",
+    # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-flair-ner-german/",
+    # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-germaNER/",
+    # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-sequence_tagging/",
+    "./HIPE-results/output-hipe-"
+    + str(version)
+    + "/output-hipe-2overlap/",
 ]
 
 # iterate over directories

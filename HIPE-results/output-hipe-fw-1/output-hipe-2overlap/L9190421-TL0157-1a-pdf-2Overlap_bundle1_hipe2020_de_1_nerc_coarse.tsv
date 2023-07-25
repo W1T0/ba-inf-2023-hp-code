@@ -1,0 +1,17 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.13	0.3	0.182				3	20	7
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC	1.0	1.0	1.0				1	0	0
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	OTH	0.056	1.0	0.105				1	17	0
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PER	0.25	0.125	0.167				1	3	7
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.087	0.2	0.121				2	21	8
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC	1.0	1.0	1.0				1	0	0
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	OTH	0.056	1.0	0.105				1	17	0
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PER	0.0	0.0	0				0	4	8
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.13	0.3	0.182	0.0	0.0	0.0			
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC	1.0	1.0	1.0	0.0	0.0	0.0			
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	OTH	0.056	1.0	0.105	0.0	0.0	0.0			
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PER	0.25	0.125	0.167	0.0	0.0	0.0			
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.087	0.2	0.121	0.0	0.0	0.0			
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC	1.0	1.0	1.0	0.0	0.0	0.0			
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	OTH	0.056	1.0	0.105	0.0	0.0	0.0			
+l9190421-tl0157-1a-pdf-2overlap_bundle1_hipe2020_de_1	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PER	0.0	0.0	0.0	0.0	0.0	0.0			
