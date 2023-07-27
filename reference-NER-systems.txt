@@ -1,0 +1,39 @@
+
+Zitierung von sequence_tagging, flair, germaNER
+
+sequence_tagging
+https://aclanthology.org/P18-2020/
+
+@inproceedings{riedl18:_named_entit_recog_shoot_german,
+  title = {A Named Entity Recognition Shootout for {German}},
+  author = {Riedl, Martin and Padó, Sebastian},
+  booktitle = {Proceedings of Annual Meeting of the Association for Computational Linguistics},
+  series={ACL 2018},
+  address = {Melbourne, Australia},
+  note = {To appear},
+  year = 2018
+}
+
+
+flair
+https://arxiv.org/pdf/2011.06993v1.pdf
+
+@misc{schweter2020flert,
+    title={FLERT: Document-Level Features for Named Entity Recognition},
+    author={Stefan Schweter and Alan Akbik},
+    year={2020},
+    eprint={2011.06993},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+
+
+germaNER
+https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2015-benikovaetal-gscl2015-germa.pdf
+
+@inproceedings{Benikova2015GermaNERFO,
+  title={GermaNER: Free Open German Named Entity Recognition Tool},
+  author={Darina Benikova and Seid Muhie Yimam and Prabhakaran Santhanam and Chris Biemann},
+  booktitle={International Conference of the German Society for Computational Linguistics and Language Technology (GSCL-2015)},
+  year={2015}
+}
