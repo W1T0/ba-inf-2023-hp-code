@@ -1,7 +1,7 @@
 import os
 
 directoryPath = "./HIPE-scorer-input/outputFW10/output-tsv-2overlap/"
-outputPath = "./Visualization/output-kg-2overlap.txt"
+outputPath = "./Visualization/output-kg-2overlap-2.txt"
 
 # keeps track of how many files haven been processed
 fileCount = 1
@@ -10,7 +10,7 @@ fileCount = 1
 writeToFile = open(outputPath, "a", encoding="utf-8")
 
 # write prefix
-writeToFile.write("\nprefix ex: <http://example.org/>\n")
+writeToFile.write("\nprefix ex: <http://example.org/>\nprefix xsd: <http://www.w3.org/2001/XMLSchema#>\n\n")
 writeToFile.close()
 
 # for every file in the directory which ends with .tsv
@@ -44,8 +44,31 @@ for file in os.listdir(directoryPath):
         # open file to write entities to txt file
         writeToFile = open(outputPath, "a", encoding="utf-8")
 
-        # write entities
+        # removed unwanted info from filename
+        filename = filename[:22]
+
+        # header
         writeToFile.write("# --- ENTITIES OF " + filename + " ---\n")
+
+        year = "1" + filename[1:4]
+        month = filename[4:6]
+        day = filename[6:8]
+
+        # write year triple
+        writeToFile.write(
+            "ex:"
+            + filename.replace(".", "")
+            + " ex:date '"
+            + year
+            + "-"
+            + month
+            + "-"
+            + day
+            + "'"
+            + "^^xsd:date .\n"
+        )
+
+        # write entities
         for line in entitiesLineDistinct:
             # split the line
             lineSplit = line.split()
@@ -59,10 +82,12 @@ for file in os.listdir(directoryPath):
             # get the wikidata QID
             wikidataQID = lineSplit[7]
 
+            # write entity triple
             writeToFile.write(
                 "ex:" + filename.replace(".", "") + " ex:" + entityType + " ex:" + entity + " .\n"
             )
 
+            # write wikidata QID triple
             if wikidataQID != "_":
                 writeToFile.write("ex:" + entity + " ex:" + "wikidataQID" + " ex:" + wikidataQID + " .\n")
 
