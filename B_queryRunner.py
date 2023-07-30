@@ -19,7 +19,7 @@ def run(
     """
 
     # religion query
-    queryReligion = """
+    queryReligionNew = """
     SELECT ?item ?itemLabel {
       {
       SELECT ?item ?itemLabel WHERE {
@@ -58,7 +58,7 @@ def run(
     }
     """
 
-    queryReligion2 = """
+    queryReligionOld = """
         SELECT ?item ?itemLabel ?offName {
       {
       SELECT ?item ?itemLabel WHERE {
@@ -102,7 +102,7 @@ def run(
     """
 
     # food query
-    queryFood = """
+    queryFoodNew = """
     SELECT ?item ?itemLabel {
       {
       SELECT ?item ?itemLabel WHERE {
@@ -133,7 +133,7 @@ def run(
     }
     """
 
-    queryFood2 = """
+    queryFoodOld = """
      SELECT ?item ?itemLabel {
       {
       SELECT ?item ?itemLabel WHERE {
@@ -167,11 +167,11 @@ def run(
     """
 
     religion = B_compareWikidataQueryWithLetterWords.compare(
-        directoryPath, queryReligion, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
+        directoryPath, queryReligionNew, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
     )
 
     food = B_compareWikidataQueryWithLetterWords.compare(
-        directoryPath, queryFood, levenshteinDistanceFood, outputPathFood, boolWriteToFile
+        directoryPath, queryFoodOld, levenshteinDistanceFood, outputPathFood, boolWriteToFile
     )
 
     # religion = B_compareWikidataQueryWithLetterWords.compare(
