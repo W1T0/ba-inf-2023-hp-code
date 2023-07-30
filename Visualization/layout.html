@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navcontainer">
+        <div class="navbaritems">
+          <ul class="navbar_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#main2022"> 1 </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#main2021"> 2 </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#main2020"> 3 </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="container">
+      <div id="content">
+        <h1>Files</h1>
+        <label for="file-chooser">Choose a file:</label>
+        <select name="file-chooser" id="file-chooser">
+          <!-- <option selected disabled>Pick a file ...</option> -->
+          <option value="/Visualization/files/L9xx12xx-TL2068.1b.pdf">L9xx12xx-TL2068.1b</option>
+          <option value="/Visualization/files/L9xx0527-TL2027.1a.pdf">L9xx0527-TL2027.1a</option>
+          <option value="/Visualization/files/L9xxxxxx-TL0234.1b.pdf">L9xxxxxx-TL0234.1b</option>
+          <option value="/Visualization/files/L9xxxxxx-TL2026.1b.pdf">L9xxxxxx-TL2026.1b</option>
+        </select>
+        <div id="pdf-viewer-div">
+          <iframe id="pdf-viewer" width="100%" height="500px"> </iframe>
+        </div>
+        <div id="transcription-viewer"></div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    // get the drop down menu
+    let fileChooser = document.getElementById("file-chooser");
+
+    // add event listener to drop down menu
+    fileChooser.addEventListener("change", function () {
+      // get the pdf viewer
+      let pdfViewer = document.getElementById("pdf-viewer");
+      // change the pdf if drop down menu selection changed
+      pdfViewer.src = this.value;
+    });
+  </script>
+</html>
