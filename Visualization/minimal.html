@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- SOURCE: https://gojs.net/latest/samples/minimal.html-->
+<html lang="en">
+  <body>
+    <script src="https://unpkg.com/gojs@2.3.9/release/go.js"></script>
+    <div id="allSampleContent" class="p-4 w-full">
+      <div id="sample">
+        <!-- The DIV for the Diagram needs an explicit size or else we won't see anything.
+       This also adds a border to help see the edges of the viewport. -->
+        <div id="myDiagramDiv" style="border: 1px solid black; width: 400px; height: 400px; position: relative">
+          <canvas></canvas>
+          </div>
+        </div>
+      </div>
+
+      <script id="code">
+        const myDiagram = new go.Diagram(
+          "myDiagramDiv", // create a Diagram for the HTML Div element
+          { // enable undo & redo
+            "undoManager.isEnabled": true, 
+            // have mouse wheel events zoom in and out instead of scroll up and down
+            "toolManager.mouseWheelBehavior": go.ToolManager.WheelZoom,
+
+          }
+        ); 
+
+        // define a simple Node template
+        myDiagram.nodeTemplate = new go.Node("Auto") // the Shape will go around the TextBlock
+          .add(
+            new go.Shape("RoundedRectangle", { strokeWidth: 0, fill: "white" }) // no border; default fill is white
+              .bind("fill", "color")
+          ) // Shape.fill is bound to Node.data.color
+          .add(
+            new go.TextBlock({ margin: 8, font: "bold 14px sans-serif", stroke: "#333" }) // some room around the text
+              .bind("text", "key")
+          ); // TextBlock.text is bound to Node.data.key
+
+        // but use the default Link template, by not setting Diagram.linkTemplate
+
+        // use force directed layout
+        // "Force-directed layout treats the graph as if it were a system of physical bodies with forces acting on them and between them."
+        myDiagram.layout = new go.ForceDirectedLayout();
+
+        // create the model data that will be represented by Nodes and Links
+        myDiagram.model = new go.GraphLinksModel(
+          [
+            { key: "Alpha", color: "lightblue" },
+            { key: "Beta", color: "orange" },
+            { key: "Gamma", color: "lightgreen" },
+            { key: "Delta", color: "pink" },
+          ],
+          [
+            { from: "Alpha", to: "Beta" },
+            { from: "Alpha", to: "Gamma" },
+            { from: "Beta", to: "Beta" },
+            { from: "Gamma", to: "Delta" },
+            { from: "Delta", to: "Alpha" },
+          ]
+        );
+
+        // Disable adding or removing parts
+        myDiagram.model.isReadOnly = true;
+             </script>
+    </div>
+  </body>
+</html>
