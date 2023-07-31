@@ -37,7 +37,7 @@
         <option value="/Visualization/files/L9xxxxxx-TL0234.1b.pdf">L9xxxxxx-TL0234.1b</option>
         <option value="/Visualization/files/L9xxxxxx-TL2026.1b.pdf">L9xxxxxx-TL2026.1b</option>
       </select>
-      <div id="three-blocks">
+      <div class="three-blocks">
         <div id="pdf-viewer-div" class="block">
           <iframe id="pdf-viewer" width="100%" height="100%" frameborder="0"> </iframe>
         </div>
@@ -205,6 +205,8 @@
           let nodeOneName = path.slice(21, 39);
           let nodeOne = node(width / 2, height / 2, nodeOneName);
 
+          let previousNode;
+
           // create the nodes and edges
           for (let i = 0; i < textSplit.length - 1; i++) {
             let lineSplit = textSplit[i].split(" ");
@@ -215,7 +217,14 @@
             NodeWidth = height / 2 + 100 * (i + 1);
 
             nodeX = node(NodeHeight, NodeWidth, nodeName);
-            edge(nodeOne, nodeX, edgeName);
+
+            if (edgeName == "wikidataQID") {
+              edge(previousNode, nodeX, edgeName);
+            } else {
+              edge(nodeOne, nodeX, edgeName);
+            }
+
+            previousNode = nodeX;
           }
 
           console.log(nodeOne);

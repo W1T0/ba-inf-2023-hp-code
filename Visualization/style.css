@@ -1,6 +1,6 @@
 /* VARIABLES */
 :root {
-  --primary-color-light: #e48900;
+  --primary-color-light: #fa9804;
   --primary-color-dark: #b57e07;
   --secondary-color-light: #3d3d3d;
   --secondary-color-dark: #252525;
@@ -44,19 +44,22 @@ label {
 }
 
 p {
-  font-size: 20px;
+  font-size: 15px;
   color: var(--text-color-black);
   margin: 0;
 }
 
-/* SELECT */
-
+/* 
+* SELECT
+ */
 /* Source: https://codepen.io/herrfischer/pen/aNpWwy */
 select {
   width: 200px;
   padding: 10px;
   border: 0 !important;
-  background-color: var(--primary-color-dark);
+  border-radius: 5px;
+  background-color: var(--primary-color-light);
+  font-weight: bold;
   /* needed */
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -66,12 +69,18 @@ select {
   background-size: 0.6em;
   background-position: calc(100% - 1.3em) center;
   background-repeat: no-repeat;
+  box-shadow: none;
 }
 select::-ms-expand {
   display: none;
 }
+select:hover {
+  box-shadow: 0 0 5px 3px var(--primary-color-light);
+}
 
-/* NAV bar */
+/*
+* NAV BAR
+*/
 nav {
   width: 100%;
   margin-left: auto;
@@ -90,7 +99,6 @@ li {
   float: right;
   border-left: 1px solid var(--primary-color-dark);
 }
-
 li a {
   display: block;
   color: var(--text-color-white);
@@ -98,7 +106,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #111;
 }
@@ -109,13 +116,15 @@ li a:hover {
   text-align: right;
 }
 
-/* BODY */
+/* 
+* BODY 
+*/
 #container {
   background-color: var(--secondary-color-dark);
   width: 100%;
 }
 
-#three-blocks {
+.three-blocks {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -131,14 +140,25 @@ li a:hover {
   background-color: #ffffff;
   border: 3px solid var(--primary-color-light);
   border-radius: 15px;
+  box-shadow: none;
+}
+.block:hover {
+  box-shadow: 0 0 10px 5px var(--primary-color-light);
 }
 
 #pdf-viewer {
   border-radius: 15px;
 }
 
-/* Style text field so that line breaks are visible */
+#transcription-viewer {
+  /* center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #transcription-text-field {
+  /* Style text field so that line breaks are visible */
   white-space: pre-wrap;
 }
 
@@ -204,7 +224,7 @@ div:not(:last-child) {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: var(--primary-color-light);
   cursor: pointer;
 }
 
@@ -212,6 +232,6 @@ div:not(:last-child) {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: var(--primary-color-light);
   cursor: pointer;
 }
