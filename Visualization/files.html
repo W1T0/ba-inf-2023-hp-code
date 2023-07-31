@@ -10,8 +10,8 @@
       <div class="navcontainer">
         <div class="navbaritems">
           <ul class="navbar_nav">
-            <li class="nav-item">
-              <a class="nav-link" href="files.html"> FILES </a>
+            <li class="header">
+              <h1>FILES</h1>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="slider.html"> SLIDER </a>
@@ -19,13 +19,15 @@
             <li class="nav-item">
               <a class="nav-link" href="map.html"> MAP </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="files.html"> FILES </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div id="container">
-      <h1>FILES</h1>
       <label for="file-chooser">CHOOSE A FILE:</label>
 
       <select name="file-chooser" id="file-chooser">
@@ -37,7 +39,7 @@
       </select>
       <div id="three-blocks">
         <div id="pdf-viewer-div" class="block">
-          <iframe id="pdf-viewer" width="100%" height="100%"> </iframe>
+          <iframe id="pdf-viewer" width="100%" height="100%" frameborder="0"> </iframe>
         </div>
         <div id="transcription-viewer" class="block">
           <p id="transcription-text-field" align="center">Test</p>
@@ -87,7 +89,7 @@
     var graph = new joint.dia.Graph();
 
     width = 300;
-    height = 800;
+    height = 700;
 
     var paper = new joint.dia.Paper({
       el: document.getElementById("paper"),
