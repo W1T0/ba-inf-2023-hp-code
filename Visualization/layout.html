@@ -25,34 +25,164 @@
     </nav>
 
     <div id="container">
-      <div id="content">
-        <h1>Files</h1>
-        <label for="file-chooser">Choose a file:</label>
-        <select name="file-chooser" id="file-chooser">
-          <!-- <option selected disabled>Pick a file ...</option> -->
-          <option value="/Visualization/files/L9xx12xx-TL2068.1b.pdf">L9xx12xx-TL2068.1b</option>
-          <option value="/Visualization/files/L9xx0527-TL2027.1a.pdf">L9xx0527-TL2027.1a</option>
-          <option value="/Visualization/files/L9xxxxxx-TL0234.1b.pdf">L9xxxxxx-TL0234.1b</option>
-          <option value="/Visualization/files/L9xxxxxx-TL2026.1b.pdf">L9xxxxxx-TL2026.1b</option>
-        </select>
-        <div id="pdf-viewer-div">
-          <iframe id="pdf-viewer" width="100%" height="500px"> </iframe>
+      <h1>Files</h1>
+      <label for="file-chooser">CHOOSE A FILE:</label>
+      <select name="file-chooser" id="file-chooser">
+        <!-- <option selected disabled>Pick a file ...</option> -->
+        <option value="/Visualization/files/L9xx12xx-TL2068.1b.pdf">L9xx12xx-TL2068.1b</option>
+        <option value="/Visualization/files/L9xx0527-TL2027.1a.pdf">L9xx0527-TL2027.1a</option>
+        <option value="/Visualization/files/L9xxxxxx-TL0234.1b.pdf">L9xxxxxx-TL0234.1b</option>
+        <option value="/Visualization/files/L9xxxxxx-TL2026.1b.pdf">L9xxxxxx-TL2026.1b</option>
+      </select>
+      <div id="three-blocks">
+        <div id="pdf-viewer-div" class="block">
+          <iframe id="pdf-viewer" width="100%" height="100%"> </iframe>
         </div>
-        <div id="transcription-viewer"></div>
+        <div id="transcription-viewer" class="block">
+          <p id="transcription-text-field" align="center">Test</p>
+        </div>
+        <div id="paper" class="block"></div>
       </div>
     </div>
   </body>
 
-  <script>
+  <!-- dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.1/backbone.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.7.4/joint.js"></script>
+
+  <script type="text/javascript">
     // get the drop down menu
     let fileChooser = document.getElementById("file-chooser");
 
+    // get the pdf viewer
+    let pdfViewer = document.getElementById("pdf-viewer");
+
+    // get the transcription text field
+    let transcriptionTextField = document.getElementById("transcription-text-field");
+
     // add event listener to drop down menu
     fileChooser.addEventListener("change", function () {
-      // get the pdf viewer
-      let pdfViewer = document.getElementById("pdf-viewer");
       // change the pdf if drop down menu selection changed
       pdfViewer.src = this.value;
+
+      console.log(this.value);
+
+      txtPath = this.value.replaceAll(".", "_") + ".txt";
+
+      console.log(txtPath);
+
+      // read file
+      fetch(txtPath)
+        .then((res) => res.text())
+        .then((text) => {
+          transcriptionTextField.textContent = text;
+        })
+        .catch((e) => console.error(e));
     });
+
+    // graph vis
+    var graph = new joint.dia.Graph();
+
+    width = 300;
+    height = 800;
+
+    var paper = new joint.dia.Paper({
+      el: document.getElementById("paper"),
+      width: width,
+      height: height,
+      model: graph,
+      defaultConnectionPoint: { name: "boundary" },
+      defaultConnector: { name: "smooth" },
+      interactive: { linkMove: false },
+      labelsLayer: true,
+      frozen: true,
+    });
+
+    paper.scale(0.8, 0.8);
+
+    paper.on("element:label:pointerdown", function (_view, evt) {
+      // Prevent user from moving the element when interacting with the label element
+      evt.stopPropagation();
+    });
+
+    paper.on("cell:pointerdown blank:pointerdown", function () {
+      if (window.getSelection) {
+        window.getSelection().removeAllRanges();
+      } else if (document.selection) {
+        document.selection.empty();
+      }
+    });
+
+    // create a node in the graph
+    function node(x, y, label) {
+      var rectangle = new joint.shapes.standard.Rectangle({
+        position: { x: x, y: y },
+        size: { width: 170, height: 60 },
+        attrs: {
+          label: {
+            text: label,
+            event: "element:label:pointerdown",
+            fontWeight: "bold",
+            cursor: "text",
+            style: {
+              userSelect: "text",
+            },
+          },
+          body: {
+            rx: 5, // curve edges
+            ry: 5, // curve edges
+            strokeWidth: 2, // width of border
+          },
+        },
+      });
+      return rectangle.addTo(graph);
+    }
+
+    // create an edge in the graph
+    function edge(source, target, label, vertices) {
+      var link = new joint.shapes.standard.Link({
+        source: { id: source.id },
+        target: { id: target.id },
+        attrs: {
+          line: {
+            strokeWidth: 2,
+          },
+        },
+        labels: [
+          {
+            position: {
+              distance: 0.5,
+              offset: label.indexOf("\n") > -1 || label.length === 1 ? 0 : 10,
+              args: {
+                keepGradient: true,
+                ensureLegibility: true,
+              },
+            },
+            attrs: {
+              text: {
+                text: label,
+                fontWeight: "bold",
+              },
+            },
+          },
+        ],
+        vertices: vertices || [],
+      });
+      return link.addTo(graph);
+    }
+
+    // create the specific nodes and edges
+    var one = node(width / 2, height / 2, "L9110213-TL0015-1a-pdf");
+    var two = node(width / 2 + 250, height / 2, "1911-02-13");
+    var three = node(width / 2 + 100, height / 2 + 200, "Frank");
+    var four = node(width / 2 - 100, height / 2 - 200, "Schiller");
+
+    edge(one, two, "date");
+    edge(one, three, "PER");
+    edge(one, four, "PER");
+
+    paper.unfreeze();
   </script>
 </html>
