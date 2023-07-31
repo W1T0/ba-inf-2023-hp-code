@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SLIDER</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navcontainer">
+        <div class="navbaritems">
+          <ul class="navbar_nav">
+            <li class="nav-item">
+              <a class="nav-link" href="files.html"> FILES </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="slider.html"> SLIDER </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="map.html"> MAP </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+
+  <div id="slider-div">
+    <div class="slidecontainer">
+      <input type="range" min="1850" max="1950" value="50" class="slider" id="myRange" />
+    </div>
+    <div id="year-div"><h1 id="year">1900</h1></div>
+  </div>
+
+  <script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("year");
+    output.innerHTML = slider.value; // Display the default slider value
+
+    // Update the current slider value (each time you drag the slider handle)
+    slider.oninput = function () {
+      output.innerHTML = this.value;
+    };
+  </script>
+</html>
