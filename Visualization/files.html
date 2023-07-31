@@ -70,27 +70,37 @@
       // change the pdf if drop down menu selection changed
       pdfViewer.src = this.value;
 
-      console.log(this.value);
-
+      // change value to fit filename of txt file
       txtPath = this.value.replaceAll(".", "_") + ".txt";
-
-      console.log(txtPath);
 
       // read file
       fetch(txtPath)
         .then((res) => res.text())
         .then((text) => {
+          // change value of text field
           transcriptionTextField.textContent = text;
         })
         .catch((e) => console.error(e));
+
+      // change value to fit filename of txt file
+      kgPath = this.value.replaceAll(".", "-").replace("pdf", "kg") + ".txt";
+
+      // change graph
+      addGraph(kgPath);
     });
 
-    // graph vis
+    //
+    // GRAPH VISULIZATION
+    //
+
+    // create graph
     var graph = new joint.dia.Graph();
 
+    // size of paper
     width = 300;
     height = 700;
 
+    // create paper where graph is displayed
     var paper = new joint.dia.Paper({
       el: document.getElementById("paper"),
       width: width,
@@ -103,10 +113,11 @@
       frozen: true,
     });
 
-    paper.scale(0.8, 0.8);
+    // scale (zoom) of graph in paper
+    paper.scale(0.6, 0.6);
 
+    // Prevent user from moving the element when interacting with the label element
     paper.on("element:label:pointerdown", function (_view, evt) {
-      // Prevent user from moving the element when interacting with the label element
       evt.stopPropagation();
     });
 
@@ -118,9 +129,9 @@
       }
     });
 
-    // create a node in the graph
+    // function to create a node in the graph
     function node(x, y, label) {
-      var rectangle = new joint.shapes.standard.Rectangle({
+      var node = new joint.shapes.standard.Rectangle({
         position: { x: x, y: y },
         size: { width: 170, height: 60 },
         attrs: {
@@ -140,12 +151,12 @@
           },
         },
       });
-      return rectangle.addTo(graph);
+      return node.addTo(graph);
     }
 
-    // create an edge in the graph
+    // function create an edge in the graph
     function edge(source, target, label, vertices) {
-      var link = new joint.shapes.standard.Link({
+      var edge = new joint.shapes.standard.Link({
         source: { id: source.id },
         target: { id: target.id },
         attrs: {
@@ -173,19 +184,46 @@
         ],
         vertices: vertices || [],
       });
-      return link.addTo(graph);
+      return edge.addTo(graph);
     }
 
-    // create the specific nodes and edges
-    var one = node(width / 2, height / 2, "L9110213-TL0015-1a-pdf");
-    var two = node(width / 2 + 250, height / 2, "1911-02-13");
-    var three = node(width / 2 + 100, height / 2 + 200, "Frank");
-    var four = node(width / 2 - 100, height / 2 - 200, "Schiller");
+    // changes the graph based on the selected file
+    function addGraph(path) {
+      // remove the old graph
+      graph.clear();
 
-    edge(one, two, "date");
-    edge(one, three, "PER");
-    edge(one, four, "PER");
+      // read the file
+      fetch(path)
+        .then((res) => res.text())
+        .then((text) => {
+          console.log(text);
 
+          // split the text into lines
+          let textSplit = text.split(".");
+
+          // get the name of the letter and create nodeOne
+          let nodeOneName = path.slice(21, 39);
+          let nodeOne = node(width / 2, height / 2, nodeOneName);
+
+          // create the nodes and edges
+          for (let i = 0; i < textSplit.length - 1; i++) {
+            let lineSplit = textSplit[i].split(" ");
+            let edgeName = lineSplit[1].replace("ex:", "");
+            let nodeName = lineSplit[2].replace("ex:", "");
+
+            NodeHeight = width / 2 + 100 * (i + 1);
+            NodeWidth = height / 2 + 100 * (i + 1);
+
+            nodeX = node(NodeHeight, NodeWidth, nodeName);
+            edge(nodeOne, nodeX, edgeName);
+          }
+
+          console.log(nodeOne);
+        })
+        .catch((e) => console.error(e));
+    }
+
+    // "Update the views of an async paper to make sure that the views reflect the cells' models; unfreeze the paper afterward."
     paper.unfreeze();
   </script>
 </html>

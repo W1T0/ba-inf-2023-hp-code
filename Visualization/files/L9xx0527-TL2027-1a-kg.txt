@@ -1,0 +1,4 @@
+ex:L9xx0527-TL2027-1a-pdf ex:date '19xx-05-27'^^xsd:date .
+ex:L9xx0527-TL2027-1a-pdf ex:B-PER ex:Telle .
+ex:L9xx0527-TL2027-1a-pdf ex:B-OTH ex:Rosen .
+ex:Rosen ex:wikidataQID ex:Q34687 .
