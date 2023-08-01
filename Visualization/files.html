@@ -3,6 +3,13 @@
   <head>
     <title>FILES</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Link to Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
   </head>
 
   <body>
@@ -47,15 +54,37 @@
         <div id="paper" class="block"></div>
       </div>
     </div>
+
+    <!-- Karte -->
+    <div id="map-div">
+      <div
+        id="map"
+        class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
+        tabindex="0"
+      ></div>
+    </div>
   </body>
 
-  <!-- dependencies -->
+  <!-- Links to joint dependencies -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.1/backbone.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.7.4/joint.js"></script>
 
+  <!-- Links to leaflet dependencies -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+
+  <!-- JAVASCRIPT OWN CODE -->
   <script type="text/javascript">
+    //
+    // FILECHOOSER EVENT LISTENER
+    //
+
     // get the drop down menu
     let fileChooser = document.getElementById("file-chooser");
 
@@ -88,6 +117,22 @@
       // change graph
       addGraph(kgPath);
     });
+
+    //
+    // LEAFLET MAP
+    //
+
+    // create the map and set the view
+    var map = L.map("map").setView([40, -44], 3);
+
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    // adds a marker with a pop up to the map
+    function addMarker(lat, long, name) {
+      L.marker([lat, long]).addTo(map).bindPopup(name).openPopup();
+    }
 
     //
     // GRAPH VISULIZATION
@@ -202,8 +247,8 @@
           let textSplit = text.split(".");
 
           // get the name of the letter and create nodeOne
-          let nodeOneName = path.slice(21, 39);
-          let nodeOne = node(width / 2, height / 2, nodeOneName);
+          let nodeMainName = path.slice(21, 39);
+          let nodeMain = node(width / 2, height / 2, nodeMainName);
 
           let previousNode;
 
@@ -213,21 +258,35 @@
             let edgeName = lineSplit[1].replace("ex:", "");
             let nodeName = lineSplit[2].replace("ex:", "");
 
-            NodeHeight = width / 2 + 100 * (i + 1);
-            NodeWidth = height / 2 + 100 * (i + 1);
+            // set the height and width of the node
+            // TODO besser machen mit Kreis und so
+            NodeHeight = 0 + 100 * (i + 1);
+            NodeWidth = 0 + 100 * (i + 1);
 
-            nodeX = node(NodeHeight, NodeWidth, nodeName);
+            // don't show the coordinates node
+            if (edgeName != "coordinates") {
+              // create node
+              nodeX = node(NodeHeight, NodeWidth, nodeName);
 
-            if (edgeName == "wikidataQID") {
-              edge(previousNode, nodeX, edgeName);
+              // connect the wikidataQID with the previous node and not the main node
+              if (edgeName == "wikidataQID") {
+                // wikidataQID connection
+                edge(previousNode, nodeX, edgeName);
+              } else {
+                // normal connection
+                edge(nodeMain, nodeX, edgeName);
+              }
+
+              // save the previous node in case it needs to be connected to the wikidataQID
+              previousNode = nodeX;
             } else {
-              edge(nodeOne, nodeX, edgeName);
+              let nodeNameSplit = nodeName.split("-");
+              let lat = nodeNameSplit[0].replace(",", ".").replace("'", "");
+              let long = nodeNameSplit[1].replace(",", ".").replace("'", "");
+              let EntityName = lineSplit[0].replace("ex:", "");
+              addMarker(lat, long, EntityName);
             }
-
-            previousNode = nodeX;
           }
-
-          console.log(nodeOne);
         })
         .catch((e) => console.error(e));
     }

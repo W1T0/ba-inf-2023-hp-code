@@ -18,11 +18,11 @@ def getCoordinates(wikidataQID):
     queryDF = data_extracter.load_as_dataframe()
 
     # save latitude and longitude
-    lat = str(queryDF.values[0, 0]).split(" ")[1].replace(")", "")
-    long = str(queryDF.values[0, 0]).split(" ")[0].replace("Point(", "")
+    lat = str(queryDF.values[0, 0]).split(" ")[1].replace(")", "").replace(".", ",")
+    long = str(queryDF.values[0, 0]).split(" ")[0].replace("Point(", "").replace(".", ",")
 
     # return latitude and longitude
-    return "" + lat + "," + long
+    return "" + lat + "-" + long
 
 
 directoryPath = "./FoodReligionEvaluation/output15/output-tsv-2overlap/"  # "./HIPE-scorer-input/output15/output-tsv-2overlap/"
