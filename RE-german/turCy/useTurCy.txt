@@ -1,5 +1,14 @@
 use  turcy
 
+on new vm it worked (ubuntu 22.10)
+
+> git clone https://github.com/ChrisDelClea/turCy.git
+
 > pip install turcy
 
-> python -m spacy download de_core_news_lg-3.0.0 --direct
+> python3 -m spacy download de_core_news_lg-3.0.0 --direct
+
+
+if that does not work
+> pip3 install https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.0.0/de_core_news_lg-3.0.0.tar.gz
+

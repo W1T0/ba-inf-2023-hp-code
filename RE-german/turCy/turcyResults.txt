@@ -1,0 +1,3 @@
+turCy results
+
+subject: "Schaffen", predicate: "ist" and object: "Kummer"
