@@ -11,13 +11,10 @@
         <div class="navbaritems">
           <ul class="navbar_nav">
             <li class="nav-item">
-              <a class="nav-link" href="files.html"> FILES </a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="slider.html"> SLIDER </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="map.html"> MAP </a>
+              <a class="nav-link" href="files.html"> FILES </a>
             </li>
           </ul>
         </div>
@@ -25,14 +22,26 @@
     </nav>
   </body>
 
-  <div id="slider-div">
-    <div class="slidecontainer">
-      <input type="range" min="1850" max="1950" value="50" class="slider" id="myRange" />
-    </div>
-    <div id="year-div"><h1 id="year">1900</h1></div>
+  <div id="paper-div">
+    <div id="paper-1"></div>
   </div>
 
+  <div class="slidercontainer">
+    <input type="range" min="1850" max="1950" class="slider" id="myRange" />
+  </div>
+  <div id="year-div"><h1 id="year">1900</h1></div>
+
+  <!-- Links to joint dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.1/backbone.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.7.4/joint.js"></script>
+
   <script>
+    //
+    // SLIDER
+    //
+
     var slider = document.getElementById("myRange");
     var output = document.getElementById("year");
     output.innerHTML = slider.value; // Display the default slider value
@@ -40,6 +49,108 @@
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function () {
       output.innerHTML = this.value;
+      node(width / 2 - 100, height / 2 - 100, this.value);
     };
+
+    //
+    // GRAPH VISULIZATION
+    //
+
+    // create graph
+    var graph = new joint.dia.Graph();
+
+    // size of paper
+    width = 1000;
+    height = 700;
+
+    // create paper where graph is displayed
+    var paper = new joint.dia.Paper({
+      el: document.getElementById("paper-1"),
+      width: width,
+      height: height,
+      model: graph,
+      defaultConnectionPoint: { name: "boundary" },
+      defaultConnector: { name: "smooth" },
+      interactive: { linkMove: false },
+      labelsLayer: true,
+      frozen: true,
+    });
+
+    // scale (zoom) of graph in paper
+    paper.scale(1, 1);
+
+    // Prevent user from moving the element when interacting with the label element
+    paper.on("element:label:pointerdown", function (_view, evt) {
+      evt.stopPropagation();
+    });
+
+    paper.on("cell:pointerdown blank:pointerdown", function () {
+      if (window.getSelection) {
+        window.getSelection().removeAllRanges();
+      } else if (document.selection) {
+        document.selection.empty();
+      }
+    });
+
+    // function to create a node in the graph
+    function node(x, y, label) {
+      var node = new joint.shapes.standard.Rectangle({
+        position: { x: x, y: y },
+        size: { width: 170, height: 60 },
+        attrs: {
+          label: {
+            text: label,
+            event: "element:label:pointerdown",
+            fontWeight: "bold",
+            cursor: "text",
+            style: {
+              userSelect: "text",
+            },
+          },
+          body: {
+            rx: 5, // curve edges
+            ry: 5, // curve edges
+            strokeWidth: 2, // width of border
+          },
+        },
+      });
+      return node.addTo(graph);
+    }
+
+    // function create an edge in the graph
+    function edge(source, target, label, vertices) {
+      var edge = new joint.shapes.standard.Link({
+        source: { id: source.id },
+        target: { id: target.id },
+        attrs: {
+          line: {
+            strokeWidth: 2,
+          },
+        },
+        labels: [
+          {
+            position: {
+              distance: 0.5,
+              offset: label.indexOf("\n") > -1 || label.length === 1 ? 0 : 10,
+              args: {
+                keepGradient: true,
+                ensureLegibility: true,
+              },
+            },
+            attrs: {
+              text: {
+                text: label,
+                fontWeight: "bold",
+              },
+            },
+          },
+        ],
+        vertices: vertices || [],
+      });
+      return edge.addTo(graph);
+    }
+
+    // "Update the views of an async paper to make sure that the views reflect the cells' models; unfreeze the paper afterward."
+    paper.unfreeze();
   </script>
 </html>
