@@ -1,7 +1,32 @@
 import os
+import B_wikidataSPARQLQuery
 
-directoryPath = "./HIPE-scorer-input/outputFW10/output-tsv-2overlap/"
-outputPath = "./Visualization/output-kg-2overlap-2.txt"
+
+# function that returns the coordinates of a location given the wikidata QID of that location
+def getCoordinates(wikidataQID):
+    query = (
+        """
+        SELECT ?geo WHERE {
+            wd:"""
+        + wikidataQID
+        + """ wdt:P625 ?geo .
+        }
+        """
+    )
+    # run query and save as dataframe
+    data_extracter = B_wikidataSPARQLQuery.WikiDataQueryResults(query)
+    queryDF = data_extracter.load_as_dataframe()
+
+    # save latitude and longitude
+    lat = str(queryDF.values[0, 0]).split(" ")[1].replace(")", "")
+    long = str(queryDF.values[0, 0]).split(" ")[0].replace("Point(", "")
+
+    # return latitude and longitude
+    return "" + lat + "," + long
+
+
+directoryPath = "./FoodReligionEvaluation/output15/output-tsv-2overlap/"  # "./HIPE-scorer-input/output15/output-tsv-2overlap/"
+outputPath = "./Visualization/output-kg/output-kg-2overlap-3-withReligionAndFood.txt"
 
 # keeps track of how many files haven been processed
 fileCount = 1
@@ -79,8 +104,19 @@ for file in os.listdir(directoryPath):
             # get the entity type
             entityType = lineSplit[1]
 
+            # add religion or food string to entityType if entity is of that type
+            if entityType == "B-OTH" and lineSplit[2] != "O":
+                entityType = entityType + "_" + lineSplit[2]
+
             # get the wikidata QID
             wikidataQID = lineSplit[7]
+
+            # default value for coordinates to check if it has been set
+            coordinates = "-"
+
+            # get the coordinates for a location if there is a wikidataQID
+            if entityType == "B-LOC" and wikidataQID != "_":
+                coordinates = getCoordinates(wikidataQID)
 
             # write entity triple
             writeToFile.write(
@@ -90,6 +126,9 @@ for file in os.listdir(directoryPath):
             # write wikidata QID triple
             if wikidataQID != "_":
                 writeToFile.write("ex:" + entity + " ex:" + "wikidataQID" + " ex:" + wikidataQID + " .\n")
+
+            if coordinates != "-":
+                writeToFile.write("ex:" + entity + " ex:" + "coordinates" + " ex:'" + coordinates + "' .\n")
 
         writeToFile.write("\n")
         writeToFile.close()

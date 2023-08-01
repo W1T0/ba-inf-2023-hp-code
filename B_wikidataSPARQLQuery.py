@@ -1,4 +1,7 @@
-# copied from https://itnext.io/extracting-data-from-wikidata-using-sparql-and-python-59e0037996f
+"""
+Source: 
+https://itnext.io/extracting-data-from-wikidata-using-sparql-and-python-59e0037996f
+"""
 import sys
 import pandas as pd
 from typing import List, Dict
