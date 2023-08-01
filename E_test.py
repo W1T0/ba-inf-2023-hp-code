@@ -1,4 +1,17 @@
-import B_wikidataSPARQLQuery
+import os
+import json
+
+
+# open file, store every line of file and count lines
+readFromFile = open(
+    "HIPE-results\output-hipe-15\output-hipe-2overlap\L9xx12xx-TL2068-1b-pdf-2Overlap_bundle1_hipe2020_de_1_nerc_coarse.json",
+    "r",
+    encoding="utf-8",
+)
+
+data = json.load(readFromFile)
+
+print(data.values())
 
 
 # values = [
