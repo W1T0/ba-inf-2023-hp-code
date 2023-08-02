@@ -2,7 +2,7 @@ import os
 import numpy as np
 import csv
 
-version = 15
+version = 14
 
 # the directories where the hipe output is stored
 directories = [
