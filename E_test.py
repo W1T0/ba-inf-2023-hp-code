@@ -11,7 +11,10 @@ readFromFile = open(
 
 data = json.load(readFromFile)
 
-print(data.values())
+print(data["NE-COARSE-LIT"]["TIME-ALL"]["LED-ALL"]["ALL"]["partial"]["TP"])
+
+# for i in str(data.values()).split("{"):
+#     print(i)
 
 
 # values = [

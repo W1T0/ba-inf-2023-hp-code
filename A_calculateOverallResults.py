@@ -173,39 +173,39 @@ for directory in directories:
         newline="",
     )
 
-    # create csv writer
-    CSVWriter = csv.writer(writeToFile)
+    # # create csv writer
+    # CSVWriter = csv.writer(writeToFile)
 
-    # write directory name
-    CSVWriter.writerow([directory])
+    # # write directory name
+    # CSVWriter.writerow([directory])
 
-    # write header
-    CSVWriter.writerow("Micro-Precision Micro-Recall Micro-F1 TP FP FN".split(" "))
+    # # write header
+    # CSVWriter.writerow("Micro-Precision Micro-Recall Micro-F1 TP FP FN".split(" "))
 
-    # write data
-    for i in range(10):
-        CSVWriter.writerow(
-            (
-                str(microPrecision[i])
-                + " "
-                + str(microRecall[i])
-                + " "
-                + str(microf1[i])
-                + " "
-                + str(tpOverall[i])
-                + " "
-                + str(fpOverall[i])
-                + " "
-                + str(fnOverall[i])
-            ).split(" ")
-        )
+    # # write data
+    # for i in range(10):
+    #     CSVWriter.writerow(
+    #         (
+    #             str(microPrecision[i])
+    #             + " "
+    #             + str(microRecall[i])
+    #             + " "
+    #             + str(microf1[i])
+    #             + " "
+    #             + str(tpOverall[i])
+    #             + " "
+    #             + str(fpOverall[i])
+    #             + " "
+    #             + str(fnOverall[i])
+    #         ).split(" ")
+    #     )
 
-    # write new line
-    CSVWriter.writerow("\n")
+    # # write new line
+    # CSVWriter.writerow("\n")
 
-    # print("TP: " + str(tpOverall))
-    # print("FP: " + str(fpOverall))
-    # print("FN: " + str(fnOverall))
-    # print("Micro Precision: " + str(microPrecision))
-    # print("Micro Recall: " + str(microRecall))
-    # print("Micro F1: " + str(microf1))
+    print("TP: " + str(tpOverall))
+    print("FP: " + str(fpOverall))
+    print("FN: " + str(fnOverall))
+    print("Micro Precision: " + str(microPrecision))
+    print("Micro Recall: " + str(microRecall))
+    print("Micro F1: " + str(microf1))
