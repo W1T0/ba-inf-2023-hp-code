@@ -13,7 +13,7 @@ directories = [
     # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-sequence_tagging/",
     "./HIPE-results/output-hipe-"
     + str(version)
-    + "/output-hipe-2overlap/",
+    + "-2/output-hipe-2overlap/",
 ]
 
 # iterate over directories
@@ -108,7 +108,7 @@ for directory in directories:
 
     # open file to write into
     writeToFile = open(
-        "./HIPE-results/output-hipe-" + str(version) + "-overall-results-json.csv",
+        "./HIPE-results/output-hipe-" + str(version) + "-2-overall-results-json.csv",
         "a",
         encoding="utf-8",
         newline="",
