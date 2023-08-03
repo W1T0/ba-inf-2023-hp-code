@@ -1,0 +1,21 @@
+HIPE-results Ordner Zuordnung
+
+Ordner Name		Excel-Spalte Name				Essens- und Religionswerte
+output-hipe-fw-1	Transkriptionen neu - alte Query - lvst: 70	
+output-hipe-fw-2	Transkriptionen neu - alte Query - lvst: 80
+output-hipe-fw-3	Transkriptionen neu - alte Query - lvst: 85				
+output-hipe-fw-4	Transkriptionen neu - alte Query - lvst: 90				
+output-hipe-fw-5	Transkriptionen neu - alte Query - lvst: 95					
+output-hipe-fw-6	Transkriptionen neu - neue Query - lvst: 70					
+output-hipe-fw-7	Transkriptionen neu - neue Query - lvst: 80
+output-hipe-fw-8	Transkriptionen neu - neue Query - lvst: 85
+output-hipe-fw-9	Transkriptionen neu - neue Query - lvst: 90
+output-hipe-fw-10	Transkriptionen neu - neue Query - lvst: 95
+
+output-hipe-14		beste Kombination 1				Essen alte Query, lvst: 95 	Religion alte Query, lvst: 90
+output-hipe-15		beste Kombination 2				Essen alte Query, lvst: 95 	Religion neue Query lvst: 90
+
+
+output-hipe-7		Transkription neu - alte Query		Essen alte Query, lvst: 90 	Religion alte Query, lvst: 80 ??
+output-hipe-11		Transkription neu - neue Query 		Essen neue Query, lvst: 90	Religion neue Query, lvst: 80	
+
