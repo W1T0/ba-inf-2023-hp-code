@@ -1,6 +1,7 @@
 ex:L9xx12xx-TL2068-1b-pdf ex:date '19xx-12-xx'^^xsd:date .
 ex:L9xx12xx-TL2068-1b-pdf ex:B-PER ex:Teckla .
 ex:L9xx12xx-TL2068-1b-pdf ex:B-PER ex:Josef .
+ex:L9xx12xx-TL2068-1b-pdf ex:B-OTH_FOOD ex:Mehl .
 ex:L9xx12xx-TL2068-1b-pdf ex:B-PER ex:Hedwig .
 ex:L9xx12xx-TL2068-1b-pdf ex:B-LOC ex:Neustadt .
 ex:Neustadt ex:wikidataQID ex:Q986984 .

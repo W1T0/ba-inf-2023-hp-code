@@ -172,7 +172,7 @@
     });
 
     // function to create a node in the graph
-    function node(x, y, label) {
+    function node(x, y, label, color) {
       var node = new joint.shapes.standard.Rectangle({
         position: { x: x, y: y },
         size: { width: 170, height: 60 },
@@ -180,6 +180,7 @@
           label: {
             text: label,
             event: "element:label:pointerdown",
+            fontSize: 15,
             fontWeight: "bold",
             cursor: "text",
             style: {
@@ -187,6 +188,7 @@
             },
           },
           body: {
+            fill: color,
             rx: 5, // curve edges
             ry: 5, // curve edges
             strokeWidth: 2, // width of border
@@ -248,6 +250,7 @@
           let nodeMain = node(width / 2, height / 2, nodeMainName);
 
           let previousNode;
+          let color;
 
           // create the nodes and edges
           for (let i = 0; i < textSplit.length - 1; i++) {
@@ -260,10 +263,34 @@
             NodeHeight = 0 + 100 * (i + 1);
             NodeWidth = 0 + 100 * (i + 1);
 
-            // don't show the coordinates node
+            // determine color of node
+            switch (edgeName) {
+              case "B-PER":
+                color = "#02c4c4"; // blue
+                break;
+              case "B-LOC":
+                color = "#EF8354"; // orange
+                break;
+              case "B-OTH_RELIGION":
+                color = "#f0dd0f"; // yellow
+                break;
+              case "B-OTH_FOOD":
+                color = "#92b300"; // green
+                break;
+              case "wikidataQID":
+                color = "#669999"; // gray blueish
+                break;
+              case "date":
+                color = "#DFB2F4"; // pink
+                break;
+              default:
+                text = "#5E574D"; // gray
+            }
+
             if (edgeName != "coordinates") {
+              // don't show the coordinates node
               // create node
-              nodeX = node(NodeHeight, NodeWidth, nodeName);
+              nodeX = node(NodeHeight, NodeWidth, nodeName, color);
 
               // connect the wikidataQID with the previous node and not the main node
               if (edgeName == "wikidataQID") {
@@ -277,6 +304,7 @@
               // save the previous node in case it needs to be connected to the wikidataQID
               previousNode = nodeX;
             } else {
+              // add marker to map
               let nodeNameSplit = nodeName.split("-");
               let lat = nodeNameSplit[0].replace(",", ".").replace("'", "");
               let long = nodeNameSplit[1].replace(",", ".").replace("'", "");
