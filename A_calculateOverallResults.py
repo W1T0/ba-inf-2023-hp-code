@@ -3,7 +3,7 @@ import numpy as np
 import csv
 import json
 
-version = 11
+version = 16
 
 # the directories where the hipe output is stored
 directories = [

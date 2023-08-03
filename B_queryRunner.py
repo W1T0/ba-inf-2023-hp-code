@@ -167,29 +167,13 @@ def run(
     """
 
     religion = B_compareWikidataQueryWithLetterWords.compare(
-        directoryPath, queryReligionNew, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
+        directoryPath, queryReligionOld, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
     )
+    print("[INFO] Religion query ran")
 
     food = B_compareWikidataQueryWithLetterWords.compare(
         directoryPath, queryFoodOld, levenshteinDistanceFood, outputPathFood, boolWriteToFile
     )
-
-    # religion = B_compareWikidataQueryWithLetterWords.compare(
-    #     "./TokenizedLetters/",
-    #     "./NER-german/extractEntitiesFromWikidata/comparisonReligionOutput3.txt",
-    #     queryReligion2,
-    #     80,
-    #     False,
-    # )
-    print("[INFO] Religion query ran")
-
-    # food = B_compareWikidataQueryWithLetterWords.compare(
-    #     "./TokenizedLetters/",
-    #     "./NER-german/extractEntitiesFromWikidata/comparisonFoodOutput2.txt",
-    #     queryFood2,
-    #     90,
-    #     False,
-    # )
     print("[INFO] Food query ran")
 
     return [religion, food]
