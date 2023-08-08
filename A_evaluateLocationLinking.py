@@ -66,6 +66,7 @@ def run(directories):
                             annotationEntityType = annotationLineSplit[1]
                             overlap2EntityType = overlap2LineSplit[1]
 
+                            # print to manually check the results
                             if annotationEntityType == "B-LOC" or overlap2EntityType == "B-LOC":
                                 print("----------LINES----------")
                                 print("actual: " + str(annotationLineSplit))
@@ -79,7 +80,7 @@ def run(directories):
                             # TRUE POSITIVE (actual: positive, predicted: Positive)
                             # checks if the entity type for both is "B-LOC"
                             if annotationEntityType == "B-LOC" and overlap2EntityType == "B-LOC":
-                                # checks if the special entity type is the same
+                                # checks if the wikidataQID is the same
                                 if annotationQID == overlap2QID:
                                     # increase  true positive
                                     tpLocation += 1
@@ -136,34 +137,6 @@ def run(directories):
         f1Location = 2 * (
             (precisionLocation * recallLocation) / (precisionLocation + recallLocation + 0.000000000000001)
         )
-        # print(
-        #     "Overall Evaluation Food: \nPrecision\tRecall\tF1\tTP\tFP\tFN\n"
-        #     + str(precisionFood)
-        #     + "\t"
-        #     + str(recallFood)
-        #     + "\t"
-        #     + str(f1Food)
-        #     + "\t"
-        #     + str(overallTPFood)
-        #     + "\t"
-        #     + str(overallFPFood)
-        #     + "\t"
-        #     + str(overallFNFood)
-        # )
-        # print(
-        #     "Overall Evaluation Religion: \nPrecision\tRecall\tF1\tTP\tFP\tFN\n"
-        #     + str(precisionReligion)
-        #     + "\t"
-        #     + str(recallReligion)
-        #     + "\t"
-        #     + str(f1Religion)
-        #     + "\t"
-        #     + str(overallTPReligion)
-        #     + "\t"
-        #     + str(overallFPReligion)
-        #     + "\t"
-        #     + str(overallFNReligion)
-        # )
 
         # open file to write into
         writeToFile = open(
