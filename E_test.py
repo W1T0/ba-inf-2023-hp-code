@@ -1,17 +1,18 @@
 import os
 import json
+from fuzzywuzzy import fuzz
 
 
-# open file, store every line of file and count lines
-readFromFile = open(
-    "HIPE-results\output-hipe-15\output-hipe-2overlap\L9xx12xx-TL2068-1b-pdf-2Overlap_bundle1_hipe2020_de_1_nerc_coarse.json",
-    "r",
-    encoding="utf-8",
-)
+# # open file, store every line of file and count lines
+# readFromFile = open(
+#     "HIPE-results\output-hipe-15\output-hipe-2overlap\L9xx12xx-TL2068-1b-pdf-2Overlap_bundle1_hipe2020_de_1_nerc_coarse.json",
+#     "r",
+#     encoding="utf-8",
+# )
 
-data = json.load(readFromFile)
+# data = json.load(readFromFile)
 
-print(data["NE-COARSE-LIT"]["TIME-ALL"]["LED-ALL"]["ALL"]["partial"]["TP"])
+# print(data["NE-COARSE-LIT"]["TIME-ALL"]["LED-ALL"]["ALL"]["partial"]["TP"])
 
 # for i in str(data.values()).split("{"):
 #     print(i)
