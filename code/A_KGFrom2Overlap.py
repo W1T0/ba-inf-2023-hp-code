@@ -1,5 +1,5 @@
 import os
-import B_wikidataSPARQLQuery
+from subscripts import wikidata_SPARQL_query
 
 
 # function that returns the coordinates of a location given the wikidata QID of that location
@@ -14,7 +14,7 @@ def getCoordinates(wikidataQID):
         """
     )
     # run query and save as dataframe
-    data_extracter = B_wikidataSPARQLQuery.WikiDataQueryResults(query)
+    data_extracter = wikidata_SPARQL_query.WikiDataQueryResults(query)
     queryDF = data_extracter.load_as_dataframe()
 
     # save latitude and longitude
