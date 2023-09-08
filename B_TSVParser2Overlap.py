@@ -33,6 +33,42 @@ def run(
     outputPath(-Food,-Religion)QueryRunner: The path of the file where the output should be stored in for the query runner.
     boolWriteToFileQueryRunner: A boolean value that determines if the result of this function should be written to the output file. (True or False)
     """
+    # names of the kiefer scholz family
+    kieferScholzNames = [
+        "Anna",
+        "Ernst",
+        "Franz",
+        "Maria",
+        "Hedwig",
+        "Josef",
+        "Bertha",
+        "Frank",
+        "Rosalia",
+        "Paul",
+        "Martha",
+        "Thekla",
+        "Robert",
+        "August",
+        "Selma",
+        "Agnes",
+        "Berthold",
+        "Cecilia",
+        "Richard",
+        "Marjorie",
+        "Rita",
+        "Helen",
+        "Art",
+        "Liesbeth",
+        "Lene",
+        "Erwin",
+        "Grete",
+        "Johanna",
+        "Johann",
+        "Ottilie",
+        "Tielchen",
+        "Walter",
+        "Dolores",
+    ]
 
     # generate 2 Overlap entities and save them
     entities2Overlap = B_get2OverlapEntitiesFromNEROutput.run(directories, outputPathTXT, boolWriteToFile)
@@ -177,6 +213,19 @@ def run(
                                             # set the entityType, if word is an entity
                                             entityType = entity.split()[1]
                                             count += 1
+                                # else:
+                                #     print("[EROOR] FILENAME NOT THE SAME 2OVERLAP")
+                                #     print(entities[0])
+                                #     print(filenameClean)
+
+                        # checks if word is a name of the kiefer scholz family
+                        if firstWordReplaced in kieferScholzNames:
+                            #  print("Names: " + str(firstWordReplaced))
+                            if entityType == "B-PER":
+                                print("ALREADY B-PER")
+                            else:
+                                print("NEW PER")
+                                entityType = "B-PER"
 
                         # ignore the wikidata linking if entityType is B-PER
                         if not entityType == "B-PER":
