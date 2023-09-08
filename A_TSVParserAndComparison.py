@@ -10,8 +10,8 @@ outputAnnotations = "./HIPE-scorer-input/test process/output" + str(version) + "
 outputFlair = "./HIPE-scorer-input/test process/output" + str(version) + "/output-tsv-flair-ner-german/"
 outputS_T = "./HIPE-scorer-input/test process/output" + str(version) + "/output-tsv-sequence_tagging/"
 outputGermaNER = "./HIPE-scorer-input/test process/output" + str(version) + "/output-tsv-germaNER/"
-output2Overlap = "./HIPE-scorer-input/test process/output" + str(17) + "/output-tsv-2overlap/"
-output2OverlapFoodReligion = "./FoodReligionEvaluation/output" + str(17) + "/output-tsv-2overlap/"
+output2Overlap = "./HIPE-scorer-input/test process/output" + str(18) + "/output-tsv-2overlap/"
+output2OverlapFoodReligion = "./FoodReligionEvaluation/output" + str(18) + "/output-tsv-2overlap/"
 
 
 # ANNOTATIONS TSV PARSER
@@ -75,5 +75,5 @@ B_TSVParser2Overlap.run(
 # )
 
 # COMPARISON
-# print("[INFO] Compare TSV")
-# B_compareAnnotationToTSV.run([outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap])
+print("[INFO] Compare TSV")
+B_compareAnnotationToTSV.run([outputAnnotations, outputFlair, outputS_T, outputGermaNER, output2Overlap])

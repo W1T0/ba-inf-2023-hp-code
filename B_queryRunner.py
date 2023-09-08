@@ -167,7 +167,7 @@ def run(
     """
 
     religion = B_compareWikidataQueryWithLetterWords.compare(
-        directoryPath, queryReligionOld, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
+        directoryPath, queryReligionNew, levenshteinDistanceReligion, outputPathReligion, boolWriteToFile
     )
     print("[INFO] Religion query ran")
 

@@ -3,7 +3,7 @@ import numpy as np
 import csv
 import json
 
-name = "old-transcription-sequence_tagging"
+name = "extraNamesResults2"
 
 # the directories where the hipe output is stored
 directories = [
@@ -11,7 +11,7 @@ directories = [
     # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-flair-ner-german/",
     # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-germaNER/",
     # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-sequence_tagging/",
-    "./HIPE-results/test process/output-hipe-4/output-hipe-sequence_tagging/"
+    "./HIPE-results/extraNamesResults2/"
 ]
 
 # iterate over directories

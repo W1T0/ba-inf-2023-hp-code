@@ -220,11 +220,8 @@ def run(
 
                         # checks if word is a name of the kiefer scholz family
                         if firstWordReplaced in kieferScholzNames:
-                            #  print("Names: " + str(firstWordReplaced))
-                            if entityType == "B-PER":
-                                print("ALREADY B-PER")
-                            else:
-                                print("NEW PER")
+                            #  sets entity type to B-PER if not already
+                            if entityType != "B-PER":
                                 entityType = "B-PER"
 
                         # ignore the wikidata linking if entityType is B-PER
