@@ -3,16 +3,10 @@ import numpy as np
 import csv
 import json
 
-name = "extraNamesResults2"
+outputFileName = "extraNamesResults2"
 
 # the directories where the hipe output is stored
-directories = [
-    # "./HIPE-scorer/HIPE-results/HIPE-output-test/"
-    # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-flair-ner-german/",
-    # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-germaNER/",
-    # "./HIPE-results/output-hipe-" + str(version) + "/output-hipe-sequence_tagging/",
-    "./HIPE-results/extraNamesResults2/"
-]
+directories = ["./data/evaluation/HIPE-scorer_results/extraNamesResults2/"]
 
 # iterate over directories
 for directory in directories:
@@ -106,7 +100,7 @@ for directory in directories:
 
     # open file to write into
     writeToFile = open(
-        "./HIPE-results/output-hipe-" + name + "-final-results-json.csv",
+        "./data/evaluation/HIPE-scorer_results/output-hipe-" + outputFileName + "-json.csv",
         "a",
         encoding="utf-8",
         newline="",

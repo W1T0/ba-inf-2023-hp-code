@@ -175,11 +175,3 @@ def run(directories):
 
     else:
         print("[ERROR] There are not the same number of files in every directory.")
-
-
-run(
-    [
-        "HIPE-scorer-input/groundTruth/output-tsv-annotations/",
-        "HIPE-scorer-input/output15/output-tsv-2overlap/",
-    ]
-)
