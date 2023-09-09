@@ -173,7 +173,7 @@
     });
 
     // function to create a node in the graph
-    function node(x, y, label, color) {
+    function node(x, y, label, color, textSize) {
       var node = new joint.shapes.standard.Rectangle({
         position: { x: x, y: y },
         size: { width: 170, height: 60 },
@@ -181,7 +181,7 @@
           label: {
             text: label,
             event: "element:label:pointerdown",
-            fontSize: 15,
+            fontSize: textSize,
             fontWeight: "bold",
             cursor: "text",
             style: {
@@ -222,6 +222,7 @@
             attrs: {
               text: {
                 text: label,
+                fontSize: 20,
                 fontWeight: "bold",
               },
             },
@@ -242,6 +243,7 @@
       countLOC = 0;
       countREL = 0;
       countFOO = 0;
+      countOTH = 0;
 
       // read the file
       fetch(path)
@@ -252,13 +254,13 @@
           // split the text into lines
           let textSplit = text.split(".");
 
-          //
+          // center of graph paper
           centerX = width / paperScale;
           centerY = height / paperScale / 2;
 
           // get the name of the letter and create nodeMain
           let nodeMainName = path.slice(21, 39);
-          let nodeMain = node(centerX, centerY, nodeMainName);
+          let nodeMain = node(centerX, centerY, nodeMainName, "#ffffff", 16);
 
           let previousNode;
           let color;
@@ -267,7 +269,7 @@
           for (let i = 0; i < textSplit.length - 1; i++) {
             let lineSplit = textSplit[i].split(" ");
             let edgeName = lineSplit[1].replace("ex:", "");
-            let nodeName = lineSplit[2].replace("ex:", "");
+            let nodeName = lineSplit[2].replace("ex:", "").replace("^^xsd:date", "").replaceAll("'", "");
 
             // set the height and width of the node
             // TODO besser machen mit Kreis und so
@@ -307,26 +309,30 @@
                 nodeWidth = previousNodeWidth;
                 break;
               case "date":
-                color = "#DFB2F4"; // pink
+                color = "#DFB2F4"; // lila
                 nodeHeight = centerY;
                 nodeWidth = 10;
                 break;
               default:
-                color = "#5E574D"; // gray
+                color = "#D741A7"; // pink
                 nodeHeight = centerY;
-                nodeWidth = centerX + 2;
+                nodeWidth = 2 * centerX - 200 + countOTH;
+                countOTH = countOTH + 1;
             }
 
             // don't show the coordinates node
             if (edgeName != "coordinates") {
               // create node
-              nodeX = node(nodeWidth, nodeHeight, nodeName, color);
+              // nodeX = node(nodeWidth, nodeHeight, nodeName, color, 20);
 
               // connect the wikidataQID with the previous node and not the main node
               if (edgeName == "wikidataQID") {
                 // wikidataQID connection
-                edge(previousNode, nodeX, edgeName);
+                // edge(previousNode, nodeX, edgeName);
               } else {
+                // create node
+                nodeX = node(nodeWidth, nodeHeight, nodeName, color, 25);
+
                 // normal connection
                 edge(nodeMain, nodeX, edgeName);
               }
