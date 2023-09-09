@@ -5,18 +5,19 @@ import re
 from subscripts import replace_special_characters
 
 
-def run(directoryPath, outputPath, debug):
+def run(inputPath: str, outputPath: str, debug: bool, fileEndingTSV: str):
     """
     Creates a TSV file for the flair/ner-german-large output in a format the HIPE-scorer accepts.
 
-    directoryPath: The path of the directory where the files are stored in.
+    inputPath: The path of the directory where the files are stored in.
     outputPath: The path of the directory where the output should be stored in.
     debug: A boolean that enables debug prints if set to true.
+    filenameTSV: The ending the final TSV file has.
     """
 
     # load sequence tagger
     tagger = SequenceTagger.load("flair/ner-german-large")
-    print("[INFO] SequenceTagger loaded")
+    print("[INFO] SequenceTagger LOADED")
 
     # keeps track of how many files haven been processed
     fileCount = 1
@@ -25,18 +26,18 @@ def run(directoryPath, outputPath, debug):
     error = 0
 
     # for every file in the directory which ends with .txt
-    for file in os.listdir(directoryPath):
+    for file in os.listdir(inputPath):
         filename = os.fsdecode(file)
         if filename.endswith(".txt"):
             # open file
-            readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
+            readFromFile = open(inputPath + filename, "r", encoding="utf-8")
 
             # process file with flair NER and predict NER tags
             sentence = Sentence(readFromFile.read())
             tagger.predict(sentence)
 
             if debug:
-                print("[DEBUG] NER tags predicted")
+                print("[DEBUG] NER TAGS PREDICTED")
 
             # save entities
             entities = []
@@ -62,10 +63,10 @@ def run(directoryPath, outputPath, debug):
                     entities.append([entityString, predicate])
 
             if debug:
-                print("[INFO] Entities list full, length: " + str(len(entities)))
+                print("[DEBUG] ENTITIES LIST FULL, LENGTH: " + str(len(entities)))
 
             # open file (again, because otherwise there are errors)
-            readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
+            readFromFile = open(inputPath + filename, "r", encoding="utf-8")
 
             # read every line
             lines = readFromFile.readlines()
@@ -76,11 +77,7 @@ def run(directoryPath, outputPath, debug):
 
             # open file to write into
             writeToFile = open(
-                outputPath
-                + filename.replace(".txt", "").replace("_", "-")
-                + "-flairNERGerman"
-                + "_bundle1_hipe2020_de_1"
-                + ".tsv",
+                outputPath + filename.replace(".txt", "").replace("_", "-") + fileEndingTSV + ".tsv",
                 "a",
                 encoding="utf-8",
             )
@@ -130,7 +127,8 @@ def run(directoryPath, outputPath, debug):
 
                                 # skips an entity if it is an emtpy string
                                 if entity == " " or entity == "":
-                                    print("[INFO] empty entity")
+                                    if debug:
+                                        print("[DEBUG] EMPTY ENTITY")
                                     index += 1
                                     count += 1
                                     entity = replace_special_characters.replace(entities[index][0])
@@ -164,11 +162,11 @@ def run(directoryPath, outputPath, debug):
             if count != len(entities):
                 # if not, set error to 1 so that error message can be printed
                 error = 1
-                print("[ERROR] NOT ALL ENTITIES MAPPED IN " + filename + " (TSV Parser Flair)")
+                print("[ERROR] NOT ALL ENTITIES MAPPED IN " + filename + " (TSV PARSER flair)")
 
             writeToFile.close()
 
-            print("[INFO] " + str(fileCount) + " FILES DONE (TSV Parser Flair)")
+            print("[INFO] " + str(fileCount) + " FILES DONE (TSV PARSER flair)")
 
             fileCount += 1
 
@@ -178,4 +176,6 @@ def run(directoryPath, outputPath, debug):
 
     # error message, if not all entites have been mapped
     if error == 1:
-        print("[ERROR] NOT ALL ENTITIES HAVE BEEN MAPPED (TSV Parser Flair)")
+        print("[ERROR] NOT ALL ENTITIES HAVE BEEN MAPPED (TSV PARSER flair)")
+    else:
+        print("[INFO] FINISHED WITHOUT ERRORS (TSV PARSER flair)")

@@ -4,7 +4,8 @@ import os
 def run(
     directories,
     outputPathTXT,
-    boolWriteToFile=True,
+    boolWriteToFile,
+    debug,
 ):
     """
     Returns the entities that are in the output of at least 2 of the three NER-systems (flair, germaNER, sequence_tagging).
@@ -12,9 +13,12 @@ def run(
     directoriesList: A list of the directories that store the output of the NER-systems.
     outputPathTXT: The path of the file where the output, in this case only the 2Overlap entities, should be stored in.
     boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
+    debug:  A boolean that enables debug prints if set to true.
     """
-
-    print("[INFO] 2Overlap writeToFile?: " + str(boolWriteToFile))
+    if debug:
+        print("[DEBUG]#######################################################")
+        print("[DEBUG] SCRIPT: get_2overlap_entities_from_NER_output.py")
+        print("[DEBUG] 2Overlap writeToFile?: " + str(boolWriteToFile))
 
     # [0]:flair-ner-german, [1]:germaNER, [2]:sequence_tagging
     files = [[], [], []]
@@ -26,7 +30,6 @@ def run(
             filename = os.fsdecode(file)
             files[index].append(directory + filename)
         index += 1
-    # print("[INFO] Files saved")
 
     # list to save filename and entities to
     entities2Overlap = []
@@ -39,10 +42,11 @@ def run(
             flairFile = open(files[0][i], "r", encoding="utf-8")
             germaNERFile = open(files[1][i], "r", encoding="utf-8")
             s_TFile = open(files[2][i], "r", encoding="utf-8")
-            # print("[INFO] Files opened")
 
             # append file name to entites2Overlap list
-            entities2Overlap.append([files[0][i][69:91]])
+            entities2Overlap.append([files[0][i].split("/")[4][0:22]])
+            print("IMPORTANT: " + str(files[0][i]))
+            print((files[0][i].split("/")[4][0:22]))
 
             if boolWriteToFile:
                 # open file to write to

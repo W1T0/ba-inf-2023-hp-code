@@ -2,26 +2,26 @@ import os
 from subscripts import replace_special_characters
 
 
-def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
+def run(inputPath: str, outputPath: str, fileEnding: str, filenameTSV: str):
     """
     Creates a TSV-file for the annotations, the germaNER output and the sequence_tagging output
     in a format the HIPE-scorer accepts.
 
-    directoryPath: The path of the directory where the files are stored in.
+    inputPath: The path of the directory where the files, the input, are stored in.
     outputPath: The path of the directory where the output should be stored in.
     fileEnding: The ending of the file (".conll" or ".txt").
-    hipeFileAdd: An addition to the filename to conform with the HIPE-scorer format and identify the file.
+    filenameTSV: The ending the final TSV file has.
     """
 
     # keeps track of how many files haven been processed
     fileCount = 1
 
     # for every file in the directory which ends with .conll
-    for file in os.listdir(directoryPath):
+    for file in os.listdir(inputPath):
         filename = os.fsdecode(file)
         if filename.endswith(fileEnding):
             # open file
-            readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
+            readFromFile = open(inputPath + filename, "r", encoding="utf-8")
 
             # stores every line of file
             lines = readFromFile.readlines()
@@ -33,7 +33,7 @@ def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
             # open file to write to tsv file
             # edit the filename to conform with the HIPE-scorer format
             writeToFile = open(
-                outputPath + filename.replace(fileEnding, "").replace("_", "-") + hipeFileAdd + ".tsv",
+                outputPath + filename.replace(fileEnding, "").replace("_", "-") + filenameTSV + ".tsv",
                 "a",
                 encoding="utf-8",
             )
@@ -94,7 +94,9 @@ def run(directoryPath: str, outputPath: str, fileEnding: str, hipeFileAdd: str):
 
             writeToFile.close()
 
-            print("[INFO] " + str(fileCount) + " FILES DONE (createTSVBasic)")
+            print(
+                "[INFO] " + str(fileCount) + " FILES DONE (TSV PARSER " + filenameTSV.replace("-", "") + ")"
+            )
             fileCount += 1
             continue
         else:

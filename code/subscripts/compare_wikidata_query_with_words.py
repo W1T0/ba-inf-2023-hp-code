@@ -4,7 +4,7 @@ from subscripts import wikidata_SPARQL_query
 from subscripts import replace_special_characters
 
 
-def compare(directoryPath, query, levenshteinDistance, outputPath, boolWriteToFile):
+def compare(directoryPath, query, levenshteinDistance, outputPath, boolWriteToFile, debug):
     """
     Compares every result of a SPARQL query with every word in the letters.
     Letters must be tokenized.
@@ -14,7 +14,11 @@ def compare(directoryPath, query, levenshteinDistance, outputPath, boolWriteToFi
     levenshteinDistance: The Levenshtein-Distance. A metric to compare the differences between two strings.
     outputPath: The path of the file where the output should be stored in.
     boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
+    debug:  A boolean that enables debug prints if set to true.
     """
+    if debug:
+        print("[DEBUG]#######################################################")
+        print("[DEBUG] SCRIPT: compare_wikidata_query_with_words.py")
 
     # run query and save as dataframe
     data_extracter = wikidata_SPARQL_query.WikiDataQueryResults(query)
@@ -38,7 +42,14 @@ def compare(directoryPath, query, levenshteinDistance, outputPath, boolWriteToFi
 
             # open one letter
             letterFile = open(directoryPath + filename, "r", encoding="utf-8")
-            print("[INFO] " + str(counter) + " Files opened: " + filename)
+            if debug:
+                print(
+                    "[DEBUG] "
+                    + str(counter)
+                    + " Files opened: "
+                    + filename
+                    + " (compare_wikidata_query_with_words)"
+                )
 
             # write filename
             if boolWriteToFile:
@@ -93,10 +104,24 @@ def compare(directoryPath, query, levenshteinDistance, outputPath, boolWriteToFi
 
                             # make sure that there are matches in the list
                             if len(possibleMatch) > 0:
-                                print("[INFO] possibleMatch: " + str(possibleMatch))
+                                if debug:
+                                    print(
+                                        "[DEBUG] possibleMatch: "
+                                        + str(possibleMatch)
+                                        + " (compare_wikidata_query_with_words)"
+                                    )
+
                                 # get the label with the highest fuzz.ratio
                                 bestMatch = process.extractOne(firstWord, possibleMatch)
-                                print("[INFO] firstWord: " + firstWord + " | bestMatch: " + str(bestMatch))
+
+                                if debug:
+                                    print(
+                                        "[DEBUG] firstWord: "
+                                        + firstWord
+                                        + " | bestMatch: "
+                                        + str(bestMatch)
+                                        + " (compare_wikidata_query_with_words)"
+                                    )
 
                                 # write the best match to file
                                 if boolWriteToFile:

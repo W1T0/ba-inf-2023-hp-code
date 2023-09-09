@@ -6,32 +6,36 @@ from subscripts import wikidata_SPARQL_query
 
 
 def run(
-    directories,
-    directoryPath,
-    outputPath,
-    outputPathFoodReligion,
-    outputPathTXT,
-    boolWriteToFile,
-    directoryPathQueryRunner,
-    levenshteinDistanceFoodQueryRunner,
-    levenshteinDistanceReligionQueryRunner,
-    outputPathFoodQueryRunner,
-    outputPathReligionQueryRunner,
-    boolWriteToFileQueryRunner,
+    directoriesNERoutput: list,
+    inputTokenizedPath: str,
+    outputPath: str,
+    outputPathFoodReligion: str,
+    filenameTSV: str,
+    outputPathTXT: str,
+    boolWriteToFile: bool,
+    inputPathQuery: str,
+    similarityMeasureFoodQuery: int,
+    similarityMeasureReligionQuery: int,
+    outputPathFoodQuery: str,
+    outputPathReligionQuery: str,
+    boolWriteToFileQuery: bool,
+    debug: bool,
 ):
     """
     Creates a TSV file for the 2 Overlap output in a format the HIPE-scorer accepts.
 
-    directories: A list of the directories that store the output of the NER-systems.
-    directoryPath: The path of the directory where the tokenized letters are stored in.
+    directoriesNERoutput: A list of the directories that store the output of the NER-systems.
+    inputTokenizedPath: The path of the directory where the tokenized letters are stored in.
     outputPath: The path of the directory where the output should be stored in.
     outputPathFoodReligion: The path of the directory where the output for the food and religion evaluation should be stored in.
+    filenameTSV: The ending the final TSV file has.
     outputPathTXT: The path of the file where the output, in this case only the 2Overlap entities, should be stored in.
     boolWriteToFile: A boolean value that determines if the result of this function should be written to the output file. (True or False)
-    directoryPathQueryRunner: The path of the directory where the files are stored in for the query runner.
-    levenshteinDistance(-Food,-Religion)QueryRunner: The Levenshtein-Distance. A metric to compare the differences between two strings.
-    outputPath(-Food,-Religion)QueryRunner: The path of the file where the output should be stored in for the query runner.
-    boolWriteToFileQueryRunner: A boolean value that determines if the result of this function should be written to the output file. (True or False)
+    inputPathQuery: The path of the directory where the files are stored in for the query runner.
+    similarityMeasure(-Food,-Religion)Query: The similarity measure. A metric to compare the differences between two strings based on the Levenshtein difference.
+    outputPath(-Food,-Religion)Query: The path of the file where the output should be stored in for the query runner.
+    boolWriteToFileQuery: A boolean value that determines if the result of this function should be written to the output file. (True or False)
+    debug:  A boolean that enables debug prints if set to true.
     """
     # names of the kiefer scholz family
     kieferScholzNames = [
@@ -71,25 +75,35 @@ def run(
     ]
 
     # generate 2 Overlap entities and save them
-    entities2Overlap = get_2overlap_entities_from_NER_output.run(directories, outputPathTXT, boolWriteToFile)
-    print(entities2Overlap)
+    entities2Overlap = get_2overlap_entities_from_NER_output.run(
+        directoriesNERoutput, outputPathTXT, boolWriteToFile, debug
+    )
+    if debug:
+        print("[DEBUG]------------------------ 2 OVERLAP ENTITIES ------------------------")
+        print(entities2Overlap)
+        print("[DEBUG]------------------------------------------------")
+    print("[INFO] 2 OVERLAP ENTITIES GENERATED")
 
     # extract entities from wikidata and save them
     wikidataEntites = query_runner.run(
-        directoryPathQueryRunner,
-        levenshteinDistanceFoodQueryRunner,
-        levenshteinDistanceReligionQueryRunner,
-        outputPathFoodQueryRunner,
-        outputPathReligionQueryRunner,
-        boolWriteToFileQueryRunner,
+        inputPathQuery,
+        similarityMeasureFoodQuery,
+        similarityMeasureReligionQuery,
+        outputPathFoodQuery,
+        outputPathReligionQuery,
+        boolWriteToFileQuery,
+        debug,
     )
     religionEntities = wikidataEntites[0]
     foodEntities = wikidataEntites[1]
 
-    print("------------------------ RELIGION ------------------------")
-    print(religionEntities)
-    print("------------------------ FOOD ------------------------")
-    print(foodEntities)
+    if debug:
+        print("[DEBUG]------------------------ RELIGION ENTITIES ------------------------")
+        print(religionEntities)
+        print("[DEBUG]------------------------------------------------")
+        print("[DEBUG]------------------------ FOOD ENTITIES ------------------------")
+        print(foodEntities)
+        print("[DEBUG]------------------------------------------------")
 
     # keeps track of how many files haven been processed
     fileCount = 1
@@ -101,21 +115,21 @@ def run(
     entitiesListLength = 0
 
     # for every file in the directory which ends with .txt
-    for file in os.listdir(directoryPath):
+    for file in os.listdir(inputTokenizedPath):
         filename = os.fsdecode(file)
         if filename.endswith(".txt"):
             # save the filename without .txt and with _ instead of - to conform with filenames from 2 Overlap
             filenameClean = filename.replace(".txt", "").replace("_", "-")
 
-            print("--------------------------------------------------")
-            print("[INFO] FILENAME: " + filenameClean)
+            if debug:
+                print("[DEBUG]--------------------------------------------------")
+                print("[DEBUG] FILENAME: " + filenameClean)
 
             # open file
-            readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
+            readFromFile = open(inputTokenizedPath + filename, "r", encoding="utf-8")
 
             # read every line
             lines = readFromFile.readlines()
-            # print("[INFO] read lines")
 
             # create folder if it does not exist
             if not os.path.exists(outputPath):
@@ -123,11 +137,7 @@ def run(
 
             # open file to write into
             writeToFile = open(
-                outputPath
-                + filename.replace(".txt", "").replace("_", "-")
-                + "-2Overlap"
-                + "_bundle1_hipe2020_de_1"
-                + ".tsv",
+                outputPath + filename.replace(".txt", "").replace("_", "-") + filenameTSV + ".tsv",
                 "a",
                 encoding="utf-8",
             )
@@ -140,8 +150,8 @@ def run(
             writeToFileFoodReligion = open(
                 outputPathFoodReligion
                 + filename.replace(".txt", "").replace("_", "-")
-                + "-2Overlap"
-                + "_food_and_religion_eval"
+                + "-2overlap"
+                + "_food_and_religion"
                 + ".tsv",
                 "a",
                 encoding="utf-8",
@@ -160,7 +170,7 @@ def run(
             # write every word
             for line in lines:
                 lineSplit = line.split()
-                # print("[INFO] lineSplit: " + str(lineSplit))
+
                 if lineSplit:
                     # save first word of line
                     firstWord = lineSplit[0]
@@ -196,9 +206,6 @@ def run(
                             if len(entities) > 0:
                                 # check if filename is the same
                                 if entities[0] == filenameClean:
-                                    # print("EQUAL FILENAME")
-                                    # print(entities[0], filenameClean)
-
                                     entitiesListLength = len(entities[1:])
 
                                     # iterate over the entities only
@@ -206,17 +213,11 @@ def run(
                                         # split entity and get the name
                                         entityName = entity.split()[0]
 
-                                        # print(firstWord, entityName)
-
                                         # check for every word if it is an entity
                                         if firstWordReplaced == entityName:
                                             # set the entityType, if word is an entity
                                             entityType = entity.split()[1]
                                             count += 1
-                                # else:
-                                #     print("[EROOR] FILENAME NOT THE SAME 2OVERLAP")
-                                #     print(entities[0])
-                                #     print(filenameClean)
 
                         # checks if word is a name of the kiefer scholz family
                         if firstWordReplaced in kieferScholzNames:
@@ -314,9 +315,6 @@ def run(
                                                 ):
                                                     entityType = "B-OTH"
                                                     wikidataQID = entity.split()[1].split("/")[-1]
-                                                    # print("FOOD")
-                                                    # print(firstWordReplaced, entity.split()[1])
-
                                                     specialEntityType = "FOOD"
 
                                 # iterate over all location entities
@@ -338,13 +336,10 @@ def run(
                                                 ):
                                                     entityType = "B-OTH"
                                                     wikidataQID = entity.split()[1].split("/")[-1]
-                                                    # print("RELIGION")
-                                                    # print(firstWordReplaced, entity.split()[1])
-
                                                     specialEntityType = "RELIGION"
 
-                        if entityType != "O":
-                            print(firstWordReplaced, entityType, wikidataQID)
+                        if entityType != "O" and debug:
+                            print("[DEBUG] " + firstWordReplaced + " | " + entityType + " | " + wikidataQID)
 
                         # write entity and entityType to file
                         writeToFile.write(
@@ -367,15 +362,17 @@ def run(
                 # if not, set error to 1 so that error message can be printed
                 error = 1
                 print("[ERROR]: " + str(count) + " " + str(entitiesListLength))
-                print("[ERROR] NOT ALL ENTITIES MAPPED IN " + filename + " (TSV Parser 2 Overlap)")
+                print("[ERROR] NOT ALL ENTITIES MAPPED IN " + filename + " (TSV PARSER 2 Overlap)")
 
             writeToFile.close()
             writeToFileFoodReligion.close()
 
-            print("[INFO] " + str(fileCount) + " FILES DONE (TSV Parser 2 Overlap)")
+            print("[INFO] " + str(fileCount) + " FILES DONE (TSV PARSER 2 Overlap)")
 
             fileCount += 1
 
     # error message, if not all entites have been mapped
     if error == 1:
-        print("[ERROR] NOT ALL ENTITIES HAVE BEEN MAPPED (TSV Parser 2 Overlap)")
+        print("[ERROR] NOT ALL ENTITIES HAVE BEEN MAPPED (TSV PARSER 2 Overlap)")
+    else:
+        print("[INFO] FINISHED WITHOUT ERRORS (TSV PARSER 2 Overlap)")
