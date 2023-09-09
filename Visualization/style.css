@@ -172,6 +172,28 @@ div:not(:last-child) {
 }
 
 /*
+* ZOOM
+*/
+button {
+  width: 30px;
+  padding: 5px;
+  border: 0 !important;
+  border-radius: 5px;
+  background-color: var(--primary-color-light);
+  font-weight: bold;
+  font-size: larger;
+  box-shadow: none;
+  float: right;
+  margin: 20px;
+}
+button::-ms-expand {
+  display: none;
+}
+button:hover {
+  box-shadow: 0 0 5px 3px var(--primary-color-light);
+}
+
+/*
 *
 * MAP CSS
 *

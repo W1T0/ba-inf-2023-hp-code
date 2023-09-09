@@ -67,6 +67,8 @@
         <option value="L9xxxxxx-TL2082.1a.pdf">L9xxxxxx-TL2082.1a</option>
         <option value="L9xxxxxx-TL2112.1b.pdf">L9xxxxxx-TL2112.1b</option>
       </select>
+      <button id="button-zoom-in">+</button>
+      <button id="button-zoom-out">-</button>
       <div class="three-blocks">
         <div id="pdf-viewer-div" class="block">
           <iframe id="pdf-viewer" width="100%" height="100%" frameborder="0"> </iframe>
@@ -112,6 +114,10 @@
 
     // get the transcription text field
     let transcriptionTextField = document.getElementById("transcription-text-field");
+
+    // get the zoom buttons
+    let buttonZoomIn = document.getElementById("button-zoom-in");
+    let buttonZoomOut = document.getElementById("button-zoom-out");
 
     //
     // FILECHOOSER EVENT LISTENER
@@ -310,6 +316,10 @@
                 nodeHeight = centerY - 2.5 * (centerY / 3);
                 nodeWidth = 10 + 200 * countPER;
                 countPER = countPER + 1;
+                if (countPER > 6) {
+                  nodeHeight = centerY - 2 * (centerY / 3);
+                  nodeWidth = 10 + 200 * (countPER - 7);
+                }
                 break;
               case "B-LOC":
                 color = "#EF8354"; // orange
@@ -378,6 +388,30 @@
           }
         })
         .catch((e) => console.error(e));
+    }
+
+    //
+    // BUTTON EVENT LISTENER
+    //
+    buttonZoomIn.addEventListener("click", function () {
+      paperScale += 0.1;
+      scalePaper(paperScale, paperScale);
+      // translatePaper(-100, -100);
+    });
+    buttonZoomOut.addEventListener("click", function () {
+      paperScale -= 0.1;
+      scalePaper(paperScale, paperScale);
+      // translatePaper(100, 100);
+    });
+
+    // funtion to scale the paper of the graph
+    function scalePaper(sx, sy) {
+      paper.scale(sx, sy);
+    }
+
+    // funtion to translate the paper of the graph
+    function translatePaper(sx, sy) {
+      paper.translate(sx, sy);
     }
 
     // "Update the views of an async paper to make sure that the views reflect the cells' models; unfreeze the paper afterward."
