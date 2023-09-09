@@ -45,8 +45,6 @@ def run(
 
             # append file name to entites2Overlap list
             entities2Overlap.append([files[0][i].split("/")[4][0:22]])
-            print("IMPORTANT: " + str(files[0][i]))
-            print((files[0][i].split("/")[4][0:22]))
 
             if boolWriteToFile:
                 # open file to write to

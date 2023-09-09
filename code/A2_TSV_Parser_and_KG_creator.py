@@ -3,9 +3,11 @@ from subscripts import TSV_Parser_2overlap
 from subscripts import TSV_Parser_flair
 from subscripts import create_KG
 from datetime import datetime
+import time
 
 # current date and time
 now = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+start_time = time.time()
 
 # folders where the tsv files are stored
 tsv_flair = "./data/tsv_files/tsv_flair/"
@@ -14,8 +16,11 @@ tsv_germaNER = "./data/tsv_files/tsv_germaNER/"
 tsv_2overlap = "./data/tsv_files/tsv_2overlap/"
 tsv_2overlap_food_and_religion = "./data/tsv_files/tsv_2overlap_food_and_religion/"
 
+# folder where the KGs are stored
+KG_folder = "./visualization/output-kg/test-kg-4.txt"
+
 # flair TSV PARSER
-print("[INFO] RUN TSV PARSER flair")
+print("[INFO] ////// RUN TSV PARSER flair //////")
 TSV_Parser_flair.run(
     "./data/tokenized_documents/sample/",  # kiefer-scholz_collection_tokenized/ # input path
     tsv_flair,  # output path
@@ -24,7 +29,7 @@ TSV_Parser_flair.run(
 )
 
 # germaNER TSV PARSER
-print("[INFO] RUN TSV PARSER germaNER")
+print("[INFO] ////// RUN TSV PARSER germaNER //////")
 TSV_Parser_basic.run(
     "./data/NER-systems_output/old/output-germaNER/",  # output_germaNER/  # input path
     tsv_germaNER,  # output path
@@ -33,7 +38,7 @@ TSV_Parser_basic.run(
 )
 
 # sequence_tagging TSV PARSER
-print("[INFO] RUN TSV PARSER sequence_tagging")
+print("[INFO] ////// RUN TSV PARSER sequence_tagging //////")
 TSV_Parser_basic.run(
     "./data/NER-systems_output/old/output-Sequence_tagging/",  # input path
     tsv_sequence_tagging,  # output path
@@ -42,7 +47,7 @@ TSV_Parser_basic.run(
 )
 
 # 2 OVERLAP TSV PARSER
-print("[INFO] RUN TSV PARSER 2 Overlap (majority voting)")
+print("[INFO] ////// RUN TSV PARSER 2 Overlap (majority voting) //////")
 TSV_Parser_2overlap.run(
     [tsv_flair, tsv_germaNER, tsv_sequence_tagging],  # list of directories of NER-systems output
     "./data/tokenized_documents/sample/",  # kiefer-scholz_collection_tokenized/ # input path for tokenized documents
@@ -67,7 +72,10 @@ TSV_Parser_2overlap.run(
 )
 
 # CREATE KG
-print("[INFO] RUN CREATE KG")
-create_KG.run(
-    "./data/tsv_files/tsv_2overlap_food_and_religion/", "./visualization/output-kg/test-kg-2.txt", False
-)
+print("[INFO] ////// RUN CREATE KG //////")
+create_KG.run(tsv_2overlap_food_and_religion, KG_folder, False)
+
+# print time
+end_time = time.time()
+duration = end_time - start_time
+print("SCRIPT FINISHED IN " + str(duration) + " SECONDS")

@@ -151,7 +151,7 @@ def run(inputPath: str, outputPath: str, debug: bool):
             writeToFile.write("\n")
             writeToFile.close()
 
-            print("[INFO] " + str(fileCount) + " FILES DONE")
+            print("[INFO] " + str(fileCount) + " FILES DONE (CREATE KG)")
             fileCount += 1
             continue
         else:
