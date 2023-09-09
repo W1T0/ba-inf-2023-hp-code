@@ -36,10 +36,36 @@
 
       <select name="file-chooser" id="file-chooser">
         <!-- <option selected disabled>Pick a file ...</option> -->
-        <option value="/Visualization/files/L9xx12xx-TL2068.1b.pdf">L9xx12xx-TL2068.1b</option>
-        <option value="/Visualization/files/L9xx0527-TL2027.1a.pdf">L9xx0527-TL2027.1a</option>
-        <option value="/Visualization/files/L9xxxxxx-TL0234.1b.pdf">L9xxxxxx-TL0234.1b</option>
-        <option value="/Visualization/files/L9xxxxxx-TL2026.1b.pdf">L9xxxxxx-TL2026.1b</option>
+        <option value="L9110213-TL0015.1a.pdf">L9110213-TL0015.1a</option>
+        <option value="L9120323-TL0033.1a.pdf">L9120323-TL0033.1a</option>
+        <option value="L9120903-TL0046.1a.pdf">L9120903-TL0046.1a</option>
+        <option value="L9130421-TL0063.1b.pdf">L9130421-TL0063.1b</option>
+        <option value="L9140528-TL0092.1b.pdf">L9140528-TL0092.1b</option>
+        <option value="L9150629-TL0111.1a.pdf">L9150629-TL0111.1a</option>
+        <option value="L9151117-TL0116.1b.pdf">L9151117-TL0116.1b</option>
+        <option value="L9170131-TL0136.2a.pdf">L9170131-TL0136.2a</option>
+        <option value="L9190421-TL0157.1a.pdf">L9190421-TL0157.1a</option>
+        <option value="L9191208-TL0169.2a.pdf">L9191208-TL0169.2a</option>
+        <option value="L9200320-TL0187.1b.pdf">L9200320-TL0187.1b</option>
+        <option value="L9200422-TL0001.1a.pdf">L9200422-TL0001.1a</option>
+        <option value="L9200626-TL0201.2a.pdf">L9200626-TL0201.2a</option>
+        <option value="L9200910-TL0220.1b.pdf">L9200910-TL0220.1b</option>
+        <option value="L9201110-TL0230.1a.pdf">L9201110-TL0230.1a</option>
+        <option value="L9210103-TL0249.1a.pdf">L9210103-TL0249.1a</option>
+        <option value="L9210529-TL0272.1b.pdf">L9210529-TL0272.1b</option>
+        <option value="L921xx17-TL0283.2b.pdf">L921xx17-TL0283.2b</option>
+        <option value="L9220904-TL0307.1b.pdf">L9220904-TL0307.1b</option>
+        <option value="L9221214-TL0322.1a.pdf">L9221214-TL0322.1a</option>
+        <option value="L92309xx-TL1016.2b.pdf">L92309xx-TL1016.2b</option>
+        <option value="L9260206-TL1039.3b.pdf">L9260206-TL1039.3b</option>
+        <option value="L9300925-TL0222.1a.pdf">L9300925-TL0222.1a</option>
+        <option value="L9xx0527-TL2027.1a.pdf">L9xx0527-TL2027.1a</option>
+        <option value="L9xx12xx-TL2068.1b.pdf">L9xx12xx-TL2068.1b</option>
+        <option value="L9xxxxxx-TL0234.1b.pdf">L9xxxxxx-TL0234.1b</option>
+        <option value="L9xxxxxx-TL2026.1b.pdf">L9xxxxxx-TL2026.1b</option>
+        <option value="L9xxxxxx-TL2055.1a.pdf">L9xxxxxx-TL2055.1a</option>
+        <option value="L9xxxxxx-TL2082.1a.pdf">L9xxxxxx-TL2082.1a</option>
+        <option value="L9xxxxxx-TL2112.1b.pdf">L9xxxxxx-TL2112.1b</option>
       </select>
       <div class="three-blocks">
         <div id="pdf-viewer-div" class="block">
@@ -94,13 +120,13 @@
     // add event listener to drop down menu
     fileChooser.addEventListener("change", function () {
       // change the pdf if drop down menu selection changed
-      pdfViewer.src = this.value;
+      pdfViewer.src = "/visualization/documents/scans/" + this.value;
 
-      // change value to fit filename of txt file
-      txtPath = this.value.replaceAll(".", "_") + ".txt";
+      // change value to fit filename of transcription file
+      transcriptionPath = "/visualization/documents/transcriptions/" + this.value.replaceAll(".", "_") + ".txt";
 
       // read file
-      fetch(txtPath)
+      fetch(transcriptionPath)
         .then((res) => res.text())
         .then((text) => {
           // change value of text field
@@ -109,7 +135,7 @@
         .catch((e) => console.error(e));
 
       // change value to fit filename of txt file
-      kgPath = this.value.replaceAll(".", "-").replace("pdf", "kg") + ".txt";
+      kgPath = "/visualization/documents/KGs/" + this.value.replaceAll(".", "-") + ".txt";
 
       // change graph
       addGraph(kgPath);
