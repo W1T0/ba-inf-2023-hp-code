@@ -1,0 +1,6 @@
+ex:L9120903-TL0046-1a-pdf ex:date '1912-09-03'^^xsd:date .
+ex:L9120903-TL0046-1a-pdf ex:B-PER ex:Thekla .
+ex:L9120903-TL0046-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q508822 .
+ex:Neustadt ex:coordinates ex:'49,930833333-9,5675' .
+

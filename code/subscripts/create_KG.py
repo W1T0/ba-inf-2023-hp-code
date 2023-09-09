@@ -31,7 +31,7 @@ def getCoordinates(wikidataQID):
     return "" + lat + "-" + long
 
 
-def run(inputPath: str, outputPath: str, debug: bool):
+def run(inputPath: str, outputPathFull: str, outputPathSingle: str, debug: bool):
     """
     Creates a KG from the TSV 2 Overlap food and religin files.
 
@@ -47,13 +47,13 @@ def run(inputPath: str, outputPath: str, debug: bool):
     fileCount = 1
 
     # open file to write entities to txt file
-    writeToFile = open(outputPath, "a", encoding="utf-8")
+    writeToFileFull = open(outputPathFull, "a", encoding="utf-8")
 
     # write prefix
-    writeToFile.write(
+    writeToFileFull.write(
         "\nprefix ex: <http://example.org/>\nprefix xsd: <http://www.w3.org/2001/XMLSchema#>\n\n"
     )
-    writeToFile.close()
+    writeToFileFull.close()
 
     # for every file in the directory which ends with .tsv
     for file in os.listdir(inputPath):
@@ -82,21 +82,41 @@ def run(inputPath: str, outputPath: str, debug: bool):
             # remove duplicates
             entitiesLineDistinct = [*set(entitiesLine)]
 
-            # open file to write entities to txt file
-            writeToFile = open(outputPath, "a", encoding="utf-8")
+            # open file to write entities to txt file with the full KG
+            writeToFileFull = open(outputPathFull, "a", encoding="utf-8")
 
             # removed unwanted info from filename
             filename = filename[:22]
 
+            # open file to write entities to txt file with the single KGs
+            writeToFileSingle = open(
+                outputPathSingle + filename + ".txt",
+                "a",
+                encoding="utf-8",
+            )
+
             # header
-            writeToFile.write("# --- ENTITIES OF " + filename + " ---\n")
+            writeToFileFull.write("# --- ENTITIES OF " + filename + " ---\n")
 
             year = "1" + filename[1:4]
             month = filename[4:6]
             day = filename[6:8]
 
             # write year triple
-            writeToFile.write(
+            writeToFileFull.write(
+                "ex:"
+                + filename.replace(".", "")
+                + " ex:date '"
+                + year
+                + "-"
+                + month
+                + "-"
+                + day
+                + "'"
+                + "^^xsd:date .\n"
+            )
+
+            writeToFileSingle.write(
                 "ex:"
                 + filename.replace(".", "")
                 + " ex:date '"
@@ -135,21 +155,34 @@ def run(inputPath: str, outputPath: str, debug: bool):
                     coordinates = getCoordinates(wikidataQID)
 
                 # write entity triple
-                writeToFile.write(
+                writeToFileFull.write(
+                    "ex:" + filename.replace(".", "") + " ex:" + entityType + " ex:" + entity + " .\n"
+                )
+                writeToFileSingle.write(
                     "ex:" + filename.replace(".", "") + " ex:" + entityType + " ex:" + entity + " .\n"
                 )
 
                 # write wikidata QID triple
                 if wikidataQID != "_":
-                    writeToFile.write("ex:" + entity + " ex:" + "wikidataQID" + " ex:" + wikidataQID + " .\n")
+                    writeToFileFull.write(
+                        "ex:" + entity + " ex:" + "wikidataQID" + " ex:" + wikidataQID + " .\n"
+                    )
+                    writeToFileSingle.write(
+                        "ex:" + entity + " ex:" + "wikidataQID" + " ex:" + wikidataQID + " .\n"
+                    )
 
                 if coordinates != "-":
-                    writeToFile.write(
+                    writeToFileFull.write(
+                        "ex:" + entity + " ex:" + "coordinates" + " ex:'" + coordinates + "' .\n"
+                    )
+                    writeToFileSingle.write(
                         "ex:" + entity + " ex:" + "coordinates" + " ex:'" + coordinates + "' .\n"
                     )
 
-            writeToFile.write("\n")
-            writeToFile.close()
+            writeToFileFull.write("\n")
+            writeToFileSingle.write("\n")
+            writeToFileFull.close
+            writeToFileSingle.close()
 
             print("[INFO] " + str(fileCount) + " FILES DONE (CREATE KG)")
             fileCount += 1

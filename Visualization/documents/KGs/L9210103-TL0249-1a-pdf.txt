@@ -1,0 +1,13 @@
+ex:L9210103-TL0249-1a-pdf ex:date '1921-01-03'^^xsd:date .
+ex:L9210103-TL0249-1a-pdf ex:B-PER ex:Robert .
+ex:L9210103-TL0249-1a-pdf ex:I-PER ex:Balli .
+ex:L9210103-TL0249-1a-pdf ex:B-PER ex:Thea .
+ex:L9210103-TL0249-1a-pdf ex:B-LOC ex:Schlesien .
+ex:Schlesien ex:wikidataQID ex:Q81720 .
+ex:Schlesien ex:coordinates ex:'51,1035-17,0396' .
+ex:L9210103-TL0249-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9210103-TL0249-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210103-TL0249-1a-pdf ex:B-OTH_RELIGION ex:Kirchen .
+ex:Kirchen ex:wikidataQID ex:Q34651 .
+

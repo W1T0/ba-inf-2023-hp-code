@@ -1,0 +1,5 @@
+ex:L921xx17-TL0283-2b-pdf ex:date '1921-xx-17'^^xsd:date .
+ex:L921xx17-TL0283-2b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L921xx17-TL0283-2b-pdf ex:B-PER ex:Paul .
+

@@ -1,4 +1,0 @@
-ex:L9xxxxxx-TL0234-1b-pdf ex:date '19xx-xx-xx'^^xsd:date .
-ex:L9xxxxxx-TL0234-1b-pdf ex:B-PER ex:Berta .
-ex:L9xxxxxx-TL0234-1b-pdf ex:B-PER ex:Niemann .
-ex:L9xxxxxx-TL0234-1b-pdf ex:B-PER ex:Josef .

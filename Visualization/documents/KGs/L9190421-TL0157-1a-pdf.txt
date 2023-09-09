@@ -1,0 +1,10 @@
+ex:L9190421-TL0157-1a-pdf ex:date '1919-04-21'^^xsd:date .
+ex:L9190421-TL0157-1a-pdf ex:B-PER ex:Anna .
+ex:L9190421-TL0157-1a-pdf ex:B-LOC ex:Pittsburg .
+ex:Pittsburg ex:wikidataQID ex:Q281248 .
+ex:Pittsburg ex:coordinates ex:'38,028055555--121,884722222' .
+ex:L9190421-TL0157-1a-pdf ex:I-PER ex:Reber .
+ex:L9190421-TL0157-1a-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9190421-TL0157-1a-pdf ex:B-PER ex:August .
+

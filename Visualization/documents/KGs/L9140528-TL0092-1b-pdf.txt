@@ -1,0 +1,6 @@
+ex:L9140528-TL0092-1b-pdf ex:date '1914-05-28'^^xsd:date .
+ex:L9140528-TL0092-1b-pdf ex:B-PER ex:Kurt .
+ex:L9140528-TL0092-1b-pdf ex:B-LOC ex:Neisse .
+ex:Neisse ex:wikidataQID ex:Q815721 .
+ex:Neisse ex:coordinates ex:'50,471388888-17,333888888' .
+

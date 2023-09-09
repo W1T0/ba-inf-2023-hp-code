@@ -1,0 +1,5 @@
+ex:L9170131-TL0136-2a-pdf ex:date '1917-01-31'^^xsd:date .
+ex:L9170131-TL0136-2a-pdf ex:B-PER ex:Boller .
+ex:L9170131-TL0136-2a-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+

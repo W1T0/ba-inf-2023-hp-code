@@ -1,0 +1,6 @@
+ex:L9300925-TL0222-1a-pdf ex:date '1930-09-25'^^xsd:date .
+ex:L9300925-TL0222-1a-pdf ex:B-LOC ex:England .
+ex:England ex:wikidataQID ex:Q21 .
+ex:England ex:coordinates ex:'53,0--1,0' .
+ex:L9300925-TL0222-1a-pdf ex:B-OTH ex:Dollar .
+

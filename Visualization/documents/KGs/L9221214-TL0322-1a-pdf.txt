@@ -1,0 +1,15 @@
+ex:L9221214-TL0322-1a-pdf ex:date '1922-12-14'^^xsd:date .
+ex:L9221214-TL0322-1a-pdf ex:I-PER ex:I .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Robert .
+ex:L9221214-TL0322-1a-pdf ex:B-OTH ex:Dollar .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Paul .
+ex:L9221214-TL0322-1a-pdf ex:B-OTH_RELIGION ex:Himmel .
+ex:Himmel ex:wikidataQID ex:Q4489450 .
+ex:L9221214-TL0322-1a-pdf ex:I-PER ex:Meine .
+ex:L9221214-TL0322-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Franz .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Fortunata .
+ex:L9221214-TL0322-1a-pdf ex:I-PER ex:E .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:August .
+

@@ -1,0 +1,13 @@
+ex:L9220904-TL0307-1b-pdf ex:date '1922-09-04'^^xsd:date .
+ex:L9220904-TL0307-1b-pdf ex:B-PER ex:Rathenau .
+ex:L9220904-TL0307-1b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375-11,575' .
+ex:L9220904-TL0307-1b-pdf ex:B-PER ex:Josef .
+ex:L9220904-TL0307-1b-pdf ex:B-OTH_FOOD ex:Margarine .
+ex:Margarine ex:wikidataQID ex:Q4287 .
+ex:L9220904-TL0307-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0-10,0' .
+ex:L9220904-TL0307-1b-pdf ex:B-PER ex:Thekla .
+

@@ -16,8 +16,9 @@ tsv_germaNER = "./data/tsv_files/tsv_germaNER/"
 tsv_2overlap = "./data/tsv_files/tsv_2overlap/"
 tsv_2overlap_food_and_religion = "./data/tsv_files/tsv_2overlap_food_and_religion/"
 
-# folder where the KGs are stored
-KG_folder = "./visualization/output-kg/test-kg-4.txt"
+# folder where the KGs are stored, full for the file with all KGs, single for every KG as its own file
+KG_folder_full = "./visualization/output-kg/test-kg-2.txt"
+KG_folder_single = "./visualization/documents/KGs/"
 
 # flair TSV PARSER
 print("[INFO] ////// RUN TSV PARSER flair //////")
@@ -73,7 +74,7 @@ TSV_Parser_2overlap.run(
 
 # CREATE KG
 print("[INFO] ////// RUN CREATE KG //////")
-create_KG.run(tsv_2overlap_food_and_religion, KG_folder, False)
+create_KG.run(tsv_2overlap_food_and_religion, KG_folder_full, KG_folder_single, False)
 
 # print time
 end_time = time.time()

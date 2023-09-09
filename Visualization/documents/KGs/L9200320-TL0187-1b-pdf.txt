@@ -1,0 +1,7 @@
+ex:L9200320-TL0187-1b-pdf ex:date '1920-03-20'^^xsd:date .
+ex:L9200320-TL0187-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0-10,0' .
+ex:L9200320-TL0187-1b-pdf ex:B-LOC ex:Oberschlus .
+ex:L9200320-TL0187-1b-pdf ex:B-PER ex:Thea .
+
