@@ -5,15 +5,13 @@ import re
 from subscripts import replace_special_characters
 
 
-def run(
-    directoryPath,
-    outputPath,
-):
+def run(directoryPath, outputPath, debug):
     """
-    Creates a TSV file for the flair/ner-german output in a format the HIPE-scorer accepts.
+    Creates a TSV file for the flair/ner-german-large output in a format the HIPE-scorer accepts.
 
     directoryPath: The path of the directory where the files are stored in.
     outputPath: The path of the directory where the output should be stored in.
+    debug: A boolean that enables debug prints if set to true.
     """
 
     # load sequence tagger
@@ -36,16 +34,15 @@ def run(
             # process file with flair NER and predict NER tags
             sentence = Sentence(readFromFile.read())
             tagger.predict(sentence)
-            # print("[INFO] NER tags predicted")
+
+            if debug:
+                print("[DEBUG] NER tags predicted")
 
             # save entities
             entities = []
 
             # iterate over entities, split them and print
             for entity in sentence.get_spans("ner"):
-                # print("-----------------------")
-                # print(str(entity))
-
                 # get only the entites (is between '"' and '"')
                 entityString = re.search('"(.*)"', str(entity)).group(1)
 
@@ -60,16 +57,12 @@ def run(
                     # iterate over every word and add it to the entities list
                     for entitySplit in entityStringSplit:
                         entities.append([entitySplit, predicate])
-                        # print("-----------------------")
-                        # print("Entity: " + entitySplit)
-                        # print("Predicate: " + predicate)
+
                 else:
                     entities.append([entityString, predicate])
-                    # print("-----------------------")
-                    # print("Entity: " + entityString)
-                    # print("Predicate: " + predicate)
 
-            # print("[INFO] Entities list full, length: " + str(len(entities)))
+            if debug:
+                print("[INFO] Entities list full, length: " + str(len(entities)))
 
             # open file (again, because otherwise there are errors)
             readFromFile = open(directoryPath + filename, "r", encoding="utf-8")
@@ -105,7 +98,6 @@ def run(
             # write every word
             for line in lines:
                 lineSplit = line.split()
-                # print("[INFO] lineSplit: " + str(lineSplit))
                 if lineSplit:
                     # for every word in the line split
                     for word in lineSplit:
@@ -136,12 +128,15 @@ def run(
                                 # replace special characters
                                 entity = replace_special_characters.replace(entities[index][0])
 
-                                # print(
-                                #     "[INFO] firstWord: "
-                                #     + wordReplaced
-                                #     + " || entity: "
-                                #     + entity
-                                # )
+                                # skips an entity if it is an emtpy string
+                                if entity == " " or entity == "":
+                                    print("[INFO] empty entity")
+                                    index += 1
+                                    count += 1
+                                    entity = replace_special_characters.replace(entities[index][0])
+
+                                if debug:
+                                    print("[DEBUG] firstWord: " + wordReplaced + " || entity: " + entity)
 
                                 # check for every word if it is an entity
                                 if wordReplaced == entity:
@@ -158,13 +153,9 @@ def run(
 
                                     # increase count to check later if all entities have been mapped
                                     count += 1
-                                    # print(
-                                    #     "[INFO] "
-                                    #     + str(count)
-                                    #     + " / "
-                                    #     + str(len(entities))
-                                    #     + " DONE "
-                                    # )
+
+                                    if debug:
+                                        print("[INFO] " + str(count) + " / " + str(len(entities)) + " DONE ")
 
                             # write entity and predicate to file
                             writeToFile.write(wordReplaced + "	" + predicate + "	O	O	O	O	O	_	_	_" + "\n")
