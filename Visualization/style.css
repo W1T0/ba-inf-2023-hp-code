@@ -1,6 +1,6 @@
 /* VARIABLES */
 :root {
-  --primary-color-light: #fa9804;
+  --primary-color-light: #f8a830; /* fa 984 */
   --primary-color-dark: #b57e07;
   --secondary-color-light: #3d3d3d;
   --secondary-color-dark: #252525;
@@ -75,7 +75,7 @@ select::-ms-expand {
   display: none;
 }
 select:hover {
-  box-shadow: 0 0 5px 3px var(--primary-color-light);
+  box-shadow: 0 0 5px 3px var(--primary-color-dark);
 }
 
 /*
@@ -184,7 +184,9 @@ button {
   font-size: larger;
   box-shadow: none;
   float: right;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 5px;
 }
 button::-ms-expand {
   display: none;
