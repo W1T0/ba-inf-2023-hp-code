@@ -1,5 +1,5 @@
 ex:L9120323-TL0033-1a-pdf ex:date '1912-03-23'^^xsd:date .
 ex:L9120323-TL0033-1a-pdf ex:B-PER ex:Rudolph .
-ex:L9120323-TL0033-1a-pdf ex:B-PER ex:Thekla .
 ex:L9120323-TL0033-1a-pdf ex:I-PER ex:Neustadt .
+ex:L9120323-TL0033-1a-pdf ex:B-PER ex:Thekla .
 

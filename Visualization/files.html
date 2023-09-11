@@ -160,6 +160,8 @@
 
     // adds a marker with a pop up to the map
     function addMarker(lat, long, name) {
+      console.log(lat);
+      console.log(long);
       L.marker([lat, long]).addTo(map).bindPopup(name).openPopup();
     }
 
@@ -379,7 +381,7 @@
               previousNodeWidth = nodeWidth;
             } else {
               // add marker to map
-              let nodeNameSplit = nodeName.split("-");
+              let nodeNameSplit = nodeName.split("_");
               let lat = nodeNameSplit[0].replace(",", ".").replace("'", "");
               let long = nodeNameSplit[1].replace(",", ".").replace("'", "");
               let EntityName = lineSplit[0].replace("ex:", "");

@@ -28,7 +28,7 @@ def getCoordinates(wikidataQID):
     long = str(queryDF.values[0, 0]).split(" ")[0].replace("Point(", "").replace(".", ",")
 
     # return latitude and longitude
-    return "" + lat + "-" + long
+    return "" + lat + "_" + long
 
 
 def run(inputPath: str, outputPathFull: str, outputPathSingle: str, debug: bool):

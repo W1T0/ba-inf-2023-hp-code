@@ -1,6 +1,6 @@
 ex:L9xxxxxx-TL2055-1a-pdf ex:date '19xx-xx-xx'^^xsd:date .
+ex:L9xxxxxx-TL2055-1a-pdf ex:B-PER ex:Paul .
 ex:L9xxxxxx-TL2055-1a-pdf ex:B-PER ex:Martha .
 ex:L9xxxxxx-TL2055-1a-pdf ex:B-OTH_FOOD ex:Dotter .
 ex:Dotter ex:wikidataQID ex:Q181409 .
-ex:L9xxxxxx-TL2055-1a-pdf ex:B-PER ex:Paul .
 

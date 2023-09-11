@@ -1,10 +1,10 @@
 ex:L9200422-TL0001-1a-pdf ex:date '1920-04-22'^^xsd:date .
+ex:L9200422-TL0001-1a-pdf ex:B-PER ex:August .
+ex:L9200422-TL0001-1a-pdf ex:B-PER ex:Berthold .
 ex:L9200422-TL0001-1a-pdf ex:B-OTH ex:Mark .
 ex:L9200422-TL0001-1a-pdf ex:B-PER ex:Agnes .
-ex:L9200422-TL0001-1a-pdf ex:B-OTH_RELIGION ex:Christus .
-ex:Christus ex:wikidataQID ex:Q642420 .
 ex:L9200422-TL0001-1a-pdf ex:B-OTH_RELIGION ex:Ostern .
 ex:Ostern ex:wikidataQID ex:Q21196 .
-ex:L9200422-TL0001-1a-pdf ex:B-PER ex:Berthold .
-ex:L9200422-TL0001-1a-pdf ex:B-PER ex:August .
+ex:L9200422-TL0001-1a-pdf ex:B-OTH_RELIGION ex:Christus .
+ex:Christus ex:wikidataQID ex:Q642420 .
 

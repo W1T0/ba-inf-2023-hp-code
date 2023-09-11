@@ -1,9 +1,9 @@
 ex:L9200910-TL0220-1b-pdf ex:date '1920-09-10'^^xsd:date .
-ex:L9200910-TL0220-1b-pdf ex:B-PER ex:Josef .
-ex:L9200910-TL0220-1b-pdf ex:B-LOC ex:Berlin .
-ex:Berlin ex:wikidataQID ex:Q64 .
-ex:Berlin ex:coordinates ex:'52,516666666-13,383333333' .
 ex:L9200910-TL0220-1b-pdf ex:B-OTH_FOOD ex:Obst .
 ex:Obst ex:wikidataQID ex:Q3314483 .
+ex:L9200910-TL0220-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q64 .
+ex:Berlin ex:coordinates ex:'52,516666666_13,383333333' .
 ex:L9200910-TL0220-1b-pdf ex:B-LOC ex:Lungenbrück .
+ex:L9200910-TL0220-1b-pdf ex:B-PER ex:Josef .
 
