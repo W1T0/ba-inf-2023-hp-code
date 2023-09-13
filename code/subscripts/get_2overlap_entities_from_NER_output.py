@@ -37,7 +37,7 @@ def run(
     # check if there are the same number of files in every directory
     if len(files[0]) == len(files[1]) == len(files[2]):
         # compare the entites
-        for i in range(30):
+        for i in range(len(files[0])):
             # open files
             flairFile = open(files[0][i], "r", encoding="utf-8")
             germaNERFile = open(files[1][i], "r", encoding="utf-8")

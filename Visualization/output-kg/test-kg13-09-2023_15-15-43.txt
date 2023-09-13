@@ -1,0 +1,61 @@
+
+prefix ex: <http://example.org/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# --- ENTITIES OF L9001212-TL0002-1a-pdf ---
+ex:L9001212-TL0002-1a-pdf ex:date '1900-12-12'^^xsd:date .
+ex:L9001212-TL0002-1a-pdf ex:B-PER ex:Albert .
+ex:L9001212-TL0002-1a-pdf ex:I-PER ex:Rehmil .
+
+# --- ENTITIES OF L9001212-TL0002-1b-pdf ---
+ex:L9001212-TL0002-1b-pdf ex:date '1900-12-12'^^xsd:date .
+ex:L9001212-TL0002-1b-pdf ex:B-LOC ex:Bonn .
+ex:Bonn ex:wikidataQID ex:Q586 .
+ex:Bonn ex:coordinates ex:'50,733888888_7,099722222' .
+ex:L9001212-TL0002-1b-pdf ex:B-PER ex:Solda .
+ex:L9001212-TL0002-1b-pdf ex:B-PER ex:Secker .
+ex:L9001212-TL0002-1b-pdf ex:I-PER ex:Postes .
+ex:L9001212-TL0002-1b-pdf ex:I-PER ex:Klina .
+ex:L9001212-TL0002-1b-pdf ex:B-OTH ex:Maraz .
+
+# --- ENTITIES OF L9051123-TL0004-1a-pdf ---
+ex:L9051123-TL0004-1a-pdf ex:date '1905-11-23'^^xsd:date .
+ex:L9051123-TL0004-1a-pdf ex:I-PER ex:Laonhard .
+ex:L9051123-TL0004-1a-pdf ex:B-PER ex:Anna .
+ex:L9051123-TL0004-1a-pdf ex:B-PER ex:Robert .
+ex:L9051123-TL0004-1a-pdf ex:B-PER ex:Paul .
+ex:L9051123-TL0004-1a-pdf ex:I-PER ex:Hohnal .
+ex:L9051123-TL0004-1a-pdf ex:B-PER ex:Josef .
+ex:L9051123-TL0004-1a-pdf ex:B-LOC ex:Buchelsdorf .
+
+# --- ENTITIES OF L9051123-TL0004-1b-pdf ---
+ex:L9051123-TL0004-1b-pdf ex:date '1905-11-23'^^xsd:date .
+ex:L9051123-TL0004-1b-pdf ex:B-OTH ex:Mark .
+ex:L9051123-TL0004-1b-pdf ex:B-PER ex:Fischers .
+ex:L9051123-TL0004-1b-pdf ex:B-PER ex:Robert .
+ex:L9051123-TL0004-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9060424-TL0005-1a-pdf ---
+ex:L9060424-TL0005-1a-pdf ex:date '1906-04-24'^^xsd:date .
+
+# --- ENTITIES OF L9060424-TL0005-1b-pdf ---
+ex:L9060424-TL0005-1b-pdf ex:date '1906-04-24'^^xsd:date .
+ex:L9060424-TL0005-1b-pdf ex:B-PER ex:Alberf .
+ex:L9060424-TL0005-1b-pdf ex:I-PER ex:Oler .
+ex:L9060424-TL0005-1b-pdf ex:B-PER ex:Maria .
+ex:L9060424-TL0005-1b-pdf ex:B-LOC ex:Bucholsdorf .
+
+# --- ENTITIES OF L9060424-TL2033-1b-pdf ---
+ex:L9060424-TL2033-1b-pdf ex:date '1906-04-24'^^xsd:date .
+ex:L9060424-TL2033-1b-pdf ex:B-PER ex:Maria .
+
+# --- ENTITIES OF L9060426-TL2033-1a-pdf ---
+ex:L9060426-TL2033-1a-pdf ex:date '1906-04-26'^^xsd:date .
+
+# --- ENTITIES OF L9081213-TL0006-1a-pdf ---
+ex:L9081213-TL0006-1a-pdf ex:date '1908-12-13'^^xsd:date .
+ex:L9081213-TL0006-1a-pdf ex:B-PER ex:Schneider .
+
+# --- ENTITIES OF L9081213-TL0006-1b-pdf ---
+ex:L9081213-TL0006-1b-pdf ex:date '1908-12-13'^^xsd:date .
+
