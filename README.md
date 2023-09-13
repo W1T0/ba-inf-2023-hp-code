@@ -112,8 +112,12 @@ python .\code\A2_TSV_Parser_and_KG_creator.py
 ```
 
 - The results are saved in the folder `./visualization/documents/KGs/`
-- To visualize the results, copy the scans of the documents into the folder `./visualization/documents/scans/` and the transcriptions exported from Transkribus into the folder `./visualization/documents/transcriptions/`
-- Open the file `files.html` with a local server
+
+- To visualize the results:
+  - Copy the scans of the documents into the folder `./visualization/documents/scans/`
+  - Copy the transcriptions exported from Transkribus into the folder `./visualization/documents/transcriptions/`
+  - Add the filenames to the `filechooser` in `files.html`
+  - Open the file `files.html` with a local server
 
 ## flair/ner
 
