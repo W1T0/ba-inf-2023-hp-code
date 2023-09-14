@@ -1,0 +1,6 @@
+ex:L9221228-TL0324-1a-pdf ex:date '1922-12-28'^^xsd:date .
+ex:L9221228-TL0324-1a-pdf ex:B-PER ex:Franz .
+ex:L9221228-TL0324-1a-pdf ex:B-PER ex:Annas .
+ex:L9221228-TL0324-1a-pdf ex:B-PER ex:Marie .
+ex:L9221228-TL0324-1a-pdf ex:I-PER ex:Familie .
+

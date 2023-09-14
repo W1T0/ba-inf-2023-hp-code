@@ -1,0 +1,9 @@
+ex:L9220317-TL0297-1b-pdf ex:date '1922-03-17'^^xsd:date .
+ex:L9220317-TL0297-1b-pdf ex:B-PER ex:Thekla .
+ex:L9220317-TL0297-1b-pdf ex:B-LOC ex:Bern .
+ex:Bern ex:wikidataQID ex:Q70 .
+ex:Bern ex:coordinates ex:'46,94798_7,44743' .
+ex:L9220317-TL0297-1b-pdf ex:B-PER ex:Robert .
+ex:L9220317-TL0297-1b-pdf ex:B-LOC ex:Oberamergan .
+ex:L9220317-TL0297-1b-pdf ex:B-PER ex:Josef .
+

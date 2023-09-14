@@ -1,0 +1,13 @@
+<configparser.SafeConfigParser object at 0x7f7426b46d68>
+Ich	ich	KNOWN	O
+über	über	KNOWN	O
+seine	seine	KNOWN	O
+Er	er	KNOWN	O
+noch	noch	KNOWN	O
+den	den	KNOWN	O
+Mutterlichen	mutterlichen	UNKNOWN	O
+Segen¬	segen¬	UNKNOWN	O
+I.	i.	KNOWN	O
+7.	7.	KNOWN	O
+§.	§.	UNKNOWN	O
+

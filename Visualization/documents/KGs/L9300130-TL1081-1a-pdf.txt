@@ -1,0 +1,3 @@
+ex:L9300130-TL1081-1a-pdf ex:date '1930-01-30'^^xsd:date .
+ex:L9300130-TL1081-1a-pdf ex:B-PER ex:Lahner .
+

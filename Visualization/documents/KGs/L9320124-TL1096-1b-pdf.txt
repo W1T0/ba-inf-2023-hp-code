@@ -1,0 +1,4 @@
+ex:L9320124-TL1096-1b-pdf ex:date '1932-01-24'^^xsd:date .
+ex:L9320124-TL1096-1b-pdf ex:B-PER ex:Thekla .
+ex:L9320124-TL1096-1b-pdf ex:B-PER ex:Robert .
+

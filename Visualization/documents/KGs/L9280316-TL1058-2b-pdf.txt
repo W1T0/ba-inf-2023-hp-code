@@ -1,0 +1,6 @@
+ex:L9280316-TL1058-2b-pdf ex:date '1928-03-16'^^xsd:date .
+ex:L9280316-TL1058-2b-pdf ex:B-PER ex:Johann .
+ex:L9280316-TL1058-2b-pdf ex:B-PER ex:Robert .
+ex:L9280316-TL1058-2b-pdf ex:B-PER ex:Bernhard .
+ex:L9280316-TL1058-2b-pdf ex:B-PER ex:Anna .
+

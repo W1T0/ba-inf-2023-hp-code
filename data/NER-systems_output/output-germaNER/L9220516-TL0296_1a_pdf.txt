@@ -1,0 +1,14 @@
+von  O
+rere  O
+616  O
+ner  O
+der  O
+Mit  O
+Acta  B-ORG
+.  I-ORG
+20  I-ORG
+Fak.  I-ORG
+New  I-ORG
+Anna  I-ORG
+mit  O
+

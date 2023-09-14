@@ -1,0 +1,3 @@
+<configparser.SafeConfigParser object at 0x7f8761b46d68>
+vnd	vnd	KNOWN	O
+

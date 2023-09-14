@@ -1,0 +1,12 @@
+ex:L9221006-TL0311-1a-pdf ex:date '1922-10-06'^^xsd:date .
+ex:L9221006-TL0311-1a-pdf ex:B-OTH ex:Mark .
+ex:L9221006-TL0311-1a-pdf ex:B-PER ex:Selma .
+ex:L9221006-TL0311-1a-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9221006-TL0311-1a-pdf ex:B-PER ex:Guse .
+ex:L9221006-TL0311-1a-pdf ex:B-LOC ex:Wilchen .
+ex:L9221006-TL0311-1a-pdf ex:B-LOC ex:Regensburg .
+ex:Regensburg ex:wikidataQID ex:Q2978 .
+ex:Regensburg ex:coordinates ex:'49,016666666_12,083333333' .
+

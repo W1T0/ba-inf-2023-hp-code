@@ -1,0 +1,8 @@
+ex:L9280316-TL1058-2a-pdf ex:date '1928-03-16'^^xsd:date .
+ex:L9280316-TL1058-2a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9280316-TL1058-2a-pdf ex:B-PER ex:Wilhelm .
+ex:L9280316-TL1058-2a-pdf ex:B-PER ex:Robert .
+ex:L9280316-TL1058-2a-pdf ex:B-PER ex:Paul .
+

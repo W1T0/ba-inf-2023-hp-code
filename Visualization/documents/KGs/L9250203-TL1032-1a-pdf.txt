@@ -1,0 +1,4 @@
+ex:L9250203-TL1032-1a-pdf ex:date '1925-02-03'^^xsd:date .
+ex:L9250203-TL1032-1a-pdf ex:B-PER ex:Agnes .
+ex:L9250203-TL1032-1a-pdf ex:B-PER ex:Robert .
+

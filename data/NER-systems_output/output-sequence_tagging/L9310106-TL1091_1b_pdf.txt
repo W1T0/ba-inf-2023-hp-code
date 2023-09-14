@@ -1,0 +1,7 @@
+<configparser.SafeConfigParser object at 0x7f717d0c6d68>
+in	in	KNOWN	O
+ten	ten	KNOWN	O
+in	in	KNOWN	O
+18	$NUM$	KNOWN	O
+in	in	KNOWN	O
+

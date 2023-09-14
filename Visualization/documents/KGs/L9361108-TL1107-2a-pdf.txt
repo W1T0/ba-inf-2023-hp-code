@@ -1,0 +1,7 @@
+ex:L9361108-TL1107-2a-pdf ex:date '1936-11-08'^^xsd:date .
+ex:L9361108-TL1107-2a-pdf ex:B-PER ex:Agata .
+ex:L9361108-TL1107-2a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9361108-TL1107-2a-pdf ex:B-PER ex:Wille .
+ex:L9361108-TL1107-2a-pdf ex:B-PER ex:Robert .
+

@@ -1,0 +1,1642 @@
+
+prefix ex: <http://example.org/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# --- ENTITIES OF L9220317-TL0297-1a-pdf ---
+ex:L9220317-TL0297-1a-pdf ex:date '1922-03-17'^^xsd:date .
+ex:L9220317-TL0297-1a-pdf ex:B-PER ex:Thekla .
+ex:L9220317-TL0297-1a-pdf ex:B-OTH ex:Mark .
+ex:L9220317-TL0297-1a-pdf ex:B-OTH ex:Die .
+ex:L9220317-TL0297-1a-pdf ex:B-OTH ex:Dollar .
+ex:L9220317-TL0297-1a-pdf ex:B-LOC ex:Siddeutschland .
+
+# --- ENTITIES OF L9220317-TL0297-1b-pdf ---
+ex:L9220317-TL0297-1b-pdf ex:date '1922-03-17'^^xsd:date .
+ex:L9220317-TL0297-1b-pdf ex:B-PER ex:Thekla .
+ex:L9220317-TL0297-1b-pdf ex:B-LOC ex:Bern .
+ex:Bern ex:wikidataQID ex:Q70 .
+ex:Bern ex:coordinates ex:'46,94798_7,44743' .
+ex:L9220317-TL0297-1b-pdf ex:B-PER ex:Robert .
+ex:L9220317-TL0297-1b-pdf ex:B-LOC ex:Oberamergan .
+ex:L9220317-TL0297-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9220328-TL0188-1a-pdf ---
+ex:L9220328-TL0188-1a-pdf ex:date '1922-03-28'^^xsd:date .
+ex:L9220328-TL0188-1a-pdf ex:B-PER ex:Gekla .
+
+# --- ENTITIES OF L9220328-TL0188-2a-pdf ---
+ex:L9220328-TL0188-2a-pdf ex:date '1922-03-28'^^xsd:date .
+ex:L9220328-TL0188-2a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9220328-TL0188-3a-pdf ---
+ex:L9220328-TL0188-3a-pdf ex:date '1922-03-28'^^xsd:date .
+ex:L9220328-TL0188-3a-pdf ex:B-PER ex:Paul .
+ex:L9220328-TL0188-3a-pdf ex:B-PER ex:Phillip .
+
+# --- ENTITIES OF L9220409-TL0300-1a-pdf ---
+ex:L9220409-TL0300-1a-pdf ex:date '1922-04-09'^^xsd:date .
+ex:L9220409-TL0300-1a-pdf ex:I-PER ex:Amalia .
+ex:L9220409-TL0300-1a-pdf ex:B-PER ex:Christi .
+ex:L9220409-TL0300-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9220409-TL0300-1b-pdf ---
+ex:L9220409-TL0300-1b-pdf ex:date '1922-04-09'^^xsd:date .
+ex:L9220409-TL0300-1b-pdf ex:B-PER ex:Thekla .
+ex:L9220409-TL0300-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9220409-TL0300-1b-pdf ex:B-PER ex:Thun .
+ex:L9220409-TL0300-1b-pdf ex:I-PER ex:Trille .
+ex:L9220409-TL0300-1b-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9220414-TL0301-1a-pdf ---
+ex:L9220414-TL0301-1a-pdf ex:date '1922-04-14'^^xsd:date .
+ex:L9220414-TL0301-1a-pdf ex:B-LOC ex:Calis .
+ex:L9220414-TL0301-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9220414-TL0301-1b-pdf ---
+ex:L9220414-TL0301-1b-pdf ex:date '1922-04-14'^^xsd:date .
+ex:L9220414-TL0301-1b-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9220422-TL0302-1a-pdf ---
+ex:L9220422-TL0302-1a-pdf ex:date '1922-04-22'^^xsd:date .
+ex:L9220422-TL0302-1a-pdf ex:B-LOC ex:Berne .
+ex:Berne ex:wikidataQID ex:Q1779942 .
+ex:Berne ex:coordinates ex:'40,658055555_-84,954166666' .
+ex:L9220422-TL0302-1a-pdf ex:B-LOC ex:Breslau .
+ex:L9220422-TL0302-1a-pdf ex:B-PER ex:Kaplan .
+ex:L9220422-TL0302-1a-pdf ex:B-PER ex:Paul .
+ex:L9220422-TL0302-1a-pdf ex:B-PER ex:Franz .
+ex:L9220422-TL0302-1a-pdf ex:B-LOC ex:Porto .
+ex:Porto ex:wikidataQID ex:Q36433 .
+ex:Porto ex:coordinates ex:'41,149472222_-8,610777777' .
+
+# --- ENTITIES OF L9220422-TL0302-1b-pdf ---
+ex:L9220422-TL0302-1b-pdf ex:date '1922-04-22'^^xsd:date .
+ex:L9220422-TL0302-1b-pdf ex:B-LOC ex:Breslau .
+ex:L9220422-TL0302-1b-pdf ex:B-PER ex:Kaplan .
+ex:L9220422-TL0302-1b-pdf ex:I-PER ex:Stift .
+ex:L9220422-TL0302-1b-pdf ex:B-PER ex:Agnes .
+ex:L9220422-TL0302-1b-pdf ex:B-PER ex:August .
+ex:L9220422-TL0302-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9220424-TL0298-1a-pdf ---
+ex:L9220424-TL0298-1a-pdf ex:date '1922-04-24'^^xsd:date .
+ex:L9220424-TL0298-1a-pdf ex:B-PER ex:Franz .
+ex:L9220424-TL0298-1a-pdf ex:B-OTH_FOOD ex:Obst .
+ex:Obst ex:wikidataQID ex:Q3314483 .
+ex:L9220424-TL0298-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9220424-TL0298-1b-pdf ---
+ex:L9220424-TL0298-1b-pdf ex:date '1922-04-24'^^xsd:date .
+ex:L9220424-TL0298-1b-pdf ex:B-LOC ex:Herman .
+ex:L9220424-TL0298-1b-pdf ex:B-OTH_FOOD ex:Weizen .
+ex:Weizen ex:wikidataQID ex:Q15645384 .
+
+# --- ENTITIES OF L9220424-TL0298-2a-pdf ---
+ex:L9220424-TL0298-2a-pdf ex:date '1922-04-24'^^xsd:date .
+ex:L9220424-TL0298-2a-pdf ex:B-PER ex:Müllers .
+ex:L9220424-TL0298-2a-pdf ex:B-PER ex:Anna .
+ex:L9220424-TL0298-2a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9220516-TL0296-1a-pdf ---
+ex:L9220516-TL0296-1a-pdf ex:date '1922-05-16'^^xsd:date .
+ex:L9220516-TL0296-1a-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9220606-TL0304-1a-pdf ---
+ex:L9220606-TL0304-1a-pdf ex:date '1922-06-06'^^xsd:date .
+ex:L9220606-TL0304-1a-pdf ex:B-PER ex:Strebel .
+ex:L9220606-TL0304-1a-pdf ex:B-PER ex:Thekla .
+ex:L9220606-TL0304-1a-pdf ex:B-PER ex:Heidenreich .
+ex:L9220606-TL0304-1a-pdf ex:I-PER ex:Branti .
+ex:L9220606-TL0304-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9220606-TL0304-1a-pdf ex:I-PER ex:Kiefer .
+ex:L9220606-TL0304-1a-pdf ex:B-PER ex:Rieser .
+ex:L9220606-TL0304-1a-pdf ex:B-PER ex:Marie .
+ex:L9220606-TL0304-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9220606-TL0304-1a-pdf ex:B-PER ex:H .
+ex:L9220606-TL0304-1a-pdf ex:B-PER ex:Bräutigam .
+
+# --- ENTITIES OF L9220606-TL0304-1b-pdf ---
+ex:L9220606-TL0304-1b-pdf ex:date '1922-06-06'^^xsd:date .
+ex:L9220606-TL0304-1b-pdf ex:I-PER ex:Siesesmahl .
+
+# --- ENTITIES OF L9220615-TL0305-1a-pdf ---
+ex:L9220615-TL0305-1a-pdf ex:date '1922-06-15'^^xsd:date .
+ex:L9220615-TL0305-1a-pdf ex:B-PER ex:Win .
+ex:L9220615-TL0305-1a-pdf ex:I-PER ex:Sunara .
+ex:L9220615-TL0305-1a-pdf ex:B-PER ex:Kiefer .
+ex:L9220615-TL0305-1a-pdf ex:B-PER ex:Ficker .
+ex:L9220615-TL0305-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9220615-TL0305-1a-pdf ex:B-PER ex:Stadtra .
+ex:L9220615-TL0305-1a-pdf ex:I-PER ex:Neustadt .
+ex:L9220615-TL0305-1a-pdf ex:I-PER ex:Reimann .
+
+# --- ENTITIES OF L9220615-TL0305-1b-pdf ---
+ex:L9220615-TL0305-1b-pdf ex:date '1922-06-15'^^xsd:date .
+ex:L9220615-TL0305-1b-pdf ex:I-PER ex:E .
+ex:L9220615-TL0305-1b-pdf ex:I-PER ex:Prother .
+ex:L9220615-TL0305-1b-pdf ex:B-LOC ex:Satowitz .
+ex:L9220615-TL0305-1b-pdf ex:B-PER ex:Tekla .
+ex:L9220615-TL0305-1b-pdf ex:B-OTH ex:Dollar .
+
+# --- ENTITIES OF L9220706-TL0306-1a-pdf ---
+ex:L9220706-TL0306-1a-pdf ex:date '1922-07-06'^^xsd:date .
+ex:L9220706-TL0306-1a-pdf ex:B-OTH ex:Mark .
+ex:L9220706-TL0306-1a-pdf ex:B-PER ex:Helfrich .
+ex:L9220706-TL0306-1a-pdf ex:B-OTH ex:Dollar .
+
+# --- ENTITIES OF L9220706-TL0306-1b-pdf ---
+ex:L9220706-TL0306-1b-pdf ex:date '1922-07-06'^^xsd:date .
+ex:L9220706-TL0306-1b-pdf ex:B-LOC ex:Europa .
+
+# --- ENTITIES OF L9220904-TL0307-1a-pdf ---
+ex:L9220904-TL0307-1a-pdf ex:date '1922-09-04'^^xsd:date .
+ex:L9220904-TL0307-1a-pdf ex:B-PER ex:Thekla .
+ex:L9220904-TL0307-1a-pdf ex:B-PER ex:Mahlmann .
+ex:L9220904-TL0307-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9220904-TL0307-1a-pdf ex:B-PER ex:Theklas .
+ex:L9220904-TL0307-1a-pdf ex:B-PER ex:Milie .
+ex:L9220904-TL0307-1a-pdf ex:B-LOC ex:Schlüterstraße .
+
+# --- ENTITIES OF L9220904-TL0307-1b-pdf ---
+ex:L9220904-TL0307-1b-pdf ex:date '1922-09-04'^^xsd:date .
+ex:L9220904-TL0307-1b-pdf ex:B-PER ex:Thekla .
+ex:L9220904-TL0307-1b-pdf ex:B-PER ex:Rathman .
+ex:L9220904-TL0307-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9220904-TL0307-1b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9220904-TL0307-1b-pdf ex:B-LOC ex:Nürnberg .
+ex:Nürnberg ex:wikidataQID ex:Q2090 .
+ex:Nürnberg ex:coordinates ex:'49,453888888_11,0775' .
+ex:L9220904-TL0307-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9220904-TL0308-1a-pdf ---
+ex:L9220904-TL0308-1a-pdf ex:date '1922-09-04'^^xsd:date .
+ex:L9220904-TL0308-1a-pdf ex:B-PER ex:Thekla .
+ex:L9220904-TL0308-1a-pdf ex:B-OTH ex:Dollar .
+
+# --- ENTITIES OF L9220904-TL0308-1b-pdf ---
+ex:L9220904-TL0308-1b-pdf ex:date '1922-09-04'^^xsd:date .
+ex:L9220904-TL0308-1b-pdf ex:B-LOC ex:Bayern .
+ex:Bayern ex:wikidataQID ex:Q980 .
+ex:Bayern ex:coordinates ex:'49,078611111_11,385555555' .
+ex:L9220904-TL0308-1b-pdf ex:B-PER ex:Thekla .
+ex:L9220904-TL0308-1b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9220904-TL0308-1b-pdf ex:B-PER ex:Walter .
+ex:L9220904-TL0308-1b-pdf ex:B-LOC ex:Regensburg .
+ex:Regensburg ex:wikidataQID ex:Q2978 .
+ex:Regensburg ex:coordinates ex:'49,016666666_12,083333333' .
+ex:L9220904-TL0308-1b-pdf ex:I-PER ex:Scherer .
+ex:L9220904-TL0308-1b-pdf ex:B-LOC ex:Nürnberg .
+ex:Nürnberg ex:wikidataQID ex:Q2090 .
+ex:Nürnberg ex:coordinates ex:'49,453888888_11,0775' .
+ex:L9220904-TL0308-1b-pdf ex:B-PER ex:H .
+ex:L9220904-TL0308-1b-pdf ex:B-PER ex:Robert .
+ex:L9220904-TL0308-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9220912-TL0315-1a-pdf ---
+ex:L9220912-TL0315-1a-pdf ex:date '1922-09-12'^^xsd:date .
+ex:L9220912-TL0315-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q508822 .
+ex:Neustadt ex:coordinates ex:'49,930833333_9,5675' .
+ex:L9220912-TL0315-1a-pdf ex:B-PER ex:Strebel .
+ex:L9220912-TL0315-1a-pdf ex:B-PER ex:Schneider .
+ex:L9220912-TL0315-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9220912-TL0315-1a-pdf ex:B-OTH_FOOD ex:Schinken .
+ex:Schinken ex:wikidataQID ex:Q170486 .
+
+# --- ENTITIES OF L9220912-TL0315-1b-pdf ---
+ex:L9220912-TL0315-1b-pdf ex:date '1922-09-12'^^xsd:date .
+ex:L9220912-TL0315-1b-pdf ex:I-PER ex:Hochmann .
+ex:L9220912-TL0315-1b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9220912-TL0315-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9220912-TL0315-1b-pdf ex:B-PER ex:Rahmel .
+ex:L9220912-TL0315-1b-pdf ex:B-PER ex:Marianne .
+ex:L9220912-TL0315-1b-pdf ex:B-PER ex:Walter .
+ex:L9220912-TL0315-1b-pdf ex:B-PER ex:Frankels .
+ex:L9220912-TL0315-1b-pdf ex:I-PER ex:Mariechen .
+ex:L9220912-TL0315-1b-pdf ex:B-OTH ex:Dollar .
+ex:L9220912-TL0315-1b-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9220912-TL0315-1b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+
+# --- ENTITIES OF L9221001-TL0310-1a-pdf ---
+ex:L9221001-TL0310-1a-pdf ex:date '1922-10-01'^^xsd:date .
+ex:L9221001-TL0310-1a-pdf ex:B-PER ex:Maria .
+ex:L9221001-TL0310-1a-pdf ex:B-PER ex:Paul .
+ex:L9221001-TL0310-1a-pdf ex:B-PER ex:Agnes .
+ex:L9221001-TL0310-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9221001-TL0310-1a-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9221001-TL0310-1b-pdf ---
+ex:L9221001-TL0310-1b-pdf ex:date '1922-10-01'^^xsd:date .
+ex:L9221001-TL0310-1b-pdf ex:B-PER ex:Hartwig .
+ex:L9221001-TL0310-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9221001-TL0310-1b-pdf ex:I-PER ex:Heine .
+ex:L9221001-TL0310-1b-pdf ex:B-PER ex:Agnes .
+ex:L9221001-TL0310-1b-pdf ex:B-PER ex:Hedwig .
+
+# --- ENTITIES OF L9221001-TL0312-1a-pdf ---
+ex:L9221001-TL0312-1a-pdf ex:date '1922-10-01'^^xsd:date .
+
+# --- ENTITIES OF L9221001-TL0312-1b-pdf ---
+ex:L9221001-TL0312-1b-pdf ex:date '1922-10-01'^^xsd:date .
+
+# --- ENTITIES OF L9221006-TL0311-1a-pdf ---
+ex:L9221006-TL0311-1a-pdf ex:date '1922-10-06'^^xsd:date .
+ex:L9221006-TL0311-1a-pdf ex:B-OTH ex:Mark .
+ex:L9221006-TL0311-1a-pdf ex:B-PER ex:Selma .
+ex:L9221006-TL0311-1a-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9221006-TL0311-1a-pdf ex:B-PER ex:Guse .
+ex:L9221006-TL0311-1a-pdf ex:B-LOC ex:Wilchen .
+ex:L9221006-TL0311-1a-pdf ex:B-LOC ex:Regensburg .
+ex:Regensburg ex:wikidataQID ex:Q2978 .
+ex:Regensburg ex:coordinates ex:'49,016666666_12,083333333' .
+
+# --- ENTITIES OF L9221006-TL0311-1b-pdf ---
+ex:L9221006-TL0311-1b-pdf ex:date '1922-10-06'^^xsd:date .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH ex:Mark .
+ex:L9221006-TL0311-1b-pdf ex:B-ORG ex:K .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH_FOOD ex:Ei .
+ex:Ei ex:wikidataQID ex:Q93189 .
+ex:L9221006-TL0311-1b-pdf ex:I-ORG ex:P .
+ex:L9221006-TL0311-1b-pdf ex:I-ORG ex:d .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH ex:Pfund .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH_FOOD ex:Schweinsbraten .
+ex:Schweinsbraten ex:wikidataQID ex:Q259148 .
+ex:L9221006-TL0311-1b-pdf ex:B-LOC ex:Saalsch .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH_FOOD ex:Suppe .
+ex:Suppe ex:wikidataQID ex:Q41415 .
+
+# --- ENTITIES OF L9221029-TL0313-1a-pdf ---
+ex:L9221029-TL0313-1a-pdf ex:date '1922-10-29'^^xsd:date .
+ex:L9221029-TL0313-1a-pdf ex:B-OTH ex:Hagen .
+ex:L9221029-TL0313-1a-pdf ex:B-PER ex:Barthold .
+ex:L9221029-TL0313-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9221029-TL0313-1a-pdf ex:B-PER ex:Paul .
+ex:L9221029-TL0313-1a-pdf ex:B-PER ex:Anna .
+ex:L9221029-TL0313-1a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+
+# --- ENTITIES OF L9221029-TL0313-1b-pdf ---
+ex:L9221029-TL0313-1b-pdf ex:date '1922-10-29'^^xsd:date .
+ex:L9221029-TL0313-1b-pdf ex:B-LOC ex:Schlesien .
+ex:Schlesien ex:wikidataQID ex:Q81720 .
+ex:Schlesien ex:coordinates ex:'51,1035_17,0396' .
+ex:L9221029-TL0313-1b-pdf ex:I-PER ex:Laner .
+ex:L9221029-TL0313-1b-pdf ex:B-PER ex:Thekla .
+ex:L9221029-TL0313-1b-pdf ex:B-PER ex:Paul .
+
+# --- ENTITIES OF L9221030-TL0314-1a-pdf ---
+ex:L9221030-TL0314-1a-pdf ex:date '1922-10-30'^^xsd:date .
+ex:L9221030-TL0314-1a-pdf ex:B-PER ex:Thekla .
+ex:L9221030-TL0314-1a-pdf ex:B-PER ex:August .
+ex:L9221030-TL0314-1a-pdf ex:B-PER ex:Anna .
+ex:L9221030-TL0314-1a-pdf ex:B-PER ex:Paul .
+
+# --- ENTITIES OF L9221030-TL0314-1b-pdf ---
+ex:L9221030-TL0314-1b-pdf ex:date '1922-10-30'^^xsd:date .
+ex:L9221030-TL0314-1b-pdf ex:B-LOC ex:Hütterhin .
+ex:L9221030-TL0314-1b-pdf ex:B-PER ex:Thekla .
+ex:L9221030-TL0314-1b-pdf ex:B-PER ex:Schwager .
+ex:L9221030-TL0314-1b-pdf ex:B-PER ex:Paul .
+ex:L9221030-TL0314-1b-pdf ex:B-PER ex:Ottilie .
+ex:L9221030-TL0314-1b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+
+# --- ENTITIES OF L9221119-TL0316-1a-pdf ---
+ex:L9221119-TL0316-1a-pdf ex:date '1922-11-19'^^xsd:date .
+ex:L9221119-TL0316-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q508822 .
+ex:Neustadt ex:coordinates ex:'49,930833333_9,5675' .
+ex:L9221119-TL0316-1a-pdf ex:B-PER ex:Kiefer .
+ex:L9221119-TL0316-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9221119-TL0316-1a-pdf ex:I-LOC ex:c .
+ex:L9221119-TL0316-1a-pdf ex:I-LOC ex:Schles .
+
+# --- ENTITIES OF L9221119-TL0316-1b-pdf ---
+ex:L9221119-TL0316-1b-pdf ex:date '1922-11-19'^^xsd:date .
+ex:L9221119-TL0316-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+
+# --- ENTITIES OF L9221129-TL0317-1a-pdf ---
+ex:L9221129-TL0317-1a-pdf ex:date '1922-11-29'^^xsd:date .
+ex:L9221129-TL0317-1a-pdf ex:B-PER ex:Inkla .
+ex:L9221129-TL0317-1a-pdf ex:B-PER ex:Feil .
+ex:L9221129-TL0317-1a-pdf ex:B-PER ex:Joka .
+ex:L9221129-TL0317-1a-pdf ex:B-LOC ex:Langenbruck .
+ex:L9221129-TL0317-1a-pdf ex:B-PER ex:Paul .
+ex:L9221129-TL0317-1a-pdf ex:B-PER ex:Berthold .
+ex:L9221129-TL0317-1a-pdf ex:B-PER ex:Franz .
+ex:L9221129-TL0317-1a-pdf ex:B-PER ex:Agnes .
+
+# --- ENTITIES OF L9221129-TL0317-1b-pdf ---
+ex:L9221129-TL0317-1b-pdf ex:date '1922-11-29'^^xsd:date .
+ex:L9221129-TL0317-1b-pdf ex:B-PER ex:Agnes .
+ex:L9221129-TL0317-1b-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9221203-TL0318-1a-pdf ---
+ex:L9221203-TL0318-1a-pdf ex:date '1922-12-03'^^xsd:date .
+ex:L9221203-TL0318-1a-pdf ex:B-LOC ex:Langenbe .
+ex:L9221203-TL0318-1a-pdf ex:B-PER ex:Joseph .
+ex:L9221203-TL0318-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9221203-TL0318-1a-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9221203-TL0318-1a-pdf ex:B-OTH ex:Pfund .
+ex:L9221203-TL0318-1a-pdf ex:B-OTH_FOOD ex:Weizen .
+ex:Weizen ex:wikidataQID ex:Q15645384 .
+ex:L9221203-TL0318-1a-pdf ex:B-PER ex:Agnes .
+ex:L9221203-TL0318-1a-pdf ex:B-LOC ex:Langenbrück .
+ex:L9221203-TL0318-1a-pdf ex:B-PER ex:Kollar .
+
+# --- ENTITIES OF L9221203-TL0318-1b-pdf ---
+ex:L9221203-TL0318-1b-pdf ex:date '1922-12-03'^^xsd:date .
+ex:L9221203-TL0318-1b-pdf ex:B-PER ex:Heidenreich .
+ex:L9221203-TL0318-1b-pdf ex:B-PER ex:Berthold .
+ex:L9221203-TL0318-1b-pdf ex:B-PER ex:Joseph .
+ex:L9221203-TL0318-1b-pdf ex:B-PER ex:Mari .
+
+# --- ENTITIES OF L9221207-TL0319-1a-pdf ---
+ex:L9221207-TL0319-1a-pdf ex:date '1922-12-07'^^xsd:date .
+ex:L9221207-TL0319-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9221207-TL0319-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9221207-TL0319-1a-pdf ex:B-OTH ex:Mark .
+ex:L9221207-TL0319-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9221207-TL0319-1b-pdf ---
+ex:L9221207-TL0319-1b-pdf ex:date '1922-12-07'^^xsd:date .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH_FOOD ex:Mehl .
+ex:Mehl ex:wikidataQID ex:Q36465 .
+ex:L9221207-TL0319-1b-pdf ex:B-ORG ex:Badischen .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH ex:Pfund .
+ex:L9221207-TL0319-1b-pdf ex:B-PER ex:Annia .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH ex:Böhn .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+
+# --- ENTITIES OF L9221213-TL0320-1a-pdf ---
+ex:L9221213-TL0320-1a-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0320-1a-pdf ex:B-PER ex:Thekla .
+ex:L9221213-TL0320-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9221213-TL0320-1b-pdf ---
+ex:L9221213-TL0320-1b-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0320-1b-pdf ex:B-PER ex:Amalia .
+
+# --- ENTITIES OF L9221213-TL0321-1a-pdf ---
+ex:L9221213-TL0321-1a-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0321-1a-pdf ex:B-PER ex:Thekla .
+ex:L9221213-TL0321-1a-pdf ex:B-PER ex:Mahlmann .
+ex:L9221213-TL0321-1a-pdf ex:B-PER ex:Paul .
+ex:L9221213-TL0321-1a-pdf ex:B-OTH ex:Mk .
+ex:L9221213-TL0321-1a-pdf ex:B-LOC ex:Kabelle .
+
+# --- ENTITIES OF L9221213-TL0321-1b-pdf ---
+ex:L9221213-TL0321-1b-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0321-1b-pdf ex:B-OTH_FOOD ex:Margarine .
+ex:Margarine ex:wikidataQID ex:Q4287 .
+ex:L9221213-TL0321-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9221213-TL0321-1b-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9221213-TL0321-1b-pdf ex:B-OTH ex:Mk .
+ex:L9221213-TL0321-1b-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9221213-TL0321-1b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9221213-TL0321-1b-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9221213-TL0323-1a-pdf ---
+ex:L9221213-TL0323-1a-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0323-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q508822 .
+ex:Neustadt ex:coordinates ex:'49,930833333_9,5675' .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Thekla .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Barthold .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Paul .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Marie .
+ex:L9221213-TL0323-1a-pdf ex:B-OTH ex:Dollar .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Agnes .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Robert .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9221213-TL0323-1b-pdf ---
+ex:L9221213-TL0323-1b-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0323-1b-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q508822 .
+ex:Neustadt ex:coordinates ex:'49,930833333_9,5675' .
+ex:L9221213-TL0323-1b-pdf ex:B-PER ex:Thekla .
+ex:L9221213-TL0323-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9221213-TL0323-1b-pdf ex:B-PER ex:Marie .
+ex:L9221213-TL0323-1b-pdf ex:B-OTH ex:Dollar .
+ex:L9221213-TL0323-1b-pdf ex:B-PER ex:Art .
+
+# --- ENTITIES OF L9221213-TL0323-2a-pdf ---
+ex:L9221213-TL0323-2a-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0323-2a-pdf ex:B-PER ex:Thekla .
+ex:L9221213-TL0323-2a-pdf ex:B-OTH ex:Mark .
+ex:L9221213-TL0323-2a-pdf ex:B-PER ex:Paul .
+ex:L9221213-TL0323-2a-pdf ex:B-PER ex:Anna .
+ex:L9221213-TL0323-2a-pdf ex:I-PER ex:Silma .
+ex:L9221213-TL0323-2a-pdf ex:B-PER ex:August .
+ex:L9221213-TL0323-2a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9221213-TL0323-2b-pdf ---
+ex:L9221213-TL0323-2b-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0323-2b-pdf ex:B-PER ex:Thekla .
+ex:L9221213-TL0323-2b-pdf ex:B-PER ex:Paulchen .
+ex:L9221213-TL0323-2b-pdf ex:B-PER ex:Paul .
+ex:L9221213-TL0323-2b-pdf ex:I-PER ex:Gerhard .
+ex:L9221213-TL0323-2b-pdf ex:B-OTH ex:Dollar .
+ex:L9221213-TL0323-2b-pdf ex:B-PER ex:Agnes .
+ex:L9221213-TL0323-2b-pdf ex:B-PER ex:Robert .
+ex:L9221213-TL0323-2b-pdf ex:B-PER ex:Hedwig .
+
+# --- ENTITIES OF L9221214-TL0322-1a-pdf ---
+ex:L9221214-TL0322-1a-pdf ex:date '1922-12-14'^^xsd:date .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Fortunata .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Paul .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:August .
+ex:L9221214-TL0322-1a-pdf ex:B-OTH ex:Mk .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Franz .
+ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9221214-TL0322-1b-pdf ---
+ex:L9221214-TL0322-1b-pdf ex:date '1922-12-14'^^xsd:date .
+ex:L9221214-TL0322-1b-pdf ex:B-PER ex:Heidenreich .
+ex:L9221214-TL0322-1b-pdf ex:B-PER ex:Tortura .
+ex:L9221214-TL0322-1b-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9221214-TL0322-1b-pdf ex:B-PER ex:August .
+ex:L9221214-TL0322-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9221214-TL0322-1b-pdf ex:B-OTH ex:Pfund .
+ex:L9221214-TL0322-1b-pdf ex:B-PER ex:Tekla .
+ex:L9221214-TL0322-1b-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9221214-TL0322-1b-pdf ex:B-PER ex:Robert .
+ex:L9221214-TL0322-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9221228-TL0324-1a-pdf ---
+ex:L9221228-TL0324-1a-pdf ex:date '1922-12-28'^^xsd:date .
+ex:L9221228-TL0324-1a-pdf ex:B-PER ex:Franz .
+ex:L9221228-TL0324-1a-pdf ex:B-PER ex:Annas .
+ex:L9221228-TL0324-1a-pdf ex:B-PER ex:Marie .
+ex:L9221228-TL0324-1a-pdf ex:I-PER ex:Familie .
+
+# --- ENTITIES OF L9221228-TL0324-1b-pdf ---
+ex:L9221228-TL0324-1b-pdf ex:date '1922-12-28'^^xsd:date .
+ex:L9221228-TL0324-1b-pdf ex:B-PER ex:Paul .
+ex:L9221228-TL0324-1b-pdf ex:B-PER ex:Anna .
+ex:L9221228-TL0324-1b-pdf ex:B-PER ex:Franz .
+ex:L9221228-TL0324-1b-pdf ex:B-PER ex:Agnes .
+ex:L9221228-TL0324-1b-pdf ex:B-LOC ex:Porto .
+ex:Porto ex:wikidataQID ex:Q36433 .
+ex:Porto ex:coordinates ex:'41,149472222_-8,610777777' .
+ex:L9221228-TL0324-1b-pdf ex:B-PER ex:Hedwig .
+
+# --- ENTITIES OF L9221229-TL0309-1a-pdf ---
+ex:L9221229-TL0309-1a-pdf ex:date '1922-12-29'^^xsd:date .
+ex:L9221229-TL0309-1a-pdf ex:B-PER ex:Thekla .
+ex:L9221229-TL0309-1a-pdf ex:I-PER ex:Brück .
+ex:L9221229-TL0309-1a-pdf ex:B-PER ex:Paul .
+ex:L9221229-TL0309-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9221229-TL0309-1a-pdf ex:B-PER ex:Anna .
+ex:L9221229-TL0309-1a-pdf ex:B-PER ex:Franz .
+ex:L9221229-TL0309-1a-pdf ex:B-PER ex:Agnes .
+
+# --- ENTITIES OF L9221229-TL0309-1b-pdf ---
+ex:L9221229-TL0309-1b-pdf ex:date '1922-12-29'^^xsd:date .
+ex:L9221229-TL0309-1b-pdf ex:B-PER ex:Thekla .
+ex:L9221229-TL0309-1b-pdf ex:B-PER ex:Fortunata .
+ex:L9221229-TL0309-1b-pdf ex:B-PER ex:Marie .
+ex:L9221229-TL0309-1b-pdf ex:B-LOC ex:Porto .
+ex:Porto ex:wikidataQID ex:Q36433 .
+ex:Porto ex:coordinates ex:'41,149472222_-8,610777777' .
+ex:L9221229-TL0309-1b-pdf ex:B-PER ex:Agnes .
+
+# --- ENTITIES OF L9221229-TL0309-2a-pdf ---
+ex:L9221229-TL0309-2a-pdf ex:date '1922-12-29'^^xsd:date .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:Thekla .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:Hedel .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:Paul .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:Marie .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:Josef .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:Anna .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:Franz .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:August .
+ex:L9221229-TL0309-2a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9221229-TL0309-2b-pdf ---
+ex:L9221229-TL0309-2b-pdf ex:date '1922-12-29'^^xsd:date .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:Berta .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:Maria .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:Paul .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:August .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:Anna .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:Franz .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:Agnes .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:Robert .
+ex:L9221229-TL0309-2b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9230114-TL1001-1a-pdf ---
+ex:L9230114-TL1001-1a-pdf ex:date '1923-01-14'^^xsd:date .
+
+# --- ENTITIES OF L9230114-TL1001-1b-pdf ---
+ex:L9230114-TL1001-1b-pdf ex:date '1923-01-14'^^xsd:date .
+
+# --- ENTITIES OF L9230215-TL1003-1a-pdf ---
+ex:L9230215-TL1003-1a-pdf ex:date '1923-02-15'^^xsd:date .
+
+# --- ENTITIES OF L9230215-TL1003-1b-pdf ---
+ex:L9230215-TL1003-1b-pdf ex:date '1923-02-15'^^xsd:date .
+
+# --- ENTITIES OF L9230313-TL1004-1a-pdf ---
+ex:L9230313-TL1004-1a-pdf ex:date '1923-03-13'^^xsd:date .
+
+# --- ENTITIES OF L9230313-TL1004-1b-pdf ---
+ex:L9230313-TL1004-1b-pdf ex:date '1923-03-13'^^xsd:date .
+
+# --- ENTITIES OF L9230318-TL1005-1a-pdf ---
+ex:L9230318-TL1005-1a-pdf ex:date '1923-03-18'^^xsd:date .
+
+# --- ENTITIES OF L9230318-TL1005-1b-pdf ---
+ex:L9230318-TL1005-1b-pdf ex:date '1923-03-18'^^xsd:date .
+
+# --- ENTITIES OF L9230318-TL1005-2a-pdf ---
+ex:L9230318-TL1005-2a-pdf ex:date '1923-03-18'^^xsd:date .
+
+# --- ENTITIES OF L9230318-TL1005-2b-pdf ---
+ex:L9230318-TL1005-2b-pdf ex:date '1923-03-18'^^xsd:date .
+
+# --- ENTITIES OF L9230318-TL1005-3a-pdf ---
+ex:L9230318-TL1005-3a-pdf ex:date '1923-03-18'^^xsd:date .
+
+# --- ENTITIES OF L9230318-TL1005-3b-pdf ---
+ex:L9230318-TL1005-3b-pdf ex:date '1923-03-18'^^xsd:date .
+
+# --- ENTITIES OF L9230326-TL1007-1a-pdf ---
+ex:L9230326-TL1007-1a-pdf ex:date '1923-03-26'^^xsd:date .
+
+# --- ENTITIES OF L9230326-TL1007-1b-pdf ---
+ex:L9230326-TL1007-1b-pdf ex:date '1923-03-26'^^xsd:date .
+
+# --- ENTITIES OF L9230422-TL1008-1a-pdf ---
+ex:L9230422-TL1008-1a-pdf ex:date '1923-04-22'^^xsd:date .
+
+# --- ENTITIES OF L9230422-TL1008-1b-pdf ---
+ex:L9230422-TL1008-1b-pdf ex:date '1923-04-22'^^xsd:date .
+
+# --- ENTITIES OF L9230422-TL1008-2a-pdf ---
+ex:L9230422-TL1008-2a-pdf ex:date '1923-04-22'^^xsd:date .
+
+# --- ENTITIES OF L9230422-TL1008-2b-pdf ---
+ex:L9230422-TL1008-2b-pdf ex:date '1923-04-22'^^xsd:date .
+
+# --- ENTITIES OF L9230608-TL1010-1a-pdf ---
+ex:L9230608-TL1010-1a-pdf ex:date '1923-06-08'^^xsd:date .
+
+# --- ENTITIES OF L9230608-TL1010-1b-pdf ---
+ex:L9230608-TL1010-1b-pdf ex:date '1923-06-08'^^xsd:date .
+
+# --- ENTITIES OF L9230614-TL1011-1a-pdf ---
+ex:L9230614-TL1011-1a-pdf ex:date '1923-06-14'^^xsd:date .
+
+# --- ENTITIES OF L9230614-TL1011-1b-pdf ---
+ex:L9230614-TL1011-1b-pdf ex:date '1923-06-14'^^xsd:date .
+
+# --- ENTITIES OF L9230722-TL1015-1a-pdf ---
+ex:L9230722-TL1015-1a-pdf ex:date '1923-07-22'^^xsd:date .
+
+# --- ENTITIES OF L9230722-TL1015-1b-pdf ---
+ex:L9230722-TL1015-1b-pdf ex:date '1923-07-22'^^xsd:date .
+ex:L9230722-TL1015-1b-pdf ex:B-PER ex:Anna .
+ex:L9230722-TL1015-1b-pdf ex:B-OTH_FOOD ex:Kelle .
+ex:Kelle ex:wikidataQID ex:Q5015370 .
+ex:L9230722-TL1015-1b-pdf ex:B-PER ex:Thekla .
+ex:L9230722-TL1015-1b-pdf ex:B-LOC ex:Maine .
+
+# --- ENTITIES OF L9230727-TL1014-1a-pdf ---
+ex:L9230727-TL1014-1a-pdf ex:date '1923-07-27'^^xsd:date .
+
+# --- ENTITIES OF L9230727-TL1014-1b-pdf ---
+ex:L9230727-TL1014-1b-pdf ex:date '1923-07-27'^^xsd:date .
+
+# --- ENTITIES OF L9230728-TL1013-1a-pdf ---
+ex:L9230728-TL1013-1a-pdf ex:date '1923-07-28'^^xsd:date .
+
+# --- ENTITIES OF L9230728-TL1013-1b-pdf ---
+ex:L9230728-TL1013-1b-pdf ex:date '1923-07-28'^^xsd:date .
+
+# --- ENTITIES OF L9230731-TL1012-1a-pdf ---
+ex:L9230731-TL1012-1a-pdf ex:date '1923-07-31'^^xsd:date .
+
+# --- ENTITIES OF L9230731-TL1012-1b-pdf ---
+ex:L9230731-TL1012-1b-pdf ex:date '1923-07-31'^^xsd:date .
+
+# --- ENTITIES OF L9231108-TL1018-1a-pdf ---
+ex:L9231108-TL1018-1a-pdf ex:date '1923-11-08'^^xsd:date .
+
+# --- ENTITIES OF L9231108-TL1018-1b-pdf ---
+ex:L9231108-TL1018-1b-pdf ex:date '1923-11-08'^^xsd:date .
+
+# --- ENTITIES OF L9231108-TL1018-2a-pdf ---
+ex:L9231108-TL1018-2a-pdf ex:date '1923-11-08'^^xsd:date .
+ex:L9231108-TL1018-2a-pdf ex:B-PER ex:Rahr .
+ex:L9231108-TL1018-2a-pdf ex:I-PER ex:Gorg .
+ex:L9231108-TL1018-2a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q64 .
+ex:Berlin ex:coordinates ex:'52,516666666_13,383333333' .
+ex:L9231108-TL1018-2a-pdf ex:B-LOC ex:Sachsen .
+ex:Sachsen ex:wikidataQID ex:Q1202 .
+ex:Sachsen ex:coordinates ex:'51,026944444_13,358888888' .
+ex:L9231108-TL1018-2a-pdf ex:B-PER ex:Paul .
+ex:L9231108-TL1018-2a-pdf ex:B-PER ex:Lüdendorf .
+ex:L9231108-TL1018-2a-pdf ex:I-PER ex:Lewr .
+ex:L9231108-TL1018-2a-pdf ex:B-PER ex:Wolf .
+ex:L9231108-TL1018-2a-pdf ex:I-PER ex:Bernhard .
+
+# --- ENTITIES OF L9231108-TL1018-2b-pdf ---
+ex:L9231108-TL1018-2b-pdf ex:date '1923-11-08'^^xsd:date .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Bayern .
+ex:Bayern ex:wikidataQID ex:Q980 .
+ex:Bayern ex:coordinates ex:'49,078611111_11,385555555' .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Rheinland .
+ex:Rheinland ex:wikidataQID ex:Q152243 .
+ex:Rheinland ex:coordinates ex:'50,276989_6,860735' .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Klegraphan .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Sachsen .
+ex:Sachsen ex:wikidataQID ex:Q1202 .
+ex:Sachsen ex:coordinates ex:'51,026944444_13,358888888' .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q64 .
+ex:Berlin ex:coordinates ex:'52,516666666_13,383333333' .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Koburg .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9231108-TL1018-2b-pdf ex:I-PER ex:Ludendorf .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Düsseldorf .
+ex:Düsseldorf ex:wikidataQID ex:Q1718 .
+ex:Düsseldorf ex:coordinates ex:'51,231144444_6,772380555' .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Thüringen .
+ex:Thüringen ex:wikidataQID ex:Q1205 .
+ex:Thüringen ex:coordinates ex:'51,0_11,0' .
+ex:L9231108-TL1018-2b-pdf ex:B-LOC ex:Rheinfalt .
+
+# --- ENTITIES OF L9231108-TL1018-3a-pdf ---
+ex:L9231108-TL1018-3a-pdf ex:date '1923-11-08'^^xsd:date .
+ex:L9231108-TL1018-3a-pdf ex:B-PER ex:Hitler .
+ex:L9231108-TL1018-3a-pdf ex:B-PER ex:Jose .
+ex:L9231108-TL1018-3a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9231108-TL1018-3a-pdf ex:B-LOC ex:Hiddendorf .
+ex:L9231108-TL1018-3a-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9231108-TL1018-3a-pdf ex:B-LOC ex:Marplatz .
+
+# --- ENTITIES OF L9231108-TL1018-3b-pdf ---
+ex:L9231108-TL1018-3b-pdf ex:date '1923-11-08'^^xsd:date .
+ex:L9231108-TL1018-3b-pdf ex:B-PER ex:Kahr .
+ex:L9231108-TL1018-3b-pdf ex:I-PER ex:Hittler .
+ex:L9231108-TL1018-3b-pdf ex:B-PER ex:Rahr .
+
+# --- ENTITIES OF L9231109-TL1019-1a-pdf ---
+ex:L9231109-TL1019-1a-pdf ex:date '1923-11-09'^^xsd:date .
+
+# --- ENTITIES OF L9231109-TL1019-1b-pdf ---
+ex:L9231109-TL1019-1b-pdf ex:date '1923-11-09'^^xsd:date .
+
+# --- ENTITIES OF L9231109-TL1020-1a-pdf ---
+ex:L9231109-TL1020-1a-pdf ex:date '1923-11-09'^^xsd:date .
+
+# --- ENTITIES OF L9231109-TL1020-1b-pdf ---
+ex:L9231109-TL1020-1b-pdf ex:date '1923-11-09'^^xsd:date .
+
+# --- ENTITIES OF L9240107-TL1021-1a-pdf ---
+ex:L9240107-TL1021-1a-pdf ex:date '1924-01-07'^^xsd:date .
+ex:L9240107-TL1021-1a-pdf ex:B-PER ex:Sela .
+ex:L9240107-TL1021-1a-pdf ex:B-PER ex:Maria .
+ex:L9240107-TL1021-1a-pdf ex:I-PER ex:Joka .
+ex:L9240107-TL1021-1a-pdf ex:B-PER ex:Anna .
+ex:L9240107-TL1021-1a-pdf ex:B-PER ex:Agnes .
+ex:L9240107-TL1021-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9240107-TL1021-1b-pdf ---
+ex:L9240107-TL1021-1b-pdf ex:date '1924-01-07'^^xsd:date .
+
+# --- ENTITIES OF L9240109-TL1022-1a-pdf ---
+ex:L9240109-TL1022-1a-pdf ex:date '1924-01-09'^^xsd:date .
+
+# --- ENTITIES OF L9240109-TL1022-1b-pdf ---
+ex:L9240109-TL1022-1b-pdf ex:date '1924-01-09'^^xsd:date .
+
+# --- ENTITIES OF L9240223-TL1023-1a-pdf ---
+ex:L9240223-TL1023-1a-pdf ex:date '1924-02-23'^^xsd:date .
+
+# --- ENTITIES OF L9240223-TL1023-1b-pdf ---
+ex:L9240223-TL1023-1b-pdf ex:date '1924-02-23'^^xsd:date .
+
+# --- ENTITIES OF L9240401-TL1024-1a-pdf ---
+ex:L9240401-TL1024-1a-pdf ex:date '1924-04-01'^^xsd:date .
+
+# --- ENTITIES OF L9240401-TL1024-1b-pdf ---
+ex:L9240401-TL1024-1b-pdf ex:date '1924-04-01'^^xsd:date .
+
+# --- ENTITIES OF L9240402-TL1025-1a-pdf ---
+ex:L9240402-TL1025-1a-pdf ex:date '1924-04-02'^^xsd:date .
+
+# --- ENTITIES OF L9240402-TL1025-1b-pdf ---
+ex:L9240402-TL1025-1b-pdf ex:date '1924-04-02'^^xsd:date .
+
+# --- ENTITIES OF L9240810-TL1026-1a-pdf ---
+ex:L9240810-TL1026-1a-pdf ex:date '1924-08-10'^^xsd:date .
+ex:L9240810-TL1026-1a-pdf ex:B-PER ex:Augustus .
+ex:L9240810-TL1026-1a-pdf ex:I-PER ex:Mar .
+ex:L9240810-TL1026-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9240810-TL1026-1a-pdf ex:B-PER ex:Mutters .
+ex:L9240810-TL1026-1a-pdf ex:B-PER ex:Hans .
+ex:L9240810-TL1026-1a-pdf ex:B-PER ex:August .
+ex:L9240810-TL1026-1a-pdf ex:B-PER ex:Hedwig .
+
+# --- ENTITIES OF L9240810-TL1026-1b-pdf ---
+ex:L9240810-TL1026-1b-pdf ex:date '1924-08-10'^^xsd:date .
+
+# --- ENTITIES OF L9240830-TL1027-1a-pdf ---
+ex:L9240830-TL1027-1a-pdf ex:date '1924-08-30'^^xsd:date .
+
+# --- ENTITIES OF L9240830-TL1027-1b-pdf ---
+ex:L9240830-TL1027-1b-pdf ex:date '1924-08-30'^^xsd:date .
+
+# --- ENTITIES OF L9240830-TL1028-1a-pdf ---
+ex:L9240830-TL1028-1a-pdf ex:date '1924-08-30'^^xsd:date .
+
+# --- ENTITIES OF L9240830-TL1028-1b-pdf ---
+ex:L9240830-TL1028-1b-pdf ex:date '1924-08-30'^^xsd:date .
+
+# --- ENTITIES OF L9241022-TL1029-1a-pdf ---
+ex:L9241022-TL1029-1a-pdf ex:date '1924-10-22'^^xsd:date .
+
+# --- ENTITIES OF L9241022-TL1029-1b-pdf ---
+ex:L9241022-TL1029-1b-pdf ex:date '1924-10-22'^^xsd:date .
+
+# --- ENTITIES OF L9241023-TL1030-1a-pdf ---
+ex:L9241023-TL1030-1a-pdf ex:date '1924-10-23'^^xsd:date .
+
+# --- ENTITIES OF L9241023-TL1030-1b-pdf ---
+ex:L9241023-TL1030-1b-pdf ex:date '1924-10-23'^^xsd:date .
+
+# --- ENTITIES OF L9241119-TL1031-1a-pdf ---
+ex:L9241119-TL1031-1a-pdf ex:date '1924-11-19'^^xsd:date .
+
+# --- ENTITIES OF L9241119-TL1031-1b-pdf ---
+ex:L9241119-TL1031-1b-pdf ex:date '1924-11-19'^^xsd:date .
+
+# --- ENTITIES OF L9250203-TL1032-1a-pdf ---
+ex:L9250203-TL1032-1a-pdf ex:date '1925-02-03'^^xsd:date .
+ex:L9250203-TL1032-1a-pdf ex:B-PER ex:Agnes .
+ex:L9250203-TL1032-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9250203-TL1032-1b-pdf ---
+ex:L9250203-TL1032-1b-pdf ex:date '1925-02-03'^^xsd:date .
+
+# --- ENTITIES OF L9250210-TL1033-1a-pdf ---
+ex:L9250210-TL1033-1a-pdf ex:date '1925-02-10'^^xsd:date .
+
+# --- ENTITIES OF L9250210-TL1033-1b-pdf ---
+ex:L9250210-TL1033-1b-pdf ex:date '1925-02-10'^^xsd:date .
+
+# --- ENTITIES OF L9250610-TL1035-1a-pdf ---
+ex:L9250610-TL1035-1a-pdf ex:date '1925-06-10'^^xsd:date .
+ex:L9250610-TL1035-1a-pdf ex:B-PER ex:Maria .
+ex:L9250610-TL1035-1a-pdf ex:I-LOC ex:Hilf .
+ex:L9250610-TL1035-1a-pdf ex:B-PER ex:Agnes .
+ex:L9250610-TL1035-1a-pdf ex:I-PER ex:S .
+ex:L9250610-TL1035-1a-pdf ex:B-PER ex:H .
+ex:L9250610-TL1035-1a-pdf ex:B-PER ex:Robert .
+ex:L9250610-TL1035-1a-pdf ex:I-PER ex:J .
+
+# --- ENTITIES OF L9250610-TL1035-1b-pdf ---
+ex:L9250610-TL1035-1b-pdf ex:date '1925-06-10'^^xsd:date .
+
+# --- ENTITIES OF L9250705-TL1034-1a-pdf ---
+ex:L9250705-TL1034-1a-pdf ex:date '1925-07-05'^^xsd:date .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:Thekla .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:Kartha .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:Anna .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:R .
+ex:L9250705-TL1034-1a-pdf ex:B-OTH ex:Hl .
+ex:L9250705-TL1034-1a-pdf ex:I-PER ex:P .
+ex:L9250705-TL1034-1a-pdf ex:I-PER ex:S .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:Barthel .
+ex:L9250705-TL1034-1a-pdf ex:I-PER ex:Reuter .
+ex:L9250705-TL1034-1a-pdf ex:I-PER ex:Bartholdine .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:August .
+ex:L9250705-TL1034-1a-pdf ex:B-OTH ex:Kl .
+
+# --- ENTITIES OF L9250705-TL1034-1b-pdf ---
+ex:L9250705-TL1034-1b-pdf ex:date '1925-07-05'^^xsd:date .
+
+# --- ENTITIES OF L9250810-TL1036-1a-pdf ---
+ex:L9250810-TL1036-1a-pdf ex:date '1925-08-10'^^xsd:date .
+
+# --- ENTITIES OF L9250810-TL1036-1b-pdf ---
+ex:L9250810-TL1036-1b-pdf ex:date '1925-08-10'^^xsd:date .
+
+# --- ENTITIES OF L9251203-TL1037-1a-pdf ---
+ex:L9251203-TL1037-1a-pdf ex:date '1925-12-03'^^xsd:date .
+
+# --- ENTITIES OF L9251203-TL1037-1b-pdf ---
+ex:L9251203-TL1037-1b-pdf ex:date '1925-12-03'^^xsd:date .
+
+# --- ENTITIES OF L9251218-TL1038-1a-pdf ---
+ex:L9251218-TL1038-1a-pdf ex:date '1925-12-18'^^xsd:date .
+
+# --- ENTITIES OF L9251218-TL1038-1b-pdf ---
+ex:L9251218-TL1038-1b-pdf ex:date '1925-12-18'^^xsd:date .
+ex:L9251218-TL1038-1b-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9260206-TL1039-1a-pdf ---
+ex:L9260206-TL1039-1a-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9260206-TL1039-1a-pdf ex:B-PER ex:I .
+ex:L9260206-TL1039-1a-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9260206-TL1039-1a-pdf ex:I-PER ex:M .
+ex:L9260206-TL1039-1a-pdf ex:B-LOC ex:Rom .
+ex:Rom ex:wikidataQID ex:Q220 .
+ex:Rom ex:coordinates ex:'41,893055555_12,482777777' .
+ex:L9260206-TL1039-1a-pdf ex:I-PER ex:K .
+
+# --- ENTITIES OF L9260206-TL1039-1b-pdf ---
+ex:L9260206-TL1039-1b-pdf ex:date '1926-02-06'^^xsd:date .
+
+# --- ENTITIES OF L9260206-TL1039-2a-pdf ---
+ex:L9260206-TL1039-2a-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Hohenschwangen .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Kauf .
+ex:L9260206-TL1039-2a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Füssen .
+ex:Füssen ex:wikidataQID ex:Q262684 .
+ex:Füssen ex:coordinates ex:'47,566666666_10,7' .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Oberlaufen .
+ex:L9260206-TL1039-2a-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Hohenschwanger .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Neuschwanstein .
+
+# --- ENTITIES OF L9260206-TL1039-2b-pdf ---
+ex:L9260206-TL1039-2b-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-2b-pdf ex:B-LOC ex:Oberstdorf .
+ex:Oberstdorf ex:wikidataQID ex:Q266230 .
+ex:Oberstdorf ex:coordinates ex:'47,409722222_10,279166666' .
+ex:L9260206-TL1039-2b-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+
+# --- ENTITIES OF L9260206-TL1039-3a-pdf ---
+ex:L9260206-TL1039-3a-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-3a-pdf ex:B-PER ex:Christi .
+ex:L9260206-TL1039-3a-pdf ex:B-PER ex:Roberts .
+ex:L9260206-TL1039-3a-pdf ex:B-LOC ex:Rawenburg .
+ex:L9260206-TL1039-3a-pdf ex:B-LOC ex:Rheinaufwarts .
+ex:L9260206-TL1039-3a-pdf ex:B-OTH_FOOD ex:Blut .
+ex:Blut ex:wikidataQID ex:Q494268 .
+ex:L9260206-TL1039-3a-pdf ex:B-LOC ex:Konstanz .
+ex:Konstanz ex:wikidataQID ex:Q3834 .
+ex:Konstanz ex:coordinates ex:'47,663333333_9,175277777' .
+ex:L9260206-TL1039-3a-pdf ex:B-LOC ex:Schaffhausen .
+ex:Schaffhausen ex:wikidataQID ex:Q503837 .
+ex:Schaffhausen ex:coordinates ex:'48,783333333_10,583333333' .
+
+# --- ENTITIES OF L9260206-TL1039-3b-pdf ---
+ex:L9260206-TL1039-3b-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-3b-pdf ex:B-LOC ex:Konstanz .
+ex:Konstanz ex:wikidataQID ex:Q3834 .
+ex:Konstanz ex:coordinates ex:'47,663333333_9,175277777' .
+ex:L9260206-TL1039-3b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9260206-TL1039-3b-pdf ex:I-PER ex:III .
+ex:L9260206-TL1039-3b-pdf ex:B-LOC ex:Waldsie .
+ex:L9260206-TL1039-3b-pdf ex:B-PER ex:K .
+ex:L9260206-TL1039-3b-pdf ex:B-LOC ex:Regensburg .
+ex:Regensburg ex:wikidataQID ex:Q2978 .
+ex:Regensburg ex:coordinates ex:'49,016666666_12,083333333' .
+ex:L9260206-TL1039-3b-pdf ex:I-PER ex:P .
+ex:L9260206-TL1039-3b-pdf ex:B-PER ex:Reppler .
+
+# --- ENTITIES OF L9260206-TL1039-4a-pdf ---
+ex:L9260206-TL1039-4a-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-4a-pdf ex:B-LOC ex:Budapest .
+ex:Budapest ex:wikidataQID ex:Q1781 .
+ex:Budapest ex:coordinates ex:'47,498333333_19,040833333' .
+ex:L9260206-TL1039-4a-pdf ex:B-LOC ex:Oberammergau .
+ex:Oberammergau ex:wikidataQID ex:Q503757 .
+ex:Oberammergau ex:coordinates ex:'47,596666666_11,064444444' .
+ex:L9260206-TL1039-4a-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9260206-TL1039-4a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9260206-TL1039-4a-pdf ex:B-LOC ex:Hausach .
+ex:Hausach ex:wikidataQID ex:Q506856 .
+ex:Hausach ex:coordinates ex:'48,285277777_8,179722222' .
+
+# --- ENTITIES OF L9260206-TL1039-4b-pdf ---
+ex:L9260206-TL1039-4b-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-4b-pdf ex:B-LOC ex:Budapest .
+ex:Budapest ex:wikidataQID ex:Q1781 .
+ex:Budapest ex:coordinates ex:'47,498333333_19,040833333' .
+ex:L9260206-TL1039-4b-pdf ex:B-LOC ex:Oberargau .
+ex:L9260206-TL1039-4b-pdf ex:I-PER ex:Cramer .
+ex:L9260206-TL1039-4b-pdf ex:B-PER ex:Theo .
+ex:L9260206-TL1039-4b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9260206-TL1039-4b-pdf ex:B-LOC ex:Prusalem .
+ex:L9260206-TL1039-4b-pdf ex:I-PER ex:Oskamp .
+ex:L9260206-TL1039-4b-pdf ex:B-LOC ex:Palating .
+ex:L9260206-TL1039-4b-pdf ex:B-PER ex:Ron .
+ex:L9260206-TL1039-4b-pdf ex:B-LOC ex:Konstantinopel .
+ex:Konstantinopel ex:wikidataQID ex:Q16869 .
+ex:Konstantinopel ex:coordinates ex:'41,0125_28,98' .
+ex:L9260206-TL1039-4b-pdf ex:B-PER ex:Clemens .
+ex:L9260206-TL1039-4b-pdf ex:B-LOC ex:Wien .
+ex:Wien ex:wikidataQID ex:Q1741 .
+ex:Wien ex:coordinates ex:'48,208333333_16,3725' .
+
+# --- ENTITIES OF L9260309-TL1040-1a-pdf ---
+ex:L9260309-TL1040-1a-pdf ex:date '1926-03-09'^^xsd:date .
+
+# --- ENTITIES OF L9260309-TL1040-1b-pdf ---
+ex:L9260309-TL1040-1b-pdf ex:date '1926-03-09'^^xsd:date .
+
+# --- ENTITIES OF L9260330-TL1041-1a-pdf ---
+ex:L9260330-TL1041-1a-pdf ex:date '1926-03-30'^^xsd:date .
+
+# --- ENTITIES OF L9260330-TL1041-1b-pdf ---
+ex:L9260330-TL1041-1b-pdf ex:date '1926-03-30'^^xsd:date .
+ex:L9260330-TL1041-1b-pdf ex:B-OTH_FOOD ex:Hafer .
+ex:Hafer ex:wikidataQID ex:Q12104 .
+ex:L9260330-TL1041-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9260412-TL1042-1a-pdf ---
+ex:L9260412-TL1042-1a-pdf ex:date '1926-04-12'^^xsd:date .
+
+# --- ENTITIES OF L9260412-TL1042-1b-pdf ---
+ex:L9260412-TL1042-1b-pdf ex:date '1926-04-12'^^xsd:date .
+
+# --- ENTITIES OF L9260731-TL1043-1-pdf- ---
+ex:L9260731-TL1043-1-pdf- ex:date '1926-07-31'^^xsd:date .
+ex:L9260731-TL1043-1-pdf- ex:B-PER ex:August .
+ex:L9260731-TL1043-1-pdf- ex:B-PER ex:Maria .
+
+# --- ENTITIES OF L9261002-TL1044-1a-pdf ---
+ex:L9261002-TL1044-1a-pdf ex:date '1926-10-02'^^xsd:date .
+
+# --- ENTITIES OF L9261002-TL1044-1b-pdf ---
+ex:L9261002-TL1044-1b-pdf ex:date '1926-10-02'^^xsd:date .
+
+# --- ENTITIES OF L9261013-TL1045-1a-pdf ---
+ex:L9261013-TL1045-1a-pdf ex:date '1926-10-13'^^xsd:date .
+
+# --- ENTITIES OF L9261013-TL1045-1b-pdf ---
+ex:L9261013-TL1045-1b-pdf ex:date '1926-10-13'^^xsd:date .
+
+# --- ENTITIES OF L9261109-TL1046-1a-pdf ---
+ex:L9261109-TL1046-1a-pdf ex:date '1926-11-09'^^xsd:date .
+
+# --- ENTITIES OF L9261109-TL1046-1b-pdf ---
+ex:L9261109-TL1046-1b-pdf ex:date '1926-11-09'^^xsd:date .
+
+# --- ENTITIES OF L9261111-TL1047-1a-pdf ---
+ex:L9261111-TL1047-1a-pdf ex:date '1926-11-11'^^xsd:date .
+
+# --- ENTITIES OF L9261111-TL1047-1b-pdf ---
+ex:L9261111-TL1047-1b-pdf ex:date '1926-11-11'^^xsd:date .
+
+# --- ENTITIES OF L9261213-TL1048-1a-pdf ---
+ex:L9261213-TL1048-1a-pdf ex:date '1926-12-13'^^xsd:date .
+
+# --- ENTITIES OF L9261213-TL1048-1b-pdf ---
+ex:L9261213-TL1048-1b-pdf ex:date '1926-12-13'^^xsd:date .
+
+# --- ENTITIES OF L9270329-TL1050-1a-pdf ---
+ex:L9270329-TL1050-1a-pdf ex:date '1927-03-29'^^xsd:date .
+
+# --- ENTITIES OF L9270329-TL1050-1b-pdf ---
+ex:L9270329-TL1050-1b-pdf ex:date '1927-03-29'^^xsd:date .
+
+# --- ENTITIES OF L9270410-TL1052-1a-pdf ---
+ex:L9270410-TL1052-1a-pdf ex:date '1927-04-10'^^xsd:date .
+ex:L9270410-TL1052-1a-pdf ex:B-PER ex:Thekla .
+ex:L9270410-TL1052-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9270410-TL1052-1b-pdf ---
+ex:L9270410-TL1052-1b-pdf ex:date '1927-04-10'^^xsd:date .
+ex:L9270410-TL1052-1b-pdf ex:B-PER ex:Thekla .
+ex:L9270410-TL1052-1b-pdf ex:B-OTH ex:Mark .
+ex:L9270410-TL1052-1b-pdf ex:B-PER ex:Türger .
+
+# --- ENTITIES OF L9270425-TL1051-1a-pdf ---
+ex:L9270425-TL1051-1a-pdf ex:date '1927-04-25'^^xsd:date .
+ex:L9270425-TL1051-1a-pdf ex:B-PER ex:Klages .
+ex:L9270425-TL1051-1a-pdf ex:B-PER ex:Robert .
+ex:L9270425-TL1051-1a-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9270425-TL1051-1b-pdf ---
+ex:L9270425-TL1051-1b-pdf ex:date '1927-04-25'^^xsd:date .
+ex:L9270425-TL1051-1b-pdf ex:B-PER ex:Robert .
+ex:L9270425-TL1051-1b-pdf ex:B-PER ex:Marchen .
+ex:L9270425-TL1051-1b-pdf ex:B-PER ex:Josef .
+ex:L9270425-TL1051-1b-pdf ex:B-PER ex:Hoff .
+ex:L9270425-TL1051-1b-pdf ex:B-PER ex:Franz .
+ex:L9270425-TL1051-1b-pdf ex:B-PER ex:August .
+ex:L9270425-TL1051-1b-pdf ex:B-PER ex:Hedwig .
+
+# --- ENTITIES OF L9270520-TL0303-1a-pdf ---
+ex:L9270520-TL0303-1a-pdf ex:date '1927-05-20'^^xsd:date .
+ex:L9270520-TL0303-1a-pdf ex:B-PER ex:Agnes .
+
+# --- ENTITIES OF L9270520-TL0303-1b-pdf ---
+ex:L9270520-TL0303-1b-pdf ex:date '1927-05-20'^^xsd:date .
+ex:L9270520-TL0303-1b-pdf ex:B-PER ex:August .
+ex:L9270520-TL0303-1b-pdf ex:B-PER ex:Tekla .
+ex:L9270520-TL0303-1b-pdf ex:B-PER ex:Franz .
+ex:L9270520-TL0303-1b-pdf ex:B-PER ex:Hubert .
+ex:L9270520-TL0303-1b-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9270724-TL1053-1a-pdf ---
+ex:L9270724-TL1053-1a-pdf ex:date '1927-07-24'^^xsd:date .
+
+# --- ENTITIES OF L9270724-TL1053-1b-pdf ---
+ex:L9270724-TL1053-1b-pdf ex:date '1927-07-24'^^xsd:date .
+
+# --- ENTITIES OF L9270727-TL1054-1a-pdf ---
+ex:L9270727-TL1054-1a-pdf ex:date '1927-07-27'^^xsd:date .
+ex:L9270727-TL1054-1a-pdf ex:B-PER ex:Walter .
+
+# --- ENTITIES OF L9270727-TL1054-1b-pdf ---
+ex:L9270727-TL1054-1b-pdf ex:date '1927-07-27'^^xsd:date .
+
+# --- ENTITIES OF L9270815-TL1055-1a-pdf ---
+ex:L9270815-TL1055-1a-pdf ex:date '1927-08-15'^^xsd:date .
+ex:L9270815-TL1055-1a-pdf ex:B-PER ex:August .
+
+# --- ENTITIES OF L9270815-TL1055-1b-pdf ---
+ex:L9270815-TL1055-1b-pdf ex:date '1927-08-15'^^xsd:date .
+
+# --- ENTITIES OF L9270904-TL1049-1a-pdf ---
+ex:L9270904-TL1049-1a-pdf ex:date '1927-09-04'^^xsd:date .
+
+# --- ENTITIES OF L9270904-TL1049-1b-pdf ---
+ex:L9270904-TL1049-1b-pdf ex:date '1927-09-04'^^xsd:date .
+
+# --- ENTITIES OF L9270904-TL1049-2a-pdf ---
+ex:L9270904-TL1049-2a-pdf ex:date '1927-09-04'^^xsd:date .
+
+# --- ENTITIES OF L9270904-TL1049-2b-pdf ---
+ex:L9270904-TL1049-2b-pdf ex:date '1927-09-04'^^xsd:date .
+
+# --- ENTITIES OF L9270904-TL1056-1a-pdf ---
+ex:L9270904-TL1056-1a-pdf ex:date '1927-09-04'^^xsd:date .
+
+# --- ENTITIES OF L9270904-TL1056-1b-pdf ---
+ex:L9270904-TL1056-1b-pdf ex:date '1927-09-04'^^xsd:date .
+
+# --- ENTITIES OF L9271130-TL1057-1a-pdf ---
+ex:L9271130-TL1057-1a-pdf ex:date '1927-11-30'^^xsd:date .
+
+# --- ENTITIES OF L9271130-TL1057-1b-pdf ---
+ex:L9271130-TL1057-1b-pdf ex:date '1927-11-30'^^xsd:date .
+
+# --- ENTITIES OF L9280316-TL1058-1a-pdf ---
+ex:L9280316-TL1058-1a-pdf ex:date '1928-03-16'^^xsd:date .
+ex:L9280316-TL1058-1a-pdf ex:B-LOC ex:Buchelsdorf .
+ex:L9280316-TL1058-1a-pdf ex:B-PER ex:Kiefer .
+ex:L9280316-TL1058-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9280316-TL1058-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9280316-TL1058-1a-pdf ex:B-PER ex:Bernhard .
+ex:L9280316-TL1058-1a-pdf ex:B-PER ex:Mona .
+ex:L9280316-TL1058-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9280316-TL1058-1b-pdf ---
+ex:L9280316-TL1058-1b-pdf ex:date '1928-03-16'^^xsd:date .
+ex:L9280316-TL1058-1b-pdf ex:B-LOC ex:Breslau .
+ex:L9280316-TL1058-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9280316-TL1058-1b-pdf ex:B-ORG ex:Kipfer .
+ex:L9280316-TL1058-1b-pdf ex:B-PER ex:Paul .
+ex:L9280316-TL1058-1b-pdf ex:B-PER ex:Ottilie .
+ex:L9280316-TL1058-1b-pdf ex:B-PER ex:Gertrud .
+ex:L9280316-TL1058-1b-pdf ex:B-PER ex:Bernhard .
+ex:L9280316-TL1058-1b-pdf ex:B-PER ex:Johann .
+ex:L9280316-TL1058-1b-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9280316-TL1058-2a-pdf ---
+ex:L9280316-TL1058-2a-pdf ex:date '1928-03-16'^^xsd:date .
+ex:L9280316-TL1058-2a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9280316-TL1058-2a-pdf ex:B-PER ex:Wilhelm .
+ex:L9280316-TL1058-2a-pdf ex:B-PER ex:Robert .
+ex:L9280316-TL1058-2a-pdf ex:B-PER ex:Paul .
+
+# --- ENTITIES OF L9280316-TL1058-2b-pdf ---
+ex:L9280316-TL1058-2b-pdf ex:date '1928-03-16'^^xsd:date .
+ex:L9280316-TL1058-2b-pdf ex:B-PER ex:Johann .
+ex:L9280316-TL1058-2b-pdf ex:B-PER ex:Robert .
+ex:L9280316-TL1058-2b-pdf ex:B-PER ex:Bernhard .
+ex:L9280316-TL1058-2b-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9280416-TL1059-1a-pdf ---
+ex:L9280416-TL1059-1a-pdf ex:date '1928-04-16'^^xsd:date .
+
+# --- ENTITIES OF L9280416-TL1059-1b-pdf ---
+ex:L9280416-TL1059-1b-pdf ex:date '1928-04-16'^^xsd:date .
+ex:L9280416-TL1059-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9280416-TL1059-1b-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9280812-TL1060-1a-pdf ---
+ex:L9280812-TL1060-1a-pdf ex:date '1928-08-12'^^xsd:date .
+
+# --- ENTITIES OF L9280812-TL1060-1b-pdf ---
+ex:L9280812-TL1060-1b-pdf ex:date '1928-08-12'^^xsd:date .
+
+# --- ENTITIES OF L9280818-TL1061-1a-pdf ---
+ex:L9280818-TL1061-1a-pdf ex:date '1928-08-18'^^xsd:date .
+ex:L9280818-TL1061-1a-pdf ex:B-PER ex:Hubert .
+ex:L9280818-TL1061-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9280818-TL1061-1b-pdf ---
+ex:L9280818-TL1061-1b-pdf ex:date '1928-08-18'^^xsd:date .
+ex:L9280818-TL1061-1b-pdf ex:B-PER ex:Boller .
+ex:L9280818-TL1061-1b-pdf ex:B-PER ex:Jud .
+
+# --- ENTITIES OF L9280902-TL1062-1a-pdf ---
+ex:L9280902-TL1062-1a-pdf ex:date '1928-09-02'^^xsd:date .
+
+# --- ENTITIES OF L9280902-TL1062-1b-pdf ---
+ex:L9280902-TL1062-1b-pdf ex:date '1928-09-02'^^xsd:date .
+ex:L9280902-TL1062-1b-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9281128-TL1064-1a-pdf ---
+ex:L9281128-TL1064-1a-pdf ex:date '1928-11-28'^^xsd:date .
+
+# --- ENTITIES OF L9281128-TL1064-1b-pdf ---
+ex:L9281128-TL1064-1b-pdf ex:date '1928-11-28'^^xsd:date .
+
+# --- ENTITIES OF L9281128-TL1064-2a-pdf ---
+ex:L9281128-TL1064-2a-pdf ex:date '1928-11-28'^^xsd:date .
+
+# --- ENTITIES OF L9281128-TL1064-2b-pdf ---
+ex:L9281128-TL1064-2b-pdf ex:date '1928-11-28'^^xsd:date .
+ex:L9281128-TL1064-2b-pdf ex:B-PER ex:Berthold .
+ex:L9281128-TL1064-2b-pdf ex:B-PER ex:Agnes .
+ex:L9281128-TL1064-2b-pdf ex:B-PER ex:Maria .
+ex:L9281128-TL1064-2b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9290227-TL1066-1a-pdf ---
+ex:L9290227-TL1066-1a-pdf ex:date '1929-02-27'^^xsd:date .
+
+# --- ENTITIES OF L9290227-TL1066-1b-pdf ---
+ex:L9290227-TL1066-1b-pdf ex:date '1929-02-27'^^xsd:date .
+
+# --- ENTITIES OF L9290228-TL1067-1a-pdf ---
+ex:L9290228-TL1067-1a-pdf ex:date '1929-02-28'^^xsd:date .
+
+# --- ENTITIES OF L9290228-TL1067-1b-pdf ---
+ex:L9290228-TL1067-1b-pdf ex:date '1929-02-28'^^xsd:date .
+
+# --- ENTITIES OF L9290407-TL1069-1a-pdf ---
+ex:L9290407-TL1069-1a-pdf ex:date '1929-04-07'^^xsd:date .
+
+# --- ENTITIES OF L9290407-TL1069-1b-pdf ---
+ex:L9290407-TL1069-1b-pdf ex:date '1929-04-07'^^xsd:date .
+
+# --- ENTITIES OF L9290409-TL1068-1a-pdf ---
+ex:L9290409-TL1068-1a-pdf ex:date '1929-04-09'^^xsd:date .
+
+# --- ENTITIES OF L9290409-TL1068-1b-pdf ---
+ex:L9290409-TL1068-1b-pdf ex:date '1929-04-09'^^xsd:date .
+
+# --- ENTITIES OF L9290608-TL1070-1a-pdf ---
+ex:L9290608-TL1070-1a-pdf ex:date '1929-06-08'^^xsd:date .
+
+# --- ENTITIES OF L9290608-TL1070-1b-pdf ---
+ex:L9290608-TL1070-1b-pdf ex:date '1929-06-08'^^xsd:date .
+
+# --- ENTITIES OF L9290630-TL1071-1a-pdf ---
+ex:L9290630-TL1071-1a-pdf ex:date '1929-06-30'^^xsd:date .
+
+# --- ENTITIES OF L9290630-TL1071-1b-pdf ---
+ex:L9290630-TL1071-1b-pdf ex:date '1929-06-30'^^xsd:date .
+
+# --- ENTITIES OF L9290630-TL1071-2a-pdf ---
+ex:L9290630-TL1071-2a-pdf ex:date '1929-06-30'^^xsd:date .
+ex:L9290630-TL1071-2a-pdf ex:B-PER ex:Böhm .
+ex:L9290630-TL1071-2a-pdf ex:I-PER ex:I .
+ex:L9290630-TL1071-2a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9290630-TL1071-2b-pdf ---
+ex:L9290630-TL1071-2b-pdf ex:date '1929-06-30'^^xsd:date .
+ex:L9290630-TL1071-2b-pdf ex:B-PER ex:Agnes .
+ex:L9290630-TL1071-2b-pdf ex:B-PER ex:Maria .
+
+# --- ENTITIES OF L9290717-TL1076-1a-pdf ---
+ex:L9290717-TL1076-1a-pdf ex:date '1929-07-17'^^xsd:date .
+
+# --- ENTITIES OF L9290717-TL1076-1b-pdf ---
+ex:L9290717-TL1076-1b-pdf ex:date '1929-07-17'^^xsd:date .
+
+# --- ENTITIES OF L9290721-TL1074-1a-pdf ---
+ex:L9290721-TL1074-1a-pdf ex:date '1929-07-21'^^xsd:date .
+
+# --- ENTITIES OF L9290721-TL1074-1b-pdf ---
+ex:L9290721-TL1074-1b-pdf ex:date '1929-07-21'^^xsd:date .
+
+# --- ENTITIES OF L9290808-TL1072-1a-pdf ---
+ex:L9290808-TL1072-1a-pdf ex:date '1929-08-08'^^xsd:date .
+ex:L9290808-TL1072-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9290808-TL1072-1b-pdf ---
+ex:L9290808-TL1072-1b-pdf ex:date '1929-08-08'^^xsd:date .
+ex:L9290808-TL1072-1b-pdf ex:B-PER ex:Anna .
+ex:L9290808-TL1072-1b-pdf ex:I-PER ex:Reuter .
+
+# --- ENTITIES OF L9290815-TL1075-1a-pdf ---
+ex:L9290815-TL1075-1a-pdf ex:date '1929-08-15'^^xsd:date .
+
+# --- ENTITIES OF L9290815-TL1075-1b-pdf ---
+ex:L9290815-TL1075-1b-pdf ex:date '1929-08-15'^^xsd:date .
+
+# --- ENTITIES OF L9291007-TL1073-1a-pdf ---
+ex:L9291007-TL1073-1a-pdf ex:date '1929-10-07'^^xsd:date .
+ex:L9291007-TL1073-1a-pdf ex:B-PER ex:Kiefer .
+ex:L9291007-TL1073-1a-pdf ex:B-PER ex:Paul .
+ex:L9291007-TL1073-1a-pdf ex:I-PER ex:Schutz .
+
+# --- ENTITIES OF L9291007-TL1073-1b-pdf ---
+ex:L9291007-TL1073-1b-pdf ex:date '1929-10-07'^^xsd:date .
+
+# --- ENTITIES OF L9291207-TL1077-1a-pdf ---
+ex:L9291207-TL1077-1a-pdf ex:date '1929-12-07'^^xsd:date .
+
+# --- ENTITIES OF L9291207-TL1077-1b-pdf ---
+ex:L9291207-TL1077-1b-pdf ex:date '1929-12-07'^^xsd:date .
+
+# --- ENTITIES OF L9291228-TL1078-1a-pdf ---
+ex:L9291228-TL1078-1a-pdf ex:date '1929-12-28'^^xsd:date .
+ex:L9291228-TL1078-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9291228-TL1078-1b-pdf ---
+ex:L9291228-TL1078-1b-pdf ex:date '1929-12-28'^^xsd:date .
+
+# --- ENTITIES OF L9300115-TL1080-1a-pdf ---
+ex:L9300115-TL1080-1a-pdf ex:date '1930-01-15'^^xsd:date .
+
+# --- ENTITIES OF L9300115-TL1080-1b-pdf ---
+ex:L9300115-TL1080-1b-pdf ex:date '1930-01-15'^^xsd:date .
+
+# --- ENTITIES OF L9300130-TL1081-1a-pdf ---
+ex:L9300130-TL1081-1a-pdf ex:date '1930-01-30'^^xsd:date .
+ex:L9300130-TL1081-1a-pdf ex:B-PER ex:Lahner .
+
+# --- ENTITIES OF L9300130-TL1081-1b-pdf ---
+ex:L9300130-TL1081-1b-pdf ex:date '1930-01-30'^^xsd:date .
+
+# --- ENTITIES OF L9300709-TL1085-1a-pdf ---
+ex:L9300709-TL1085-1a-pdf ex:date '1930-07-09'^^xsd:date .
+ex:L9300709-TL1085-1a-pdf ex:B-PER ex:Kiefer .
+ex:L9300709-TL1085-1a-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9300709-TL1085-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9300709-TL1085-1a-pdf ex:I-PER ex:Jo .
+ex:L9300709-TL1085-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9300709-TL1085-1b-pdf ---
+ex:L9300709-TL1085-1b-pdf ex:date '1930-07-09'^^xsd:date .
+ex:L9300709-TL1085-1b-pdf ex:I-PER ex:Kiefer .
+ex:L9300709-TL1085-1b-pdf ex:B-LOC ex:Oberbayern .
+ex:L9300709-TL1085-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9300711-TL1086-1a-pdf ---
+ex:L9300711-TL1086-1a-pdf ex:date '1930-07-11'^^xsd:date .
+ex:L9300711-TL1086-1a-pdf ex:B-PER ex:Juri .
+ex:L9300711-TL1086-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9300711-TL1086-1b-pdf ---
+ex:L9300711-TL1086-1b-pdf ex:date '1930-07-11'^^xsd:date .
+ex:L9300711-TL1086-1b-pdf ex:B-PER ex:Franz .
+ex:L9300711-TL1086-1b-pdf ex:B-PER ex:Robert .
+ex:L9300711-TL1086-1b-pdf ex:B-PER ex:Marie .
+
+# --- ENTITIES OF L9300821-TL1083-1a-pdf ---
+ex:L9300821-TL1083-1a-pdf ex:date '1930-08-21'^^xsd:date .
+
+# --- ENTITIES OF L9300821-TL1083-1b-pdf ---
+ex:L9300821-TL1083-1b-pdf ex:date '1930-08-21'^^xsd:date .
+
+# --- ENTITIES OF L9300909-TL1084-1a-pdf ---
+ex:L9300909-TL1084-1a-pdf ex:date '1930-09-09'^^xsd:date .
+
+# --- ENTITIES OF L9300909-TL1084-1b-pdf ---
+ex:L9300909-TL1084-1b-pdf ex:date '1930-09-09'^^xsd:date .
+
+# --- ENTITIES OF L9300925-TL0222-1a-pdf ---
+ex:L9300925-TL0222-1a-pdf ex:date '1930-09-25'^^xsd:date .
+ex:L9300925-TL0222-1a-pdf ex:B-OTH ex:Mark .
+ex:L9300925-TL0222-1a-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9300925-TL0222-1a-pdf ex:B-PER ex:Amit .
+ex:L9300925-TL0222-1a-pdf ex:B-PER ex:Ford .
+ex:L9300925-TL0222-1a-pdf ex:B-LOC ex:England .
+ex:England ex:wikidataQID ex:Q79282 .
+ex:England ex:coordinates ex:'34,544166666_-91,9675' .
+
+# --- ENTITIES OF L9300925-TL0222-1b-pdf ---
+ex:L9300925-TL0222-1b-pdf ex:date '1930-09-25'^^xsd:date .
+ex:L9300925-TL0222-1b-pdf ex:B-LOC ex:Hansham .
+ex:L9300925-TL0222-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9300925-TL0222-1b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9300925-TL0222-1b-pdf ex:I-ORG ex:Zeitung .
+ex:L9300925-TL0222-1b-pdf ex:B-ORG ex:Neustadter .
+ex:L9300925-TL0222-1b-pdf ex:B-LOC ex:Langenbrück .
+ex:L9300925-TL0222-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9301206-TL1088-1a-pdf ---
+ex:L9301206-TL1088-1a-pdf ex:date '1930-12-06'^^xsd:date .
+
+# --- ENTITIES OF L9301206-TL1088-1b-pdf ---
+ex:L9301206-TL1088-1b-pdf ex:date '1930-12-06'^^xsd:date .
+
+# --- ENTITIES OF L9301214-TL1089-1a-pdf ---
+ex:L9301214-TL1089-1a-pdf ex:date '1930-12-14'^^xsd:date .
+
+# --- ENTITIES OF L9301214-TL1089-1b-pdf ---
+ex:L9301214-TL1089-1b-pdf ex:date '1930-12-14'^^xsd:date .
+
+# --- ENTITIES OF L9310106-TL1091-1a-pdf ---
+ex:L9310106-TL1091-1a-pdf ex:date '1931-01-06'^^xsd:date .
+
+# --- ENTITIES OF L9310106-TL1091-1b-pdf ---
+ex:L9310106-TL1091-1b-pdf ex:date '1931-01-06'^^xsd:date .
+
+# --- ENTITIES OF L9310203-TL1092-1a-pdf ---
+ex:L9310203-TL1092-1a-pdf ex:date '1931-02-03'^^xsd:date .
+
+# --- ENTITIES OF L9310203-TL1092-1b-pdf ---
+ex:L9310203-TL1092-1b-pdf ex:date '1931-02-03'^^xsd:date .
+ex:L9310203-TL1092-1b-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9310203-TL1092-2a-pdf ---
+ex:L9310203-TL1092-2a-pdf ex:date '1931-02-03'^^xsd:date .
+
+# --- ENTITIES OF L9310205-TL1093-1a-pdf ---
+ex:L9310205-TL1093-1a-pdf ex:date '1931-02-05'^^xsd:date .
+
+# --- ENTITIES OF L9310205-TL1093-1b-pdf ---
+ex:L9310205-TL1093-1b-pdf ex:date '1931-02-05'^^xsd:date .
+
+# --- ENTITIES OF L9310322-TL1094-1a-pdf ---
+ex:L9310322-TL1094-1a-pdf ex:date '1931-03-22'^^xsd:date .
+
+# --- ENTITIES OF L9310322-TL1094-1b-pdf ---
+ex:L9310322-TL1094-1b-pdf ex:date '1931-03-22'^^xsd:date .
+
+# --- ENTITIES OF L9310813-TL1095-1a-pdf ---
+ex:L9310813-TL1095-1a-pdf ex:date '1931-08-13'^^xsd:date .
+
+# --- ENTITIES OF L9310813-TL1095-1b-pdf ---
+ex:L9310813-TL1095-1b-pdf ex:date '1931-08-13'^^xsd:date .
+
+# --- ENTITIES OF L9311026-TL1090-1a-pdf ---
+ex:L9311026-TL1090-1a-pdf ex:date '1931-10-26'^^xsd:date .
+
+# --- ENTITIES OF L9311026-TL1090-1b-pdf ---
+ex:L9311026-TL1090-1b-pdf ex:date '1931-10-26'^^xsd:date .
+
+# --- ENTITIES OF L9320124-TL1096-1a-pdf ---
+ex:L9320124-TL1096-1a-pdf ex:date '1932-01-24'^^xsd:date .
+ex:L9320124-TL1096-1a-pdf ex:B-LOC ex:Gock .
+ex:L9320124-TL1096-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9320124-TL1096-1b-pdf ---
+ex:L9320124-TL1096-1b-pdf ex:date '1932-01-24'^^xsd:date .
+ex:L9320124-TL1096-1b-pdf ex:B-PER ex:Thekla .
+ex:L9320124-TL1096-1b-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9320124-TL1096-2a-pdf ---
+ex:L9320124-TL1096-2a-pdf ex:date '1932-01-24'^^xsd:date .
+ex:L9320124-TL1096-2a-pdf ex:B-LOC ex:Rausas .
+ex:L9320124-TL1096-2a-pdf ex:B-PER ex:Berthold .
+ex:L9320124-TL1096-2a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9320124-TL1096-2a-pdf ex:B-PER ex:Agnes .
+ex:L9320124-TL1096-2a-pdf ex:B-PER ex:Art .
+
+# --- ENTITIES OF L9320211-TL1097-1a-pdf ---
+ex:L9320211-TL1097-1a-pdf ex:date '1932-02-11'^^xsd:date .
+
+# --- ENTITIES OF L9320211-TL1097-1b-pdf ---
+ex:L9320211-TL1097-1b-pdf ex:date '1932-02-11'^^xsd:date .
+
+# --- ENTITIES OF L9320614-TL1098-1a-pdf ---
+ex:L9320614-TL1098-1a-pdf ex:date '1932-06-14'^^xsd:date .
+
+# --- ENTITIES OF L9320614-TL1098-1b-pdf ---
+ex:L9320614-TL1098-1b-pdf ex:date '1932-06-14'^^xsd:date .
+ex:L9320614-TL1098-1b-pdf ex:B-PER ex:Con .
+
+# --- ENTITIES OF L9320614-TL1098-2a-pdf ---
+ex:L9320614-TL1098-2a-pdf ex:date '1932-06-14'^^xsd:date .
+
+# --- ENTITIES OF L9320614-TL1098-2b-pdf ---
+ex:L9320614-TL1098-2b-pdf ex:date '1932-06-14'^^xsd:date .
+
+# --- ENTITIES OF L9320614-TL1099-1a-pdf ---
+ex:L9320614-TL1099-1a-pdf ex:date '1932-06-14'^^xsd:date .
+
+# --- ENTITIES OF L9320614-TL1099-1b-pdf ---
+ex:L9320614-TL1099-1b-pdf ex:date '1932-06-14'^^xsd:date .
+
+# --- ENTITIES OF L9320901-TL1100-1a-pdf ---
+ex:L9320901-TL1100-1a-pdf ex:date '1932-09-01'^^xsd:date .
+
+# --- ENTITIES OF L9320901-TL1100-1b-pdf ---
+ex:L9320901-TL1100-1b-pdf ex:date '1932-09-01'^^xsd:date .
+
+# --- ENTITIES OF L9321021-TL1101-1a-pdf ---
+ex:L9321021-TL1101-1a-pdf ex:date '1932-10-21'^^xsd:date .
+
+# --- ENTITIES OF L9321021-TL1101-1b-pdf ---
+ex:L9321021-TL1101-1b-pdf ex:date '1932-10-21'^^xsd:date .
+
+# --- ENTITIES OF L9330201-TL1102-1a-pdf ---
+ex:L9330201-TL1102-1a-pdf ex:date '1933-02-01'^^xsd:date .
+
+# --- ENTITIES OF L9330201-TL1102-1b-pdf ---
+ex:L9330201-TL1102-1b-pdf ex:date '1933-02-01'^^xsd:date .
+
+# --- ENTITIES OF L9330203-TL1103-1a-pdf ---
+ex:L9330203-TL1103-1a-pdf ex:date '1933-02-03'^^xsd:date .
+
+# --- ENTITIES OF L9330203-TL1103-1b-pdf ---
+ex:L9330203-TL1103-1b-pdf ex:date '1933-02-03'^^xsd:date .
+
+# --- ENTITIES OF L9330203-TL1103-2a-pdf ---
+ex:L9330203-TL1103-2a-pdf ex:date '1933-02-03'^^xsd:date .
+
+# --- ENTITIES OF L9330203-TL1103-2b-pdf ---
+ex:L9330203-TL1103-2b-pdf ex:date '1933-02-03'^^xsd:date .
+
+# --- ENTITIES OF L9340116-TL1104-1a-pdf ---
+ex:L9340116-TL1104-1a-pdf ex:date '1934-01-16'^^xsd:date .
+
+# --- ENTITIES OF L9340116-TL1104-1b-pdf ---
+ex:L9340116-TL1104-1b-pdf ex:date '1934-01-16'^^xsd:date .
+
+# --- ENTITIES OF L9340315-TL1105-1a-pdf ---
+ex:L9340315-TL1105-1a-pdf ex:date '1934-03-15'^^xsd:date .
+
+# --- ENTITIES OF L9340315-TL1105-1b-pdf ---
+ex:L9340315-TL1105-1b-pdf ex:date '1934-03-15'^^xsd:date .
+
+# --- ENTITIES OF L9340720-TL1106-1a-pdf ---
+ex:L9340720-TL1106-1a-pdf ex:date '1934-07-20'^^xsd:date .
+
+# --- ENTITIES OF L9340720-TL1106-1b-pdf ---
+ex:L9340720-TL1106-1b-pdf ex:date '1934-07-20'^^xsd:date .
+
+# --- ENTITIES OF L9340720-TL1106-2a-pdf ---
+ex:L9340720-TL1106-2a-pdf ex:date '1934-07-20'^^xsd:date .
+
+# --- ENTITIES OF L9340720-TL1106-2b-pdf ---
+ex:L9340720-TL1106-2b-pdf ex:date '1934-07-20'^^xsd:date .
+
+# --- ENTITIES OF L9361108-TL1107-1a-pdf ---
+ex:L9361108-TL1107-1a-pdf ex:date '1936-11-08'^^xsd:date .
+ex:L9361108-TL1107-1a-pdf ex:B-OTH_FOOD ex:Hafer .
+ex:Hafer ex:wikidataQID ex:Q12104 .
+ex:L9361108-TL1107-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9361108-TL1107-1a-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9361108-TL1107-1b-pdf ---
+ex:L9361108-TL1107-1b-pdf ex:date '1936-11-08'^^xsd:date .
+ex:L9361108-TL1107-1b-pdf ex:I-PER ex:Tekla .
+ex:L9361108-TL1107-1b-pdf ex:I-PER ex:Guhl .
+ex:L9361108-TL1107-1b-pdf ex:B-PER ex:Berthold .
+ex:L9361108-TL1107-1b-pdf ex:I-PER ex:Pau .
+ex:L9361108-TL1107-1b-pdf ex:B-OTH ex:Mk .
+ex:L9361108-TL1107-1b-pdf ex:B-OTH_FOOD ex:Gericht .
+ex:Gericht ex:wikidataQID ex:Q746549 .
+ex:L9361108-TL1107-1b-pdf ex:B-PER ex:Franz .
+ex:L9361108-TL1107-1b-pdf ex:B-PER ex:Hedwig .
+ex:L9361108-TL1107-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9361108-TL1107-2a-pdf ---
+ex:L9361108-TL1107-2a-pdf ex:date '1936-11-08'^^xsd:date .
+ex:L9361108-TL1107-2a-pdf ex:B-PER ex:Agata .
+ex:L9361108-TL1107-2a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9361108-TL1107-2a-pdf ex:B-PER ex:Wille .
+ex:L9361108-TL1107-2a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9361108-TL1107-2b-pdf ---
+ex:L9361108-TL1107-2b-pdf ex:date '1936-11-08'^^xsd:date .
+ex:L9361108-TL1107-2b-pdf ex:I-PER ex:Bart .
+ex:L9361108-TL1107-2b-pdf ex:B-PER ex:Josef .
+ex:L9361108-TL1107-2b-pdf ex:B-PER ex:Elli .
+
+# --- ENTITIES OF L9370510-TL1109-1a-pdf ---
+ex:L9370510-TL1109-1a-pdf ex:date '1937-05-10'^^xsd:date .
+
+# --- ENTITIES OF L9370510-TL1109-1b-pdf ---
+ex:L9370510-TL1109-1b-pdf ex:date '1937-05-10'^^xsd:date .
+
+# --- ENTITIES OF L9380821-TL1110-1a-pdf ---
+ex:L9380821-TL1110-1a-pdf ex:date '1938-08-21'^^xsd:date .
+
+# --- ENTITIES OF L9380821-TL1110-1b-pdf ---
+ex:L9380821-TL1110-1b-pdf ex:date '1938-08-21'^^xsd:date .
+
+# --- ENTITIES OF L9390312-TL1112-1a-pdf ---
+ex:L9390312-TL1112-1a-pdf ex:date '1939-03-12'^^xsd:date .
+
+# --- ENTITIES OF L9390312-TL1112-1b-pdf ---
+ex:L9390312-TL1112-1b-pdf ex:date '1939-03-12'^^xsd:date .
+
+# --- ENTITIES OF L9480423-TL1113-1a-pdf ---
+ex:L9480423-TL1113-1a-pdf ex:date '1948-04-23'^^xsd:date .
+
+# --- ENTITIES OF L9480423-TL1113-1b-pdf ---
+ex:L9480423-TL1113-1b-pdf ex:date '1948-04-23'^^xsd:date .
+

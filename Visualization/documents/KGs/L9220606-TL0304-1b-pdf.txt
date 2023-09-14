@@ -1,0 +1,3 @@
+ex:L9220606-TL0304-1b-pdf ex:date '1922-06-06'^^xsd:date .
+ex:L9220606-TL0304-1b-pdf ex:I-PER ex:Siesesmahl .
+

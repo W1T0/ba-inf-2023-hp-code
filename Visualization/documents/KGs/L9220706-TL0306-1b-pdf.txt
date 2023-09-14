@@ -1,0 +1,3 @@
+ex:L9220706-TL0306-1b-pdf ex:date '1922-07-06'^^xsd:date .
+ex:L9220706-TL0306-1b-pdf ex:B-LOC ex:Europa .
+

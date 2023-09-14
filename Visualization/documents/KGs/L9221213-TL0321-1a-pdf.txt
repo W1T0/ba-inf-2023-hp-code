@@ -1,0 +1,7 @@
+ex:L9221213-TL0321-1a-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0321-1a-pdf ex:B-PER ex:Thekla .
+ex:L9221213-TL0321-1a-pdf ex:B-PER ex:Mahlmann .
+ex:L9221213-TL0321-1a-pdf ex:B-PER ex:Paul .
+ex:L9221213-TL0321-1a-pdf ex:B-OTH ex:Mk .
+ex:L9221213-TL0321-1a-pdf ex:B-LOC ex:Kabelle .
+

@@ -1,0 +1,9 @@
+<configparser.SafeConfigParser object at 0x7fc78a7c6cf8>
+Absender	absender	KNOWN	O
+Josef	josef	KNOWN	B-PER
+Kiefer	kiefer	KNOWN	I-PER
+Haus	haus	KNOWN	O
+ham	ham	KNOWN	O
+Oberbayern	oberbayern	KNOWN	B-LOC
+Postam	postam	UNKNOWN	B-ORG
+

@@ -1,0 +1,4 @@
+ex:L9220904-TL0308-1a-pdf ex:date '1922-09-04'^^xsd:date .
+ex:L9220904-TL0308-1a-pdf ex:B-PER ex:Thekla .
+ex:L9220904-TL0308-1a-pdf ex:B-OTH ex:Dollar .
+

@@ -1,0 +1,6 @@
+ex:L9361108-TL1107-1a-pdf ex:date '1936-11-08'^^xsd:date .
+ex:L9361108-TL1107-1a-pdf ex:B-OTH_FOOD ex:Hafer .
+ex:Hafer ex:wikidataQID ex:Q12104 .
+ex:L9361108-TL1107-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9361108-TL1107-1a-pdf ex:B-PER ex:Josef .
+

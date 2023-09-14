@@ -1,0 +1,11 @@
+ex:L9300925-TL0222-1a-pdf ex:date '1930-09-25'^^xsd:date .
+ex:L9300925-TL0222-1a-pdf ex:B-OTH ex:Mark .
+ex:L9300925-TL0222-1a-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9300925-TL0222-1a-pdf ex:B-PER ex:Amit .
+ex:L9300925-TL0222-1a-pdf ex:B-PER ex:Ford .
+ex:L9300925-TL0222-1a-pdf ex:B-LOC ex:England .
+ex:England ex:wikidataQID ex:Q79282 .
+ex:England ex:coordinates ex:'34,544166666_-91,9675' .
+

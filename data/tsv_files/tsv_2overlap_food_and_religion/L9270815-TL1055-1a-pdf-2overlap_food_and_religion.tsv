@@ -1,0 +1,17 @@
+TOKEN	NE-COARSE-LIT	FOO-OR-RED	-	-	-	-	NEL-LIT	-	-
+Bitte	O	O	O	O	O	O	_	_	_
+gab	O	O	O	O	O	O	_	_	_
+den	O	O	O	O	O	O	_	_	_
+Brief	O	O	O	O	O	O	_	_	_
+dem	O	O	O	O	O	O	_	_	_
+August	B-PER	O	O	O	O	O	_	_	_
+selber	O	O	O	O	O	O	_	_	_
+Selia	O	O	O	O	O	O	_	_	_
+nicht	O	O	O	O	O	O	_	_	_
+viele	O	O	O	O	O	O	_	_	_
+Grüße	O	O	O	O	O	O	_	_	_
+an	O	O	O	O	O	O	_	_	_
+Alle	O	O	O	O	O	O	_	_	_
+Lieben	O	O	O	O	O	O	_	_	_
+in	O	O	O	O	O	O	_	_	_
+Amerika	B-LOC	O	O	O	O	O	Q30	_	_

@@ -1,0 +1,4 @@
+ex:L9280818-TL1061-1b-pdf ex:date '1928-08-18'^^xsd:date .
+ex:L9280818-TL1061-1b-pdf ex:B-PER ex:Boller .
+ex:L9280818-TL1061-1b-pdf ex:B-PER ex:Jud .
+

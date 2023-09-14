@@ -1,7 +1,8 @@
 import os
 import numpy as np
 
-directoryPath = "HIPE-scorer-input/groundTruth/output-tsv-annotations/"
+# directoryPath = "HIPE-scorer-input/groundTruth/output-tsv-annotations/"
+directoryPath = "data/tsv_files/tsv_2overlap/"
 
 count = 0
 filecount = 0

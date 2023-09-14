@@ -1,0 +1,3 @@
+ex:L9270520-TL0303-1a-pdf ex:date '1927-05-20'^^xsd:date .
+ex:L9270520-TL0303-1a-pdf ex:B-PER ex:Agnes .
+

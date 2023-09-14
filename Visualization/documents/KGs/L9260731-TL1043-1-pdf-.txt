@@ -1,0 +1,4 @@
+ex:L9260731-TL1043-1-pdf- ex:date '1926-07-31'^^xsd:date .
+ex:L9260731-TL1043-1-pdf- ex:B-PER ex:August .
+ex:L9260731-TL1043-1-pdf- ex:B-PER ex:Maria .
+

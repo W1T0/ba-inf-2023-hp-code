@@ -1,0 +1,3 @@
+<configparser.SafeConfigParser object at 0x7ff0af306d68>
+nen	nen	KNOWN	O
+

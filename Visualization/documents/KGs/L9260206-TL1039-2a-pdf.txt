@@ -1,0 +1,14 @@
+ex:L9260206-TL1039-2a-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Hohenschwangen .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Kauf .
+ex:L9260206-TL1039-2a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Füssen .
+ex:Füssen ex:wikidataQID ex:Q262684 .
+ex:Füssen ex:coordinates ex:'47,566666666_10,7' .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Oberlaufen .
+ex:L9260206-TL1039-2a-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Hohenschwanger .
+ex:L9260206-TL1039-2a-pdf ex:B-LOC ex:Neuschwanstein .
+

@@ -1,0 +1,3 @@
+ex:L9220516-TL0296-1a-pdf ex:date '1922-05-16'^^xsd:date .
+ex:L9220516-TL0296-1a-pdf ex:B-PER ex:Anna .
+

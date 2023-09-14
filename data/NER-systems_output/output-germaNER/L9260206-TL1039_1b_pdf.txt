@@ -1,0 +1,4 @@
+in  O
+1  O
+ten  O
+

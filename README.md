@@ -92,9 +92,9 @@ python3 download_model_embeddings.py GermEval
 python .\code\A1_tokenize_documents.py
 ```
 
-- Copy the folder with the tokenized documents (`./data/tokenized_documents/kiefer-scholz_collection_tokenized/`) into the folders of germaNER and sequence_tagging (`./germaNER/` and `./.../`) on the VMs
+- Copy the folder with the tokenized documents (`./data/tokenized_documents/kiefer-scholz_collection_tokenized/`) into the folders of germaNER and sequence_tagging (`./germaNER/` and `./sequence_tagging/`) on the VMs
 - Copy the provided scripts in `./code/NER-systems/` into the respective folder of the systems
-- Run the scripts in the folder of the system with the following commands (this can take some time (ca. 30 second per document for germaNER and ... seconds per document for sequence_tagging)
+- Run the scripts in the folder of the system with the following commands (this can take some time (ca. 30 second per document for germaNER and ca. 6 seconds per document for sequence_tagging))
 
 ```
 python run_germaNER.py

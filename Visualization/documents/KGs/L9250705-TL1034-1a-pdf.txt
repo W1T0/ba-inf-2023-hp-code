@@ -1,0 +1,14 @@
+ex:L9250705-TL1034-1a-pdf ex:date '1925-07-05'^^xsd:date .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:Thekla .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:Kartha .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:Anna .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:R .
+ex:L9250705-TL1034-1a-pdf ex:B-OTH ex:Hl .
+ex:L9250705-TL1034-1a-pdf ex:I-PER ex:P .
+ex:L9250705-TL1034-1a-pdf ex:I-PER ex:S .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:Barthel .
+ex:L9250705-TL1034-1a-pdf ex:I-PER ex:Reuter .
+ex:L9250705-TL1034-1a-pdf ex:I-PER ex:Bartholdine .
+ex:L9250705-TL1034-1a-pdf ex:B-PER ex:August .
+ex:L9250705-TL1034-1a-pdf ex:B-OTH ex:Kl .
+

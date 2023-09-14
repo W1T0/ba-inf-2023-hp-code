@@ -1,0 +1,13 @@
+ex:L9221213-TL0323-1a-pdf ex:date '1922-12-13'^^xsd:date .
+ex:L9221213-TL0323-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q508822 .
+ex:Neustadt ex:coordinates ex:'49,930833333_9,5675' .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Thekla .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Barthold .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Paul .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Marie .
+ex:L9221213-TL0323-1a-pdf ex:B-OTH ex:Dollar .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Agnes .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Robert .
+ex:L9221213-TL0323-1a-pdf ex:B-PER ex:Josef .
+

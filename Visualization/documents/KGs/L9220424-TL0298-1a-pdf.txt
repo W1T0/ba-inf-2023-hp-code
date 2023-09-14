@@ -1,0 +1,6 @@
+ex:L9220424-TL0298-1a-pdf ex:date '1922-04-24'^^xsd:date .
+ex:L9220424-TL0298-1a-pdf ex:B-PER ex:Franz .
+ex:L9220424-TL0298-1a-pdf ex:B-OTH_FOOD ex:Obst .
+ex:Obst ex:wikidataQID ex:Q3314483 .
+ex:L9220424-TL0298-1a-pdf ex:B-PER ex:Thekla .
+

@@ -1,0 +1,11 @@
+ex:L9221207-TL0319-1a-pdf ex:date '1922-12-07'^^xsd:date .
+ex:L9221207-TL0319-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9221207-TL0319-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9221207-TL0319-1a-pdf ex:B-OTH ex:Mark .
+ex:L9221207-TL0319-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+

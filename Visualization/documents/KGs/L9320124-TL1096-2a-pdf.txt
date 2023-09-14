@@ -1,0 +1,8 @@
+ex:L9320124-TL1096-2a-pdf ex:date '1932-01-24'^^xsd:date .
+ex:L9320124-TL1096-2a-pdf ex:B-LOC ex:Rausas .
+ex:L9320124-TL1096-2a-pdf ex:B-PER ex:Berthold .
+ex:L9320124-TL1096-2a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9320124-TL1096-2a-pdf ex:B-PER ex:Agnes .
+ex:L9320124-TL1096-2a-pdf ex:B-PER ex:Art .
+

@@ -1,0 +1,14 @@
+ex:L9260206-TL1039-3a-pdf ex:date '1926-02-06'^^xsd:date .
+ex:L9260206-TL1039-3a-pdf ex:B-PER ex:Christi .
+ex:L9260206-TL1039-3a-pdf ex:B-PER ex:Roberts .
+ex:L9260206-TL1039-3a-pdf ex:B-LOC ex:Rawenburg .
+ex:L9260206-TL1039-3a-pdf ex:B-LOC ex:Rheinaufwarts .
+ex:L9260206-TL1039-3a-pdf ex:B-OTH_FOOD ex:Blut .
+ex:Blut ex:wikidataQID ex:Q494268 .
+ex:L9260206-TL1039-3a-pdf ex:B-LOC ex:Konstanz .
+ex:Konstanz ex:wikidataQID ex:Q3834 .
+ex:Konstanz ex:coordinates ex:'47,663333333_9,175277777' .
+ex:L9260206-TL1039-3a-pdf ex:B-LOC ex:Schaffhausen .
+ex:Schaffhausen ex:wikidataQID ex:Q503837 .
+ex:Schaffhausen ex:coordinates ex:'48,783333333_10,583333333' .
+

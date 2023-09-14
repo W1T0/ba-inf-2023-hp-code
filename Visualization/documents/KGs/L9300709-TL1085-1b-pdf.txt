@@ -1,0 +1,5 @@
+ex:L9300709-TL1085-1b-pdf ex:date '1930-07-09'^^xsd:date .
+ex:L9300709-TL1085-1b-pdf ex:I-PER ex:Kiefer .
+ex:L9300709-TL1085-1b-pdf ex:B-LOC ex:Oberbayern .
+ex:L9300709-TL1085-1b-pdf ex:B-PER ex:Josef .
+

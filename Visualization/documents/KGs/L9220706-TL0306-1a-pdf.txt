@@ -1,0 +1,5 @@
+ex:L9220706-TL0306-1a-pdf ex:date '1922-07-06'^^xsd:date .
+ex:L9220706-TL0306-1a-pdf ex:B-OTH ex:Mark .
+ex:L9220706-TL0306-1a-pdf ex:B-PER ex:Helfrich .
+ex:L9220706-TL0306-1a-pdf ex:B-OTH ex:Dollar .
+

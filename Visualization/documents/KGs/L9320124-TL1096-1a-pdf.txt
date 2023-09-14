@@ -1,0 +1,4 @@
+ex:L9320124-TL1096-1a-pdf ex:date '1932-01-24'^^xsd:date .
+ex:L9320124-TL1096-1a-pdf ex:B-LOC ex:Gock .
+ex:L9320124-TL1096-1a-pdf ex:B-PER ex:Thekla .
+

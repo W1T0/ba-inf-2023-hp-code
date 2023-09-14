@@ -1,0 +1,12 @@
+ex:L9221207-TL0319-1b-pdf ex:date '1922-12-07'^^xsd:date .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH_FOOD ex:Mehl .
+ex:Mehl ex:wikidataQID ex:Q36465 .
+ex:L9221207-TL0319-1b-pdf ex:B-ORG ex:Badischen .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH ex:Pfund .
+ex:L9221207-TL0319-1b-pdf ex:B-PER ex:Annia .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH ex:Böhn .
+ex:L9221207-TL0319-1b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+

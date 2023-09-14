@@ -1,0 +1,6 @@
+ex:L9221030-TL0314-1a-pdf ex:date '1922-10-30'^^xsd:date .
+ex:L9221030-TL0314-1a-pdf ex:B-PER ex:Thekla .
+ex:L9221030-TL0314-1a-pdf ex:B-PER ex:August .
+ex:L9221030-TL0314-1a-pdf ex:B-PER ex:Anna .
+ex:L9221030-TL0314-1a-pdf ex:B-PER ex:Paul .
+

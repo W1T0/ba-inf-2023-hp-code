@@ -1,0 +1,16 @@
+ex:L9221006-TL0311-1b-pdf ex:date '1922-10-06'^^xsd:date .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH ex:Mark .
+ex:L9221006-TL0311-1b-pdf ex:B-ORG ex:K .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH_FOOD ex:Ei .
+ex:Ei ex:wikidataQID ex:Q93189 .
+ex:L9221006-TL0311-1b-pdf ex:I-ORG ex:P .
+ex:L9221006-TL0311-1b-pdf ex:I-ORG ex:d .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH ex:Pfund .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH_FOOD ex:Schweinsbraten .
+ex:Schweinsbraten ex:wikidataQID ex:Q259148 .
+ex:L9221006-TL0311-1b-pdf ex:B-LOC ex:Saalsch .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9221006-TL0311-1b-pdf ex:B-OTH_FOOD ex:Suppe .
+ex:Suppe ex:wikidataQID ex:Q41415 .
+

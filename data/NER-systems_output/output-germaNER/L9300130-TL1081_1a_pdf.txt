@@ -1,0 +1,18 @@
+en  O
+er  O
+in  O
+te  O
+sich  O
+viele  O
+Grüsse  O
+au  O
+Freunde  B-ORG
+u.  I-ORG
+Bekannte  I-ORG
+dortselbst.  I-ORG
+et  I-ORG
+Cons.  I-ORG
+Lahner  B-PER
+auch  O
+not.  O
+

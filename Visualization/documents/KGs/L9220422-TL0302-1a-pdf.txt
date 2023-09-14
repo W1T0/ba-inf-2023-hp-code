@@ -1,0 +1,12 @@
+ex:L9220422-TL0302-1a-pdf ex:date '1922-04-22'^^xsd:date .
+ex:L9220422-TL0302-1a-pdf ex:B-LOC ex:Berne .
+ex:Berne ex:wikidataQID ex:Q1779942 .
+ex:Berne ex:coordinates ex:'40,658055555_-84,954166666' .
+ex:L9220422-TL0302-1a-pdf ex:B-LOC ex:Breslau .
+ex:L9220422-TL0302-1a-pdf ex:B-PER ex:Kaplan .
+ex:L9220422-TL0302-1a-pdf ex:B-PER ex:Paul .
+ex:L9220422-TL0302-1a-pdf ex:B-PER ex:Franz .
+ex:L9220422-TL0302-1a-pdf ex:B-LOC ex:Porto .
+ex:Porto ex:wikidataQID ex:Q36433 .
+ex:Porto ex:coordinates ex:'41,149472222_-8,610777777' .
+

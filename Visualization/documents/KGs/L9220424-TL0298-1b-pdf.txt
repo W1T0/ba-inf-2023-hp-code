@@ -1,0 +1,5 @@
+ex:L9220424-TL0298-1b-pdf ex:date '1922-04-24'^^xsd:date .
+ex:L9220424-TL0298-1b-pdf ex:B-LOC ex:Herman .
+ex:L9220424-TL0298-1b-pdf ex:B-OTH_FOOD ex:Weizen .
+ex:Weizen ex:wikidataQID ex:Q15645384 .
+

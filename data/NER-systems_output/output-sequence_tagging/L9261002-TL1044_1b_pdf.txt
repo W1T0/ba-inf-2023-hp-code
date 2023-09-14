@@ -1,0 +1,10 @@
+<configparser.SafeConfigParser object at 0x7f043b0c6cf8>
+mit	mit	KNOWN	O
+2	$NUM$	KNOWN	O
+he.	he.	UNKNOWN	O
+ber	ber	KNOWN	O
+2	$NUM$	KNOWN	O
+lar	lar	KNOWN	O
+te	te	KNOWN	O
+an	an	KNOWN	O
+

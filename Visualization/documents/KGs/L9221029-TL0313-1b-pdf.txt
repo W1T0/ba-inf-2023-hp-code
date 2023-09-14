@@ -1,0 +1,8 @@
+ex:L9221029-TL0313-1b-pdf ex:date '1922-10-29'^^xsd:date .
+ex:L9221029-TL0313-1b-pdf ex:B-LOC ex:Schlesien .
+ex:Schlesien ex:wikidataQID ex:Q81720 .
+ex:Schlesien ex:coordinates ex:'51,1035_17,0396' .
+ex:L9221029-TL0313-1b-pdf ex:I-PER ex:Laner .
+ex:L9221029-TL0313-1b-pdf ex:B-PER ex:Thekla .
+ex:L9221029-TL0313-1b-pdf ex:B-PER ex:Paul .
+

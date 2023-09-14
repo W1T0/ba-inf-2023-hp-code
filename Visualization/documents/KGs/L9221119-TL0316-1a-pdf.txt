@@ -1,0 +1,10 @@
+ex:L9221119-TL0316-1a-pdf ex:date '1922-11-19'^^xsd:date .
+ex:L9221119-TL0316-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q508822 .
+ex:Neustadt ex:coordinates ex:'49,930833333_9,5675' .
+ex:L9221119-TL0316-1a-pdf ex:B-PER ex:Kiefer .
+ex:L9221119-TL0316-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9221119-TL0316-1a-pdf ex:I-LOC ex:c .
+ex:L9221119-TL0316-1a-pdf ex:I-LOC ex:Schles .
+

@@ -1,0 +1,5 @@
+<configparser.SafeConfigParser object at 0x7f55cae06d68>
+Ehe	ehe	KNOWN	O
+der	der	KNOWN	O
+er	er	KNOWN	O
+

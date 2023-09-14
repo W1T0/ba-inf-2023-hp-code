@@ -1,0 +1,22 @@
+denken  O
+sie  O
+sich  O
+nur,  B-OTH
+daß  I-OTH
+das  I-OTH
+Bekante  I-OTH
+für  I-OTH
+einer  I-OTH
+aka¬  I-OTH
+ut  I-OTH
+potest.  I-OTH
+Maß  I-OTH
+man  I-OTH
+be¬  I-OTH
+Das  O
+sind  O
+die  O
+Schnungen  O
+aufreuen  O
+Regierung  O
+

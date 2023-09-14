@@ -1,0 +1,3 @@
+ex:L9251218-TL1038-1b-pdf ex:date '1925-12-18'^^xsd:date .
+ex:L9251218-TL1038-1b-pdf ex:B-PER ex:Robert .
+
