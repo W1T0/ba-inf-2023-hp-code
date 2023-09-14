@@ -224,7 +224,12 @@ button:hover {
 * SLIDER CSS
 *
 */
-.slidercontainer {
+.slidercontainer1 {
+  width: 90%; /* Width of the outside container */
+  margin: auto;
+}
+
+.slidercontainer2 {
   width: 90%; /* Width of the outside container */
   margin: auto;
 }

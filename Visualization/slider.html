@@ -26,10 +26,19 @@
     <div id="paper-1"></div>
   </div>
 
-  <div class="slidercontainer">
-    <input type="range" min="1850" max="1950" class="slider" id="myRange" />
+  <div id="range">
+    <h1 id="range1">0</h1>
+    <h1 id="range">-</h1>
+    <h1 id="range2">0</h1>
   </div>
-  <div id="year-div"><h1 id="year">1900</h1></div>
+
+  <div class="slidercontainer1">
+    <input type="range" min="1880" max="1950" class="slider" id="slider1" />
+  </div>
+
+  <div class="slidercontainer2">
+    <input type="range" min="1880" max="1950" class="slider" id="slider2" />
+  </div>
 
   <!-- Links to joint dependencies -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"></script>
@@ -41,16 +50,75 @@
     //
     // SLIDER
     //
+    // get elements
+    var slider1 = document.getElementById("slider1");
+    var slider2 = document.getElementById("slider2");
+    var range1 = document.getElementById("range1");
+    var range2 = document.getElementById("range2");
 
-    var slider = document.getElementById("myRange");
-    var output = document.getElementById("year");
-    output.innerHTML = slider.value; // Display the default slider value
+    // Display the default slider value
+    range1.innerHTML = slider1.value;
+    range2.innerHTML = slider2.value;
+
+    // set variables for years
+    let year1 = slider1.value;
+    let year2 = slider2.value;
+
+    let list = ["L9220317-TL0297-1a-pdf", "L9290608-TL1070-1a-pdf", "L9340315-TL1105-1b-pdf", "L9480423-TL1113-1b-pdf"];
 
     // Update the current slider value (each time you drag the slider handle)
-    slider.oninput = function () {
-      output.innerHTML = this.value;
-      node(width / 2 - 100, height / 2 - 100, this.value);
+    slider1.oninput = function () {
+      range1.innerHTML = this.value;
     };
+    slider2.oninput = function () {
+      range2.innerHTML = this.value;
+    };
+
+    slider1.onchange = function () {
+      year1 = this.value;
+      getFiles();
+    };
+    slider2.onchange = function () {
+      year2 = this.value;
+      getFiles();
+    };
+
+    function getFiles() {
+      // remove old graph
+      graph.clear();
+
+      // get min and max years
+      min = Math.min(year1, year2);
+      max = Math.max(year1, year2);
+
+      // array for years
+      let years = [];
+
+      // add all years between min and max to array
+      for (let i = min; i <= max; i++) {
+        years.push(i);
+      }
+
+      // array for indices of filenames
+      let indices = [];
+
+      // if a file exists which year is in the range of the given years, its
+      // index in the list array is added to indices
+      for (let j = 0; j < list.length; j++) {
+        fileYear = "1" + list[j].slice(1, 4);
+        let fileYearInt = parseInt(fileYear);
+        if (years.includes(fileYearInt)) {
+          indices.push(j);
+        }
+      }
+
+      // get the paths of the files
+      for (let k = 0; k < indices.length; k++) {
+        path = "/visualization/documents/" + list[indices[k]] + ".txt";
+        console.log(path);
+        addGraph(path, k);
+      }
+    }
 
     //
     // GRAPH VISULIZATION
@@ -60,8 +128,8 @@
     var graph = new joint.dia.Graph();
 
     // size of paper
-    width = 1000;
-    height = 700;
+    width = 2000;
+    height = 750;
 
     // create paper where graph is displayed
     var paper = new joint.dia.Paper({
@@ -71,13 +139,14 @@
       model: graph,
       defaultConnectionPoint: { name: "boundary" },
       defaultConnector: { name: "smooth" },
-      interactive: { linkMove: false },
+      interactive: { linkMove: false, labelMove: false },
       labelsLayer: true,
       frozen: true,
     });
 
     // scale (zoom) of graph in paper
-    paper.scale(1, 1);
+    paperScale = 0.5;
+    paper.scale(paperScale, paperScale);
 
     // Prevent user from moving the element when interacting with the label element
     paper.on("element:label:pointerdown", function (_view, evt) {
@@ -93,7 +162,7 @@
     });
 
     // function to create a node in the graph
-    function node(x, y, label) {
+    function node(x, y, label, color, textSize) {
       var node = new joint.shapes.standard.Rectangle({
         position: { x: x, y: y },
         size: { width: 170, height: 60 },
@@ -101,6 +170,7 @@
           label: {
             text: label,
             event: "element:label:pointerdown",
+            fontSize: textSize,
             fontWeight: "bold",
             cursor: "text",
             style: {
@@ -108,6 +178,7 @@
             },
           },
           body: {
+            fill: color,
             rx: 5, // curve edges
             ry: 5, // curve edges
             strokeWidth: 2, // width of border
@@ -140,6 +211,7 @@
             attrs: {
               text: {
                 text: label,
+                fontSize: 20,
                 fontWeight: "bold",
               },
             },
@@ -148,6 +220,132 @@
         vertices: vertices || [],
       });
       return edge.addTo(graph);
+    }
+
+    // function to change the graph based on the selected file
+    function addGraph(path, numberOfGraphs) {
+      // // remove the old graph
+      // graph.clear();
+      console.log(numberOfGraphs + 1);
+
+      // count node types
+      countPER = 0;
+      countLOC = 0;
+      countREL = 0;
+      countFOO = 0;
+      countOTH = 0;
+
+      // read the file
+      fetch(path)
+        .then((res) => res.text())
+        .then((text) => {
+          // console.log(text);
+
+          // split the text into lines
+          let textSplit = text.split(".");
+
+          // center of graph paper
+          centerX = width / paperScale / 2;
+          centerY = height / paperScale / 2;
+
+          // get the name of the letter and create nodeMain
+          let nodeMainName = path.slice(29, 47);
+          let nodeMain = node(centerX, centerY, nodeMainName, "#ffffff", 16);
+
+          let previousNode;
+          let color;
+
+          // create the nodes and edges
+          for (let i = 0; i < textSplit.length - 1; i++) {
+            let lineSplit = textSplit[i].split(" ");
+            let edgeName = lineSplit[1].replace("ex:", "");
+            let nodeName = lineSplit[2].replace("ex:", "").replace("^^xsd:date", "").replaceAll("'", "");
+
+            // set the height and width of the node
+            // TODO besser machen mit Kreis und so
+            nodeHeight = 0 + 100 * (i + 1);
+            nodeWidth = 0 + 100 * (i + 1);
+
+            // determine color of node
+            switch (edgeName) {
+              case "B-PER":
+              case "I-PER":
+                color = "#02c4c4"; // blue
+                nodeHeight = centerY - 2.5 * (centerY / 3);
+                nodeWidth = 10 + 200 * countPER;
+                countPER = countPER + 1;
+                if (countPER > 6) {
+                  nodeHeight = centerY - 2 * (centerY / 3);
+                  nodeWidth = 10 + 200 * (countPER - 7);
+                }
+                break;
+              case "B-LOC":
+                color = "#EF8354"; // orange
+                nodeHeight = centerY - 1.5 * (centerY / 3);
+                nodeWidth = 1.7 * centerX - 200 * countLOC;
+                countLOC = countLOC + 1;
+                break;
+              case "B-OTH_RELIGION":
+                color = "#f0dd0f"; // yellow
+                nodeHeight = centerY + 1 * (centerY / 3);
+                nodeWidth = 10 + 200 * countREL;
+                countREL = countREL + 1;
+                break;
+              case "B-OTH_FOOD":
+                color = "#92b300"; // green
+                nodeHeight = centerY + 2 * (centerY / 3);
+                nodeWidth = 1.5 * centerX - 200 * countFOO;
+                countFOO = countFOO + 1;
+                break;
+              case "wikidataQID":
+                color = "#669999"; // gray blueish
+                nodeHeight = previousNodeHeight + 120;
+                nodeWidth = previousNodeWidth;
+                break;
+              case "date":
+                color = "#DFB2F4"; // lila
+                nodeHeight = centerY;
+                nodeWidth = 10;
+                break;
+              default:
+                color = "#D741A7"; // pink
+                nodeHeight = centerY;
+                nodeWidth = 2 * centerX - 200 + countOTH;
+                countOTH = countOTH + 1;
+            }
+
+            // don't show the coordinates node
+            if (edgeName != "coordinates") {
+              // create node
+              // nodeX = node(nodeWidth, nodeHeight, nodeName, color, 20);
+
+              // connect the wikidataQID with the previous node and not the main node
+              if (edgeName == "wikidataQID") {
+                // wikidataQID connection
+                // edge(previousNode, nodeX, edgeName);
+              } else {
+                // create node
+                nodeX = node(nodeWidth, nodeHeight, nodeName, color, 25);
+
+                // normal connection
+                edge(nodeMain, nodeX, edgeName);
+              }
+
+              // save the previous node in case it needs to be connected to the wikidataQID
+              previousNode = nodeX;
+              previousNodeHeight = nodeHeight;
+              previousNodeWidth = nodeWidth;
+            } else {
+              // add marker to map
+              let nodeNameSplit = nodeName.split("_");
+              let lat = nodeNameSplit[0].replace(",", ".").replace("'", "");
+              let long = nodeNameSplit[1].replace(",", ".").replace("'", "");
+              let EntityName = lineSplit[0].replace("ex:", "");
+              addMarker(lat, long, EntityName);
+            }
+          }
+        })
+        .catch((e) => console.error(e));
     }
 
     // "Update the views of an async paper to make sure that the views reflect the cells' models; unfreeze the paper afterward."
