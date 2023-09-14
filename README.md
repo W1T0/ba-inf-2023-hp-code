@@ -1,5 +1,7 @@
 # Extraction of Knowledge Graphs from Historical Handwritten Documents
 
+The website with the visualisation of the result of the thesis can found [here](http://w1t0.github.io/ba-inf-2023-hp-kiefer-scholz-website).
+
 To extract Knowledge Graphs from historical handwritten documents:
 
 - Clone this repository
