@@ -1,8 +1,0 @@
-Absender  O
-Josef  B-PER
-Kiefer  I-PER
-Haus  I-PER
-ham  O
-Oberbayern  B-LOC
-Postam  O
-

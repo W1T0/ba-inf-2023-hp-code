@@ -1,7 +1,0 @@
-ex:L9230722-TL1015-1b-pdf ex:date '1923-07-22'^^xsd:date .
-ex:L9230722-TL1015-1b-pdf ex:B-PER ex:Anna .
-ex:L9230722-TL1015-1b-pdf ex:B-OTH_FOOD ex:Kelle .
-ex:Kelle ex:wikidataQID ex:Q5015370 .
-ex:L9230722-TL1015-1b-pdf ex:B-PER ex:Thekla .
-ex:L9230722-TL1015-1b-pdf ex:B-LOC ex:Maine .
-

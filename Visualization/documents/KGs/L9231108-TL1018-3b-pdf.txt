@@ -1,5 +1,0 @@
-ex:L9231108-TL1018-3b-pdf ex:date '1923-11-08'^^xsd:date .
-ex:L9231108-TL1018-3b-pdf ex:B-PER ex:Kahr .
-ex:L9231108-TL1018-3b-pdf ex:I-PER ex:Hittler .
-ex:L9231108-TL1018-3b-pdf ex:B-PER ex:Rahr .
-

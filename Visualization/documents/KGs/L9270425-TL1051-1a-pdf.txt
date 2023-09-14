@@ -1,5 +1,0 @@
-ex:L9270425-TL1051-1a-pdf ex:date '1927-04-25'^^xsd:date .
-ex:L9270425-TL1051-1a-pdf ex:B-PER ex:Klages .
-ex:L9270425-TL1051-1a-pdf ex:B-PER ex:Robert .
-ex:L9270425-TL1051-1a-pdf ex:B-PER ex:Josef .
-

@@ -1,3 +1,0 @@
-ex:L9221213-TL0320-1b-pdf ex:date '1922-12-13'^^xsd:date .
-ex:L9221213-TL0320-1b-pdf ex:B-PER ex:Amalia .
-

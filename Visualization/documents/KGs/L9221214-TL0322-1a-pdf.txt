@@ -1,8 +1,0 @@
-ex:L9221214-TL0322-1a-pdf ex:date '1922-12-14'^^xsd:date .
-ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Fortunata .
-ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Paul .
-ex:L9221214-TL0322-1a-pdf ex:B-PER ex:August .
-ex:L9221214-TL0322-1a-pdf ex:B-OTH ex:Mk .
-ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Franz .
-ex:L9221214-TL0322-1a-pdf ex:B-PER ex:Robert .
-

@@ -1,7 +1,0 @@
-ex:L9220615-TL0305-1b-pdf ex:date '1922-06-15'^^xsd:date .
-ex:L9220615-TL0305-1b-pdf ex:I-PER ex:E .
-ex:L9220615-TL0305-1b-pdf ex:I-PER ex:Prother .
-ex:L9220615-TL0305-1b-pdf ex:B-LOC ex:Satowitz .
-ex:L9220615-TL0305-1b-pdf ex:B-PER ex:Tekla .
-ex:L9220615-TL0305-1b-pdf ex:B-OTH ex:Dollar .
-

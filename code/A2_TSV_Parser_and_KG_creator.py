@@ -23,7 +23,7 @@ KG_folder_single = "./visualization/documents/KGs/"
 # flair TSV PARSER
 print("[INFO] ////// RUN TSV PARSER flair //////")
 TSV_Parser_flair.run(
-    "./data/tokenized_documents/kiefer-scholz_collection_tokenized/",  # input path
+    "./data/kiefer-scholz_collection_tokenized/",  # input path
     tsv_flair,  # output path
     False,  # debug variable, set to true if there are error and manually check the console output
     "-flair",  # ending of TSV filename
@@ -51,7 +51,7 @@ TSV_Parser_basic.run(
 print("[INFO] ////// RUN TSV PARSER 2 Overlap (majority voting) //////")
 TSV_Parser_2overlap.run(
     [tsv_flair, tsv_germaNER, tsv_sequence_tagging],  # list of directories of NER-systems output
-    "./data/tokenized_documents/kiefer-scholz_collection_tokenized/",  # input path for tokenized documents
+    "./data/kiefer-scholz_collection_tokenized/",  # input path for tokenized documents
     tsv_2overlap,  # output path
     tsv_2overlap_food_and_religion,  # output path for food and religion files
     "-2overlap",  # ending of TSV filename
@@ -59,7 +59,7 @@ TSV_Parser_2overlap.run(
     + str(now)
     + ".txt",  # path to store 2 Overlap entities in a txt file
     False,  # boolean, if 2 Overlap entities should be written to a txt file, see above
-    "./data/tokenized_documents/kiefer-scholz_collection_tokenized/",  # input path for query runner
+    "./data/kiefer-scholz_collection_tokenized/",  # input path for query runner
     95,  # similarity measure food
     90,  # similarity measure religion
     "./other/test/2overlap_entities/religion_entities"

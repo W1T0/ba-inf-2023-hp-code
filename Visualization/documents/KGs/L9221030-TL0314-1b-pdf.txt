@@ -1,9 +1,0 @@
-ex:L9221030-TL0314-1b-pdf ex:date '1922-10-30'^^xsd:date .
-ex:L9221030-TL0314-1b-pdf ex:B-LOC ex:Hütterhin .
-ex:L9221030-TL0314-1b-pdf ex:B-PER ex:Thekla .
-ex:L9221030-TL0314-1b-pdf ex:B-PER ex:Schwager .
-ex:L9221030-TL0314-1b-pdf ex:B-PER ex:Paul .
-ex:L9221030-TL0314-1b-pdf ex:B-PER ex:Ottilie .
-ex:L9221030-TL0314-1b-pdf ex:B-OTH_FOOD ex:Butter .
-ex:Butter ex:wikidataQID ex:Q34172 .
-

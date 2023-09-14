@@ -1,7 +1,0 @@
-ex:L9220317-TL0297-1a-pdf ex:date '1922-03-17'^^xsd:date .
-ex:L9220317-TL0297-1a-pdf ex:B-PER ex:Thekla .
-ex:L9220317-TL0297-1a-pdf ex:B-OTH ex:Mark .
-ex:L9220317-TL0297-1a-pdf ex:B-OTH ex:Die .
-ex:L9220317-TL0297-1a-pdf ex:B-OTH ex:Dollar .
-ex:L9220317-TL0297-1a-pdf ex:B-LOC ex:Siddeutschland .
-

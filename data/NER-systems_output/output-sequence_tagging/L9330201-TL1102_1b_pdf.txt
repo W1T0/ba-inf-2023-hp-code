@@ -1,3 +1,0 @@
-<configparser.SafeConfigParser object at 0x7f079a0c6d68>
-in	in	KNOWN	O
-

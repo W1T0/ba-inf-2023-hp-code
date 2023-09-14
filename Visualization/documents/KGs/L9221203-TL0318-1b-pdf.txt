@@ -1,6 +1,0 @@
-ex:L9221203-TL0318-1b-pdf ex:date '1922-12-03'^^xsd:date .
-ex:L9221203-TL0318-1b-pdf ex:B-PER ex:Heidenreich .
-ex:L9221203-TL0318-1b-pdf ex:B-PER ex:Berthold .
-ex:L9221203-TL0318-1b-pdf ex:B-PER ex:Joseph .
-ex:L9221203-TL0318-1b-pdf ex:B-PER ex:Mari .
-

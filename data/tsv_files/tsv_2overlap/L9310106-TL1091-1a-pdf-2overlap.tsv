@@ -1,6 +1,0 @@
-TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
-et	O	O	O	O	O	O	_	_	_
-tel	O	O	O	O	O	O	_	_	_
-der	O	O	O	O	O	O	_	_	_
-ner	O	O	O	O	O	O	_	_	_
-zu	O	O	O	O	O	O	_	_	_

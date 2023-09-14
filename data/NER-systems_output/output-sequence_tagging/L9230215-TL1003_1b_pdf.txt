@@ -1,1 +1,0 @@
-<configparser.SafeConfigParser object at 0x7f2e839c7d68>

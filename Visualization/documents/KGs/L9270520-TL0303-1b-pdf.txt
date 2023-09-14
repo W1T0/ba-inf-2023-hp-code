@@ -1,7 +1,0 @@
-ex:L9270520-TL0303-1b-pdf ex:date '1927-05-20'^^xsd:date .
-ex:L9270520-TL0303-1b-pdf ex:B-PER ex:August .
-ex:L9270520-TL0303-1b-pdf ex:B-PER ex:Tekla .
-ex:L9270520-TL0303-1b-pdf ex:B-PER ex:Franz .
-ex:L9270520-TL0303-1b-pdf ex:B-PER ex:Hubert .
-ex:L9270520-TL0303-1b-pdf ex:B-PER ex:Robert .
-

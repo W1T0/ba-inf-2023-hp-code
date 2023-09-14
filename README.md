@@ -118,7 +118,7 @@ python .\code\A2_TSV_Parser_and_KG_creator.py
 - To visualize the results:
   - Copy the scans of the documents into the folder `./visualization/documents/scans/`
   - Copy the transcriptions exported from Transkribus into the folder `./visualization/documents/transcriptions/`
-  - Add the filenames to the `filechooser` in `files.html`
+  - Add the filenames to the `id=filechooser` in `files.html` with the script `create_file-chooser_options.py` in `./code/extra/`
   - Open the file `files.html` with a local server
 
 ## flair/ner

@@ -1,5 +1,0 @@
-ex:L9220409-TL0300-1a-pdf ex:date '1922-04-09'^^xsd:date .
-ex:L9220409-TL0300-1a-pdf ex:I-PER ex:Amalia .
-ex:L9220409-TL0300-1a-pdf ex:B-PER ex:Christi .
-ex:L9220409-TL0300-1a-pdf ex:B-PER ex:Thekla .
-

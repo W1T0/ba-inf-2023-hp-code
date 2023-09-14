@@ -1,5 +1,0 @@
-ex:L9300711-TL1086-1b-pdf ex:date '1930-07-11'^^xsd:date .
-ex:L9300711-TL1086-1b-pdf ex:B-PER ex:Franz .
-ex:L9300711-TL1086-1b-pdf ex:B-PER ex:Robert .
-ex:L9300711-TL1086-1b-pdf ex:B-PER ex:Marie .
-

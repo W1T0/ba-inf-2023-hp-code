@@ -1,3 +1,0 @@
-ex:L9280902-TL1062-1b-pdf ex:date '1928-09-02'^^xsd:date .
-ex:L9280902-TL1062-1b-pdf ex:B-PER ex:Robert .
-

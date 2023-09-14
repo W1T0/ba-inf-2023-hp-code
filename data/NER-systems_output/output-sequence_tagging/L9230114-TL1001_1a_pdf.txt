@@ -1,5 +1,0 @@
-<configparser.SafeConfigParser object at 0x7ff644106d68>
-zum	zum	KNOWN	O
-der	der	KNOWN	O
-ner	ner	KNOWN	O
-

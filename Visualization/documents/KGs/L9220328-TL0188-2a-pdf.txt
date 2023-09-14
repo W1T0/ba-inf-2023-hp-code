@@ -1,3 +1,0 @@
-ex:L9220328-TL0188-2a-pdf ex:date '1922-03-28'^^xsd:date .
-ex:L9220328-TL0188-2a-pdf ex:B-PER ex:Thekla .
-

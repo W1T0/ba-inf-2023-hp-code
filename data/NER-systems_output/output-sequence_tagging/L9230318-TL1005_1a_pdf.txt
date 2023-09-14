@@ -1,6 +1,0 @@
-<configparser.SafeConfigParser object at 0x7fcd6cc46cf8>
-auch	auch	KNOWN	O
-Ansprüche	ansprüche	KNOWN	O
-erheben	erheben	KNOWN	O
-kann	kann	KNOWN	O
-

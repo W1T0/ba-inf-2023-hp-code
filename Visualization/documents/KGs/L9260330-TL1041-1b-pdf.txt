@@ -1,5 +1,0 @@
-ex:L9260330-TL1041-1b-pdf ex:date '1926-03-30'^^xsd:date .
-ex:L9260330-TL1041-1b-pdf ex:B-OTH_FOOD ex:Hafer .
-ex:Hafer ex:wikidataQID ex:Q12104 .
-ex:L9260330-TL1041-1b-pdf ex:B-PER ex:Josef .
-

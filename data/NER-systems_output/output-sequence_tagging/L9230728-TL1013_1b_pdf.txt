@@ -1,7 +1,0 @@
-<configparser.SafeConfigParser object at 0x7f0231546d68>
-zu	zu	KNOWN	O
-sche	sche	KNOWN	O
-wolle	wolle	KNOWN	O
-pr	pr	KNOWN	O
-der	der	KNOWN	O
-

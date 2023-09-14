@@ -1,5 +1,0 @@
-ex:L9361108-TL1107-2b-pdf ex:date '1936-11-08'^^xsd:date .
-ex:L9361108-TL1107-2b-pdf ex:I-PER ex:Bart .
-ex:L9361108-TL1107-2b-pdf ex:B-PER ex:Josef .
-ex:L9361108-TL1107-2b-pdf ex:B-PER ex:Elli .
-

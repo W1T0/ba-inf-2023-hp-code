@@ -1,4 +1,0 @@
-ex:L9280818-TL1061-1a-pdf ex:date '1928-08-18'^^xsd:date .
-ex:L9280818-TL1061-1a-pdf ex:B-PER ex:Hubert .
-ex:L9280818-TL1061-1a-pdf ex:B-PER ex:Robert .
-

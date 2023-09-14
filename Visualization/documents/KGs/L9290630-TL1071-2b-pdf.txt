@@ -1,4 +1,0 @@
-ex:L9290630-TL1071-2b-pdf ex:date '1929-06-30'^^xsd:date .
-ex:L9290630-TL1071-2b-pdf ex:B-PER ex:Agnes .
-ex:L9290630-TL1071-2b-pdf ex:B-PER ex:Maria .
-

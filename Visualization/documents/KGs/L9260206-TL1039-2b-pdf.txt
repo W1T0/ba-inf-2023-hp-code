@@ -1,7 +1,0 @@
-ex:L9260206-TL1039-2b-pdf ex:date '1926-02-06'^^xsd:date .
-ex:L9260206-TL1039-2b-pdf ex:B-LOC ex:Oberstdorf .
-ex:Oberstdorf ex:wikidataQID ex:Q266230 .
-ex:Oberstdorf ex:coordinates ex:'47,409722222_10,279166666' .
-ex:L9260206-TL1039-2b-pdf ex:B-OTH_FOOD ex:Fleisch .
-ex:Fleisch ex:wikidataQID ex:Q10990 .
-

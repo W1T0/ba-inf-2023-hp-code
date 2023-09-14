@@ -1,5 +1,0 @@
-ex:L9291007-TL1073-1a-pdf ex:date '1929-10-07'^^xsd:date .
-ex:L9291007-TL1073-1a-pdf ex:B-PER ex:Kiefer .
-ex:L9291007-TL1073-1a-pdf ex:B-PER ex:Paul .
-ex:L9291007-TL1073-1a-pdf ex:I-PER ex:Schutz .
-

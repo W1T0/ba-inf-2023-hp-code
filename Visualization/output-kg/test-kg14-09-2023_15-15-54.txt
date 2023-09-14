@@ -1,0 +1,3001 @@
+
+prefix ex: <http://example.org/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# --- ENTITIES OF L9190803-TL0161-1b-pdf ---
+ex:L9190803-TL0161-1b-pdf ex:date '1919-08-03'^^xsd:date .
+ex:L9190803-TL0161-1b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9190803-TL0161-1b-pdf ex:B-PER ex:Kutterles .
+ex:L9190803-TL0161-1b-pdf ex:B-PER ex:Scholz .
+ex:L9190803-TL0161-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9190803-TL0161-1b-pdf ex:B-LOC ex:England .
+ex:England ex:wikidataQID ex:Q21 .
+ex:England ex:coordinates ex:'53,0_-1,0' .
+ex:L9190803-TL0161-1b-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9190803-TL0161-2a-pdf ---
+ex:L9190803-TL0161-2a-pdf ex:date '1919-08-03'^^xsd:date .
+ex:L9190803-TL0161-2a-pdf ex:B-LOC ex:Schweiz .
+ex:Schweiz ex:wikidataQID ex:Q39 .
+ex:Schweiz ex:coordinates ex:'46,798562_8,231973' .
+ex:L9190803-TL0161-2a-pdf ex:B-LOC ex:Holland .
+ex:Holland ex:wikidataQID ex:Q102911 .
+ex:Holland ex:coordinates ex:'52,25_4,667' .
+ex:L9190803-TL0161-2a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9190803-TL0161-2a-pdf ex:B-PER ex:Scholz .
+ex:L9190803-TL0161-2a-pdf ex:B-PER ex:Lotterdam .
+ex:L9190803-TL0161-2a-pdf ex:B-OTH_RELIGION ex:Kloster .
+ex:Kloster ex:wikidataQID ex:Q44613 .
+
+# --- ENTITIES OF L9190803-TL0161-2b-pdf ---
+ex:L9190803-TL0161-2b-pdf ex:date '1919-08-03'^^xsd:date .
+ex:L9190803-TL0161-2b-pdf ex:B-LOC ex:Hessen .
+ex:Hessen ex:wikidataQID ex:Q1199 .
+ex:Hessen ex:coordinates ex:'50,608027777_9,028472222' .
+ex:L9190803-TL0161-2b-pdf ex:B-OTH_RELIGION ex:Rosenkranz .
+ex:Rosenkranz ex:wikidataQID ex:Q132539 .
+ex:L9190803-TL0161-2b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9190803-TL0161-2b-pdf ex:B-PER ex:Franz .
+ex:L9190803-TL0161-2b-pdf ex:B-OTH_RELIGION ex:Oster .
+ex:Oster ex:wikidataQID ex:Q21196 .
+ex:L9190803-TL0161-2b-pdf ex:B-LOC ex:Langenbruck .
+
+# --- ENTITIES OF L9190803-TL0161-3a-pdf ---
+ex:L9190803-TL0161-3a-pdf ex:date '1919-08-03'^^xsd:date .
+ex:L9190803-TL0161-3a-pdf ex:B-PER ex:S .
+ex:L9190803-TL0161-3a-pdf ex:B-PER ex:Klien .
+ex:L9190803-TL0161-3a-pdf ex:B-OTH_RELIGION ex:Opfer .
+ex:Opfer ex:wikidataQID ex:Q179723 .
+ex:L9190803-TL0161-3a-pdf ex:B-PER ex:Sigl .
+ex:L9190803-TL0161-3a-pdf ex:B-PER ex:Anna .
+ex:L9190803-TL0161-3a-pdf ex:B-LOC ex:Wien .
+ex:Wien ex:wikidataQID ex:Q1741 .
+ex:Wien ex:coordinates ex:'48,208333333_16,3725' .
+ex:L9190803-TL0161-3a-pdf ex:I-PER ex:K .
+ex:L9190803-TL0161-3a-pdf ex:B-OTH_RELIGION ex:Propaganda .
+ex:Propaganda ex:wikidataQID ex:Q7281 .
+ex:L9190803-TL0161-3a-pdf ex:B-OTH_RELIGION ex:Pfarrer .
+ex:Pfarrer ex:wikidataQID ex:Q52769526 .
+ex:L9190803-TL0161-3a-pdf ex:I-PER ex:Torturata .
+
+# --- ENTITIES OF L9190803-TL0161-3b-pdf ---
+ex:L9190803-TL0161-3b-pdf ex:date '1919-08-03'^^xsd:date .
+ex:L9190803-TL0161-3b-pdf ex:B-LOC ex:Hautterles .
+ex:L9190803-TL0161-3b-pdf ex:B-PER ex:Butter .
+ex:L9190803-TL0161-3b-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+ex:L9190803-TL0161-3b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9190803-TL0161-3b-pdf ex:B-PER ex:Agnes .
+ex:L9190803-TL0161-3b-pdf ex:I-PER ex:Heidenreich .
+ex:L9190803-TL0161-3b-pdf ex:B-PER ex:Oblie .
+ex:L9190803-TL0161-3b-pdf ex:B-LOC ex:England .
+ex:England ex:wikidataQID ex:Q21 .
+ex:England ex:coordinates ex:'53,0_-1,0' .
+ex:L9190803-TL0161-3b-pdf ex:B-PER ex:Paul .
+ex:L9190803-TL0161-3b-pdf ex:B-LOC ex:Russland .
+ex:Russland ex:wikidataQID ex:Q159 .
+ex:Russland ex:coordinates ex:'66,416666666_94,25' .
+ex:L9190803-TL0161-3b-pdf ex:B-PER ex:Robert .
+ex:L9190803-TL0161-3b-pdf ex:B-PER ex:Thekla .
+ex:L9190803-TL0161-3b-pdf ex:B-PER ex:Josef .
+ex:L9190803-TL0161-3b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9190803-TL0161-3b-pdf ex:B-PER ex:Frank .
+
+# --- ENTITIES OF L9190808-TL0163-1a-pdf ---
+ex:L9190808-TL0163-1a-pdf ex:date '1919-08-08'^^xsd:date .
+ex:L9190808-TL0163-1a-pdf ex:B-PER ex:August .
+ex:L9190808-TL0163-1a-pdf ex:B-PER ex:Agnes .
+ex:L9190808-TL0163-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9190808-TL0163-1a-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+ex:L9190808-TL0163-1a-pdf ex:I-PER ex:Antonius .
+ex:L9190808-TL0163-1a-pdf ex:B-PER ex:Paul .
+ex:L9190808-TL0163-1a-pdf ex:B-PER ex:Barthold .
+ex:L9190808-TL0163-1a-pdf ex:B-PER ex:Bertholde .
+ex:L9190808-TL0163-1a-pdf ex:B-OTH_RELIGION ex:Predigt .
+ex:Predigt ex:wikidataQID ex:Q60797 .
+ex:L9190808-TL0163-1a-pdf ex:B-PER ex:Jekla .
+ex:L9190808-TL0163-1a-pdf ex:B-PER ex:Josef .
+ex:L9190808-TL0163-1a-pdf ex:B-OTH_RELIGION ex:Pfarrer .
+ex:Pfarrer ex:wikidataQID ex:Q52769526 .
+ex:L9190808-TL0163-1a-pdf ex:B-OTH_RELIGION ex:Andacht .
+ex:Andacht ex:wikidataQID ex:Q489644 .
+ex:L9190808-TL0163-1a-pdf ex:B-PER ex:Bertha .
+
+# --- ENTITIES OF L9190808-TL0163-1b-pdf ---
+ex:L9190808-TL0163-1b-pdf ex:date '1919-08-08'^^xsd:date .
+ex:L9190808-TL0163-1b-pdf ex:B-OTH_FOOD ex:Gericht .
+ex:Gericht ex:wikidataQID ex:Q746549 .
+ex:L9190808-TL0163-1b-pdf ex:B-PER ex:Josef .
+ex:L9190808-TL0163-1b-pdf ex:B-PER ex:Berthold .
+ex:L9190808-TL0163-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9190808-TL0164-1a-pdf ---
+ex:L9190808-TL0164-1a-pdf ex:date '1919-08-08'^^xsd:date .
+ex:L9190808-TL0164-1a-pdf ex:B-PER ex:August .
+ex:L9190808-TL0164-1a-pdf ex:B-PER ex:Joseph .
+ex:L9190808-TL0164-1a-pdf ex:B-PER ex:Müller .
+ex:L9190808-TL0164-1a-pdf ex:B-PER ex:Paul .
+ex:L9190808-TL0164-1a-pdf ex:B-PER ex:Anna .
+ex:L9190808-TL0164-1a-pdf ex:B-PER ex:Johann .
+ex:L9190808-TL0164-1a-pdf ex:I-PER ex:Bleicher .
+ex:L9190808-TL0164-1a-pdf ex:B-PER ex:Franz .
+ex:L9190808-TL0164-1a-pdf ex:I-PER ex:Hagel .
+ex:L9190808-TL0164-1a-pdf ex:B-LOC ex:Frankreich .
+ex:Frankreich ex:wikidataQID ex:Q142 .
+ex:Frankreich ex:coordinates ex:'47,0_2,0' .
+
+# --- ENTITIES OF L9190808-TL0164-1b-pdf ---
+ex:L9190808-TL0164-1b-pdf ex:date '1919-08-08'^^xsd:date .
+ex:L9190808-TL0164-1b-pdf ex:B-OTH_FOOD ex:Osterei .
+ex:Osterei ex:wikidataQID ex:Q163886 .
+ex:L9190808-TL0164-1b-pdf ex:B-PER ex:Josef .
+ex:L9190808-TL0164-1b-pdf ex:B-LOC ex:Oberschlesien .
+ex:Oberschlesien ex:wikidataQID ex:Q81011 .
+ex:Oberschlesien ex:coordinates ex:'50,433843_18,032375' .
+ex:L9190808-TL0164-1b-pdf ex:B-LOC ex:Polen .
+ex:Polen ex:wikidataQID ex:Q36 .
+ex:Polen ex:coordinates ex:'52,0_19,0' .
+ex:L9190808-TL0164-1b-pdf ex:B-LOC ex:Langerbit .
+ex:L9190808-TL0164-1b-pdf ex:B-LOC ex:Ostereich .
+ex:L9190808-TL0164-1b-pdf ex:B-LOC ex:Zingen .
+
+# --- ENTITIES OF L9190812-TL0162-1a-pdf ---
+ex:L9190812-TL0162-1a-pdf ex:date '1919-08-12'^^xsd:date .
+ex:L9190812-TL0162-1a-pdf ex:B-PER ex:August .
+ex:L9190812-TL0162-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9190812-TL0162-1b-pdf ---
+ex:L9190812-TL0162-1b-pdf ex:date '1919-08-12'^^xsd:date .
+ex:L9190812-TL0162-1b-pdf ex:B-PER ex:Krause .
+
+# --- ENTITIES OF L9190817-TL0160-1a-pdf ---
+ex:L9190817-TL0160-1a-pdf ex:date '1919-08-17'^^xsd:date .
+ex:L9190817-TL0160-1a-pdf ex:B-PER ex:August .
+ex:L9190817-TL0160-1a-pdf ex:B-PER ex:Paul .
+ex:L9190817-TL0160-1a-pdf ex:B-PER ex:Böhm .
+ex:L9190817-TL0160-1a-pdf ex:B-PER ex:Thekla .
+ex:L9190817-TL0160-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9190817-TL0160-1a-pdf ex:B-PER ex:Glos .
+ex:L9190817-TL0160-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9190817-TL0160-1a-pdf ex:B-PER ex:Rob .
+
+# --- ENTITIES OF L9190817-TL0160-1b-pdf ---
+ex:L9190817-TL0160-1b-pdf ex:date '1919-08-17'^^xsd:date .
+ex:L9190817-TL0160-1b-pdf ex:I-LOC ex:Berlin .
+ex:L9190817-TL0160-1b-pdf ex:B-PER ex:Robert .
+ex:L9190817-TL0160-1b-pdf ex:B-PER ex:Thekla .
+ex:L9190817-TL0160-1b-pdf ex:B-LOC ex:Langenbrück .
+ex:L9190817-TL0160-1b-pdf ex:B-LOC ex:Potsdam .
+ex:Potsdam ex:wikidataQID ex:Q1711 .
+ex:Potsdam ex:coordinates ex:'52,4_13,066666666' .
+ex:L9190817-TL0160-1b-pdf ex:B-OTH_RELIGION ex:Seele .
+ex:Seele ex:wikidataQID ex:Q9165 .
+
+# --- ENTITIES OF L9190904-TL0165-1a-pdf ---
+ex:L9190904-TL0165-1a-pdf ex:date '1919-09-04'^^xsd:date .
+ex:L9190904-TL0165-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9190904-TL0165-1a-pdf ex:B-PER ex:Robert .
+ex:L9190904-TL0165-1a-pdf ex:B-PER ex:Thekla .
+ex:L9190904-TL0165-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9190904-TL0165-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9190904-TL0165-1b-pdf ---
+ex:L9190904-TL0165-1b-pdf ex:date '1919-09-04'^^xsd:date .
+ex:L9190904-TL0165-1b-pdf ex:B-PER ex:Ernst .
+ex:L9190904-TL0165-1b-pdf ex:B-LOC ex:Deutschlands .
+ex:L9190904-TL0165-1b-pdf ex:B-PER ex:Thekla .
+ex:L9190904-TL0165-1b-pdf ex:B-PER ex:Hedwig .
+ex:L9190904-TL0165-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9190904-TL0165-1b-pdf ex:I-PER ex:Egers .
+
+# --- ENTITIES OF L9190917-TL0166-1a-pdf ---
+ex:L9190917-TL0166-1a-pdf ex:date '1919-09-17'^^xsd:date .
+ex:L9190917-TL0166-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9190917-TL0166-1a-pdf ex:B-LOC ex:Lüneburg .
+ex:Lüneburg ex:wikidataQID ex:Q3920 .
+ex:Lüneburg ex:coordinates ex:'53,2525_10,414444444' .
+ex:L9190917-TL0166-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9190917-TL0166-1b-pdf ---
+ex:L9190917-TL0166-1b-pdf ex:date '1919-09-17'^^xsd:date .
+ex:L9190917-TL0166-1b-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9190917-TL0166-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9190917-TL0166-1b-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9190917-TL0166-1b-pdf ex:B-OTH ex:Dollar .
+ex:L9190917-TL0166-1b-pdf ex:B-OTH_RELIGION ex:Kapelle .
+ex:Kapelle ex:wikidataQID ex:Q66424076 .
+ex:L9190917-TL0166-1b-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9190917-TL0166-1b-pdf ex:B-PER ex:Franz .
+ex:L9190917-TL0166-1b-pdf ex:B-OTH_FOOD ex:Kartoffel .
+ex:Kartoffel ex:wikidataQID ex:Q16587531 .
+
+# --- ENTITIES OF L9190921-TL0167-1a-pdf ---
+ex:L9190921-TL0167-1a-pdf ex:date '1919-09-21'^^xsd:date .
+ex:L9190921-TL0167-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9190921-TL0167-1b-pdf ---
+ex:L9190921-TL0167-1b-pdf ex:date '1919-09-21'^^xsd:date .
+ex:L9190921-TL0167-1b-pdf ex:B-PER ex:Stefan .
+ex:L9190921-TL0167-1b-pdf ex:B-PER ex:Sontag .
+
+# --- ENTITIES OF L9190921-TL0167-2a-pdf ---
+ex:L9190921-TL0167-2a-pdf ex:date '1919-09-21'^^xsd:date .
+
+# --- ENTITIES OF L9190921-TL0168-1a-pdf ---
+ex:L9190921-TL0168-1a-pdf ex:date '1919-09-21'^^xsd:date .
+ex:L9190921-TL0168-1a-pdf ex:B-OTH_FOOD ex:Gericht .
+ex:Gericht ex:wikidataQID ex:Q746549 .
+ex:L9190921-TL0168-1a-pdf ex:B-PER ex:Heder .
+ex:L9190921-TL0168-1a-pdf ex:B-PER ex:Paul .
+
+# --- ENTITIES OF L9190921-TL0168-1b-pdf ---
+ex:L9190921-TL0168-1b-pdf ex:date '1919-09-21'^^xsd:date .
+ex:L9190921-TL0168-1b-pdf ex:B-OTH_RELIGION ex:Opfer .
+ex:Opfer ex:wikidataQID ex:Q179723 .
+ex:L9190921-TL0168-1b-pdf ex:B-PER ex:Paul .
+ex:L9190921-TL0168-1b-pdf ex:B-PER ex:Anna .
+ex:L9190921-TL0168-1b-pdf ex:B-PER ex:Robert .
+ex:L9190921-TL0168-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9190921-TL0168-1b-pdf ex:B-PER ex:Josef .
+ex:L9190921-TL0168-1b-pdf ex:B-LOC ex:Stey .
+
+# --- ENTITIES OF L9191201-TL0170-1a-pdf ---
+ex:L9191201-TL0170-1a-pdf ex:date '1919-12-01'^^xsd:date .
+ex:L9191201-TL0170-1a-pdf ex:B-PER ex:Christ .
+ex:L9191201-TL0170-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9191201-TL0170-1a-pdf ex:B-PER ex:Paul .
+ex:L9191201-TL0170-1a-pdf ex:I-PER ex:Kind .
+ex:L9191201-TL0170-1a-pdf ex:B-PER ex:Thekla .
+ex:L9191201-TL0170-1a-pdf ex:B-PER ex:Robert .
+ex:L9191201-TL0170-1a-pdf ex:B-PER ex:Josef .
+ex:L9191201-TL0170-1a-pdf ex:B-OTH_RELIGION ex:Pfarrer .
+ex:Pfarrer ex:wikidataQID ex:Q52769526 .
+ex:L9191201-TL0170-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9191201-TL0170-1b-pdf ---
+ex:L9191201-TL0170-1b-pdf ex:date '1919-12-01'^^xsd:date .
+ex:L9191201-TL0170-1b-pdf ex:B-PER ex:August .
+ex:L9191201-TL0170-1b-pdf ex:B-OTH_RELIGION ex:Taufbe .
+ex:Taufbe ex:wikidataQID ex:Q35856 .
+ex:L9191201-TL0170-1b-pdf ex:B-PER ex:Paul .
+ex:L9191201-TL0170-1b-pdf ex:B-PER ex:Robert .
+ex:L9191201-TL0170-1b-pdf ex:B-PER ex:Thekla .
+ex:L9191201-TL0170-1b-pdf ex:B-OTH_RELIGION ex:Pate .
+ex:Pate ex:wikidataQID ex:Q223973 .
+
+# --- ENTITIES OF L9191201-TL0170-2a-pdf ---
+ex:L9191201-TL0170-2a-pdf ex:date '1919-12-01'^^xsd:date .
+ex:L9191201-TL0170-2a-pdf ex:B-OTH ex:Pfund .
+
+# --- ENTITIES OF L9191201-TL0170-2b-pdf ---
+ex:L9191201-TL0170-2b-pdf ex:date '1919-12-01'^^xsd:date .
+ex:L9191201-TL0170-2b-pdf ex:B-PER ex:Paul .
+ex:L9191201-TL0170-2b-pdf ex:B-LOC ex:Langenbrück .
+ex:L9191201-TL0170-2b-pdf ex:B-PER ex:Franz .
+
+# --- ENTITIES OF L9191208-TL0169-1a-pdf ---
+ex:L9191208-TL0169-1a-pdf ex:date '1919-12-08'^^xsd:date .
+ex:L9191208-TL0169-1a-pdf ex:B-PER ex:August .
+ex:L9191208-TL0169-1a-pdf ex:B-PER ex:Paul .
+ex:L9191208-TL0169-1a-pdf ex:B-LOC ex:Russland .
+ex:Russland ex:wikidataQID ex:Q159 .
+ex:Russland ex:coordinates ex:'66,416666666_94,25' .
+ex:L9191208-TL0169-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9191208-TL0169-1a-pdf ex:B-PER ex:Josef .
+ex:L9191208-TL0169-1a-pdf ex:B-PER ex:Annas .
+
+# --- ENTITIES OF L9191208-TL0169-1b-pdf ---
+ex:L9191208-TL0169-1b-pdf ex:date '1919-12-08'^^xsd:date .
+ex:L9191208-TL0169-1b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9191208-TL0169-1b-pdf ex:B-PER ex:Art .
+ex:L9191208-TL0169-1b-pdf ex:B-PER ex:Lisbeth .
+ex:L9191208-TL0169-1b-pdf ex:I-PER ex:Feuchen .
+ex:L9191208-TL0169-1b-pdf ex:B-PER ex:Johann .
+ex:L9191208-TL0169-1b-pdf ex:B-LOC ex:Strelitz .
+ex:L9191208-TL0169-1b-pdf ex:B-PER ex:Josef .
+ex:L9191208-TL0169-1b-pdf ex:B-LOC ex:Italien .
+ex:Italien ex:wikidataQID ex:Q38 .
+ex:Italien ex:coordinates ex:'42,5_12,5' .
+
+# --- ENTITIES OF L9191208-TL0169-2a-pdf ---
+ex:L9191208-TL0169-2a-pdf ex:date '1919-12-08'^^xsd:date .
+ex:L9191208-TL0169-2a-pdf ex:B-PER ex:Art .
+ex:L9191208-TL0169-2a-pdf ex:B-PER ex:Mann .
+ex:L9191208-TL0169-2a-pdf ex:B-PER ex:Paul .
+ex:L9191208-TL0169-2a-pdf ex:B-PER ex:Barthold .
+ex:L9191208-TL0169-2a-pdf ex:B-OTH_FOOD ex:Bruch .
+ex:Bruch ex:wikidataQID ex:Q622563 .
+ex:L9191208-TL0169-2a-pdf ex:B-PER ex:Ange .
+ex:L9191208-TL0169-2a-pdf ex:B-PER ex:Josef .
+ex:L9191208-TL0169-2a-pdf ex:B-OTH_RELIGION ex:Seele .
+ex:Seele ex:wikidataQID ex:Q9165 .
+
+# --- ENTITIES OF L9191208-TL0169-2b-pdf ---
+ex:L9191208-TL0169-2b-pdf ex:date '1919-12-08'^^xsd:date .
+ex:L9191208-TL0169-2b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9191208-TL0169-2b-pdf ex:B-PER ex:August .
+ex:L9191208-TL0169-2b-pdf ex:B-PER ex:Marie .
+ex:L9191208-TL0169-2b-pdf ex:B-PER ex:Paul .
+ex:L9191208-TL0169-2b-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9191208-TL0169-2b-pdf ex:B-PER ex:Franz .
+ex:L9191208-TL0169-2b-pdf ex:B-PER ex:Josef .
+ex:L9191208-TL0169-2b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9191226-TL0171-1a-pdf ---
+ex:L9191226-TL0171-1a-pdf ex:date '1919-12-26'^^xsd:date .
+ex:L9191226-TL0171-1a-pdf ex:I-PER ex:Langen .
+ex:L9191226-TL0171-1a-pdf ex:B-PER ex:Paul .
+ex:L9191226-TL0171-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9191226-TL0171-1a-pdf ex:B-PER ex:Thekla .
+ex:L9191226-TL0171-1a-pdf ex:B-PER ex:Be .
+
+# --- ENTITIES OF L9191226-TL0171-1b-pdf ---
+ex:L9191226-TL0171-1b-pdf ex:date '1919-12-26'^^xsd:date .
+ex:L9191226-TL0171-1b-pdf ex:B-OTH ex:Mark .
+ex:L9191226-TL0171-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9191226-TL0171-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200102-TL0174-1a-pdf ---
+ex:L9200102-TL0174-1a-pdf ex:date '1920-01-02'^^xsd:date .
+
+# --- ENTITIES OF L9200102-TL0174-1b-pdf ---
+ex:L9200102-TL0174-1b-pdf ex:date '1920-01-02'^^xsd:date .
+ex:L9200102-TL0174-1b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9200102-TL0174-1b-pdf ex:B-PER ex:Anna .
+ex:L9200102-TL0174-1b-pdf ex:B-OTH_RELIGION ex:Weihnachte .
+ex:Weihnachte ex:wikidataQID ex:Q19809 .
+
+# --- ENTITIES OF L9200102-TL0174-2a-pdf ---
+ex:L9200102-TL0174-2a-pdf ex:date '1920-01-02'^^xsd:date .
+
+# --- ENTITIES OF L9200102-TL0174-2b-pdf ---
+ex:L9200102-TL0174-2b-pdf ex:date '1920-01-02'^^xsd:date .
+ex:L9200102-TL0174-2b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200102-TL0174-2b-pdf ex:B-PER ex:August .
+
+# --- ENTITIES OF L9200102-TL0175-1b-pdf ---
+ex:L9200102-TL0175-1b-pdf ex:date '1920-01-02'^^xsd:date .
+
+# --- ENTITIES OF L9200104-TL0175-1a-pdf ---
+ex:L9200104-TL0175-1a-pdf ex:date '1920-01-04'^^xsd:date .
+
+# --- ENTITIES OF L9200111-TL0176-1a-pdf ---
+ex:L9200111-TL0176-1a-pdf ex:date '1920-01-11'^^xsd:date .
+ex:L9200111-TL0176-1a-pdf ex:I-LOC ex:c .
+ex:L9200111-TL0176-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200111-TL0176-1a-pdf ex:B-PER ex:Franz .
+ex:L9200111-TL0176-1a-pdf ex:B-OTH_RELIGION ex:Schrei .
+ex:Schrei ex:wikidataQID ex:Q697295 .
+ex:L9200111-TL0176-1a-pdf ex:B-OTH_RELIGION ex:Seele .
+ex:Seele ex:wikidataQID ex:Q9165 .
+ex:L9200111-TL0176-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+ex:L9200111-TL0176-1a-pdf ex:I-LOC ex:Schles .
+
+# --- ENTITIES OF L9200111-TL0176-1b-pdf ---
+ex:L9200111-TL0176-1b-pdf ex:date '1920-01-11'^^xsd:date .
+ex:L9200111-TL0176-1b-pdf ex:B-ORG ex:Sparkasse .
+ex:L9200111-TL0176-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200111-TL0176-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9200116-TL0178-1a-pdf ---
+ex:L9200116-TL0178-1a-pdf ex:date '1920-01-16'^^xsd:date .
+ex:L9200116-TL0178-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9200116-TL0178-1a-pdf ex:B-PER ex:Robert .
+ex:L9200116-TL0178-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200116-TL0178-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200116-TL0178-1a-pdf ex:B-OTH_RELIGION ex:Seele .
+ex:Seele ex:wikidataQID ex:Q9165 .
+
+# --- ENTITIES OF L9200116-TL0178-1b-pdf ---
+ex:L9200116-TL0178-1b-pdf ex:date '1920-01-16'^^xsd:date .
+ex:L9200116-TL0178-1b-pdf ex:B-OTH ex:Mark .
+ex:L9200116-TL0178-1b-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+ex:L9200116-TL0178-1b-pdf ex:B-PER ex:Robert .
+ex:L9200116-TL0178-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200116-TL0178-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9200129-TL0177-1a-pdf ---
+ex:L9200129-TL0177-1a-pdf ex:date '1920-01-29'^^xsd:date .
+ex:L9200129-TL0177-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200129-TL0177-1a-pdf ex:B-PER ex:August .
+
+# --- ENTITIES OF L9200129-TL0177-1b-pdf ---
+ex:L9200129-TL0177-1b-pdf ex:date '1920-01-29'^^xsd:date .
+ex:L9200129-TL0177-1b-pdf ex:B-PER ex:August .
+ex:L9200129-TL0177-1b-pdf ex:B-PER ex:Agnes .
+ex:L9200129-TL0177-1b-pdf ex:B-PER ex:Paul .
+ex:L9200129-TL0177-1b-pdf ex:B-PER ex:Selma .
+ex:L9200129-TL0177-1b-pdf ex:B-PER ex:Martha .
+ex:L9200129-TL0177-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200129-TL0177-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200129-TL0177-1b-pdf ex:B-PER ex:Josef .
+ex:L9200129-TL0177-1b-pdf ex:B-PER ex:Görlich .
+
+# --- ENTITIES OF L9200129-TL0179-1a-pdf ---
+ex:L9200129-TL0179-1a-pdf ex:date '1920-01-29'^^xsd:date .
+
+# --- ENTITIES OF L9200129-TL0179-1b-pdf ---
+ex:L9200129-TL0179-1b-pdf ex:date '1920-01-29'^^xsd:date .
+
+# --- ENTITIES OF L9200201-TL0223-1a-pdf ---
+ex:L9200201-TL0223-1a-pdf ex:date '1920-02-01'^^xsd:date .
+ex:L9200201-TL0223-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200201-TL0223-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200201-TL0223-1a-pdf ex:B-OTH_RELIGION ex:Seele .
+ex:Seele ex:wikidataQID ex:Q9165 .
+
+# --- ENTITIES OF L9200201-TL0223-1b-pdf ---
+ex:L9200201-TL0223-1b-pdf ex:date '1920-02-01'^^xsd:date .
+ex:L9200201-TL0223-1b-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+ex:L9200201-TL0223-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9200215-TL0181-1a-pdf ---
+ex:L9200215-TL0181-1a-pdf ex:date '1920-02-15'^^xsd:date .
+ex:L9200215-TL0181-1a-pdf ex:B-PER ex:Anna .
+ex:L9200215-TL0181-1a-pdf ex:B-OTH_RELIGION ex:Himmel .
+ex:Himmel ex:wikidataQID ex:Q4489450 .
+ex:L9200215-TL0181-1a-pdf ex:B-OTH ex:Kronen .
+ex:L9200215-TL0181-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200215-TL0181-1a-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+
+# --- ENTITIES OF L9200215-TL0181-1b-pdf ---
+ex:L9200215-TL0181-1b-pdf ex:date '1920-02-15'^^xsd:date .
+ex:L9200215-TL0181-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200215-TL0181-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200215-TL0181-1b-pdf ex:B-OTH_FOOD ex:Lebensmitteln .
+ex:Lebensmitteln ex:wikidataQID ex:Q8195619 .
+ex:L9200215-TL0181-1b-pdf ex:B-OTH_RELIGION ex:Kirchen .
+ex:Kirchen ex:wikidataQID ex:Q34651 .
+
+# --- ENTITIES OF L9200222-TL0180-1a-pdf ---
+ex:L9200222-TL0180-1a-pdf ex:date '1920-02-22'^^xsd:date .
+ex:L9200222-TL0180-1a-pdf ex:B-PER ex:Tekla .
+ex:L9200222-TL0180-1a-pdf ex:B-PER ex:Agnes .
+ex:L9200222-TL0180-1a-pdf ex:I-PER ex:Christus .
+ex:L9200222-TL0180-1a-pdf ex:B-PER ex:Marie .
+ex:L9200222-TL0180-1a-pdf ex:B-OTH_RELIGION ex:Himmel .
+ex:Himmel ex:wikidataQID ex:Q4489450 .
+ex:L9200222-TL0180-1a-pdf ex:B-PER ex:Martha .
+ex:L9200222-TL0180-1a-pdf ex:B-PER ex:Jesu .
+ex:L9200222-TL0180-1a-pdf ex:B-PER ex:Brotha .
+ex:L9200222-TL0180-1a-pdf ex:B-LOC ex:Langenbrück .
+ex:L9200222-TL0180-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200222-TL0180-1b-pdf ---
+ex:L9200222-TL0180-1b-pdf ex:date '1920-02-22'^^xsd:date .
+ex:L9200222-TL0180-1b-pdf ex:B-PER ex:Strebel .
+ex:L9200222-TL0180-1b-pdf ex:B-PER ex:Agnes .
+ex:L9200222-TL0180-1b-pdf ex:B-PER ex:Paul .
+ex:L9200222-TL0180-1b-pdf ex:B-PER ex:Jekla .
+ex:L9200222-TL0180-1b-pdf ex:B-PER ex:Josef .
+ex:L9200222-TL0180-1b-pdf ex:B-PER ex:Inkla .
+
+# --- ENTITIES OF L9200222-TL0235-1a-pdf ---
+ex:L9200222-TL0235-1a-pdf ex:date '1920-02-22'^^xsd:date .
+ex:L9200222-TL0235-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200222-TL0235-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200222-TL0235-1a-pdf ex:B-OTH_RELIGION ex:Geist .
+ex:Geist ex:wikidataQID ex:Q120312205 .
+ex:L9200222-TL0235-1a-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9200222-TL0235-1b-pdf ---
+ex:L9200222-TL0235-1b-pdf ex:date '1920-02-22'^^xsd:date .
+ex:L9200222-TL0235-1b-pdf ex:B-OTH_RELIGION ex:Beichtvater .
+ex:Beichtvater ex:wikidataQID ex:Q16827718 .
+ex:L9200222-TL0235-1b-pdf ex:B-LOC ex:Sogo .
+ex:L9200222-TL0235-1b-pdf ex:B-OTH_RELIGION ex:Geist .
+ex:Geist ex:wikidataQID ex:Q120312205 .
+ex:L9200222-TL0235-1b-pdf ex:B-LOC ex:Kission .
+ex:L9200222-TL0235-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200222-TL0235-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200222-TL0235-1b-pdf ex:B-OTH_RELIGION ex:Kloster .
+ex:Kloster ex:wikidataQID ex:Q44613 .
+
+# --- ENTITIES OF L9200309-TL0185-1a-pdf ---
+ex:L9200309-TL0185-1a-pdf ex:date '1920-03-09'^^xsd:date .
+ex:L9200309-TL0185-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9200309-TL0185-1b-pdf ---
+ex:L9200309-TL0185-1b-pdf ex:date '1920-03-09'^^xsd:date .
+ex:L9200309-TL0185-1b-pdf ex:B-PER ex:Satow .
+ex:L9200309-TL0185-1b-pdf ex:B-PER ex:Krug .
+ex:L9200309-TL0185-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200309-TL0185-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9200314-TL0183-1a-pdf ---
+ex:L9200314-TL0183-1a-pdf ex:date '1920-03-14'^^xsd:date .
+ex:L9200314-TL0183-1a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9200314-TL0183-1a-pdf ex:B-PER ex:Kartha .
+ex:L9200314-TL0183-1a-pdf ex:B-PER ex:Müller .
+ex:L9200314-TL0183-1a-pdf ex:B-PER ex:Marie .
+ex:L9200314-TL0183-1a-pdf ex:B-PER ex:Paul .
+ex:L9200314-TL0183-1a-pdf ex:B-PER ex:Barthold .
+ex:L9200314-TL0183-1a-pdf ex:B-PER ex:Franz .
+ex:L9200314-TL0183-1a-pdf ex:B-PER ex:Josef .
+ex:L9200314-TL0183-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200314-TL0183-1a-pdf ex:B-OTH ex:Mk .
+
+# --- ENTITIES OF L9200314-TL0183-1b-pdf ---
+ex:L9200314-TL0183-1b-pdf ex:date '1920-03-14'^^xsd:date .
+ex:L9200314-TL0183-1b-pdf ex:B-PER ex:Art .
+ex:L9200314-TL0183-1b-pdf ex:B-PER ex:August .
+ex:L9200314-TL0183-1b-pdf ex:B-PER ex:Marie .
+ex:L9200314-TL0183-1b-pdf ex:B-PER ex:Paul .
+ex:L9200314-TL0183-1b-pdf ex:B-OTH_FOOD ex:Gericht .
+ex:Gericht ex:wikidataQID ex:Q746549 .
+ex:L9200314-TL0183-1b-pdf ex:B-PER ex:Hoff .
+ex:L9200314-TL0183-1b-pdf ex:B-PER ex:Barthold .
+ex:L9200314-TL0183-1b-pdf ex:B-PER ex:Hedwig .
+ex:L9200314-TL0183-1b-pdf ex:B-PER ex:Josef .
+ex:L9200314-TL0183-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200314-TL0183-1b-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+
+# --- ENTITIES OF L9200314-TL0183-2a-pdf ---
+ex:L9200314-TL0183-2a-pdf ex:date '1920-03-14'^^xsd:date .
+ex:L9200314-TL0183-2a-pdf ex:B-OTH_RELIGION ex:Kasten .
+ex:Kasten ex:wikidataQID ex:Q484416 .
+ex:L9200314-TL0183-2a-pdf ex:B-PER ex:Müller .
+ex:L9200314-TL0183-2a-pdf ex:B-PER ex:Paul .
+ex:L9200314-TL0183-2a-pdf ex:B-PER ex:Anna .
+ex:L9200314-TL0183-2a-pdf ex:B-PER ex:Franz .
+ex:L9200314-TL0183-2a-pdf ex:B-PER ex:Josef .
+ex:L9200314-TL0183-2a-pdf ex:B-PER ex:Guhl .
+ex:L9200314-TL0183-2a-pdf ex:I-PER ex:Barth .
+
+# --- ENTITIES OF L9200314-TL0183-2b-pdf ---
+ex:L9200314-TL0183-2b-pdf ex:date '1920-03-14'^^xsd:date .
+ex:L9200314-TL0183-2b-pdf ex:B-OTH_FOOD ex:Mehl .
+ex:Mehl ex:wikidataQID ex:Q36465 .
+ex:L9200314-TL0183-2b-pdf ex:B-PER ex:Johan .
+ex:L9200314-TL0183-2b-pdf ex:I-PER ex:Rostlich .
+ex:L9200314-TL0183-2b-pdf ex:B-PER ex:Müller .
+ex:L9200314-TL0183-2b-pdf ex:B-PER ex:Marie .
+ex:L9200314-TL0183-2b-pdf ex:B-PER ex:Bertha .
+
+# --- ENTITIES OF L9200317-TL0186-1a-pdf ---
+ex:L9200317-TL0186-1a-pdf ex:date '1920-03-17'^^xsd:date .
+ex:L9200317-TL0186-1a-pdf ex:B-OTH ex:Mark .
+ex:L9200317-TL0186-1a-pdf ex:B-PER ex:Art .
+ex:L9200317-TL0186-1a-pdf ex:B-OTH_RELIGION ex:Strafe .
+ex:Strafe ex:wikidataQID ex:Q186361 .
+ex:L9200317-TL0186-1a-pdf ex:B-PER ex:Paul .
+ex:L9200317-TL0186-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200317-TL0186-1b-pdf ---
+ex:L9200317-TL0186-1b-pdf ex:date '1920-03-17'^^xsd:date .
+
+# --- ENTITIES OF L9200317-TL0186-2a-pdf ---
+ex:L9200317-TL0186-2a-pdf ex:date '1920-03-17'^^xsd:date .
+
+# --- ENTITIES OF L9200317-TL0186-2b-pdf ---
+ex:L9200317-TL0186-2b-pdf ex:date '1920-03-17'^^xsd:date .
+
+# --- ENTITIES OF L9200317-TL0194-1a-pdf ---
+ex:L9200317-TL0194-1a-pdf ex:date '1920-03-17'^^xsd:date .
+ex:L9200317-TL0194-1a-pdf ex:B-PER ex:Tekla .
+ex:L9200317-TL0194-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9200317-TL0194-1a-pdf ex:B-PER ex:Marie .
+ex:L9200317-TL0194-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200317-TL0194-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200317-TL0194-1a-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+ex:L9200317-TL0194-1a-pdf ex:B-LOC ex:Schweiz .
+ex:Schweiz ex:wikidataQID ex:Q39 .
+ex:Schweiz ex:coordinates ex:'46,798562_8,231973' .
+ex:L9200317-TL0194-1a-pdf ex:B-LOC ex:Frankreich .
+ex:Frankreich ex:wikidataQID ex:Q142 .
+ex:Frankreich ex:coordinates ex:'47,0_2,0' .
+
+# --- ENTITIES OF L9200317-TL0194-1b-pdf ---
+ex:L9200317-TL0194-1b-pdf ex:date '1920-03-17'^^xsd:date .
+ex:L9200317-TL0194-1b-pdf ex:B-OTH_FOOD ex:Mehl .
+ex:Mehl ex:wikidataQID ex:Q36465 .
+ex:L9200317-TL0194-1b-pdf ex:B-LOC ex:Anrik .
+ex:L9200317-TL0194-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200317-TL0194-1b-pdf ex:B-OTH_RELIGION ex:Stafe .
+ex:Stafe ex:wikidataQID ex:Q186361 .
+ex:L9200317-TL0194-1b-pdf ex:B-LOC ex:Schlesien .
+ex:Schlesien ex:wikidataQID ex:Q81720 .
+ex:Schlesien ex:coordinates ex:'51,1035_17,0396' .
+
+# --- ENTITIES OF L9200320-TL0187-1a-pdf ---
+ex:L9200320-TL0187-1a-pdf ex:date '1920-03-20'^^xsd:date .
+ex:L9200320-TL0187-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200320-TL0187-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+
+# --- ENTITIES OF L9200320-TL0187-1b-pdf ---
+ex:L9200320-TL0187-1b-pdf ex:date '1920-03-20'^^xsd:date .
+ex:L9200320-TL0187-1b-pdf ex:B-PER ex:Thea .
+
+# --- ENTITIES OF L9200328-TL0182-1a-pdf ---
+ex:L9200328-TL0182-1a-pdf ex:date '1920-03-28'^^xsd:date .
+ex:L9200328-TL0182-1a-pdf ex:B-PER ex:Karolin .
+ex:L9200328-TL0182-1a-pdf ex:B-PER ex:August .
+ex:L9200328-TL0182-1a-pdf ex:B-PER ex:Agnes .
+ex:L9200328-TL0182-1a-pdf ex:B-PER ex:Marie .
+ex:L9200328-TL0182-1a-pdf ex:B-PER ex:Johann .
+ex:L9200328-TL0182-1a-pdf ex:B-LOC ex:Essen .
+ex:Essen ex:wikidataQID ex:Q571423 .
+ex:Essen ex:coordinates ex:'52,721111111_7,940555555' .
+ex:L9200328-TL0182-1a-pdf ex:B-PER ex:Robert .
+ex:L9200328-TL0182-1a-pdf ex:B-PER ex:Backert .
+
+# --- ENTITIES OF L9200328-TL0182-1b-pdf ---
+ex:L9200328-TL0182-1b-pdf ex:date '1920-03-28'^^xsd:date .
+ex:L9200328-TL0182-1b-pdf ex:B-PER ex:Tekla .
+ex:L9200328-TL0182-1b-pdf ex:B-OTH_FOOD ex:Ei .
+ex:Ei ex:wikidataQID ex:Q93189 .
+ex:L9200328-TL0182-1b-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9200404-TL0189-1a-pdf ---
+ex:L9200404-TL0189-1a-pdf ex:date '1920-04-04'^^xsd:date .
+ex:L9200404-TL0189-1a-pdf ex:B-PER ex:Marie .
+ex:L9200404-TL0189-1a-pdf ex:B-LOC ex:Strelitz .
+ex:L9200404-TL0189-1a-pdf ex:B-PER ex:Josef .
+ex:L9200404-TL0189-1a-pdf ex:B-OTH_RELIGION ex:Christus .
+ex:Christus ex:wikidataQID ex:Q642420 .
+ex:L9200404-TL0189-1a-pdf ex:B-PER ex:Maria .
+ex:L9200404-TL0189-1a-pdf ex:B-OTH_RELIGION ex:Kloster .
+ex:Kloster ex:wikidataQID ex:Q44613 .
+ex:L9200404-TL0189-1a-pdf ex:B-LOC ex:Bern .
+ex:Bern ex:wikidataQID ex:Q822114 .
+ex:Bern ex:coordinates ex:'39,9628_-95,9708' .
+
+# --- ENTITIES OF L9200404-TL0189-1b-pdf ---
+ex:L9200404-TL0189-1b-pdf ex:date '1920-04-04'^^xsd:date .
+ex:L9200404-TL0189-1b-pdf ex:B-PER ex:Tekla .
+ex:L9200404-TL0189-1b-pdf ex:B-PER ex:Art .
+ex:L9200404-TL0189-1b-pdf ex:B-PER ex:Barthold .
+ex:L9200404-TL0189-1b-pdf ex:B-LOC ex:Wien .
+ex:Wien ex:wikidataQID ex:Q1741 .
+ex:Wien ex:coordinates ex:'48,208333333_16,3725' .
+ex:L9200404-TL0189-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200408-TL0190-1a-pdf ---
+ex:L9200408-TL0190-1a-pdf ex:date '1920-04-08'^^xsd:date .
+ex:L9200408-TL0190-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200408-TL0190-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200408-TL0190-1a-pdf ex:B-OTH_RELIGION ex:Geduld .
+ex:Geduld ex:wikidataQID ex:Q12846123 .
+ex:L9200408-TL0190-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9200408-TL0190-1b-pdf ---
+ex:L9200408-TL0190-1b-pdf ex:date '1920-04-08'^^xsd:date .
+ex:L9200408-TL0190-1b-pdf ex:B-PER ex:Glick .
+ex:L9200408-TL0190-1b-pdf ex:B-PER ex:Josef .
+ex:L9200408-TL0190-1b-pdf ex:B-OTH_RELIGION ex:Pfingsten .
+ex:Pfingsten ex:wikidataQID ex:Q39864 .
+ex:L9200408-TL0190-1b-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+ex:L9200408-TL0190-1b-pdf ex:B-PER ex:Nat .
+
+# --- ENTITIES OF L9200409-TL0191-1a-pdf ---
+ex:L9200409-TL0191-1a-pdf ex:date '1920-04-09'^^xsd:date .
+ex:L9200409-TL0191-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200409-TL0191-1a-pdf ex:B-PER ex:Josef .
+ex:L9200409-TL0191-1a-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9200409-TL0191-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9200409-TL0191-1b-pdf ---
+ex:L9200409-TL0191-1b-pdf ex:date '1920-04-09'^^xsd:date .
+ex:L9200409-TL0191-1b-pdf ex:B-PER ex:Schäfer .
+ex:L9200409-TL0191-1b-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9200409-TL0191-1b-pdf ex:B-OTH_RELIGION ex:Geduld .
+ex:Geduld ex:wikidataQID ex:Q12846123 .
+ex:L9200409-TL0191-1b-pdf ex:B-OTH_RELIGION ex:Pfingsten .
+ex:Pfingsten ex:wikidataQID ex:Q39864 .
+ex:L9200409-TL0191-1b-pdf ex:B-LOC ex:Rutschland .
+ex:L9200409-TL0191-1b-pdf ex:B-LOC ex:Schlesien .
+ex:Schlesien ex:wikidataQID ex:Q81720 .
+ex:Schlesien ex:coordinates ex:'51,1035_17,0396' .
+
+# --- ENTITIES OF L9200422-TL0001-1a-pdf ---
+ex:L9200422-TL0001-1a-pdf ex:date '1920-04-22'^^xsd:date .
+ex:L9200422-TL0001-1a-pdf ex:B-OTH ex:Mark .
+ex:L9200422-TL0001-1a-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9200422-TL0001-1a-pdf ex:B-PER ex:August .
+ex:L9200422-TL0001-1a-pdf ex:B-PER ex:Agnes .
+ex:L9200422-TL0001-1a-pdf ex:B-PER ex:Barthol .
+ex:L9200422-TL0001-1a-pdf ex:B-PER ex:Barthold .
+
+# --- ENTITIES OF L9200422-TL0001-1b-pdf ---
+ex:L9200422-TL0001-1b-pdf ex:date '1920-04-22'^^xsd:date .
+ex:L9200422-TL0001-1b-pdf ex:B-PER ex:Bertholdi .
+ex:L9200422-TL0001-1b-pdf ex:B-PER ex:Berthold .
+ex:L9200422-TL0001-1b-pdf ex:B-PER ex:Agnes .
+ex:L9200422-TL0001-1b-pdf ex:B-OTH_RELIGION ex:Himel .
+ex:Himel ex:wikidataQID ex:Q4489450 .
+ex:L9200422-TL0001-1b-pdf ex:B-PER ex:Jekla .
+ex:L9200422-TL0001-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200422-TL0001-2a-pdf ---
+ex:L9200422-TL0001-2a-pdf ex:date '1920-04-22'^^xsd:date .
+ex:L9200422-TL0001-2a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200422-TL0001-2a-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9200422-TL0001-2b-pdf ---
+ex:L9200422-TL0001-2b-pdf ex:date '1920-04-22'^^xsd:date .
+ex:L9200422-TL0001-2b-pdf ex:B-PER ex:August .
+
+# --- ENTITIES OF L9200425-TL0192-1a-pdf ---
+ex:L9200425-TL0192-1a-pdf ex:date '1920-04-25'^^xsd:date .
+ex:L9200425-TL0192-1a-pdf ex:B-OTH_FOOD ex:Blut .
+ex:Blut ex:wikidataQID ex:Q494268 .
+ex:L9200425-TL0192-1a-pdf ex:B-PER ex:Robert .
+ex:L9200425-TL0192-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200425-TL0192-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200425-TL0192-1a-pdf ex:B-OTH_RELIGION ex:Hingabe .
+ex:Hingabe ex:wikidataQID ex:Q33111788 .
+
+# --- ENTITIES OF L9200425-TL0192-1b-pdf ---
+ex:L9200425-TL0192-1b-pdf ex:date '1920-04-25'^^xsd:date .
+ex:L9200425-TL0192-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200425-TL0192-1b-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+ex:L9200425-TL0192-1b-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+
+# --- ENTITIES OF L9200502-TL0193-1a-pdf ---
+ex:L9200502-TL0193-1a-pdf ex:date '1920-05-02'^^xsd:date .
+ex:L9200502-TL0193-1a-pdf ex:B-LOC ex:Schlossen .
+ex:L9200502-TL0193-1a-pdf ex:B-PER ex:Hoff .
+ex:L9200502-TL0193-1a-pdf ex:B-OTH_RELIGION ex:Himmel .
+ex:Himmel ex:wikidataQID ex:Q4489450 .
+ex:L9200502-TL0193-1a-pdf ex:B-LOC ex:Langenbrinck .
+ex:L9200502-TL0193-1a-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+
+# --- ENTITIES OF L9200502-TL0193-1b-pdf ---
+ex:L9200502-TL0193-1b-pdf ex:date '1920-05-02'^^xsd:date .
+ex:L9200502-TL0193-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200502-TL0193-1b-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+
+# --- ENTITIES OF L9200506-TL0184-1a-pdf ---
+ex:L9200506-TL0184-1a-pdf ex:date '1920-05-06'^^xsd:date .
+ex:L9200506-TL0184-1a-pdf ex:B-PER ex:Schneider .
+ex:L9200506-TL0184-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200506-TL0184-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9200506-TL0184-1a-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9200506-TL0184-1a-pdf ex:B-PER ex:Heide .
+
+# --- ENTITIES OF L9200506-TL0184-1b-pdf ---
+ex:L9200506-TL0184-1b-pdf ex:date '1920-05-06'^^xsd:date .
+ex:L9200506-TL0184-1b-pdf ex:B-OTH ex:Mark .
+ex:L9200506-TL0184-1b-pdf ex:I-PER ex:Platzes .
+ex:L9200506-TL0184-1b-pdf ex:B-PER ex:August .
+ex:L9200506-TL0184-1b-pdf ex:B-PER ex:Johann .
+ex:L9200506-TL0184-1b-pdf ex:B-PER ex:Alfred .
+ex:L9200506-TL0184-1b-pdf ex:B-PER ex:Robert .
+ex:L9200506-TL0184-1b-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9200531-TL0195-1a-pdf ---
+ex:L9200531-TL0195-1a-pdf ex:date '1920-05-31'^^xsd:date .
+ex:L9200531-TL0195-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200531-TL0195-1a-pdf ex:I-PER ex:Langer .
+ex:L9200531-TL0195-1a-pdf ex:B-PER ex:Anna .
+ex:L9200531-TL0195-1a-pdf ex:B-PER ex:Schneider .
+
+# --- ENTITIES OF L9200531-TL0195-1b-pdf ---
+ex:L9200531-TL0195-1b-pdf ex:date '1920-05-31'^^xsd:date .
+ex:L9200531-TL0195-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200531-TL0195-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200531-TL0195-1b-pdf ex:B-PER ex:Sichert .
+ex:L9200531-TL0195-1b-pdf ex:B-OTH_RELIGION ex:Pfarrer .
+ex:Pfarrer ex:wikidataQID ex:Q52769526 .
+
+# --- ENTITIES OF L9200603-TL0203-1a-pdf ---
+ex:L9200603-TL0203-1a-pdf ex:date '1920-06-03'^^xsd:date .
+ex:L9200603-TL0203-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9200603-TL0203-1a-pdf ex:B-OTH_FOOD ex:Lebensmitteln .
+ex:Lebensmitteln ex:wikidataQID ex:Q8195619 .
+ex:L9200603-TL0203-1a-pdf ex:B-PER ex:Anna .
+ex:L9200603-TL0203-1a-pdf ex:B-OTH_RELIGION ex:Himmel .
+ex:Himmel ex:wikidataQID ex:Q4489450 .
+ex:L9200603-TL0203-1a-pdf ex:B-PER ex:Reinhard .
+ex:L9200603-TL0203-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200603-TL0203-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200603-TL0203-1b-pdf ---
+ex:L9200603-TL0203-1b-pdf ex:date '1920-06-03'^^xsd:date .
+ex:L9200603-TL0203-1b-pdf ex:B-PER ex:August .
+ex:L9200603-TL0203-1b-pdf ex:B-PER ex:Hoff .
+ex:L9200603-TL0203-1b-pdf ex:B-PER ex:Paul .
+ex:L9200603-TL0203-1b-pdf ex:B-PER ex:Anna .
+ex:L9200603-TL0203-1b-pdf ex:I-PER ex:Weger .
+ex:L9200603-TL0203-1b-pdf ex:B-PER ex:Franz .
+ex:L9200603-TL0203-1b-pdf ex:B-LOC ex:Wien .
+ex:Wien ex:wikidataQID ex:Q1741 .
+ex:Wien ex:coordinates ex:'48,208333333_16,3725' .
+ex:L9200603-TL0203-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200603-TL0203-2a-pdf ---
+ex:L9200603-TL0203-2a-pdf ex:date '1920-06-03'^^xsd:date .
+ex:L9200603-TL0203-2a-pdf ex:B-LOC ex:Budwigsdorff .
+ex:L9200603-TL0203-2a-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9200603-TL0203-2a-pdf ex:B-PER ex:Josef .
+ex:L9200603-TL0203-2a-pdf ex:B-OTH_RELIGION ex:Kloster .
+ex:Kloster ex:wikidataQID ex:Q44613 .
+
+# --- ENTITIES OF L9200603-TL0203-2b-pdf ---
+ex:L9200603-TL0203-2b-pdf ex:date '1920-06-03'^^xsd:date .
+ex:L9200603-TL0203-2b-pdf ex:I-LOC ex:Basilien .
+ex:L9200603-TL0203-2b-pdf ex:B-LOC ex:Südamerika .
+ex:L9200603-TL0203-2b-pdf ex:B-LOC ex:Afrika .
+ex:L9200603-TL0203-2b-pdf ex:I-LOC ex:Negentinien .
+ex:L9200603-TL0203-2b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200612-TL0197-1a-pdf ---
+ex:L9200612-TL0197-1a-pdf ex:date '1920-06-12'^^xsd:date .
+ex:L9200612-TL0197-1a-pdf ex:B-PER ex:Christus .
+ex:L9200612-TL0197-1a-pdf ex:B-OTH ex:Mark .
+ex:L9200612-TL0197-1a-pdf ex:B-PER ex:Berthold .
+ex:L9200612-TL0197-1a-pdf ex:B-PER ex:August .
+ex:L9200612-TL0197-1a-pdf ex:B-PER ex:Agnes .
+ex:L9200612-TL0197-1a-pdf ex:B-PER ex:Paul .
+ex:L9200612-TL0197-1a-pdf ex:I-PER ex:Langenbrück .
+ex:L9200612-TL0197-1a-pdf ex:B-PER ex:Josef .
+ex:L9200612-TL0197-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200612-TL0197-1a-pdf ex:B-LOC ex:Amista .
+
+# --- ENTITIES OF L9200612-TL0197-1b-pdf ---
+ex:L9200612-TL0197-1b-pdf ex:date '1920-06-12'^^xsd:date .
+ex:L9200612-TL0197-1b-pdf ex:B-OTH ex:Mark .
+ex:L9200612-TL0197-1b-pdf ex:B-PER ex:Tekla .
+ex:L9200612-TL0197-1b-pdf ex:B-PER ex:August .
+ex:L9200612-TL0197-1b-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9200612-TL0197-1b-pdf ex:B-PER ex:Paul .
+ex:L9200612-TL0197-1b-pdf ex:B-PER ex:Josef .
+ex:L9200612-TL0197-1b-pdf ex:B-PER ex:Guhl .
+ex:L9200612-TL0197-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200615-TL0198-1a-pdf ---
+ex:L9200615-TL0198-1a-pdf ex:date '1920-06-15'^^xsd:date .
+ex:L9200615-TL0198-1a-pdf ex:B-PER ex:Robert .
+ex:L9200615-TL0198-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200615-TL0198-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200615-TL0198-1a-pdf ex:B-LOC ex:Begenbruch .
+
+# --- ENTITIES OF L9200615-TL0198-1b-pdf ---
+ex:L9200615-TL0198-1b-pdf ex:date '1920-06-15'^^xsd:date .
+ex:L9200615-TL0198-1b-pdf ex:B-PER ex:Hedwig .
+ex:L9200615-TL0198-1b-pdf ex:B-PER ex:Paul .
+ex:L9200615-TL0198-1b-pdf ex:B-PER ex:Agnes .
+
+# --- ENTITIES OF L9200619-TL0199-1a-pdf ---
+ex:L9200619-TL0199-1a-pdf ex:date '1920-06-19'^^xsd:date .
+ex:L9200619-TL0199-1a-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9200619-TL0199-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200619-TL0199-1a-pdf ex:B-PER ex:Paul .
+ex:L9200619-TL0199-1a-pdf ex:B-PER ex:Anna .
+ex:L9200619-TL0199-1a-pdf ex:B-LOC ex:Langenen .
+ex:L9200619-TL0199-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200619-TL0199-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+
+# --- ENTITIES OF L9200619-TL0199-1b-pdf ---
+ex:L9200619-TL0199-1b-pdf ex:date '1920-06-19'^^xsd:date .
+ex:L9200619-TL0199-1b-pdf ex:B-PER ex:Art .
+ex:L9200619-TL0199-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200619-TL0199-1b-pdf ex:B-PER ex:Robert .
+ex:L9200619-TL0199-1b-pdf ex:B-PER ex:Gerhard .
+ex:L9200619-TL0199-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200619-TL0199-1b-pdf ex:B-OTH_RELIGION ex:Hochzeitsgeschenk .
+ex:Hochzeitsgeschenk ex:wikidataQID ex:Q60965053 .
+ex:L9200619-TL0199-1b-pdf ex:I-PER ex:Bonbongs .
+ex:L9200619-TL0199-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200619-TL0199-2a-pdf ---
+ex:L9200619-TL0199-2a-pdf ex:date '1920-06-19'^^xsd:date .
+ex:L9200619-TL0199-2a-pdf ex:B-PER ex:Robert .
+ex:L9200619-TL0199-2a-pdf ex:B-PER ex:Thekla .
+ex:L9200619-TL0199-2a-pdf ex:B-PER ex:Paul .
+ex:L9200619-TL0199-2a-pdf ex:B-PER ex:Marta .
+
+# --- ENTITIES OF L9200619-TL0199-2b-pdf ---
+ex:L9200619-TL0199-2b-pdf ex:date '1920-06-19'^^xsd:date .
+ex:L9200619-TL0199-2b-pdf ex:B-PER ex:Thekla .
+ex:L9200619-TL0199-2b-pdf ex:B-PER ex:Paul .
+ex:L9200619-TL0199-2b-pdf ex:B-PER ex:Hedwig .
+
+# --- ENTITIES OF L9200621-TL0200-1a-pdf ---
+ex:L9200621-TL0200-1a-pdf ex:date '1920-06-21'^^xsd:date .
+ex:L9200621-TL0200-1a-pdf ex:B-PER ex:Robert .
+ex:L9200621-TL0200-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200621-TL0200-1a-pdf ex:B-LOC ex:Langenbrück .
+
+# --- ENTITIES OF L9200621-TL0200-1b-pdf ---
+ex:L9200621-TL0200-1b-pdf ex:date '1920-06-21'^^xsd:date .
+ex:L9200621-TL0200-1b-pdf ex:B-PER ex:Marie .
+ex:L9200621-TL0200-1b-pdf ex:B-PER ex:Paul .
+ex:L9200621-TL0200-1b-pdf ex:B-PER ex:Robert .
+ex:L9200621-TL0200-1b-pdf ex:B-PER ex:Berta .
+ex:L9200621-TL0200-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200621-TL0200-1b-pdf ex:B-PER ex:Josef .
+ex:L9200621-TL0200-1b-pdf ex:B-LOC ex:Rumanien .
+ex:L9200621-TL0200-1b-pdf ex:B-LOC ex:Dresden .
+ex:Dresden ex:wikidataQID ex:Q737444 .
+ex:Dresden ex:coordinates ex:'39,6222_-100,421' .
+ex:L9200621-TL0200-1b-pdf ex:B-PER ex:Maria .
+ex:L9200621-TL0200-1b-pdf ex:B-PER ex:Schmalz .
+
+# --- ENTITIES OF L9200622-TL0276-1a-pdf ---
+ex:L9200622-TL0276-1a-pdf ex:date '1920-06-22'^^xsd:date .
+ex:L9200622-TL0276-1a-pdf ex:I-PER ex:Hilf .
+ex:L9200622-TL0276-1a-pdf ex:B-PER ex:Agnes .
+ex:L9200622-TL0276-1a-pdf ex:B-PER ex:Maria .
+ex:L9200622-TL0276-1a-pdf ex:B-OTH_FOOD ex:Obst .
+ex:Obst ex:wikidataQID ex:Q3314483 .
+ex:L9200622-TL0276-1a-pdf ex:B-PER ex:Robert .
+ex:L9200622-TL0276-1a-pdf ex:B-LOC ex:Langenbrück .
+ex:L9200622-TL0276-1a-pdf ex:I-PER ex:Ludwig .
+ex:L9200622-TL0276-1a-pdf ex:B-OTH_RELIGION ex:Pfingsten .
+ex:Pfingsten ex:wikidataQID ex:Q39864 .
+ex:L9200622-TL0276-1a-pdf ex:B-PER ex:Bertold .
+
+# --- ENTITIES OF L9200622-TL0276-1b-pdf ---
+ex:L9200622-TL0276-1b-pdf ex:date '1920-06-22'^^xsd:date .
+ex:L9200622-TL0276-1b-pdf ex:B-PER ex:Robert .
+ex:L9200622-TL0276-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200622-TL0276-1b-pdf ex:B-OTH_FOOD ex:Backpulver .
+ex:Backpulver ex:wikidataQID ex:Q29476 .
+
+# --- ENTITIES OF L9200622-TL0276-2a-pdf ---
+ex:L9200622-TL0276-2a-pdf ex:date '1920-06-22'^^xsd:date .
+ex:L9200622-TL0276-2a-pdf ex:B-OTH_RELIGION ex:Kongration .
+ex:Kongration ex:wikidataQID ex:Q1384677 .
+ex:L9200622-TL0276-2a-pdf ex:B-PER ex:August .
+ex:L9200622-TL0276-2a-pdf ex:B-PER ex:Agnes .
+ex:L9200622-TL0276-2a-pdf ex:B-PER ex:Paul .
+ex:L9200622-TL0276-2a-pdf ex:B-PER ex:Robert .
+ex:L9200622-TL0276-2a-pdf ex:B-PER ex:Thekla .
+ex:L9200622-TL0276-2a-pdf ex:B-PER ex:Franz .
+ex:L9200622-TL0276-2a-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+ex:L9200622-TL0276-2a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200622-TL0276-2b-pdf ---
+ex:L9200622-TL0276-2b-pdf ex:date '1920-06-22'^^xsd:date .
+ex:L9200622-TL0276-2b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200622-TL0276-2b-pdf ex:B-PER ex:Sontag .
+ex:L9200622-TL0276-2b-pdf ex:B-PER ex:Agnes .
+
+# --- ENTITIES OF L9200626-TL0201-1a-pdf ---
+ex:L9200626-TL0201-1a-pdf ex:date '1920-06-26'^^xsd:date .
+ex:L9200626-TL0201-1a-pdf ex:B-OTH_FOOD ex:Lebensmitteln .
+ex:Lebensmitteln ex:wikidataQID ex:Q8195619 .
+ex:L9200626-TL0201-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9200626-TL0201-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200626-TL0201-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+ex:L9200626-TL0201-1a-pdf ex:I-LOC ex:Schles .
+
+# --- ENTITIES OF L9200626-TL0201-1b-pdf ---
+ex:L9200626-TL0201-1b-pdf ex:date '1920-06-26'^^xsd:date .
+ex:L9200626-TL0201-1b-pdf ex:B-OTH ex:Mark .
+ex:L9200626-TL0201-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200626-TL0201-1b-pdf ex:B-OTH ex:Deutsch .
+ex:L9200626-TL0201-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9200626-TL0201-2a-pdf ---
+ex:L9200626-TL0201-2a-pdf ex:date '1920-06-26'^^xsd:date .
+
+# --- ENTITIES OF L9200626-TL0201-2b-pdf ---
+ex:L9200626-TL0201-2b-pdf ex:date '1920-06-26'^^xsd:date .
+ex:L9200626-TL0201-2b-pdf ex:B-LOC ex:Revelaud .
+ex:L9200626-TL0201-2b-pdf ex:B-PER ex:August .
+ex:L9200626-TL0201-2b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200626-TL0201-2b-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9200626-TL0201-2b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200628-TL0202-1a-pdf ---
+ex:L9200628-TL0202-1a-pdf ex:date '1920-06-28'^^xsd:date .
+ex:L9200628-TL0202-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+ex:L9200628-TL0202-1a-pdf ex:B-PER ex:Art .
+ex:L9200628-TL0202-1a-pdf ex:B-OTH_RELIGION ex:Schein .
+ex:Schein ex:wikidataQID ex:Q697295 .
+
+# --- ENTITIES OF L9200628-TL0202-1b-pdf ---
+ex:L9200628-TL0202-1b-pdf ex:date '1920-06-28'^^xsd:date .
+ex:L9200628-TL0202-1b-pdf ex:B-PER ex:Gretel .
+ex:L9200628-TL0202-1b-pdf ex:B-LOC ex:Kiel .
+ex:Kiel ex:wikidataQID ex:Q1707 .
+ex:Kiel ex:coordinates ex:'54,323333333_10,139444444' .
+ex:L9200628-TL0202-1b-pdf ex:B-PER ex:Fritz .
+ex:L9200628-TL0202-1b-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+ex:L9200628-TL0202-1b-pdf ex:B-OTH_RELIGION ex:Schein .
+ex:Schein ex:wikidataQID ex:Q697295 .
+ex:L9200628-TL0202-1b-pdf ex:I-PER ex:Mitze .
+ex:L9200628-TL0202-1b-pdf ex:B-PER ex:Walter .
+ex:L9200628-TL0202-1b-pdf ex:B-PER ex:Rudolph .
+
+# --- ENTITIES OF L9200631-TL0204-1a-pdf ---
+ex:L9200631-TL0204-1a-pdf ex:date '1920-06-31'^^xsd:date .
+ex:L9200631-TL0204-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200631-TL0204-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200631-TL0204-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9200631-TL0204-1a-pdf ex:B-PER ex:Paul .
+
+# --- ENTITIES OF L9200631-TL0204-1b-pdf ---
+ex:L9200631-TL0204-1b-pdf ex:date '1920-06-31'^^xsd:date .
+ex:L9200631-TL0204-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200631-TL0204-1b-pdf ex:B-OTH_RELIGION ex:Himmel .
+ex:Himmel ex:wikidataQID ex:Q4489450 .
+ex:L9200631-TL0204-1b-pdf ex:B-PER ex:Gerhard .
+ex:L9200631-TL0204-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200631-TL0204-1b-pdf ex:B-PER ex:Hedwig .
+
+# --- ENTITIES OF L9200705-TL0205-1a-pdf ---
+ex:L9200705-TL0205-1a-pdf ex:date '1920-07-05'^^xsd:date .
+ex:L9200705-TL0205-1a-pdf ex:B-PER ex:Martha .
+ex:L9200705-TL0205-1a-pdf ex:B-PER ex:Selma .
+ex:L9200705-TL0205-1a-pdf ex:B-PER ex:July .
+
+# --- ENTITIES OF L9200705-TL0205-1b-pdf ---
+ex:L9200705-TL0205-1b-pdf ex:date '1920-07-05'^^xsd:date .
+ex:L9200705-TL0205-1b-pdf ex:B-PER ex:Henn .
+ex:L9200705-TL0205-1b-pdf ex:B-PER ex:Frank .
+ex:L9200705-TL0205-1b-pdf ex:I-PER ex:Müller .
+ex:L9200705-TL0205-1b-pdf ex:B-PER ex:Martha .
+
+# --- ENTITIES OF L9200705-TL0205-2a-pdf ---
+ex:L9200705-TL0205-2a-pdf ex:date '1920-07-05'^^xsd:date .
+ex:L9200705-TL0205-2a-pdf ex:B-PER ex:Amalia .
+
+# --- ENTITIES OF L9200705-TL0205-2b-pdf ---
+ex:L9200705-TL0205-2b-pdf ex:date '1920-07-05'^^xsd:date .
+
+# --- ENTITIES OF L9200705-TL0205-3a-pdf ---
+ex:L9200705-TL0205-3a-pdf ex:date '1920-07-05'^^xsd:date .
+
+# --- ENTITIES OF L9200705-TL0205-3b-pdf ---
+ex:L9200705-TL0205-3b-pdf ex:date '1920-07-05'^^xsd:date .
+ex:L9200705-TL0205-3b-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9200712-TL0233-1a-pdf ---
+ex:L9200712-TL0233-1a-pdf ex:date '1920-07-12'^^xsd:date .
+ex:L9200712-TL0233-1a-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9200712-TL0233-1a-pdf ex:B-PER ex:Agnes .
+ex:L9200712-TL0233-1a-pdf ex:B-PER ex:Johans .
+ex:L9200712-TL0233-1a-pdf ex:B-PER ex:Robert .
+ex:L9200712-TL0233-1a-pdf ex:B-OTH_RELIGION ex:Religion .
+ex:Religion ex:wikidataQID ex:Q9174 .
+ex:L9200712-TL0233-1a-pdf ex:B-PER ex:Josef .
+ex:L9200712-TL0233-1a-pdf ex:B-PER ex:Maria .
+
+# --- ENTITIES OF L9200712-TL0233-1b-pdf ---
+ex:L9200712-TL0233-1b-pdf ex:date '1920-07-12'^^xsd:date .
+ex:L9200712-TL0233-1b-pdf ex:B-PER ex:Agnes .
+ex:L9200712-TL0233-1b-pdf ex:B-PER ex:Paul .
+ex:L9200712-TL0233-1b-pdf ex:B-PER ex:Martha .
+ex:L9200712-TL0233-1b-pdf ex:B-PER ex:Franz .
+ex:L9200712-TL0233-1b-pdf ex:B-LOC ex:Erde .
+
+# --- ENTITIES OF L9200719-TL0207-1a-pdf ---
+ex:L9200719-TL0207-1a-pdf ex:date '1920-07-19'^^xsd:date .
+ex:L9200719-TL0207-1a-pdf ex:B-PER ex:Kobert .
+ex:L9200719-TL0207-1a-pdf ex:B-LOC ex:Belin .
+ex:L9200719-TL0207-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+
+# --- ENTITIES OF L9200719-TL0207-1b-pdf ---
+ex:L9200719-TL0207-1b-pdf ex:date '1920-07-19'^^xsd:date .
+ex:L9200719-TL0207-1b-pdf ex:B-LOC ex:Schlesien .
+ex:Schlesien ex:wikidataQID ex:Q81720 .
+ex:Schlesien ex:coordinates ex:'51,1035_17,0396' .
+
+# --- ENTITIES OF L9200719-TL0207-2a-pdf ---
+ex:L9200719-TL0207-2a-pdf ex:date '1920-07-19'^^xsd:date .
+ex:L9200719-TL0207-2a-pdf ex:B-PER ex:Marie .
+ex:L9200719-TL0207-2a-pdf ex:I-PER ex:Dich .
+ex:L9200719-TL0207-2a-pdf ex:B-PER ex:Hedwig .
+ex:L9200719-TL0207-2a-pdf ex:B-PER ex:Josef .
+ex:L9200719-TL0207-2a-pdf ex:B-PER ex:Kruse .
+ex:L9200719-TL0207-2a-pdf ex:B-PER ex:Hedel .
+
+# --- ENTITIES OF L9200719-TL0207-2b-pdf ---
+ex:L9200719-TL0207-2b-pdf ex:date '1920-07-19'^^xsd:date .
+
+# --- ENTITIES OF L9200725-TL0208-1a-pdf ---
+ex:L9200725-TL0208-1a-pdf ex:date '1920-07-25'^^xsd:date .
+ex:L9200725-TL0208-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200725-TL0208-1a-pdf ex:B-PER ex:Hans .
+ex:L9200725-TL0208-1a-pdf ex:I-PER ex:Ketel .
+ex:L9200725-TL0208-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200725-TL0208-1a-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+ex:L9200725-TL0208-1a-pdf ex:B-PER ex:Holst .
+
+# --- ENTITIES OF L9200725-TL0208-1b-pdf ---
+ex:L9200725-TL0208-1b-pdf ex:date '1920-07-25'^^xsd:date .
+ex:L9200725-TL0208-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200725-TL0208-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200725-TL0208-1b-pdf ex:B-OTH_FOOD ex:Blut .
+ex:Blut ex:wikidataQID ex:Q494268 .
+ex:L9200725-TL0208-1b-pdf ex:B-OTH_FOOD ex:Rücken .
+ex:Rücken ex:wikidataQID ex:Q107262074 .
+
+# --- ENTITIES OF L9200725-TL0208-2a-pdf ---
+ex:L9200725-TL0208-2a-pdf ex:date '1920-07-25'^^xsd:date .
+ex:L9200725-TL0208-2a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200725-TL0208-2a-pdf ex:B-OTH_RELIGION ex:Seelen .
+ex:Seelen ex:wikidataQID ex:Q9165 .
+ex:L9200725-TL0208-2a-pdf ex:B-PER ex:Robert .
+ex:L9200725-TL0208-2a-pdf ex:B-PER ex:Thekla .
+ex:L9200725-TL0208-2a-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+
+# --- ENTITIES OF L9200725-TL0208-2b-pdf ---
+ex:L9200725-TL0208-2b-pdf ex:date '1920-07-25'^^xsd:date .
+ex:L9200725-TL0208-2b-pdf ex:B-PER ex:Robert .
+ex:L9200725-TL0208-2b-pdf ex:B-PER ex:Wieser .
+
+# --- ENTITIES OF L9200730-TL0209-1a-pdf ---
+ex:L9200730-TL0209-1a-pdf ex:date '1920-07-30'^^xsd:date .
+
+# --- ENTITIES OF L9200730-TL0209-1b-pdf ---
+ex:L9200730-TL0209-1b-pdf ex:date '1920-07-30'^^xsd:date .
+
+# --- ENTITIES OF L9200801-TL0212-1a-pdf ---
+ex:L9200801-TL0212-1a-pdf ex:date '1920-08-01'^^xsd:date .
+ex:L9200801-TL0212-1a-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+ex:L9200801-TL0212-1a-pdf ex:B-PER ex:August .
+
+# --- ENTITIES OF L9200801-TL0212-1b-pdf ---
+ex:L9200801-TL0212-1b-pdf ex:date '1920-08-01'^^xsd:date .
+ex:L9200801-TL0212-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+
+# --- ENTITIES OF L9200801-TL0212-2a-pdf ---
+ex:L9200801-TL0212-2a-pdf ex:date '1920-08-01'^^xsd:date .
+ex:L9200801-TL0212-2a-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9200801-TL0212-2a-pdf ex:B-PER ex:August .
+ex:L9200801-TL0212-2a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9200801-TL0212-2a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200801-TL0212-2a-pdf ex:B-PER ex:Robert .
+ex:L9200801-TL0212-2a-pdf ex:B-PER ex:Thea .
+ex:L9200801-TL0212-2a-pdf ex:B-LOC ex:Konstanz .
+ex:Konstanz ex:wikidataQID ex:Q3834 .
+ex:Konstanz ex:coordinates ex:'47,663333333_9,175277777' .
+
+# --- ENTITIES OF L9200801-TL0212-2b--pd ---
+ex:L9200801-TL0212-2b--pd ex:date '1920-08-01'^^xsd:date .
+ex:L9200801-TL0212-2b--pd ex:B-PER ex:Franz .
+ex:L9200801-TL0212-2b--pd ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9200801-TL0212-2b--pd ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9200801-TL0212-2b--pd ex:B-OTH_RELIGION ex:Kapelle .
+ex:Kapelle ex:wikidataQID ex:Q66424076 .
+
+# --- ENTITIES OF L9200808-TL0214-1a-pdf ---
+ex:L9200808-TL0214-1a-pdf ex:date '1920-08-08'^^xsd:date .
+ex:L9200808-TL0214-1a-pdf ex:B-PER ex:Berthold .
+ex:L9200808-TL0214-1a-pdf ex:B-OTH_RELIGION ex:Kasten .
+ex:Kasten ex:wikidataQID ex:Q484416 .
+ex:L9200808-TL0214-1a-pdf ex:B-LOC ex:Langenbrik .
+ex:L9200808-TL0214-1a-pdf ex:B-PER ex:Paul .
+ex:L9200808-TL0214-1a-pdf ex:B-PER ex:Robert .
+ex:L9200808-TL0214-1a-pdf ex:B-PER ex:Kopff .
+ex:L9200808-TL0214-1a-pdf ex:B-LOC ex:Schmiden .
+ex:L9200808-TL0214-1a-pdf ex:B-PER ex:Scker .
+ex:L9200808-TL0214-1a-pdf ex:B-OTH_RELIGION ex:Kloster .
+ex:Kloster ex:wikidataQID ex:Q44613 .
+
+# --- ENTITIES OF L9200808-TL0214-1b-pdf ---
+ex:L9200808-TL0214-1b-pdf ex:date '1920-08-08'^^xsd:date .
+ex:L9200808-TL0214-1b-pdf ex:B-PER ex:Robert .
+ex:L9200808-TL0214-1b-pdf ex:B-PER ex:Berthold .
+ex:L9200808-TL0214-1b-pdf ex:B-PER ex:August .
+ex:L9200808-TL0214-1b-pdf ex:B-PER ex:Agnes .
+
+# --- ENTITIES OF L9200819-TL0215-1a-pdf ---
+ex:L9200819-TL0215-1a-pdf ex:date '1920-08-19'^^xsd:date .
+ex:L9200819-TL0215-1a-pdf ex:B-PER ex:August .
+ex:L9200819-TL0215-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200819-TL0215-1a-pdf ex:B-PER ex:Böhm .
+ex:L9200819-TL0215-1a-pdf ex:I-LOC ex:Langenbruch .
+ex:L9200819-TL0215-1a-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+
+# --- ENTITIES OF L9200819-TL0215-1b-pdf ---
+ex:L9200819-TL0215-1b-pdf ex:date '1920-08-19'^^xsd:date .
+ex:L9200819-TL0215-1b-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+
+# --- ENTITIES OF L9200821-TL0210-1a-pdf ---
+ex:L9200821-TL0210-1a-pdf ex:date '1920-08-21'^^xsd:date .
+ex:L9200821-TL0210-1a-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9200821-TL0210-1a-pdf ex:B-PER ex:August .
+ex:L9200821-TL0210-1a-pdf ex:I-PER ex:Jedrig .
+ex:L9200821-TL0210-1a-pdf ex:B-PER ex:Agnes .
+ex:L9200821-TL0210-1a-pdf ex:B-PER ex:Marie .
+ex:L9200821-TL0210-1a-pdf ex:I-PER ex:von .
+ex:L9200821-TL0210-1a-pdf ex:B-PER ex:Josef .
+ex:L9200821-TL0210-1a-pdf ex:B-PER ex:Heding .
+
+# --- ENTITIES OF L9200821-TL0210-1b-pdf ---
+ex:L9200821-TL0210-1b-pdf ex:date '1920-08-21'^^xsd:date .
+ex:L9200821-TL0210-1b-pdf ex:B-PER ex:August .
+ex:L9200821-TL0210-1b-pdf ex:B-LOC ex:Langenbruck .
+ex:L9200821-TL0210-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200821-TL0210-1b-pdf ex:I-PER ex:Mark .
+ex:L9200821-TL0210-1b-pdf ex:B-PER ex:Martha .
+ex:L9200821-TL0210-1b-pdf ex:B-LOC ex:Burgsdorf .
+ex:L9200821-TL0210-1b-pdf ex:I-PER ex:Tausend .
+ex:L9200821-TL0210-1b-pdf ex:B-PER ex:Josef .
+ex:L9200821-TL0210-1b-pdf ex:B-LOC ex:Ludwigsdorf .
+ex:L9200821-TL0210-1b-pdf ex:I-PER ex:Böhn .
+ex:L9200821-TL0210-1b-pdf ex:B-PER ex:Georg .
+
+# --- ENTITIES OF L9200822-TL0216-1a-pdf ---
+ex:L9200822-TL0216-1a-pdf ex:date '1920-08-22'^^xsd:date .
+ex:L9200822-TL0216-1a-pdf ex:B-PER ex:Rosalie .
+ex:L9200822-TL0216-1a-pdf ex:B-LOC ex:Strelitz .
+ex:L9200822-TL0216-1a-pdf ex:B-PER ex:August .
+
+# --- ENTITIES OF L9200822-TL0216-1b-pdf ---
+ex:L9200822-TL0216-1b-pdf ex:date '1920-08-22'^^xsd:date .
+ex:L9200822-TL0216-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200822-TL0216-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200822-TL0216-1b-pdf ex:B-PER ex:Maria .
+ex:L9200822-TL0216-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200822-TL0216-1b-pdf ex:B-OTH ex:M .
+
+# --- ENTITIES OF L9200825-TL0217-1a-pdf ---
+ex:L9200825-TL0217-1a-pdf ex:date '1920-08-25'^^xsd:date .
+ex:L9200825-TL0217-1a-pdf ex:I-PER ex:Lange .
+ex:L9200825-TL0217-1a-pdf ex:B-OTH_FOOD ex:Mehl .
+ex:Mehl ex:wikidataQID ex:Q36465 .
+ex:L9200825-TL0217-1a-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9200825-TL0217-1a-pdf ex:B-PER ex:August .
+ex:L9200825-TL0217-1a-pdf ex:B-LOC ex:Hamburg .
+ex:Hamburg ex:wikidataQID ex:Q1055 .
+ex:Hamburg ex:coordinates ex:'53,55_10,0' .
+ex:L9200825-TL0217-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9200825-TL0217-1a-pdf ex:I-LOC ex:burg .
+ex:L9200825-TL0217-1a-pdf ex:B-LOC ex:Ham .
+
+# --- ENTITIES OF L9200825-TL0217-1b-pdf ---
+ex:L9200825-TL0217-1b-pdf ex:date '1920-08-25'^^xsd:date .
+ex:L9200825-TL0217-1b-pdf ex:B-OTH ex:Amerik .
+ex:L9200825-TL0217-1b-pdf ex:B-PER ex:Rei .
+ex:L9200825-TL0217-1b-pdf ex:B-PER ex:Acker .
+ex:L9200825-TL0217-1b-pdf ex:B-OTH_RELIGION ex:Leid .
+ex:Leid ex:wikidataQID ex:Q5780945 .
+ex:L9200825-TL0217-1b-pdf ex:B-PER ex:Major .
+ex:L9200825-TL0217-1b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9200825-TL0217-1b-pdf ex:B-PER ex:Anna .
+ex:L9200825-TL0217-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200825-TL0217-1b-pdf ex:I-PER ex:Klager .
+ex:L9200825-TL0217-1b-pdf ex:I-PER ex:Hier .
+ex:L9200825-TL0217-1b-pdf ex:B-PER ex:Ma .
+
+# --- ENTITIES OF L9200827-TL0218-1a-pdf ---
+ex:L9200827-TL0218-1a-pdf ex:date '1920-08-27'^^xsd:date .
+ex:L9200827-TL0218-1a-pdf ex:B-OTH ex:Mark .
+ex:L9200827-TL0218-1a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9200827-TL0218-1a-pdf ex:B-PER ex:August .
+ex:L9200827-TL0218-1a-pdf ex:I-LOC ex:c .
+ex:L9200827-TL0218-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9200827-TL0218-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200827-TL0218-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+ex:L9200827-TL0218-1a-pdf ex:I-LOC ex:Schles .
+
+# --- ENTITIES OF L9200827-TL0218-1b-pdf ---
+ex:L9200827-TL0218-1b-pdf ex:date '1920-08-27'^^xsd:date .
+ex:L9200827-TL0218-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9200827-TL0218-1b-pdf ex:B-PER ex:Art .
+ex:L9200827-TL0218-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9200827-TL0218-2a-pdf ---
+ex:L9200827-TL0218-2a-pdf ex:date '1920-08-27'^^xsd:date .
+ex:L9200827-TL0218-2a-pdf ex:B-LOC ex:Polen .
+ex:Polen ex:wikidataQID ex:Q36 .
+ex:Polen ex:coordinates ex:'52,0_19,0' .
+ex:L9200827-TL0218-2a-pdf ex:B-OTH_FOOD ex:Blut .
+ex:Blut ex:wikidataQID ex:Q494268 .
+ex:L9200827-TL0218-2a-pdf ex:B-PER ex:Koller .
+ex:L9200827-TL0218-2a-pdf ex:B-LOC ex:Oberschlesien .
+ex:Oberschlesien ex:wikidataQID ex:Q81011 .
+ex:Oberschlesien ex:coordinates ex:'50,433843_18,032375' .
+
+# --- ENTITIES OF L9200827-TL0218-2b-pdf ---
+ex:L9200827-TL0218-2b-pdf ex:date '1920-08-27'^^xsd:date .
+ex:L9200827-TL0218-2b-pdf ex:I-PER ex:Reinken .
+ex:L9200827-TL0218-2b-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+
+# --- ENTITIES OF L9200910-TL0220-1a-pdf ---
+ex:L9200910-TL0220-1a-pdf ex:date '1920-09-10'^^xsd:date .
+ex:L9200910-TL0220-1a-pdf ex:B-PER ex:Robert .
+ex:L9200910-TL0220-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200910-TL0220-1b-pdf ---
+ex:L9200910-TL0220-1b-pdf ex:date '1920-09-10'^^xsd:date .
+ex:L9200910-TL0220-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9200910-TL0220-1b-pdf ex:B-LOC ex:Langenbrück .
+ex:L9200910-TL0220-1b-pdf ex:B-PER ex:Josef .
+ex:L9200910-TL0220-1b-pdf ex:B-OTH_FOOD ex:Obst .
+ex:Obst ex:wikidataQID ex:Q3314483 .
+
+# --- ENTITIES OF L9200913-TL0288-1a-pdf ---
+ex:L9200913-TL0288-1a-pdf ex:date '1920-09-13'^^xsd:date .
+ex:L9200913-TL0288-1a-pdf ex:B-OTH ex:Pfund .
+ex:L9200913-TL0288-1a-pdf ex:B-OTH_FOOD ex:Ei .
+ex:Ei ex:wikidataQID ex:Q93189 .
+ex:L9200913-TL0288-1a-pdf ex:B-PER ex:Agnes .
+ex:L9200913-TL0288-1a-pdf ex:B-PER ex:Paul .
+ex:L9200913-TL0288-1a-pdf ex:B-PER ex:Thekla .
+ex:L9200913-TL0288-1a-pdf ex:B-LOC ex:Antschland .
+ex:L9200913-TL0288-1a-pdf ex:B-OTH_FOOD ex:Kartoffel .
+ex:Kartoffel ex:wikidataQID ex:Q16587531 .
+
+# --- ENTITIES OF L9200913-TL0288-1b-pdf ---
+ex:L9200913-TL0288-1b-pdf ex:date '1920-09-13'^^xsd:date .
+ex:L9200913-TL0288-1b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9200913-TL0288-1b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9200913-TL0288-1b-pdf ex:B-PER ex:Paulsen .
+ex:L9200913-TL0288-1b-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9200913-TL0288-1b-pdf ex:B-PER ex:Thekla .
+ex:L9200913-TL0288-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200913-TL0288-2a-pdf ---
+ex:L9200913-TL0288-2a-pdf ex:date '1920-09-13'^^xsd:date .
+ex:L9200913-TL0288-2a-pdf ex:B-PER ex:August .
+ex:L9200913-TL0288-2a-pdf ex:B-PER ex:Agnes .
+ex:L9200913-TL0288-2a-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9200913-TL0288-2a-pdf ex:B-PER ex:Paul .
+ex:L9200913-TL0288-2a-pdf ex:B-PER ex:Thekla .
+ex:L9200913-TL0288-2a-pdf ex:B-PER ex:Maria .
+ex:L9200913-TL0288-2a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200913-TL0288-2b-pdf ---
+ex:L9200913-TL0288-2b-pdf ex:date '1920-09-13'^^xsd:date .
+ex:L9200913-TL0288-2b-pdf ex:B-PER ex:August .
+ex:L9200913-TL0288-2b-pdf ex:B-PER ex:Agnes .
+ex:L9200913-TL0288-2b-pdf ex:B-PER ex:Paul .
+ex:L9200913-TL0288-2b-pdf ex:B-PER ex:Thekla .
+ex:L9200913-TL0288-2b-pdf ex:B-LOC ex:Langenbrück .
+ex:L9200913-TL0288-2b-pdf ex:B-LOC ex:Breslau .
+ex:L9200913-TL0288-2b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200922-TL0221-1a-pdf ---
+ex:L9200922-TL0221-1a-pdf ex:date '1920-09-22'^^xsd:date .
+ex:L9200922-TL0221-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200922-TL0221-1a-pdf ex:B-LOC ex:Schlitz .
+ex:Schlitz ex:wikidataQID ex:Q552477 .
+ex:Schlitz ex:coordinates ex:'50,6759_9,55925' .
+
+# --- ENTITIES OF L9200922-TL0221-1b-pdf ---
+ex:L9200922-TL0221-1b-pdf ex:date '1920-09-22'^^xsd:date .
+ex:L9200922-TL0221-1b-pdf ex:B-OTH ex:Mark .
+ex:L9200922-TL0221-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9200922-TL0221-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9200930-TL0219-1a-pdf ---
+ex:L9200930-TL0219-1a-pdf ex:date '1920-09-30'^^xsd:date .
+ex:L9200930-TL0219-1a-pdf ex:B-PER ex:Marta .
+ex:L9200930-TL0219-1a-pdf ex:B-OTH_RELIGION ex:Geduld .
+ex:Geduld ex:wikidataQID ex:Q12846123 .
+ex:L9200930-TL0219-1a-pdf ex:B-OTH_RELIGION ex:Religion .
+ex:Religion ex:wikidataQID ex:Q9174 .
+ex:L9200930-TL0219-1a-pdf ex:B-LOC ex:Langenbrück .
+ex:L9200930-TL0219-1a-pdf ex:B-LOC ex:Chrika .
+ex:L9200930-TL0219-1a-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+ex:L9200930-TL0219-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9200930-TL0219-1b-pdf ---
+ex:L9200930-TL0219-1b-pdf ex:date '1920-09-30'^^xsd:date .
+ex:L9200930-TL0219-1b-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+ex:L9200930-TL0219-1b-pdf ex:B-OTH_FOOD ex:Fischblut .
+ex:Fischblut ex:wikidataQID ex:Q107246606 .
+
+# --- ENTITIES OF L9200930-TL0219-2a-pdf ---
+ex:L9200930-TL0219-2a-pdf ex:date '1920-09-30'^^xsd:date .
+ex:L9200930-TL0219-2a-pdf ex:B-PER ex:Müller .
+ex:L9200930-TL0219-2a-pdf ex:B-LOC ex:Köscheid .
+
+# --- ENTITIES OF L9200930-TL0219-2b-pdf ---
+ex:L9200930-TL0219-2b-pdf ex:date '1920-09-30'^^xsd:date .
+ex:L9200930-TL0219-2b-pdf ex:B-PER ex:Hedwig .
+ex:L9200930-TL0219-2b-pdf ex:B-PER ex:Paul .
+ex:L9200930-TL0219-2b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9200930-TL0219-2b-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9201004-TL0224-1a-pdf ---
+ex:L9201004-TL0224-1a-pdf ex:date '1920-10-04'^^xsd:date .
+ex:L9201004-TL0224-1a-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9201004-TL0224-1a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9201004-TL0224-1a-pdf ex:B-PER ex:Agnes .
+ex:L9201004-TL0224-1a-pdf ex:B-PER ex:Marie .
+ex:L9201004-TL0224-1a-pdf ex:B-PER ex:Thekla .
+ex:L9201004-TL0224-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201004-TL0224-1b-pdf ---
+ex:L9201004-TL0224-1b-pdf ex:date '1920-10-04'^^xsd:date .
+ex:L9201004-TL0224-1b-pdf ex:I-PER ex:Marta .
+ex:L9201004-TL0224-1b-pdf ex:B-PER ex:August .
+ex:L9201004-TL0224-1b-pdf ex:B-OTH_FOOD ex:Samen .
+ex:Samen ex:wikidataQID ex:Q40763 .
+ex:L9201004-TL0224-1b-pdf ex:B-PER ex:Böhm .
+ex:L9201004-TL0224-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201004-TL0224-2a-pdf ---
+ex:L9201004-TL0224-2a-pdf ex:date '1920-10-04'^^xsd:date .
+ex:L9201004-TL0224-2a-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9201004-TL0224-2a-pdf ex:B-PER ex:August .
+ex:L9201004-TL0224-2a-pdf ex:B-PER ex:Paul .
+ex:L9201004-TL0224-2a-pdf ex:B-PER ex:Heiden .
+ex:L9201004-TL0224-2a-pdf ex:B-PER ex:Selma .
+ex:L9201004-TL0224-2a-pdf ex:B-PER ex:Robert .
+ex:L9201004-TL0224-2a-pdf ex:B-PER ex:Thekla .
+ex:L9201004-TL0224-2a-pdf ex:B-PER ex:Aperle .
+
+# --- ENTITIES OF L9201004-TL0224-2b-pdf ---
+ex:L9201004-TL0224-2b-pdf ex:date '1920-10-04'^^xsd:date .
+ex:L9201004-TL0224-2b-pdf ex:B-OTH ex:Mark .
+ex:L9201004-TL0224-2b-pdf ex:B-PER ex:Berthold .
+ex:L9201004-TL0224-2b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9201004-TL0224-2b-pdf ex:B-PER ex:August .
+ex:L9201004-TL0224-2b-pdf ex:B-PER ex:Paul .
+ex:L9201004-TL0224-2b-pdf ex:B-PER ex:Robert .
+ex:L9201004-TL0224-2b-pdf ex:B-PER ex:Thekla .
+ex:L9201004-TL0224-2b-pdf ex:B-PER ex:Gerhard .
+ex:L9201004-TL0224-2b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9201004-TL0224-2b-pdf ex:B-PER ex:Paulchen .
+
+# --- ENTITIES OF L9201016-TL0226-1a-pdf ---
+ex:L9201016-TL0226-1a-pdf ex:date '1920-10-16'^^xsd:date .
+ex:L9201016-TL0226-1a-pdf ex:B-PER ex:Robert .
+ex:L9201016-TL0226-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9201016-TL0226-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9201016-TL0226-1b-pdf ---
+ex:L9201016-TL0226-1b-pdf ex:date '1920-10-16'^^xsd:date .
+ex:L9201016-TL0226-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+
+# --- ENTITIES OF L9201017-TL0225-1a-pdf ---
+ex:L9201017-TL0225-1a-pdf ex:date '1920-10-17'^^xsd:date .
+ex:L9201017-TL0225-1a-pdf ex:B-PER ex:Franz .
+ex:L9201017-TL0225-1a-pdf ex:B-OTH_RELIGION ex:Christus .
+ex:Christus ex:wikidataQID ex:Q642420 .
+ex:L9201017-TL0225-1a-pdf ex:B-OTH_RELIGION ex:Opfer .
+ex:Opfer ex:wikidataQID ex:Q179723 .
+
+# --- ENTITIES OF L9201017-TL0225-1b-pdf ---
+ex:L9201017-TL0225-1b-pdf ex:date '1920-10-17'^^xsd:date .
+ex:L9201017-TL0225-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201017-TL0225-2a-pdf ---
+ex:L9201017-TL0225-2a-pdf ex:date '1920-10-17'^^xsd:date .
+ex:L9201017-TL0225-2a-pdf ex:B-PER ex:Maria .
+ex:L9201017-TL0225-2a-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9201017-TL0225-2b-pdf ---
+ex:L9201017-TL0225-2b-pdf ex:date '1920-10-17'^^xsd:date .
+ex:L9201017-TL0225-2b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9201017-TL0225-2b-pdf ex:B-PER ex:August .
+ex:L9201017-TL0225-2b-pdf ex:B-PER ex:Massa .
+ex:L9201017-TL0225-2b-pdf ex:B-PER ex:Robert .
+ex:L9201017-TL0225-2b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201024-TL0227-1a-pdf ---
+ex:L9201024-TL0227-1a-pdf ex:date '1920-10-24'^^xsd:date .
+
+# --- ENTITIES OF L9201024-TL0227-1b-pdf ---
+ex:L9201024-TL0227-1b-pdf ex:date '1920-10-24'^^xsd:date .
+ex:L9201024-TL0227-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9201024-TL0227-1b-pdf ex:B-OTH_RELIGION ex:Gebete .
+ex:Gebete ex:wikidataQID ex:Q40953 .
+
+# --- ENTITIES OF L9201031-TL0228-1a-pdf ---
+ex:L9201031-TL0228-1a-pdf ex:date '1920-10-31'^^xsd:date .
+ex:L9201031-TL0228-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9201031-TL0228-1a-pdf ex:B-OTH_RELIGION ex:Himmel .
+ex:Himmel ex:wikidataQID ex:Q4489450 .
+ex:L9201031-TL0228-1a-pdf ex:B-OTH_RELIGION ex:Gebete .
+ex:Gebete ex:wikidataQID ex:Q40953 .
+
+# --- ENTITIES OF L9201031-TL0228-1b-pdf ---
+ex:L9201031-TL0228-1b-pdf ex:date '1920-10-31'^^xsd:date .
+ex:L9201031-TL0228-1b-pdf ex:B-PER ex:Mariechen .
+ex:L9201031-TL0228-1b-pdf ex:B-OTH_RELIGION ex:Strafe .
+ex:Strafe ex:wikidataQID ex:Q186361 .
+ex:L9201031-TL0228-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9201031-TL0228-1b-pdf ex:B-LOC ex:Breslau .
+ex:L9201031-TL0228-1b-pdf ex:B-OTH_RELIGION ex:Gebete .
+ex:Gebete ex:wikidataQID ex:Q40953 .
+ex:L9201031-TL0228-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9201031-TL0228-1b-pdf ex:B-OTH ex:Mk .
+ex:L9201031-TL0228-1b-pdf ex:B-OTH_RELIGION ex:Sünden .
+ex:Sünden ex:wikidataQID ex:Q60227 .
+
+# --- ENTITIES OF L9201101-TL0172-1a-pdf ---
+ex:L9201101-TL0172-1a-pdf ex:date '1920-11-01'^^xsd:date .
+ex:L9201101-TL0172-1a-pdf ex:B-OTH ex:Das .
+ex:L9201101-TL0172-1a-pdf ex:B-PER ex:August .
+ex:L9201101-TL0172-1a-pdf ex:B-PER ex:Hoff .
+ex:L9201101-TL0172-1a-pdf ex:B-OTH_RELIGION ex:Ordensschwester .
+ex:Ordensschwester ex:wikidataQID ex:Q28146366 .
+ex:L9201101-TL0172-1a-pdf ex:B-PER ex:Anna .
+ex:L9201101-TL0172-1a-pdf ex:B-PER ex:Thekla .
+ex:L9201101-TL0172-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201101-TL0172-1b-pdf ---
+ex:L9201101-TL0172-1b-pdf ex:date '1920-11-01'^^xsd:date .
+ex:L9201101-TL0172-1b-pdf ex:B-LOC ex:Deutschstreich .
+ex:L9201101-TL0172-1b-pdf ex:B-PER ex:Agnes .
+ex:L9201101-TL0172-1b-pdf ex:B-PER ex:Hinrich .
+ex:L9201101-TL0172-1b-pdf ex:B-PER ex:Robert .
+ex:L9201101-TL0172-1b-pdf ex:B-PER ex:Thekla .
+ex:L9201101-TL0172-1b-pdf ex:B-LOC ex:Wien .
+ex:Wien ex:wikidataQID ex:Q1741 .
+ex:Wien ex:coordinates ex:'48,208333333_16,3725' .
+ex:L9201101-TL0172-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9201101-TL0172-1b-pdf ex:B-PER ex:Ottilie .
+ex:L9201101-TL0172-1b-pdf ex:B-LOC ex:Donau .
+ex:L9201101-TL0172-1b-pdf ex:B-OTH_RELIGION ex:Pfarrkirche .
+ex:Pfarrkirche ex:wikidataQID ex:Q317557 .
+
+# --- ENTITIES OF L9201103-TL0229-1a-pdf ---
+ex:L9201103-TL0229-1a-pdf ex:date '1920-11-03'^^xsd:date .
+ex:L9201103-TL0229-1a-pdf ex:B-PER ex:Strebel .
+ex:L9201103-TL0229-1a-pdf ex:B-PER ex:Paul .
+ex:L9201103-TL0229-1a-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9201103-TL0229-1a-pdf ex:B-PER ex:Anna .
+ex:L9201103-TL0229-1a-pdf ex:B-PER ex:Martha .
+ex:L9201103-TL0229-1a-pdf ex:B-PER ex:Robert .
+ex:L9201103-TL0229-1a-pdf ex:B-PER ex:Franz .
+ex:L9201103-TL0229-1a-pdf ex:I-PER ex:Gest .
+ex:L9201103-TL0229-1a-pdf ex:B-PER ex:Josef .
+ex:L9201103-TL0229-1a-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+ex:L9201103-TL0229-1a-pdf ex:B-OTH_RELIGION ex:Pastor .
+ex:Pastor ex:wikidataQID ex:Q152002 .
+ex:L9201103-TL0229-1a-pdf ex:B-LOC ex:Hennersdorf .
+ex:L9201103-TL0229-1a-pdf ex:B-PER ex:Grimm .
+
+# --- ENTITIES OF L9201103-TL0229-1b-pdf ---
+ex:L9201103-TL0229-1b-pdf ex:date '1920-11-03'^^xsd:date .
+ex:L9201103-TL0229-1b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9201103-TL0229-1b-pdf ex:B-PER ex:August .
+ex:L9201103-TL0229-1b-pdf ex:B-PER ex:Agnes .
+ex:L9201103-TL0229-1b-pdf ex:B-PER ex:Paul .
+ex:L9201103-TL0229-1b-pdf ex:B-PER ex:Barthold .
+ex:L9201103-TL0229-1b-pdf ex:B-PER ex:Hedwig .
+ex:L9201103-TL0229-1b-pdf ex:B-PER ex:Josef .
+ex:L9201103-TL0229-1b-pdf ex:B-PER ex:Küsters .
+ex:L9201103-TL0229-1b-pdf ex:B-PER ex:Berta .
+
+# --- ENTITIES OF L9201110-TL0230-1a-pdf ---
+ex:L9201110-TL0230-1a-pdf ex:date '1920-11-10'^^xsd:date .
+ex:L9201110-TL0230-1a-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9201110-TL0230-1a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9201110-TL0230-1a-pdf ex:B-OTH_FOOD ex:Obst .
+ex:Obst ex:wikidataQID ex:Q3314483 .
+ex:L9201110-TL0230-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9201110-TL0230-1b-pdf ---
+ex:L9201110-TL0230-1b-pdf ex:date '1920-11-10'^^xsd:date .
+ex:L9201110-TL0230-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9201110-TL0230-1b-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+
+# --- ENTITIES OF L9201114-TL0231-1a-pdf ---
+ex:L9201114-TL0231-1a-pdf ex:date '1920-11-14'^^xsd:date .
+ex:L9201114-TL0231-1a-pdf ex:B-OTH_RELIGION ex:Klosters .
+ex:Klosters ex:wikidataQID ex:Q44613 .
+ex:L9201114-TL0231-1a-pdf ex:B-PER ex:Köchin .
+ex:L9201114-TL0231-1a-pdf ex:B-OTH_RELIGION ex:Reihnachten .
+ex:Reihnachten ex:wikidataQID ex:Q19809 .
+ex:L9201114-TL0231-1a-pdf ex:B-PER ex:Anna .
+ex:L9201114-TL0231-1a-pdf ex:B-PER ex:Thekla .
+ex:L9201114-TL0231-1a-pdf ex:B-OTH_FOOD ex:Pfeffer .
+ex:Pfeffer ex:wikidataQID ex:Q3143131 .
+ex:L9201114-TL0231-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201114-TL0231-1b-pdf ---
+ex:L9201114-TL0231-1b-pdf ex:date '1920-11-14'^^xsd:date .
+ex:L9201114-TL0231-1b-pdf ex:B-PER ex:S .
+ex:L9201114-TL0231-1b-pdf ex:B-OTH_FOOD ex:Rücken .
+ex:Rücken ex:wikidataQID ex:Q107262074 .
+ex:L9201114-TL0231-1b-pdf ex:B-OTH_FOOD ex:Pfeffer .
+ex:Pfeffer ex:wikidataQID ex:Q3143131 .
+ex:L9201114-TL0231-1b-pdf ex:I-PER ex:H .
+ex:L9201114-TL0231-1b-pdf ex:I-PER ex:Obern .
+
+# --- ENTITIES OF L9201117-TL0238-1a-pdf ---
+ex:L9201117-TL0238-1a-pdf ex:date '1920-11-17'^^xsd:date .
+ex:L9201117-TL0238-1a-pdf ex:B-PER ex:Mari .
+ex:L9201117-TL0238-1a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9201117-TL0238-1a-pdf ex:B-PER ex:Joseph .
+ex:L9201117-TL0238-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9201117-TL0238-1a-pdf ex:B-PER ex:Agnes .
+ex:L9201117-TL0238-1a-pdf ex:B-PER ex:Marie .
+ex:L9201117-TL0238-1a-pdf ex:B-PER ex:Franz .
+ex:L9201117-TL0238-1a-pdf ex:B-OTH_RELIGION ex:Weinachten .
+ex:Weinachten ex:wikidataQID ex:Q19809 .
+ex:L9201117-TL0238-1a-pdf ex:I-PER ex:Hauß .
+
+# --- ENTITIES OF L9201117-TL0238-1b-pdf ---
+ex:L9201117-TL0238-1b-pdf ex:date '1920-11-17'^^xsd:date .
+ex:L9201117-TL0238-1b-pdf ex:B-PER ex:Joseph .
+ex:L9201117-TL0238-1b-pdf ex:B-PER ex:Franz .
+ex:L9201117-TL0238-1b-pdf ex:B-PER ex:August .
+ex:L9201117-TL0238-1b-pdf ex:B-PER ex:Agnes .
+
+# --- ENTITIES OF L9201121-TL0232-1a-pdf ---
+ex:L9201121-TL0232-1a-pdf ex:date '1920-11-21'^^xsd:date .
+ex:L9201121-TL0232-1a-pdf ex:B-OTH_RELIGION ex:Mala .
+ex:Mala ex:wikidataQID ex:Q1336519 .
+ex:L9201121-TL0232-1a-pdf ex:B-PER ex:Paul .
+ex:L9201121-TL0232-1a-pdf ex:B-LOC ex:Oecon .
+ex:L9201121-TL0232-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9201121-TL0232-1a-pdf ex:B-PER ex:Thea .
+
+# --- ENTITIES OF L9201121-TL0232-1b-pdf ---
+ex:L9201121-TL0232-1b-pdf ex:date '1920-11-21'^^xsd:date .
+ex:L9201121-TL0232-1b-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+
+# --- ENTITIES OF L9201127-TL1087-1a-pdf ---
+ex:L9201127-TL1087-1a-pdf ex:date '1920-11-27'^^xsd:date .
+
+# --- ENTITIES OF L9201127-TL1087-1b-pdf ---
+ex:L9201127-TL1087-1b-pdf ex:date '1920-11-27'^^xsd:date .
+ex:L9201127-TL1087-1b-pdf ex:B-LOC ex:Dresden .
+ex:Dresden ex:wikidataQID ex:Q737444 .
+ex:Dresden ex:coordinates ex:'39,6222_-100,421' .
+
+# --- ENTITIES OF L9201128-TL0236-1a-pdf ---
+ex:L9201128-TL0236-1a-pdf ex:date '1920-11-28'^^xsd:date .
+ex:L9201128-TL0236-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9201128-TL0236-1a-pdf ex:B-PER ex:Anna .
+ex:L9201128-TL0236-1a-pdf ex:B-PER ex:Reinhard .
+ex:L9201128-TL0236-1a-pdf ex:B-PER ex:Rein .
+ex:L9201128-TL0236-1a-pdf ex:B-PER ex:Steinhard .
+ex:L9201128-TL0236-1a-pdf ex:B-OTH_RELIGION ex:Gebete .
+ex:Gebete ex:wikidataQID ex:Q40953 .
+ex:L9201128-TL0236-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201128-TL0236-1b-pdf ---
+ex:L9201128-TL0236-1b-pdf ex:date '1920-11-28'^^xsd:date .
+ex:L9201128-TL0236-1b-pdf ex:B-OTH_RELIGION ex:Seelen .
+ex:Seelen ex:wikidataQID ex:Q9165 .
+ex:L9201128-TL0236-1b-pdf ex:B-PER ex:Reinhard .
+ex:L9201128-TL0236-1b-pdf ex:B-PER ex:Thekla .
+ex:L9201128-TL0236-1b-pdf ex:B-OTH_RELIGION ex:Kongregation .
+ex:Kongregation ex:wikidataQID ex:Q1384677 .
+ex:L9201128-TL0236-1b-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+
+# --- ENTITIES OF L9201205-TL0239-1a-pdf ---
+ex:L9201205-TL0239-1a-pdf ex:date '1920-12-05'^^xsd:date .
+ex:L9201205-TL0239-1a-pdf ex:B-LOC ex:Europa .
+ex:L9201205-TL0239-1a-pdf ex:B-PER ex:Anna .
+ex:L9201205-TL0239-1a-pdf ex:B-PER ex:Reinhard .
+ex:L9201205-TL0239-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9201205-TL0239-1a-pdf ex:B-PER ex:Christina .
+
+# --- ENTITIES OF L9201205-TL0239-1b-pdf ---
+ex:L9201205-TL0239-1b-pdf ex:date '1920-12-05'^^xsd:date .
+ex:L9201205-TL0239-1b-pdf ex:B-OTH_FOOD ex:Mehl .
+ex:Mehl ex:wikidataQID ex:Q36465 .
+ex:L9201205-TL0239-1b-pdf ex:B-OTH_RELIGION ex:Kollar .
+ex:Kollar ex:wikidataQID ex:Q118587 .
+ex:L9201205-TL0239-1b-pdf ex:B-OTH ex:Fr .
+ex:L9201205-TL0239-1b-pdf ex:B-LOC ex:Bayern .
+ex:Bayern ex:wikidataQID ex:Q980 .
+ex:Bayern ex:coordinates ex:'49,078611111_11,385555555' .
+ex:L9201205-TL0239-1b-pdf ex:B-OTH ex:Dollar .
+ex:L9201205-TL0239-1b-pdf ex:B-OTH_FOOD ex:Apfel .
+ex:Apfel ex:wikidataQID ex:Q89 .
+ex:L9201205-TL0239-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9201205-TL0239-1b-pdf ex:B-LOC ex:America .
+ex:America ex:wikidataQID ex:Q30 .
+ex:America ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9201205-TL0239-1b-pdf ex:B-OTH_RELIGION ex:Kloster .
+ex:Kloster ex:wikidataQID ex:Q44613 .
+
+# --- ENTITIES OF L9201206-TL0206-1a-pdf ---
+ex:L9201206-TL0206-1a-pdf ex:date '1920-12-06'^^xsd:date .
+ex:L9201206-TL0206-1a-pdf ex:B-PER ex:Paul .
+ex:L9201206-TL0206-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9201206-TL0206-1a-pdf ex:B-PER ex:Langenbrinck .
+
+# --- ENTITIES OF L9201206-TL0206-1b-pdf ---
+ex:L9201206-TL0206-1b-pdf ex:date '1920-12-06'^^xsd:date .
+ex:L9201206-TL0206-1b-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9201206-TL0206-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9201206-TL0206-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9201206-TL0206-1b-pdf ex:B-PER ex:Riedel .
+ex:L9201206-TL0206-1b-pdf ex:B-PER ex:Ottilie .
+ex:L9201206-TL0206-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201208-TL0213-1a-pdf ---
+ex:L9201208-TL0213-1a-pdf ex:date '1920-12-08'^^xsd:date .
+ex:L9201208-TL0213-1a-pdf ex:B-PER ex:Gretel .
+ex:L9201208-TL0213-1a-pdf ex:B-OTH ex:Pfund .
+ex:L9201208-TL0213-1a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9201208-TL0213-1a-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9201208-TL0213-1a-pdf ex:B-LOC ex:Hamburg .
+ex:Hamburg ex:wikidataQID ex:Q1055 .
+ex:Hamburg ex:coordinates ex:'53,55_10,0' .
+ex:L9201208-TL0213-1a-pdf ex:B-PER ex:Joseph .
+ex:L9201208-TL0213-1a-pdf ex:B-PER ex:Marie .
+ex:L9201208-TL0213-1a-pdf ex:I-PER ex:Abend .
+ex:L9201208-TL0213-1a-pdf ex:B-PER ex:Nikolaus .
+ex:L9201208-TL0213-1a-pdf ex:B-LOC ex:Langenbrück .
+ex:L9201208-TL0213-1a-pdf ex:B-OTH_FOOD ex:Pfeffer .
+ex:Pfeffer ex:wikidataQID ex:Q3143131 .
+ex:L9201208-TL0213-1a-pdf ex:B-PER ex:Joso .
+ex:L9201208-TL0213-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+ex:L9201208-TL0213-1a-pdf ex:B-LOC ex:Polen .
+ex:Polen ex:wikidataQID ex:Q36 .
+ex:Polen ex:coordinates ex:'52,0_19,0' .
+
+# --- ENTITIES OF L9201208-TL0213-1b-pdf ---
+ex:L9201208-TL0213-1b-pdf ex:date '1920-12-08'^^xsd:date .
+ex:L9201208-TL0213-1b-pdf ex:B-PER ex:Anton .
+ex:L9201208-TL0213-1b-pdf ex:B-OTH_FOOD ex:Mehl .
+ex:Mehl ex:wikidataQID ex:Q36465 .
+ex:L9201208-TL0213-1b-pdf ex:B-OTH_RELIGION ex:Kollar .
+ex:Kollar ex:wikidataQID ex:Q118587 .
+ex:L9201208-TL0213-1b-pdf ex:B-LOC ex:Amerita .
+ex:L9201208-TL0213-1b-pdf ex:B-OTH_FOOD ex:Lebensmitteln .
+ex:Lebensmitteln ex:wikidataQID ex:Q8195619 .
+ex:L9201208-TL0213-1b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9201208-TL0213-1b-pdf ex:B-PER ex:Art .
+ex:L9201208-TL0213-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9201208-TL0213-1b-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9201208-TL0213-1b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9201208-TL0213-1b-pdf ex:B-LOC ex:Hamburg .
+ex:Hamburg ex:wikidataQID ex:Q1055 .
+ex:Hamburg ex:coordinates ex:'53,55_10,0' .
+ex:L9201208-TL0213-1b-pdf ex:I-PER ex:Marko .
+ex:L9201208-TL0213-1b-pdf ex:B-LOC ex:Britschland .
+ex:L9201208-TL0213-1b-pdf ex:I-PER ex:Bratt .
+ex:L9201208-TL0213-1b-pdf ex:B-OTH_FOOD ex:Schmalz .
+ex:Schmalz ex:wikidataQID ex:Q2920655 .
+ex:L9201208-TL0213-1b-pdf ex:B-OTH_RELIGION ex:Amen .
+ex:Amen ex:wikidataQID ex:Q173445 .
+
+# --- ENTITIES OF L9201215-TL0237-1a-pdf ---
+ex:L9201215-TL0237-1a-pdf ex:date '1920-12-15'^^xsd:date .
+ex:L9201215-TL0237-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9201215-TL0237-1a-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+ex:L9201215-TL0237-1a-pdf ex:B-PER ex:Robert .
+ex:L9201215-TL0237-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9201215-TL0237-1a-pdf ex:B-OTH_RELIGION ex:Kapuziner .
+ex:Kapuziner ex:wikidataQID ex:Q124862 .
+ex:L9201215-TL0237-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201215-TL0237-1b-pdf ---
+ex:L9201215-TL0237-1b-pdf ex:date '1920-12-15'^^xsd:date .
+ex:L9201215-TL0237-1b-pdf ex:B-LOC ex:Annia .
+ex:L9201215-TL0237-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9201215-TL0240-1a-pdf ---
+ex:L9201215-TL0240-1a-pdf ex:date '1920-12-15'^^xsd:date .
+ex:L9201215-TL0240-1a-pdf ex:B-PER ex:August .
+ex:L9201215-TL0240-1a-pdf ex:B-PER ex:Scholz .
+ex:L9201215-TL0240-1a-pdf ex:I-PER ex:Manne .
+ex:L9201215-TL0240-1a-pdf ex:B-PER ex:Robert .
+ex:L9201215-TL0240-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9201215-TL0240-1b-pdf ---
+ex:L9201215-TL0240-1b-pdf ex:date '1920-12-15'^^xsd:date .
+ex:L9201215-TL0240-1b-pdf ex:B-OTH_FOOD ex:Rücken .
+ex:Rücken ex:wikidataQID ex:Q107262074 .
+ex:L9201215-TL0240-1b-pdf ex:B-LOC ex:Deutschlän .
+ex:L9201215-TL0240-1b-pdf ex:B-PER ex:Thekla .
+ex:L9201215-TL0240-1b-pdf ex:B-LOC ex:Nebelsberg .
+ex:L9201215-TL0240-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201215-TL0240-2a-pdf ---
+ex:L9201215-TL0240-2a-pdf ex:date '1920-12-15'^^xsd:date .
+ex:L9201215-TL0240-2a-pdf ex:B-PER ex:Thekla .
+ex:L9201215-TL0240-2a-pdf ex:B-OTH_RELIGION ex:Seele .
+ex:Seele ex:wikidataQID ex:Q9165 .
+ex:L9201215-TL0240-2a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9201215-TL0240-2a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201215-TL0240-2b-pdf ---
+ex:L9201215-TL0240-2b-pdf ex:date '1920-12-15'^^xsd:date .
+ex:L9201215-TL0240-2b-pdf ex:B-PER ex:Thekla .
+ex:L9201215-TL0240-2b-pdf ex:B-OTH_RELIGION ex:Leid .
+ex:Leid ex:wikidataQID ex:Q5780945 .
+
+# --- ENTITIES OF L9201215-TL1065-1a-pdf ---
+ex:L9201215-TL1065-1a-pdf ex:date '1920-12-15'^^xsd:date .
+
+# --- ENTITIES OF L9201215-TL1065-1b-pdf ---
+ex:L9201215-TL1065-1b-pdf ex:date '1920-12-15'^^xsd:date .
+
+# --- ENTITIES OF L9201221-TL0241-1a-pdf ---
+ex:L9201221-TL0241-1a-pdf ex:date '1920-12-21'^^xsd:date .
+ex:L9201221-TL0241-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9201221-TL0241-1a-pdf ex:B-PER ex:Torturae .
+
+# --- ENTITIES OF L9201221-TL0241-1b-pdf ---
+ex:L9201221-TL0241-1b-pdf ex:date '1920-12-21'^^xsd:date .
+ex:L9201221-TL0241-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9201226-TL0242-1a-pdf ---
+ex:L9201226-TL0242-1a-pdf ex:date '1920-12-26'^^xsd:date .
+ex:L9201226-TL0242-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9201226-TL0242-1b-pdf ---
+ex:L9201226-TL0242-1b-pdf ex:date '1920-12-26'^^xsd:date .
+ex:L9201226-TL0242-1b-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9201230-TL0243-1a-pdf ---
+ex:L9201230-TL0243-1a-pdf ex:date '1920-12-30'^^xsd:date .
+ex:L9201230-TL0243-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9201230-TL0243-1a-pdf ex:B-PER ex:Josef .
+ex:L9201230-TL0243-1a-pdf ex:B-PER ex:August .
+ex:L9201230-TL0243-1a-pdf ex:B-OTH_RELIGION ex:Himel .
+ex:Himel ex:wikidataQID ex:Q4489450 .
+
+# --- ENTITIES OF L9201230-TL0243-1b-pdf ---
+ex:L9201230-TL0243-1b-pdf ex:date '1920-12-30'^^xsd:date .
+ex:L9201230-TL0243-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9201230-TL0243-1b-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+ex:L9201230-TL0243-1b-pdf ex:B-PER ex:Heinel .
+ex:L9201230-TL0243-1b-pdf ex:B-PER ex:Paul .
+
+# --- ENTITIES OF L9201230-TL0244-1a-pdf ---
+ex:L9201230-TL0244-1a-pdf ex:date '1920-12-30'^^xsd:date .
+ex:L9201230-TL0244-1a-pdf ex:I-PER ex:Christus .
+ex:L9201230-TL0244-1a-pdf ex:B-PER ex:Paul .
+ex:L9201230-TL0244-1a-pdf ex:B-PER ex:Jesus .
+
+# --- ENTITIES OF L9201230-TL0244-1b-pdf ---
+ex:L9201230-TL0244-1b-pdf ex:date '1920-12-30'^^xsd:date .
+ex:L9201230-TL0244-1b-pdf ex:B-PER ex:Mate .
+ex:L9201230-TL0244-1b-pdf ex:B-OTH_FOOD ex:Rücken .
+ex:Rücken ex:wikidataQID ex:Q107262074 .
+ex:L9201230-TL0244-1b-pdf ex:B-PER ex:Marta .
+ex:L9201230-TL0244-1b-pdf ex:B-PER ex:Paul .
+ex:L9201230-TL0244-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9201230-TL0245-1a-pdf ---
+ex:L9201230-TL0245-1a-pdf ex:date '1920-12-30'^^xsd:date .
+ex:L9201230-TL0245-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9201230-TL0245-1a-pdf ex:B-OTH_FOOD ex:Hausen .
+ex:Hausen ex:wikidataQID ex:Q83363024 .
+
+# --- ENTITIES OF L9201230-TL0245-1b-pdf ---
+ex:L9201230-TL0245-1b-pdf ex:date '1920-12-30'^^xsd:date .
+ex:L9201230-TL0245-1b-pdf ex:B-OTH_RELIGION ex:Gnaden .
+ex:Gnaden ex:wikidataQID ex:Q3852175 .
+
+# --- ENTITIES OF L9210103-TL0248-1a-pdf ---
+ex:L9210103-TL0248-1a-pdf ex:date '1921-01-03'^^xsd:date .
+ex:L9210103-TL0248-1a-pdf ex:B-PER ex:Christus .
+ex:L9210103-TL0248-1a-pdf ex:B-LOC ex:Bardorfe .
+ex:L9210103-TL0248-1a-pdf ex:I-PER ex:Scholtz .
+ex:L9210103-TL0248-1a-pdf ex:I-PER ex:Geliebtes .
+ex:L9210103-TL0248-1a-pdf ex:I-PER ex:Oberin .
+ex:L9210103-TL0248-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210103-TL0248-1a-pdf ex:B-LOC ex:Guhlau .
+
+# --- ENTITIES OF L9210103-TL0248-1b-pdf ---
+ex:L9210103-TL0248-1b-pdf ex:date '1921-01-03'^^xsd:date .
+ex:L9210103-TL0248-1b-pdf ex:B-PER ex:Mariechen .
+ex:L9210103-TL0248-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9210103-TL0248-1b-pdf ex:B-PER ex:Franzel .
+ex:L9210103-TL0248-1b-pdf ex:B-PER ex:Paul .
+ex:L9210103-TL0248-1b-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9210103-TL0248-1b-pdf ex:B-PER ex:Franz .
+ex:L9210103-TL0248-1b-pdf ex:B-PER ex:Maria .
+
+# --- ENTITIES OF L9210103-TL0249-1a-pdf ---
+ex:L9210103-TL0249-1a-pdf ex:date '1921-01-03'^^xsd:date .
+ex:L9210103-TL0249-1a-pdf ex:I-PER ex:Garbi .
+ex:L9210103-TL0249-1a-pdf ex:B-PER ex:Robert .
+ex:L9210103-TL0249-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9210103-TL0249-1a-pdf ex:I-PER ex:Berlin .
+ex:L9210103-TL0249-1a-pdf ex:B-PER ex:Thea .
+ex:L9210103-TL0249-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9210103-TL0249-1b-pdf ---
+ex:L9210103-TL0249-1b-pdf ex:date '1921-01-03'^^xsd:date .
+ex:L9210103-TL0249-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9210110-TL0250-1a-pdf ---
+ex:L9210110-TL0250-1a-pdf ex:date '1921-01-10'^^xsd:date .
+ex:L9210110-TL0250-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9210110-TL0250-1a-pdf ex:B-PER ex:Anna .
+ex:L9210110-TL0250-1a-pdf ex:I-LOC ex:Liegenals .
+ex:L9210110-TL0250-1a-pdf ex:B-PER ex:Jesu .
+ex:L9210110-TL0250-1a-pdf ex:B-PER ex:Thekla .
+ex:L9210110-TL0250-1a-pdf ex:B-LOC ex:Wien .
+ex:Wien ex:wikidataQID ex:Q1741 .
+ex:Wien ex:coordinates ex:'48,208333333_16,3725' .
+ex:L9210110-TL0250-1a-pdf ex:B-LOC ex:Langenbrück .
+ex:L9210110-TL0250-1a-pdf ex:B-OTH_RELIGION ex:Propaganda .
+ex:Propaganda ex:wikidataQID ex:Q7281 .
+ex:L9210110-TL0250-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210110-TL0250-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+
+# --- ENTITIES OF L9210110-TL0250-1b-pdf ---
+ex:L9210110-TL0250-1b-pdf ex:date '1921-01-10'^^xsd:date .
+ex:L9210110-TL0250-1b-pdf ex:B-LOC ex:OberSchlesien .
+ex:L9210110-TL0250-1b-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9210110-TL0250-1b-pdf ex:B-PER ex:Reinhard .
+ex:L9210110-TL0250-1b-pdf ex:B-PER ex:Franz .
+ex:L9210110-TL0250-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9210110-TL0250-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210110-TL0250-1b-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+ex:L9210110-TL0250-1b-pdf ex:B-OTH_RELIGION ex:Gebiet .
+ex:Gebiet ex:wikidataQID ex:Q40953 .
+
+# --- ENTITIES OF L9210110-TL0285-1a-pdf ---
+ex:L9210110-TL0285-1a-pdf ex:date '1921-01-10'^^xsd:date .
+
+# --- ENTITIES OF L9210110-TL0285-1b-pdf ---
+ex:L9210110-TL0285-1b-pdf ex:date '1921-01-10'^^xsd:date .
+
+# --- ENTITIES OF L9210117-TL0271-1a-pdf ---
+ex:L9210117-TL0271-1a-pdf ex:date '1921-01-17'^^xsd:date .
+ex:L9210117-TL0271-1a-pdf ex:B-PER ex:I .
+ex:L9210117-TL0271-1a-pdf ex:B-PER ex:Robert .
+ex:L9210117-TL0271-1a-pdf ex:B-PER ex:Gerhard .
+ex:L9210117-TL0271-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210117-TL0271-1a-pdf ex:I-PER ex:Paulchen .
+
+# --- ENTITIES OF L9210117-TL0271-1b-pdf ---
+ex:L9210117-TL0271-1b-pdf ex:date '1921-01-17'^^xsd:date .
+ex:L9210117-TL0271-1b-pdf ex:B-PER ex:Agnes .
+ex:L9210117-TL0271-1b-pdf ex:I-PER ex:Guthe .
+ex:L9210117-TL0271-1b-pdf ex:B-PER ex:Paul .
+ex:L9210117-TL0271-1b-pdf ex:B-PER ex:Robert .
+ex:L9210117-TL0271-1b-pdf ex:B-PER ex:Maren .
+ex:L9210117-TL0271-1b-pdf ex:I-PER ex:der .
+
+# --- ENTITIES OF L9210118-TL0251-1a-pdf ---
+ex:L9210118-TL0251-1a-pdf ex:date '1921-01-18'^^xsd:date .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Marten .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Hodler .
+ex:L9210118-TL0251-1a-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9210118-TL0251-1a-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Herta .
+ex:L9210118-TL0251-1a-pdf ex:I-PER ex:I .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Anna .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Martha .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Robert .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Hedwig .
+ex:L9210118-TL0251-1a-pdf ex:B-LOC ex:Langenbrück .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Josef .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:Walter .
+ex:L9210118-TL0251-1a-pdf ex:B-OTH_RELIGION ex:Koster .
+ex:Koster ex:wikidataQID ex:Q44613 .
+ex:L9210118-TL0251-1a-pdf ex:B-PER ex:M .
+
+# --- ENTITIES OF L9210118-TL0251-1b-pdf ---
+ex:L9210118-TL0251-1b-pdf ex:date '1921-01-18'^^xsd:date .
+ex:L9210118-TL0251-1b-pdf ex:B-PER ex:August .
+ex:L9210118-TL0251-1b-pdf ex:B-PER ex:Marie .
+ex:L9210118-TL0251-1b-pdf ex:B-PER ex:Paul .
+ex:L9210118-TL0251-1b-pdf ex:B-PER ex:Martha .
+ex:L9210118-TL0251-1b-pdf ex:B-PER ex:Josef .
+ex:L9210118-TL0251-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210118-TL0251-1b-pdf ex:B-LOC ex:Botzen .
+ex:Botzen ex:wikidataQID ex:Q6526 .
+ex:Botzen ex:coordinates ex:'46,498113_11,35478' .
+
+# --- ENTITIES OF L9210118-TL0252-1a-pdf ---
+ex:L9210118-TL0252-1a-pdf ex:date '1921-01-18'^^xsd:date .
+ex:L9210118-TL0252-1a-pdf ex:B-PER ex:Agnes .
+ex:L9210118-TL0252-1a-pdf ex:I-PER ex:Christus .
+ex:L9210118-TL0252-1a-pdf ex:B-PER ex:Paul .
+ex:L9210118-TL0252-1a-pdf ex:B-PER ex:Liese .
+ex:L9210118-TL0252-1a-pdf ex:B-PER ex:Jesu .
+
+# --- ENTITIES OF L9210118-TL0252-1b-pdf ---
+ex:L9210118-TL0252-1b-pdf ex:date '1921-01-18'^^xsd:date .
+ex:L9210118-TL0252-1b-pdf ex:B-PER ex:Alois .
+ex:L9210118-TL0252-1b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9210118-TL0252-1b-pdf ex:B-PER ex:Agnes .
+ex:L9210118-TL0252-1b-pdf ex:B-PER ex:Bartholdene .
+ex:L9210118-TL0252-1b-pdf ex:B-PER ex:Hedwig .
+ex:L9210118-TL0252-1b-pdf ex:B-PER ex:Joka .
+ex:L9210118-TL0252-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210118-TL0252-1b-pdf ex:B-OTH_RELIGION ex:Mu .
+ex:Mu ex:wikidataQID ex:Q1376585 .
+
+# --- ENTITIES OF L9210118-TL0253-1a-pdf ---
+ex:L9210118-TL0253-1a-pdf ex:date '1921-01-18'^^xsd:date .
+ex:L9210118-TL0253-1a-pdf ex:B-PER ex:Robert .
+ex:L9210118-TL0253-1a-pdf ex:B-PER ex:Thekla .
+ex:L9210118-TL0253-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9210118-TL0253-1a-pdf ex:B-OTH_RELIGION ex:Kirche .
+ex:Kirche ex:wikidataQID ex:Q34651 .
+
+# --- ENTITIES OF L9210118-TL0253-1b-pdf ---
+ex:L9210118-TL0253-1b-pdf ex:date '1921-01-18'^^xsd:date .
+ex:L9210118-TL0253-1b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9210118-TL0253-1b-pdf ex:B-OTH_FOOD ex:Butter .
+ex:Butter ex:wikidataQID ex:Q34172 .
+ex:L9210118-TL0253-1b-pdf ex:B-PER ex:Paul .
+ex:L9210118-TL0253-1b-pdf ex:B-OTH_FOOD ex:Brot .
+ex:Brot ex:wikidataQID ex:Q7802 .
+ex:L9210118-TL0253-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9210118-TL0253-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9210124-TL1096-2b-pdf ---
+ex:L9210124-TL1096-2b-pdf ex:date '1921-01-24'^^xsd:date .
+ex:L9210124-TL1096-2b-pdf ex:B-PER ex:Speck .
+ex:L9210124-TL1096-2b-pdf ex:B-OTH ex:Cent .
+ex:L9210124-TL1096-2b-pdf ex:B-PER ex:Paul .
+
+# --- ENTITIES OF L9210210-TL0325-1a-pdf ---
+ex:L9210210-TL0325-1a-pdf ex:date '1921-02-10'^^xsd:date .
+ex:L9210210-TL0325-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210210-TL0325-1a-pdf ex:B-LOC ex:Wien .
+ex:Wien ex:wikidataQID ex:Q1741 .
+ex:Wien ex:coordinates ex:'48,208333333_16,3725' .
+ex:L9210210-TL0325-1a-pdf ex:B-OTH_RELIGION ex:Kloster .
+ex:Kloster ex:wikidataQID ex:Q44613 .
+
+# --- ENTITIES OF L9210210-TL0325-1b-pdf ---
+ex:L9210210-TL0325-1b-pdf ex:date '1921-02-10'^^xsd:date .
+ex:L9210210-TL0325-1b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+
+# --- ENTITIES OF L9210211-TL0286-1a-pdf ---
+ex:L9210211-TL0286-1a-pdf ex:date '1921-02-11'^^xsd:date .
+ex:L9210211-TL0286-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9210211-TL0286-1b-pdf ---
+ex:L9210211-TL0286-1b-pdf ex:date '1921-02-11'^^xsd:date .
+ex:L9210211-TL0286-1b-pdf ex:B-LOC ex:Oberschlafen .
+ex:L9210211-TL0286-1b-pdf ex:B-PER ex:Schött .
+ex:L9210211-TL0286-1b-pdf ex:B-PER ex:Art .
+ex:L9210211-TL0286-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9210215-TL0254-1a-pdf ---
+ex:L9210215-TL0254-1a-pdf ex:date '1921-02-15'^^xsd:date .
+ex:L9210215-TL0254-1a-pdf ex:B-OTH_RELIGION ex:Geiste .
+ex:Geiste ex:wikidataQID ex:Q120312205 .
+ex:L9210215-TL0254-1a-pdf ex:B-PER ex:Walter .
+
+# --- ENTITIES OF L9210215-TL0254-1b-pdf ---
+ex:L9210215-TL0254-1b-pdf ex:date '1921-02-15'^^xsd:date .
+ex:L9210215-TL0254-1b-pdf ex:B-LOC ex:Langenbrück .
+
+# --- ENTITIES OF L9210226-TL0255-1a-pdf ---
+ex:L9210226-TL0255-1a-pdf ex:date '1921-02-26'^^xsd:date .
+ex:L9210226-TL0255-1a-pdf ex:B-OTH_RELIGION ex:Gnaden .
+ex:Gnaden ex:wikidataQID ex:Q3852175 .
+ex:L9210226-TL0255-1a-pdf ex:B-PER ex:August .
+ex:L9210226-TL0255-1a-pdf ex:I-PER ex:Christus .
+ex:L9210226-TL0255-1a-pdf ex:B-PER ex:Paul .
+ex:L9210226-TL0255-1a-pdf ex:B-PER ex:Jesu .
+ex:L9210226-TL0255-1a-pdf ex:B-LOC ex:Langenbrück .
+ex:L9210226-TL0255-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9210226-TL0255-1b-pdf ---
+ex:L9210226-TL0255-1b-pdf ex:date '1921-02-26'^^xsd:date .
+ex:L9210226-TL0255-1b-pdf ex:B-PER ex:Marta .
+ex:L9210226-TL0255-1b-pdf ex:B-PER ex:August .
+ex:L9210226-TL0255-1b-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9210226-TL0255-1b-pdf ex:B-PER ex:Gottlob .
+ex:L9210226-TL0255-1b-pdf ex:B-PER ex:Paul .
+ex:L9210226-TL0255-1b-pdf ex:B-OTH_RELIGION ex:Ostermontan .
+ex:Ostermontan ex:wikidataQID ex:Q209663 .
+ex:L9210226-TL0255-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9210226-TL0255-1b-pdf ex:B-LOC ex:Oberschlesien .
+ex:Oberschlesien ex:wikidataQID ex:Q81011 .
+ex:Oberschlesien ex:coordinates ex:'50,433843_18,032375' .
+ex:L9210226-TL0255-1b-pdf ex:B-LOC ex:Polen .
+ex:Polen ex:wikidataQID ex:Q36 .
+ex:Polen ex:coordinates ex:'52,0_19,0' .
+
+# --- ENTITIES OF L9210307-TL0256-1a-pdf ---
+ex:L9210307-TL0256-1a-pdf ex:date '1921-03-07'^^xsd:date .
+ex:L9210307-TL0256-1a-pdf ex:B-PER ex:Strebel .
+ex:L9210307-TL0256-1a-pdf ex:B-PER ex:Lisbeth .
+ex:L9210307-TL0256-1a-pdf ex:I-PER ex:Franzl .
+ex:L9210307-TL0256-1a-pdf ex:B-PER ex:Paul .
+ex:L9210307-TL0256-1a-pdf ex:B-PER ex:Joh .
+ex:L9210307-TL0256-1a-pdf ex:I-PER ex:u .
+ex:L9210307-TL0256-1a-pdf ex:B-PER ex:Franz .
+ex:L9210307-TL0256-1a-pdf ex:B-PER ex:Josef .
+
+# --- ENTITIES OF L9210307-TL0256-1b-pdf ---
+ex:L9210307-TL0256-1b-pdf ex:date '1921-03-07'^^xsd:date .
+ex:L9210307-TL0256-1b-pdf ex:B-PER ex:Berthold .
+ex:L9210307-TL0256-1b-pdf ex:B-PER ex:Schuster .
+ex:L9210307-TL0256-1b-pdf ex:B-PER ex:Marie .
+ex:L9210307-TL0256-1b-pdf ex:B-LOC ex:Hammersdorf .
+ex:L9210307-TL0256-1b-pdf ex:B-PER ex:Josef .
+ex:L9210307-TL0256-1b-pdf ex:B-PER ex:Geisler .
+
+# --- ENTITIES OF L9210311-TL0257-1a-pdf ---
+ex:L9210311-TL0257-1a-pdf ex:date '1921-03-11'^^xsd:date .
+ex:L9210311-TL0257-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9210311-TL0257-1a-pdf ex:B-PER ex:Hempel .
+ex:L9210311-TL0257-1a-pdf ex:B-OTH_RELIGION ex:Seelen .
+ex:Seelen ex:wikidataQID ex:Q9165 .
+ex:L9210311-TL0257-1a-pdf ex:B-PER ex:Anna .
+ex:L9210311-TL0257-1a-pdf ex:B-PER ex:Robert .
+ex:L9210311-TL0257-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9210311-TL0257-1b-pdf ---
+ex:L9210311-TL0257-1b-pdf ex:date '1921-03-11'^^xsd:date .
+ex:L9210311-TL0257-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9210311-TL0257-1b-pdf ex:B-PER ex:Wilchen .
+ex:L9210311-TL0257-1b-pdf ex:B-PER ex:Robert .
+ex:L9210311-TL0257-1b-pdf ex:B-PER ex:Thekla .
+ex:L9210311-TL0257-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9210311-TL0257-1b-pdf ex:B-OTH_RELIGION ex:Pfarrer .
+ex:Pfarrer ex:wikidataQID ex:Q52769526 .
+ex:L9210311-TL0257-1b-pdf ex:B-PER ex:Josef .
+ex:L9210311-TL0257-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210311-TL0257-1b-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+
+# --- ENTITIES OF L9210326-TL0262-1a-pdf ---
+ex:L9210326-TL0262-1a-pdf ex:date '1921-03-26'^^xsd:date .
+ex:L9210326-TL0262-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9210326-TL0262-1a-pdf ex:B-LOC ex:Buchelsdorf .
+ex:L9210326-TL0262-1a-pdf ex:B-OTH_FOOD ex:Gericht .
+ex:Gericht ex:wikidataQID ex:Q746549 .
+ex:L9210326-TL0262-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9210326-TL0262-1b-pdf ---
+ex:L9210326-TL0262-1b-pdf ex:date '1921-03-26'^^xsd:date .
+ex:L9210326-TL0262-1b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9210326-TL0262-1b-pdf ex:B-PER ex:Hedewig .
+ex:L9210326-TL0262-1b-pdf ex:B-PER ex:Thekla .
+ex:L9210326-TL0262-1b-pdf ex:I-PER ex:von .
+ex:L9210326-TL0262-1b-pdf ex:B-LOC ex:Langenbrückt .
+ex:L9210326-TL0262-1b-pdf ex:B-PER ex:Josef .
+ex:L9210326-TL0262-1b-pdf ex:I-PER ex:Langenbrück .
+ex:L9210326-TL0262-1b-pdf ex:B-PER ex:Hedel .
+
+# --- ENTITIES OF L9210408-TL0264-1a-pdf ---
+ex:L9210408-TL0264-1a-pdf ex:date '1921-04-08'^^xsd:date .
+ex:L9210408-TL0264-1a-pdf ex:I-PER ex:Carl .
+ex:L9210408-TL0264-1a-pdf ex:B-PER ex:Mut .
+ex:L9210408-TL0264-1a-pdf ex:I-PER ex:I .
+ex:L9210408-TL0264-1a-pdf ex:I-PER ex:M .
+ex:L9210408-TL0264-1a-pdf ex:B-LOC ex:America .
+ex:America ex:wikidataQID ex:Q30 .
+ex:America ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9210420-TL0266-1a-pdf ---
+ex:L9210420-TL0266-1a-pdf ex:date '1921-04-20'^^xsd:date .
+ex:L9210420-TL0266-1a-pdf ex:B-OTH ex:Mark .
+ex:L9210420-TL0266-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+ex:L9210420-TL0266-1a-pdf ex:B-PER ex:Paulsen .
+ex:L9210420-TL0266-1a-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9210420-TL0266-1a-pdf ex:B-PER ex:Robert .
+ex:L9210420-TL0266-1a-pdf ex:B-PER ex:Thekla .
+ex:L9210420-TL0266-1a-pdf ex:B-OTH ex:Mk .
+
+# --- ENTITIES OF L9210420-TL0266-1b-pdf ---
+ex:L9210420-TL0266-1b-pdf ex:date '1921-04-20'^^xsd:date .
+ex:L9210420-TL0266-1b-pdf ex:B-PER ex:Robert .
+ex:L9210420-TL0266-1b-pdf ex:B-PER ex:Thekla .
+ex:L9210420-TL0266-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9210420-TL0266-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9210420-TL0266-1b-pdf ex:B-LOC ex:Oberschlesien .
+ex:Oberschlesien ex:wikidataQID ex:Q81011 .
+ex:Oberschlesien ex:coordinates ex:'50,433843_18,032375' .
+ex:L9210420-TL0266-1b-pdf ex:B-LOC ex:Polen .
+ex:Polen ex:wikidataQID ex:Q36 .
+ex:Polen ex:coordinates ex:'52,0_19,0' .
+
+# --- ENTITIES OF L9210420-TL0266-2a-pdf ---
+ex:L9210420-TL0266-2a-pdf ex:date '1921-04-20'^^xsd:date .
+ex:L9210420-TL0266-2a-pdf ex:B-PER ex:Robert .
+ex:L9210420-TL0266-2a-pdf ex:B-PER ex:Hedwig .
+
+# --- ENTITIES OF L9210420-TL0266-2b-pdf ---
+ex:L9210420-TL0266-2b-pdf ex:date '1921-04-20'^^xsd:date .
+ex:L9210420-TL0266-2b-pdf ex:B-OTH ex:Mark .
+ex:L9210420-TL0266-2b-pdf ex:B-PER ex:Thekla .
+ex:L9210420-TL0266-2b-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9210420-TL0266-2b-pdf ex:B-PER ex:Paul .
+
+# --- ENTITIES OF L9210422-TL0265-1a-pdf ---
+ex:L9210422-TL0265-1a-pdf ex:date '1921-04-22'^^xsd:date .
+ex:L9210422-TL0265-1a-pdf ex:B-PER ex:Thekla .
+ex:L9210422-TL0265-1a-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9210422-TL0265-1b-pdf ---
+ex:L9210422-TL0265-1b-pdf ex:date '1921-04-22'^^xsd:date .
+ex:L9210422-TL0265-1b-pdf ex:B-PER ex:Vetter .
+ex:L9210422-TL0265-1b-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9210426-TL0263-1a-pdf ---
+ex:L9210426-TL0263-1a-pdf ex:date '1921-04-26'^^xsd:date .
+ex:L9210426-TL0263-1a-pdf ex:B-PER ex:Christus .
+ex:L9210426-TL0263-1a-pdf ex:B-PER ex:Josef .
+ex:L9210426-TL0263-1a-pdf ex:B-PER ex:Maria .
+ex:L9210426-TL0263-1a-pdf ex:B-OTH_RELIGION ex:Oster .
+ex:Oster ex:wikidataQID ex:Q21196 .
+ex:L9210426-TL0263-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9210426-TL0263-1b-pdf ---
+ex:L9210426-TL0263-1b-pdf ex:date '1921-04-26'^^xsd:date .
+ex:L9210426-TL0263-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210426-TL0263-1b-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+
+# --- ENTITIES OF L9210501-TL0268-1a-pdf ---
+ex:L9210501-TL0268-1a-pdf ex:date '1921-05-01'^^xsd:date .
+ex:L9210501-TL0268-1a-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9210501-TL0268-1a-pdf ex:B-PER ex:Joseph .
+ex:L9210501-TL0268-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9210501-TL0268-1a-pdf ex:B-OTH_FOOD ex:Fleisch .
+ex:Fleisch ex:wikidataQID ex:Q10990 .
+ex:L9210501-TL0268-1a-pdf ex:B-PER ex:Franz .
+
+# --- ENTITIES OF L9210501-TL0268-1b-pdf ---
+ex:L9210501-TL0268-1b-pdf ex:date '1921-05-01'^^xsd:date .
+ex:L9210501-TL0268-1b-pdf ex:B-PER ex:Mari .
+ex:L9210501-TL0268-1b-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9210501-TL0268-1b-pdf ex:B-PER ex:Franz .
+ex:L9210501-TL0268-1b-pdf ex:I-LOC ex:brück .
+ex:L9210501-TL0268-1b-pdf ex:B-PER ex:Sontag .
+ex:L9210501-TL0268-1b-pdf ex:B-LOC ex:Langen .
+ex:Langen ex:wikidataQID ex:Q14932 .
+ex:Langen ex:coordinates ex:'49,989305555_8,680347222' .
+
+# --- ENTITIES OF L9210501-TL0268-2a-pdf ---
+ex:L9210501-TL0268-2a-pdf ex:date '1921-05-01'^^xsd:date .
+ex:L9210501-TL0268-2a-pdf ex:B-LOC ex:Hamburg .
+ex:Hamburg ex:wikidataQID ex:Q1055 .
+ex:Hamburg ex:coordinates ex:'53,55_10,0' .
+
+# --- ENTITIES OF L9210501-TL0268-2b-pdf ---
+ex:L9210501-TL0268-2b-pdf ex:date '1921-05-01'^^xsd:date .
+ex:L9210501-TL0268-2b-pdf ex:B-PER ex:August .
+ex:L9210501-TL0268-2b-pdf ex:B-PER ex:Joseph .
+ex:L9210501-TL0268-2b-pdf ex:B-LOC ex:Hamburg .
+ex:Hamburg ex:wikidataQID ex:Q1055 .
+ex:Hamburg ex:coordinates ex:'53,55_10,0' .
+ex:L9210501-TL0268-2b-pdf ex:B-PER ex:Paul .
+ex:L9210501-TL0268-2b-pdf ex:I-PER ex:Georg .
+ex:L9210501-TL0268-2b-pdf ex:B-PER ex:Franz .
+ex:L9210501-TL0268-2b-pdf ex:I-PER ex:Geret .
+ex:L9210501-TL0268-2b-pdf ex:B-PER ex:Josel .
+
+# --- ENTITIES OF L9210506-TL2088-1a-pdf ---
+ex:L9210506-TL2088-1a-pdf ex:date '1921-05-06'^^xsd:date .
+ex:L9210506-TL2088-1a-pdf ex:B-PER ex:Berter .
+
+# --- ENTITIES OF L9210506-TL2088-1b-pdf ---
+ex:L9210506-TL2088-1b-pdf ex:date '1921-05-06'^^xsd:date .
+ex:L9210506-TL2088-1b-pdf ex:B-LOC ex:Bad .
+ex:Bad ex:wikidataQID ex:Q504579 .
+ex:Bad ex:coordinates ex:'48,005833333_10,596944444' .
+ex:L9210506-TL2088-1b-pdf ex:I-LOC ex:Rinne .
+
+# --- ENTITIES OF L9210512-TL0269-1a-pdf ---
+ex:L9210512-TL0269-1a-pdf ex:date '1921-05-12'^^xsd:date .
+ex:L9210512-TL0269-1a-pdf ex:I-PER ex:Mina .
+
+# --- ENTITIES OF L9210512-TL0269-1b-pdf ---
+ex:L9210512-TL0269-1b-pdf ex:date '1921-05-12'^^xsd:date .
+
+# --- ENTITIES OF L9210521-TL0273-1a-pdf ---
+ex:L9210521-TL0273-1a-pdf ex:date '1921-05-21'^^xsd:date .
+ex:L9210521-TL0273-1a-pdf ex:B-OTH_FOOD ex:Milch .
+ex:Milch ex:wikidataQID ex:Q8495 .
+ex:L9210521-TL0273-1a-pdf ex:B-OTH_RELIGION ex:Gnade .
+ex:Gnade ex:wikidataQID ex:Q3852175 .
+ex:L9210521-TL0273-1a-pdf ex:B-LOC ex:Holland .
+ex:Holland ex:wikidataQID ex:Q102911 .
+ex:Holland ex:coordinates ex:'52,25_4,667' .
+ex:L9210521-TL0273-1a-pdf ex:B-PER ex:Thekla .
+ex:L9210521-TL0273-1a-pdf ex:B-LOC ex:Oberschlesien .
+ex:Oberschlesien ex:wikidataQID ex:Q81011 .
+ex:Oberschlesien ex:coordinates ex:'50,433843_18,032375' .
+ex:L9210521-TL0273-1a-pdf ex:B-LOC ex:Potsdam .
+ex:Potsdam ex:wikidataQID ex:Q1711 .
+ex:Potsdam ex:coordinates ex:'52,4_13,066666666' .
+ex:L9210521-TL0273-1a-pdf ex:B-LOC ex:Neustadt .
+ex:Neustadt ex:wikidataQID ex:Q986984 .
+ex:Neustadt ex:coordinates ex:'50,319722222_17,579166666' .
+
+# --- ENTITIES OF L9210521-TL0273-1b-pdf ---
+ex:L9210521-TL0273-1b-pdf ex:date '1921-05-21'^^xsd:date .
+ex:L9210521-TL0273-1b-pdf ex:B-LOC ex:München .
+ex:München ex:wikidataQID ex:Q1726 .
+ex:München ex:coordinates ex:'48,1375_11,575' .
+ex:L9210521-TL0273-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9210521-TL0273-1b-pdf ex:B-OTH ex:Dollar .
+ex:L9210521-TL0273-1b-pdf ex:B-PER ex:Robert .
+ex:L9210521-TL0273-1b-pdf ex:B-PER ex:Thekla .
+ex:L9210521-TL0273-1b-pdf ex:B-PER ex:Josef .
+ex:L9210521-TL0273-1b-pdf ex:B-LOC ex:Schlesien .
+ex:Schlesien ex:wikidataQID ex:Q81720 .
+ex:Schlesien ex:coordinates ex:'51,1035_17,0396' .
+
+# --- ENTITIES OF L9210525-TL0270-1a-pdf ---
+ex:L9210525-TL0270-1a-pdf ex:date '1921-05-25'^^xsd:date .
+ex:L9210525-TL0270-1a-pdf ex:B-PER ex:Thekla .
+ex:L9210525-TL0270-1a-pdf ex:B-OTH_FOOD ex:Blut .
+ex:Blut ex:wikidataQID ex:Q494268 .
+ex:L9210525-TL0270-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210525-TL0270-1a-pdf ex:B-PER ex:Danck .
+
+# --- ENTITIES OF L9210525-TL0270-1b-pdf ---
+ex:L9210525-TL0270-1b-pdf ex:date '1921-05-25'^^xsd:date .
+ex:L9210525-TL0270-1b-pdf ex:B-PER ex:Christine .
+ex:L9210525-TL0270-1b-pdf ex:B-PER ex:Thekla .
+ex:L9210525-TL0270-1b-pdf ex:I-PER ex:Kreutz .
+
+# --- ENTITIES OF L9210529-TL0272-1a-pdf ---
+ex:L9210529-TL0272-1a-pdf ex:date '1921-05-29'^^xsd:date .
+ex:L9210529-TL0272-1a-pdf ex:B-PER ex:Wenter .
+ex:L9210529-TL0272-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9210529-TL0272-1a-pdf ex:B-PER ex:Art .
+ex:L9210529-TL0272-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9210529-TL0272-1a-pdf ex:B-PER ex:Reinhardt .
+ex:L9210529-TL0272-1a-pdf ex:B-PER ex:Anna .
+ex:L9210529-TL0272-1a-pdf ex:B-PER ex:Thekla .
+ex:L9210529-TL0272-1a-pdf ex:B-LOC ex:Oberschlesien .
+ex:Oberschlesien ex:wikidataQID ex:Q81011 .
+ex:Oberschlesien ex:coordinates ex:'50,433843_18,032375' .
+ex:L9210529-TL0272-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210529-TL0272-1a-pdf ex:B-PER ex:Hagen .
+ex:L9210529-TL0272-1a-pdf ex:I-PER ex:Jnt .
+
+# --- ENTITIES OF L9210529-TL0272-1b-pdf ---
+ex:L9210529-TL0272-1b-pdf ex:date '1921-05-29'^^xsd:date .
+ex:L9210529-TL0272-1b-pdf ex:B-OTH_RELIGION ex:Ostern .
+ex:Ostern ex:wikidataQID ex:Q21196 .
+ex:L9210529-TL0272-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9210529-TL0272-1b-pdf ex:B-PER ex:Reinhardt .
+ex:L9210529-TL0272-1b-pdf ex:B-LOC ex:OberSchlesiens .
+ex:L9210529-TL0272-1b-pdf ex:B-OTH_RELIGION ex:Strafe .
+ex:Strafe ex:wikidataQID ex:Q186361 .
+ex:L9210529-TL0272-1b-pdf ex:B-PER ex:Thekla .
+ex:L9210529-TL0272-1b-pdf ex:B-PER ex:Franz .
+ex:L9210529-TL0272-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9210529-TL0272-1b-pdf ex:B-OTH_RELIGION ex:Gebete .
+ex:Gebete ex:wikidataQID ex:Q40953 .
+ex:L9210529-TL0272-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9210610-TL0275-1a-pdf ---
+ex:L9210610-TL0275-1a-pdf ex:date '1921-06-10'^^xsd:date .
+ex:L9210610-TL0275-1a-pdf ex:B-OTH_RELIGION ex:Seele .
+ex:Seele ex:wikidataQID ex:Q9165 .
+
+# --- ENTITIES OF L9210610-TL0275-1b-pdf ---
+ex:L9210610-TL0275-1b-pdf ex:date '1921-06-10'^^xsd:date .
+ex:L9210610-TL0275-1b-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9210614-TL0277-1a-pdf ---
+ex:L9210614-TL0277-1a-pdf ex:date '1921-06-14'^^xsd:date .
+ex:L9210614-TL0277-1a-pdf ex:B-OTH_FOOD ex:Mehl .
+ex:Mehl ex:wikidataQID ex:Q36465 .
+ex:L9210614-TL0277-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210614-TL0277-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+
+# --- ENTITIES OF L9210614-TL0277-1b-pdf ---
+ex:L9210614-TL0277-1b-pdf ex:date '1921-06-14'^^xsd:date .
+ex:L9210614-TL0277-1b-pdf ex:B-OTH ex:Mark .
+ex:L9210614-TL0277-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9210614-TL0277-1b-pdf ex:B-PER ex:Anna .
+
+# --- ENTITIES OF L9210624-TL0278-1a-pdf ---
+ex:L9210624-TL0278-1a-pdf ex:date '1921-06-24'^^xsd:date .
+ex:L9210624-TL0278-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210624-TL0278-1a-pdf ex:B-PER ex:Paul .
+ex:L9210624-TL0278-1a-pdf ex:B-OTH_FOOD ex:Lebensmittel .
+ex:Lebensmittel ex:wikidataQID ex:Q8195619 .
+
+# --- ENTITIES OF L9210624-TL0278-1b-pdf ---
+ex:L9210624-TL0278-1b-pdf ex:date '1921-06-24'^^xsd:date .
+ex:L9210624-TL0278-1b-pdf ex:B-PER ex:Hedwig .
+ex:L9210624-TL0278-1b-pdf ex:B-PER ex:Tekla .
+ex:L9210624-TL0278-1b-pdf ex:B-OTH_RELIGION ex:Taufe .
+ex:Taufe ex:wikidataQID ex:Q35856 .
+
+# --- ENTITIES OF L9210801-TL0279-1a-pdf ---
+ex:L9210801-TL0279-1a-pdf ex:date '1921-08-01'^^xsd:date .
+ex:L9210801-TL0279-1a-pdf ex:B-PER ex:August .
+ex:L9210801-TL0279-1a-pdf ex:B-OTH_RELIGION ex:Kirchen .
+ex:Kirchen ex:wikidataQID ex:Q34651 .
+ex:L9210801-TL0279-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9210801-TL0279-1a-pdf ex:B-PER ex:Marie .
+ex:L9210801-TL0279-1a-pdf ex:B-PER ex:Anna .
+ex:L9210801-TL0279-1a-pdf ex:B-PER ex:Gerhard .
+
+# --- ENTITIES OF L9210801-TL0279-1b-pdf ---
+ex:L9210801-TL0279-1b-pdf ex:date '1921-08-01'^^xsd:date .
+ex:L9210801-TL0279-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9210801-TL0279-1b-pdf ex:B-LOC ex:Polen .
+ex:Polen ex:wikidataQID ex:Q36 .
+ex:Polen ex:coordinates ex:'52,0_19,0' .
+ex:L9210801-TL0279-1b-pdf ex:B-LOC ex:Oberschlesien .
+ex:Oberschlesien ex:wikidataQID ex:Q81011 .
+ex:Oberschlesien ex:coordinates ex:'50,433843_18,032375' .
+ex:L9210801-TL0279-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9210821-TL0280-1a-pdf ---
+ex:L9210821-TL0280-1a-pdf ex:date '1921-08-21'^^xsd:date .
+ex:L9210821-TL0280-1a-pdf ex:B-PER ex:Robert .
+ex:L9210821-TL0280-1a-pdf ex:B-OTH_FOOD ex:Blut .
+ex:Blut ex:wikidataQID ex:Q494268 .
+ex:L9210821-TL0280-1a-pdf ex:B-OTH_RELIGION ex:Geduld .
+ex:Geduld ex:wikidataQID ex:Q12846123 .
+ex:L9210821-TL0280-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9210821-TL0280-1b-pdf ---
+ex:L9210821-TL0280-1b-pdf ex:date '1921-08-21'^^xsd:date .
+ex:L9210821-TL0280-1b-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+
+# --- ENTITIES OF L9210827-TL0281-1a-pdf ---
+ex:L9210827-TL0281-1a-pdf ex:date '1921-08-27'^^xsd:date .
+ex:L9210827-TL0281-1a-pdf ex:B-PER ex:August .
+ex:L9210827-TL0281-1a-pdf ex:B-OTH_RELIGION ex:Geduld .
+ex:Geduld ex:wikidataQID ex:Q12846123 .
+ex:L9210827-TL0281-1a-pdf ex:B-PER ex:Annia .
+ex:L9210827-TL0281-1a-pdf ex:B-PER ex:Wan .
+ex:L9210827-TL0281-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9210827-TL0281-1a-pdf ex:B-OTH_RELIGION ex:Kircher .
+ex:Kircher ex:wikidataQID ex:Q34651 .
+ex:L9210827-TL0281-1a-pdf ex:B-PER ex:Boller .
+
+# --- ENTITIES OF L9210827-TL0281-1b-pdf ---
+ex:L9210827-TL0281-1b-pdf ex:date '1921-08-27'^^xsd:date .
+
+# --- ENTITIES OF L9210909-TL0261-1a-pdf ---
+ex:L9210909-TL0261-1a-pdf ex:date '1921-09-09'^^xsd:date .
+ex:L9210909-TL0261-1a-pdf ex:B-PER ex:Hans .
+ex:L9210909-TL0261-1a-pdf ex:B-PER ex:Consu .
+ex:L9210909-TL0261-1a-pdf ex:B-PER ex:Robert .
+
+# --- ENTITIES OF L9210909-TL0261-1b-pdf ---
+ex:L9210909-TL0261-1b-pdf ex:date '1921-09-09'^^xsd:date .
+ex:L9210909-TL0261-1b-pdf ex:B-PER ex:August .
+
+# --- ENTITIES OF L9210916-TL0247-1a-pdf ---
+ex:L9210916-TL0247-1a-pdf ex:date '1921-09-16'^^xsd:date .
+ex:L9210916-TL0247-1a-pdf ex:B-LOC ex:Mühlenstraße .
+ex:L9210916-TL0247-1a-pdf ex:B-LOC ex:Düsseldorf .
+ex:Düsseldorf ex:wikidataQID ex:Q1718 .
+ex:Düsseldorf ex:coordinates ex:'51,231144444_6,772380555' .
+ex:L9210916-TL0247-1a-pdf ex:B-PER ex:Sandauen .
+
+# --- ENTITIES OF L9210916-TL0247-1b-pdf ---
+ex:L9210916-TL0247-1b-pdf ex:date '1921-09-16'^^xsd:date .
+
+# --- ENTITIES OF L9210917-TL0259-1a-pdf ---
+ex:L9210917-TL0259-1a-pdf ex:date '1921-09-17'^^xsd:date .
+ex:L9210917-TL0259-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9210917-TL0259-1a-pdf ex:B-OTH_RELIGION ex:Ehe .
+ex:Ehe ex:wikidataQID ex:Q8445 .
+ex:L9210917-TL0259-1a-pdf ex:B-OTH_RELIGION ex:Geduld .
+ex:Geduld ex:wikidataQID ex:Q12846123 .
+ex:L9210917-TL0259-1a-pdf ex:B-PER ex:Annia .
+
+# --- ENTITIES OF L9210917-TL0259-1b-pdf ---
+ex:L9210917-TL0259-1b-pdf ex:date '1921-09-17'^^xsd:date .
+ex:L9210917-TL0259-1b-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9210917-TL0259-1b-pdf ex:B-PER ex:Carl .
+ex:L9210917-TL0259-1b-pdf ex:I-PER ex:Gesche .
+ex:L9210917-TL0259-1b-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+
+# --- ENTITIES OF L9211025-TL0287-1a-pdf ---
+ex:L9211025-TL0287-1a-pdf ex:date '1921-10-25'^^xsd:date .
+ex:L9211025-TL0287-1a-pdf ex:B-PER ex:Bartholdine .
+ex:L9211025-TL0287-1a-pdf ex:B-LOC ex:St .
+ex:L9211025-TL0287-1a-pdf ex:B-LOC ex:Deutschlands .
+ex:L9211025-TL0287-1a-pdf ex:B-PER ex:Scholz .
+ex:L9211025-TL0287-1a-pdf ex:B-LOC ex:Amerika .
+ex:Amerika ex:wikidataQID ex:Q30 .
+ex:Amerika ex:coordinates ex:'39,828175_-98,5795' .
+ex:L9211025-TL0287-1a-pdf ex:I-PER ex:P .
+ex:L9211025-TL0287-1a-pdf ex:B-PER ex:Anna .
+ex:L9211025-TL0287-1a-pdf ex:B-OTH ex:Dollar .
+ex:L9211025-TL0287-1a-pdf ex:B-PER ex:Reinhard .
+ex:L9211025-TL0287-1a-pdf ex:B-PER ex:Thekla .
+ex:L9211025-TL0287-1a-pdf ex:I-PER ex:S .
+ex:L9211025-TL0287-1a-pdf ex:I-LOC ex:Gabriel .
+ex:L9211025-TL0287-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+ex:L9211025-TL0287-1a-pdf ex:B-OTH_RELIGION ex:Gebet .
+ex:Gebet ex:wikidataQID ex:Q40953 .
+ex:L9211025-TL0287-1a-pdf ex:B-OTH_RELIGION ex:Andachte .
+ex:Andachte ex:wikidataQID ex:Q489644 .
+
+# --- ENTITIES OF L9211025-TL0287-1b-pdf ---
+ex:L9211025-TL0287-1b-pdf ex:date '1921-10-25'^^xsd:date .
+ex:L9211025-TL0287-1b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9211025-TL0287-1b-pdf ex:B-LOC ex:Ober .
+ex:L9211025-TL0287-1b-pdf ex:B-PER ex:Paul .
+ex:L9211025-TL0287-1b-pdf ex:B-OTH_RELIGION ex:Himmel .
+ex:Himmel ex:wikidataQID ex:Q4489450 .
+ex:L9211025-TL0287-1b-pdf ex:B-PER ex:Lahner .
+ex:L9211025-TL0287-1b-pdf ex:B-PER ex:Reinhard .
+ex:L9211025-TL0287-1b-pdf ex:B-PER ex:Thekla .
+ex:L9211025-TL0287-1b-pdf ex:B-LOC ex:Gottes .
+
+# --- ENTITIES OF L9211124-TL0289-1a-pdf ---
+ex:L9211124-TL0289-1a-pdf ex:date '1921-11-24'^^xsd:date .
+ex:L9211124-TL0289-1a-pdf ex:B-PER ex:G .
+ex:L9211124-TL0289-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9211124-TL0289-1a-pdf ex:B-OTH ex:Dollar .
+ex:L9211124-TL0289-1a-pdf ex:B-PER ex:Thekla .
+ex:L9211124-TL0289-1a-pdf ex:B-OTH_RELIGION ex:Congregation .
+ex:Congregation ex:wikidataQID ex:Q1384677 .
+ex:L9211124-TL0289-1a-pdf ex:B-OTH_FOOD ex:Burger .
+ex:Burger ex:wikidataQID ex:Q6663 .
+ex:L9211124-TL0289-1a-pdf ex:B-OTH ex:Doller .
+
+# --- ENTITIES OF L9211124-TL0289-1b-pdf ---
+ex:L9211124-TL0289-1b-pdf ex:date '1921-11-24'^^xsd:date .
+ex:L9211124-TL0289-1b-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9211124-TL0289-1b-pdf ex:B-OTH ex:Dollar .
+ex:L9211124-TL0289-1b-pdf ex:B-PER ex:Robert .
+ex:L9211124-TL0289-1b-pdf ex:B-PER ex:Thekla .
+ex:L9211124-TL0289-1b-pdf ex:I-PER ex:Kindlein .
+ex:L9211124-TL0289-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9211212-TL0293-1a-pdf ---
+ex:L9211212-TL0293-1a-pdf ex:date '1921-12-12'^^xsd:date .
+ex:L9211212-TL0293-1a-pdf ex:B-OTH_RELIGION ex:Weihnachten .
+ex:Weihnachten ex:wikidataQID ex:Q19809 .
+ex:L9211212-TL0293-1a-pdf ex:B-OTH_RELIGION ex:Gnaden .
+ex:Gnaden ex:wikidataQID ex:Q3852175 .
+ex:L9211212-TL0293-1a-pdf ex:B-PER ex:Anna .
+ex:L9211212-TL0293-1a-pdf ex:B-PER ex:Franz .
+ex:L9211212-TL0293-1a-pdf ex:B-OTH_RELIGION ex:Christus .
+ex:Christus ex:wikidataQID ex:Q642420 .
+ex:L9211212-TL0293-1a-pdf ex:B-PER ex:Maria .
+ex:L9211212-TL0293-1a-pdf ex:B-PER ex:Jesus .
+ex:L9211212-TL0293-1a-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9211212-TL0293-1b-pdf ---
+ex:L9211212-TL0293-1b-pdf ex:date '1921-12-12'^^xsd:date .
+ex:L9211212-TL0293-1b-pdf ex:B-PER ex:Tekla .
+ex:L9211212-TL0293-1b-pdf ex:B-PER ex:August .
+ex:L9211212-TL0293-1b-pdf ex:B-LOC ex:amerika .
+ex:L9211212-TL0293-1b-pdf ex:B-PER ex:Franz .
+ex:L9211212-TL0293-1b-pdf ex:B-OTH_RELIGION ex:Gott .
+ex:Gott ex:wikidataQID ex:Q190 .
+
+# --- ENTITIES OF L9211218-TL0290-1a-pdf ---
+ex:L9211218-TL0290-1a-pdf ex:date '1921-12-18'^^xsd:date .
+ex:L9211218-TL0290-1a-pdf ex:B-PER ex:Hans .
+ex:L9211218-TL0290-1a-pdf ex:B-PER ex:Thekla .
+
+# --- ENTITIES OF L9211218-TL0290-1b-pdf ---
+ex:L9211218-TL0290-1b-pdf ex:date '1921-12-18'^^xsd:date .
+ex:L9211218-TL0290-1b-pdf ex:B-PER ex:Robert .
+ex:L9211218-TL0290-1b-pdf ex:B-PER ex:Carbara .
+ex:L9211218-TL0290-1b-pdf ex:B-PER ex:Ludes .
+
+# --- ENTITIES OF L9211230-TL0291-1a-pdf ---
+ex:L9211230-TL0291-1a-pdf ex:date '1921-12-30'^^xsd:date .
+ex:L9211230-TL0291-1a-pdf ex:B-OTH_RELIGION ex:Kollar .
+ex:Kollar ex:wikidataQID ex:Q118587 .
+ex:L9211230-TL0291-1a-pdf ex:B-PER ex:Thekla .
+ex:L9211230-TL0291-1a-pdf ex:B-LOC ex:Hebbelsberg .
+
+# --- ENTITIES OF L9211230-TL0291-1b-pdf ---
+ex:L9211230-TL0291-1b-pdf ex:date '1921-12-30'^^xsd:date .
+ex:L9211230-TL0291-1b-pdf ex:B-PER ex:Robert .
+ex:L9211230-TL0291-1b-pdf ex:B-OTH_RELIGION ex:Kollar .
+ex:Kollar ex:wikidataQID ex:Q118587 .
+ex:L9211230-TL0291-1b-pdf ex:B-OTH_RELIGION ex:Seele .
+ex:Seele ex:wikidataQID ex:Q9165 .
+
+# --- ENTITIES OF L9220219-TL0295-1a-pdf ---
+ex:L9220219-TL0295-1a-pdf ex:date '1922-02-19'^^xsd:date .
+ex:L9220219-TL0295-1a-pdf ex:I-PER ex:Hofft .
+ex:L9220219-TL0295-1a-pdf ex:B-LOC ex:Berlin .
+ex:Berlin ex:wikidataQID ex:Q821229 .
+ex:Berlin ex:coordinates ex:'46,378333333_-98,487777777' .
+ex:L9220219-TL0295-1a-pdf ex:B-LOC ex:Deutschland .
+ex:Deutschland ex:wikidataQID ex:Q183 .
+ex:Deutschland ex:coordinates ex:'51,0_10,0' .
+ex:L9220219-TL0295-1a-pdf ex:B-PER ex:Franz .
+
+# --- ENTITIES OF L9220219-TL0295-1b-pdf ---
+ex:L9220219-TL0295-1b-pdf ex:date '1922-02-19'^^xsd:date .
+ex:L9220219-TL0295-1b-pdf ex:B-OTH ex:Pfund .
+ex:L9220219-TL0295-1b-pdf ex:B-OTH_FOOD ex:Gericht .
+ex:Gericht ex:wikidataQID ex:Q746549 .
+ex:L9220219-TL0295-1b-pdf ex:B-OTH_FOOD ex:Bruch .
+ex:Bruch ex:wikidataQID ex:Q622563 .
+ex:L9220219-TL0295-1b-pdf ex:B-PER ex:Marin .
+ex:L9220219-TL0295-1b-pdf ex:B-PER ex:Fama .
+

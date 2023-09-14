@@ -1,4 +1,0 @@
-ex:L9220328-TL0188-3a-pdf ex:date '1922-03-28'^^xsd:date .
-ex:L9220328-TL0188-3a-pdf ex:B-PER ex:Paul .
-ex:L9220328-TL0188-3a-pdf ex:B-PER ex:Phillip .
-

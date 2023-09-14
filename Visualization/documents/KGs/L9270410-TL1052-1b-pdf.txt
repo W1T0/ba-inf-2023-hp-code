@@ -1,5 +1,0 @@
-ex:L9270410-TL1052-1b-pdf ex:date '1927-04-10'^^xsd:date .
-ex:L9270410-TL1052-1b-pdf ex:B-PER ex:Thekla .
-ex:L9270410-TL1052-1b-pdf ex:B-OTH ex:Mark .
-ex:L9270410-TL1052-1b-pdf ex:B-PER ex:Türger .
-

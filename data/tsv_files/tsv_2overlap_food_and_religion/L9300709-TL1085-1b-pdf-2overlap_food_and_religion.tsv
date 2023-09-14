@@ -1,8 +1,0 @@
-TOKEN	NE-COARSE-LIT	FOO-OR-RED	-	-	-	-	NEL-LIT	-	-
-Absender	O	O	O	O	O	O	_	_	_
-Josef	B-PER	O	O	O	O	O	_	_	_
-Kiefer	I-PER	O	O	O	O	O	_	_	_
-Haus	O	O	O	O	O	O	_	_	_
-ham	O	O	O	O	O	O	_	_	_
-Oberbayern	B-LOC	O	O	O	O	O	_	_	_
-Postam	O	O	O	O	O	O	_	_	_

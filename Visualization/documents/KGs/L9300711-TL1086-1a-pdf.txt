@@ -1,4 +1,0 @@
-ex:L9300711-TL1086-1a-pdf ex:date '1930-07-11'^^xsd:date .
-ex:L9300711-TL1086-1a-pdf ex:B-PER ex:Juri .
-ex:L9300711-TL1086-1a-pdf ex:B-PER ex:Robert .
-

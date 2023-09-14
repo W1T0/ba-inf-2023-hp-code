@@ -1,2 +1,0 @@
-ex:L9310205-TL1093-1b-pdf ex:date '1931-02-05'^^xsd:date .
-

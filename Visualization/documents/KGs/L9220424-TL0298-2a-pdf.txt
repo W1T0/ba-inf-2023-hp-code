@@ -1,5 +1,0 @@
-ex:L9220424-TL0298-2a-pdf ex:date '1922-04-24'^^xsd:date .
-ex:L9220424-TL0298-2a-pdf ex:B-PER ex:Müllers .
-ex:L9220424-TL0298-2a-pdf ex:B-PER ex:Anna .
-ex:L9220424-TL0298-2a-pdf ex:B-PER ex:Thekla .
-
