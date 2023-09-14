@@ -99,10 +99,10 @@
     // add event listener to drop down menu
     fileChooser.addEventListener("change", function () {
       // change the pdf if drop down menu selection changed
-      pdfViewer.src = "/visualization/documents/" + this.value;
+      pdfViewer.src = "/visualization/documents/scans/" + this.value;
 
       // change value to fit filename of transcription file
-      transcriptionPath = "/visualization/documents/" + this.value.replaceAll(".", "_") + ".txt";
+      transcriptionPath = "/visualization/documents/transcriptions/" + this.value.replaceAll(".", "_") + ".txt";
 
       // read file
       fetch(transcriptionPath)
@@ -114,7 +114,7 @@
         .catch((e) => console.error(e));
 
       // change value to fit filename of txt file
-      kgPath = "/visualization/documents/" + this.value.replaceAll(".", "-") + ".txt";
+      kgPath = "/visualization/documents/KGs/" + this.value.replaceAll(".", "-") + ".txt";
 
       // change graph
       addGraph(kgPath);
