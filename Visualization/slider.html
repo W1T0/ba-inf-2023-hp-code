@@ -22,6 +22,9 @@
     </nav>
   </body>
 
+  <button id="button-zoom-in">+</button>
+  <button id="button-zoom-out">-</button>
+
   <div id="paper-div">
     <div id="paper-1"></div>
   </div>
@@ -82,6 +85,10 @@
       year2 = this.value;
       getFiles();
     };
+
+    // get the zoom buttons
+    let buttonZoomIn = document.getElementById("button-zoom-in");
+    let buttonZoomOut = document.getElementById("button-zoom-out");
 
     function getFiles() {
       // remove old graph
@@ -145,7 +152,7 @@
     });
 
     // scale (zoom) of graph in paper
-    paperScale = 0.5;
+    paperScale = 0.3;
     paper.scale(paperScale, paperScale);
 
     // Prevent user from moving the element when interacting with the label element
@@ -224,8 +231,6 @@
 
     // function to change the graph based on the selected file
     function addGraph(path, numberOfGraphs) {
-      // // remove the old graph
-      // graph.clear();
       console.log(numberOfGraphs + 1);
 
       // count node types
@@ -250,7 +255,7 @@
 
           // get the name of the letter and create nodeMain
           let nodeMainName = path.slice(29, 47);
-          let nodeMain = node(centerX, centerY, nodeMainName, "#ffffff", 16);
+          let nodeMain = node(centerX, centerY + numberOfGraphs * 80, nodeMainName, "#ffffff", 16);
 
           let previousNode;
           let color;
@@ -281,19 +286,19 @@
                 break;
               case "B-LOC":
                 color = "#EF8354"; // orange
-                nodeHeight = centerY - 1.5 * (centerY / 3);
+                nodeHeight = centerY - 1.5 * (centerY / 3) + numberOfGraphs * 80;
                 nodeWidth = 1.7 * centerX - 200 * countLOC;
                 countLOC = countLOC + 1;
                 break;
               case "B-OTH_RELIGION":
                 color = "#f0dd0f"; // yellow
-                nodeHeight = centerY + 1 * (centerY / 3);
+                nodeHeight = centerY + 1 * (centerY / 3) + numberOfGraphs * 80;
                 nodeWidth = 10 + 200 * countREL;
                 countREL = countREL + 1;
                 break;
               case "B-OTH_FOOD":
                 color = "#92b300"; // green
-                nodeHeight = centerY + 2 * (centerY / 3);
+                nodeHeight = centerY + 2 * (centerY / 3) + numberOfGraphs * 80;
                 nodeWidth = 1.5 * centerX - 200 * countFOO;
                 countFOO = countFOO + 1;
                 break;
@@ -304,13 +309,13 @@
                 break;
               case "date":
                 color = "#DFB2F4"; // lila
-                nodeHeight = centerY;
+                nodeHeight = centerY + numberOfGraphs * 80;
                 nodeWidth = 10;
                 break;
               default:
                 color = "#D741A7"; // pink
-                nodeHeight = centerY;
-                nodeWidth = 2 * centerX - 200 + countOTH;
+                nodeHeight = centerY + numberOfGraphs * 80;
+                nodeWidth = 1.8 * centerX - 200 * countOTH;
                 countOTH = countOTH + 1;
             }
 
@@ -346,6 +351,30 @@
           }
         })
         .catch((e) => console.error(e));
+    }
+
+    //
+    // BUTTON EVENT LISTENER
+    //
+    buttonZoomIn.addEventListener("click", function () {
+      paperScale += 0.1;
+      scalePaper(paperScale, paperScale);
+      // translatePaper(-100, -100);
+    });
+    buttonZoomOut.addEventListener("click", function () {
+      paperScale -= 0.1;
+      scalePaper(paperScale, paperScale);
+      // translatePaper(100, 100);
+    });
+
+    // funtion to scale the paper of the graph
+    function scalePaper(sx, sy) {
+      paper.scale(sx, sy);
+    }
+
+    // funtion to translate the paper of the graph
+    function translatePaper(sx, sy) {
+      paper.translate(sx, sy);
     }
 
     // "Update the views of an async paper to make sure that the views reflect the cells' models; unfreeze the paper afterward."
