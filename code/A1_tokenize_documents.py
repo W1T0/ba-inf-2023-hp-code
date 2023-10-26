@@ -2,7 +2,7 @@ import os
 
 inputDirectoryPath = "./data/kiefer-scholz_collection_transcriptions/"
 
-outputDirectoryPath = "./data/tokenized_documents/kiefer-scholz_collection_tokenized/"
+outputDirectoryPath = "./data/kiefer-scholz_collection_tokenized/"
 
 count = 1
 
